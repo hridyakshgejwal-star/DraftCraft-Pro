@@ -1,0 +1,10 @@
+# Keep LF line endings on every platform (the app reads some of these files as data).
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.iss text eol=crlf
+*.png binary
+*.ico binary
+*.icns binary
+*.pdf binary
+*.woff2 binary
+*.dmg binary

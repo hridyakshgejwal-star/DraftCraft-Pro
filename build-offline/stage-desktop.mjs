@@ -30,7 +30,7 @@ for (const file of ['dictation-ipc.cjs', 'window-registry.cjs', 'production-prin
   fs.copyFileSync(path.join(project, 'desktop', file), path.join(output, file));
 fs.copyFileSync(path.join(project, 'src/files/documentGraph.mjs'), path.join(output, 'document-graph.mjs'));
 fs.cpSync(path.join(project, 'desktop/native'), path.join(output, 'native'), { recursive: true, filter: src => !/[\\/](bin|DraftCraftDictation)$/.test(src) });
-fs.writeFileSync(path.join(output, 'package.json'), JSON.stringify({ name: 'draftcraft-pro', productName: 'DraftCraft Pro', version, main: 'main.cjs', description: 'Local screenplay editor', private: true, author: 'DraftCraft Pro', license: 'UNLICENSED' }, null, 2));
+fs.writeFileSync(path.join(output, 'package.json'), JSON.stringify({ name: 'draftcraft-pro', productName: 'DraftCraft Pro', version, main: 'main.cjs', description: 'Local screenplay editor', private: true, author: 'DraftCraft Pro', license: 'MIT' }, null, 2));
 
 // server.ts -> api.cjs
 const serverSha = sha(path.join(project, 'server.ts'));

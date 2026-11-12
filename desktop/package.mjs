@@ -26,10 +26,12 @@ const paths = await packager({
   asarIntegrityDigest: false,
   prune: true,
   overwrite: true,
-  icon: path.join(here, 'icon.icns'),
+  // Windows (1.18.0): the same app, packaged for Windows with a Windows icon and file metadata. Nothing in the app changes.
+  icon: path.join(here, platform === 'win32' ? 'icon.ico' : 'icon.icns'),
+  win32metadata: { CompanyName: 'DraftCraft Pro', FileDescription: 'DraftCraft Pro', ProductName: 'DraftCraft Pro', InternalName: 'DraftCraft Pro', OriginalFilename: 'DraftCraft Pro.exe' },
   // The Speech helper must be outside app.asar to run: the one just built on this Mac, or the arm64 helper built on a
   // Mac and checked in (desktop/native/bin, see build-on-mac.log).
-  extraResource: [path.join(here,'Getting-Started.txt'),path.join(here,'../licenses/production'),...['native/DraftCraftDictation','native/bin/DraftCraftDictation'].map(p=>path.join(here,p)).filter(p=>fs.existsSync(p)).slice(0,1)],
+  extraResource: [path.join(here,'Getting-Started.txt'),path.join(here,'../licenses/production'),...(platform === 'darwin' ? ['native/DraftCraftDictation','native/bin/DraftCraftDictation'].map(p=>path.join(here,p)).filter(p=>fs.existsSync(p)).slice(0,1) : [])],
   darwinDarkModeSupport: true,
   osxSign: false,
   osxNotarize: false,
