@@ -1,0 +1,17 @@
+{
+  "runtime": {
+    "electron": "44.7.0",
+    "chromium": "152.0.7977.130",
+    "platform": "linux"
+  },
+  "passed": true,
+  "checks": [
+    "Native clipboard writes plain text and structured HTML through the exact IPC handler",
+    "Read handler returns serializable strings after awaiting native reads",
+    "External plain text clears structured HTML",
+    "Untrusted sender and child frames are rejected",
+    "Invalid writes are rejected",
+    "Async clipboard failure propagates before a successful Cut acknowledgment"
+  ],
+  "limits": "The exact clipboard handler source was exercised with Electron clipboard on Linux and test sender/frame identities. Full desktop UI launch and macOS pasteboard persistence after restart remain unverified."
+}

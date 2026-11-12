@@ -1,0 +1,53 @@
+Sun Oct 18 09:45:34 IST 2026
+== DraftCraft processes before launch
+  none
+== attach
+attach exit=0
+== ditto app
+ditto exit=0
+detach exit=0
+== copy signature
+codesign verify exit=0
+== quarantine on copy
+xattr: /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app: No such xattr: com.apple.quarantine
+== launch via LaunchServices (open -n) with isolated profile
+open exit=0
+== processes after launch
+1480 /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app/Contents/MacOS/DraftCraft Pro
+1486 /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper --type=gpu-process --user-data-dir=/Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/profile --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,r,12218504567105773652,8478839357597520213,262144 --enable-features=PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=1935764596,r,6214293352325244325,16323673970076701191,4 --trace-process-track-uuid=3190708988185955192 --seatbelt-client=32
+1487 /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=network --user-data-dir=/Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/profile --standard-schemes=draftcraft --secure-schemes=draftcraft --cors-schemes=draftcraft --fetch-schemes=draftcraft --streaming-schemes=draftcraft --code-cache-schemes=draftcraft --shared-files --field-trial-handle=1718379636,r,12218504567105773652,8478839357597520213,262144 --enable-features=PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=1935764596,r,6214293352325244325,16323673970076701191,4 --trace-process-track-uuid=3190708989122997041 --seatbelt-client=32
+1488 /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (Renderer).app/Contents/MacOS/DraftCraft Pro Helper (Renderer) --type=renderer --user-data-dir=/Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/profile --standard-schemes=draftcraft --secure-schemes=draftcraft --cors-schemes=draftcraft --fetch-schemes=draftcraft --streaming-schemes=draftcraft --code-cache-schemes=draftcraft --app-path=/Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app/Contents/Resources/app.asar --enable-sandbox --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=384884709 --shared-files --field-trial-handle=1718379636,r,12218504567105773652,8478839357597520213,262144 --enable-features=PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=1935764596,r,6214293352325244325,16323673970076701191,4 --trace-process-track-uuid=3190708990060038890 --seatbelt-client=58
+== profile contents
+total 280
+drwxr-xr-x@ 29 <user>  staff    928 18 Oct 09:45 .
+drwx------@ 19 <user>  staff    608 18 Oct 09:45 ..
+drwx------@  3 <user>  staff     96 18 Oct 09:45 blob_storage
+drwx------@  4 <user>  staff    128 17 Oct 23:46 Cache
+drwx------@  5 <user>  staff    160 17 Oct 23:47 Code Cache
+drwx------@  7 <user>  staff    224 17 Oct 23:46 DawnGraphiteCache
+drwx------@  7 <user>  staff    224 17 Oct 23:46 DawnWebGPUCache
+-rw-------@  1 <user>  staff  32768 17 Oct 23:47 declarative_performance_observer.db
+-rw-------@  1 <user>  staff      0 17 Oct 23:47 declarative_performance_observer.db-journal
+-rw-------@  1 <user>  staff  36864 17 Oct 23:56 DIPS
+-rw-------@  1 <user>  staff   8272 18 Oct 09:45 DIPS-wal
+drwx------@  7 <user>  staff    224 17 Oct 23:46 GPUCache
+drwx------@  3 <user>  staff     96 17 Oct 23:46 GPUPersistentCache
+drwx------@  9 <user>  staff    288 17 Oct 23:47 GraphiteDawnCache
+-rw-------@  1 <user>  staff     57 17 Oct 23:47 Local State
+drwx------@  3 <user>  staff     96 17 Oct 23:46 Local Storage
+-rw-------@  1 <user>  staff    111 17 Oct 23:56 Network Persistent State
+-rw-------@  1 <user>  staff      4 18 Oct 09:45 open-document-windows.json
+-rw-------@  1 <user>  staff     41 17 Oct 23:47 Preferences
+drwxr-xr-x@  2 <user>  staff     64 17 Oct 23:56 Project Recovery
+drwx------@  7 <user>  staff    224 17 Oct 23:56 Session Storage
+drwx------@  5 <user>  staff    160 17 Oct 23:47 Shared Dictionary
+lrwxr-xr-x@  1 <user>  staff     19 18 Oct 09:45 SingletonCookie -> 9182777970268099479
+lrwxr-xr-x@  1 <user>  staff     30 18 Oct 09:45 SingletonLock -> <host>-1480
+lrwxr-xr-x@  1 <user>  staff     81 18 Oct 09:45 SingletonSocket -> /var/folders/2k/r1c5spfs1z35p33vmy0rrdx80000gn/T/scoped_dirHtUQRf/SingletonSocket
+-rw-------@  1 <user>  staff  36864 17 Oct 23:47 Trust Tokens
+-rw-------@  1 <user>  staff      0 17 Oct 23:47 Trust Tokens-journal
+-rw-------@  1 <user>  staff    205 18 Oct 09:45 unsaved-baselines.json
+-rw-r--r--@  1 <user>  staff     27 17 Oct 23:56 window-state.json
+== stderr so far
+sandbox_extension_issue_file failed for /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/Resources: 1 (Operation not permitted)
+== DONE

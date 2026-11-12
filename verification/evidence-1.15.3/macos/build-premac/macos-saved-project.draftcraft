@@ -1,0 +1,1319 @@
+{
+  "format": "draftcraft-project",
+  "version": 1,
+  "document": {
+    "id": "doc-sample-cyberneticist",
+    "lastSavedAt": "2026-10-17T16:51:41.142Z",
+    "titlePage": {
+      "title": "THE CYBERNETICIST",
+      "author": "Written by Elena Vance",
+      "basedOn": "Original Screenplay",
+      "draftDate": "OCTOBER 2026 — PRODUCTION DRAFT",
+      "contact": "Vance Literary & Media Management\nBeverly Hills, CA 90210\nagent@vancemgmt.com",
+      "copyright": "© 2026 Elena Vance. All Rights Reserved."
+    },
+    "currentRevision": "Blue",
+    "productionMode": true,
+    "lockedPages": false,
+    "sceneNumberPlacement": "both",
+    "targetScriptPages": 110,
+    "showStructureLines": true,
+    "showScriptNotes": true,
+    "showBookmarks": true,
+    "showSceneComments": true,
+    "activeAuthor": "Elena Vance",
+    "beats": [
+      {
+        "id": "beat-1",
+        "title": "The Neural Breached Chamber",
+        "description": "Elena discovers the synthetic neural implant has leaked biometric surveillance into the city mainframe.",
+        "act": 1,
+        "color": "#3b82f6",
+        "targetMinutes": 12,
+        "tags": [
+          "Inciting Incident",
+          "High Tech"
+        ],
+        "posX": 60,
+        "posY": 80,
+        "width": 260,
+        "viewStyle": "card"
+      },
+      {
+        "id": "beat-2",
+        "title": "Confrontation at Sector 4",
+        "description": "Marcus traps Elena in the atmospheric scrubber before the orbital transit departs.",
+        "act": 2,
+        "color": "#ec4899",
+        "targetMinutes": 35,
+        "tags": [
+          "Midpoint",
+          "Tension"
+        ],
+        "posX": 380,
+        "posY": 120,
+        "width": 260,
+        "viewStyle": "card"
+      },
+      {
+        "id": "beat-3",
+        "title": "The Quantum Decoupling",
+        "description": "Elena chooses between preserving her human memory cache or downloading the city antidote.",
+        "act": 3,
+        "color": "#10b981",
+        "targetMinutes": 88,
+        "tags": [
+          "Climax",
+          "Moral Dilemma"
+        ],
+        "posX": 700,
+        "posY": 90,
+        "width": 260,
+        "viewStyle": "card"
+      },
+      {
+        "id": "beat-4",
+        "title": "Sunrise Over New Pacifica",
+        "description": "A restored populace wakes up without the behavioral tethering network.",
+        "act": 4,
+        "color": "#f59e0b",
+        "targetMinutes": 104,
+        "tags": [
+          "Resolution",
+          "Catharsis"
+        ],
+        "posX": 1020,
+        "posY": 140,
+        "width": 260,
+        "viewStyle": "card"
+      }
+    ],
+    "flowLines": [
+      {
+        "id": "flow-1",
+        "fromId": "beat-1",
+        "toId": "beat-2",
+        "style": "forward",
+        "color": "#3b82f6",
+        "label": "Escalation to Sector 4"
+      },
+      {
+        "id": "flow-2",
+        "fromId": "beat-2",
+        "toId": "beat-3",
+        "style": "forward",
+        "color": "#ec4899",
+        "label": "Critical Climax Catalyst"
+      },
+      {
+        "id": "flow-3",
+        "fromId": "beat-3",
+        "toId": "beat-4",
+        "style": "forward",
+        "color": "#10b981",
+        "label": "Resolution Arc"
+      }
+    ],
+    "outlineLanes": [
+      {
+        "id": "lane-acts",
+        "name": "Acts Lane",
+        "type": "act",
+        "color": "#60a5fa"
+      },
+      {
+        "id": "lane-seq",
+        "name": "Major Sequences",
+        "type": "sequence",
+        "color": "#f472b6"
+      },
+      {
+        "id": "lane-char",
+        "name": "Elena Character Arc",
+        "type": "character",
+        "color": "#34d399"
+      }
+    ],
+    "outlineMarkers": [
+      {
+        "id": "m-1",
+        "laneId": "lane-acts",
+        "title": "ACT I: Setup & Breach",
+        "description": "Establish New Pacifica and discovery of rogue neural telemetry.",
+        "startPage": 1,
+        "endPage": 25,
+        "color": "#3b82f6",
+        "beatId": "beat-1"
+      },
+      {
+        "id": "m-2",
+        "laneId": "lane-acts",
+        "title": "ACT II-A: The Pursuit",
+        "description": "Elena flees into the lower sectors under Marcus’s surveillance grid.",
+        "startPage": 26,
+        "endPage": 55,
+        "color": "#ec4899",
+        "beatId": "beat-2"
+      },
+      {
+        "id": "m-3",
+        "laneId": "lane-acts",
+        "title": "ACT II-B & III: The Antidote Protocol",
+        "description": "Quantum Decoupling and deprogramming of New Pacifica.",
+        "startPage": 56,
+        "endPage": 110,
+        "color": "#10b981",
+        "beatId": "beat-3"
+      },
+      {
+        "id": "m-4",
+        "laneId": "lane-seq",
+        "title": "Sequence 1: The Bio-Lab Raid",
+        "description": "Extraction of Specimen Seven cortex.",
+        "startPage": 1,
+        "endPage": 15,
+        "color": "#8b5cf6"
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "p-1",
+        "type": "Scene Heading",
+        "text": "EXT. NEW PACIFICA SKYLINE - DUSK",
+        "sceneNumber": "1",
+        "lockedScene": true,
+        "tags": [
+          "Camera: 35mm Anamorphic Drone",
+          "VFX: Holographic Monorails",
+          "SFX: Rain Generators",
+          "Wardrobe: Trench Coat"
+        ],
+        "bookmark": {
+          "id": "bm-opening",
+          "name": "Opening Sequence - Establishing Shot",
+          "color": "#f59e0b",
+          "createdAt": "Oct 10, 2026",
+          "paragraphId": "p-1"
+        },
+        "sceneComment": "Drone shot required: anamorphic 35mm lens tracking magnetic monorail pylons. Smoke and practical rain generators on stage 4."
+      },
+      {
+        "id": "p-2",
+        "type": "Action",
+        "text": "A cathedral of titanium and carbon fiber spears the tangerine smog. Holographic monorails glide silently along magnetic pylons 400 stories above sea level.",
+        "revised": true,
+        "revision": "Blue"
+      },
+      {
+        "id": "p-3",
+        "type": "Action",
+        "text": "Down in the vapor-shrouded alleyways, rain hisses against heated chrome gutters. A lone trench coat cuts through the neon backwash."
+      },
+      {
+        "id": "p-4",
+        "type": "Scene Heading",
+        "text": "INT. VAULT 09 - BIO-SYNTHETICS LAB - CONTINUOUS",
+        "sceneNumber": "2",
+        "lockedScene": true,
+        "tags": [
+          "Prop: Holographic Spectrometer",
+          "Prop: Artificial Cortex Stasis Cylinder",
+          "Wardrobe: Ballistic Silk Suit",
+          "VFX: Indigo Bioluminescent Pulse",
+          "SFX: 48Hz Vacuum Pumps",
+          "Prop: EMP Release Latch"
+        ],
+        "bookmark": {
+          "id": "bm-lab-entry",
+          "name": "Inciting Incident: Specimen Seven",
+          "color": "#3b82f6",
+          "createdAt": "Oct 10, 2026",
+          "paragraphId": "p-4"
+        },
+        "sceneComment": "Set dressing: blue bioluminescent fluid in stasis tube, hum of vacuum pumps at 48Hz for binaural sound design."
+      },
+      {
+        "id": "p-5",
+        "type": "Action",
+        "text": "DR. ELENA VANCE (30s), cyber-surgeon with tired obsidian eyes and mechanical calluses on her left cyber-forearm, peers through a holographic electron spectrometer.",
+        "notes": [
+          {
+            "id": "note-1",
+            "name": "Directorial Note",
+            "author": "Director",
+            "text": "Make sure Elena’s cybernetic prosthetic has a subtle hydraulic hiss whenever she clenches her fist.",
+            "color": "blue",
+            "category": "direction",
+            "createdAt": "Oct 9, 2026, 4:15 PM",
+            "paragraphId": "p-5"
+          },
+          {
+            "id": "note-2",
+            "name": "VFX Requirement",
+            "author": "Elena Vance",
+            "text": "Spectrometer UI should project biometric waveforms directly onto Elena’s corneal reflections.",
+            "color": "purple",
+            "category": "vfx",
+            "createdAt": "Oct 10, 2026, 11:20 AM",
+            "paragraphId": "p-5"
+          }
+        ]
+      },
+      {
+        "id": "p-6",
+        "type": "Action",
+        "text": "Floating in a cryo-stasis cylinder before her is a crystalline artificial cortex, pulsing with a deep indigo glow."
+      },
+      {
+        "id": "p-7",
+        "type": "Character",
+        "text": "ELENA"
+      },
+      {
+        "id": "p-8",
+        "type": "Parenthetical",
+        "text": "(whispering to the recorder)"
+      },
+      {
+        "id": "p-9",
+        "type": "Dialogue",
+        "text": "Specimen Seven exhibits spontaneous synaptic firing. The neural architecture isn’t just replicating human intuition... it’s mourning."
+      },
+      {
+        "id": "p-10",
+        "type": "Action",
+        "text": "The heavy steel pressure door groans. Hydraulic seals break with an explosive hiss. In steps DIRECTOR MARCUS SHAW (50s), tailored ballistic silk suit, walking with the calm menace of an apex predator."
+      },
+      {
+        "id": "p-11",
+        "type": "Character",
+        "text": "MARCUS"
+      },
+      {
+        "id": "p-12",
+        "type": "Dialogue",
+        "text": "Mourning is an inefficiency, Doctor. We did not finance twenty billion credits into this facility to build a poet.",
+        "revised": true,
+        "revision": "Blue"
+      },
+      {
+        "id": "p-13",
+        "type": "Character",
+        "text": "ELENA"
+      },
+      {
+        "id": "p-14",
+        "type": "Dialogue",
+        "text": "It remembers who it was before the transfer. The donor child. The seaside house. You promised me Shaw BioLabs only used voluntary digital syntheses."
+      },
+      {
+        "id": "p-15",
+        "type": "Character",
+        "text": "MARCUS"
+      },
+      {
+        "id": "p-16",
+        "type": "Parenthetical",
+        "text": "(stepping closer, voice cold)"
+      },
+      {
+        "id": "p-17",
+        "type": "Dialogue",
+        "text": "Voluntary is a legal definition. History is written by the surviving consciousness. Pack the drive. The board convenes in Geneva tomorrow morning."
+      },
+      {
+        "id": "p-18",
+        "type": "Character",
+        "text": "ELENA",
+        "dualGroupId": "dual-1",
+        "dualColumn": 1
+      },
+      {
+        "id": "p-19",
+        "type": "Dialogue",
+        "text": "This protocol will burn their limbic lobes within forty-eight hours!",
+        "dualGroupId": "dual-1",
+        "dualColumn": 1
+      },
+      {
+        "id": "p-20",
+        "type": "Character",
+        "text": "MARCUS",
+        "dualGroupId": "dual-1",
+        "dualColumn": 2
+      },
+      {
+        "id": "p-21",
+        "type": "Dialogue",
+        "text": "And forty-eight hours is twice as long as the market requires!",
+        "dualGroupId": "dual-1",
+        "dualColumn": 2,
+        "notes": [
+          {
+            "id": "note-3",
+            "name": "Actor Delivery",
+            "author": "Director",
+            "text": "Marcus shouldn’t yell here—deliver with corporate chill and an icy smile.",
+            "color": "rose",
+            "category": "actor",
+            "createdAt": "Oct 10, 2026, 1:45 PM",
+            "paragraphId": "p-21"
+          }
+        ]
+      },
+      {
+        "id": "p-22",
+        "type": "Action",
+        "text": "Elena’s fingers twitch over the emergency EMP release latch. A crimson indicator LED reflects off Marcus’s sunglasses."
+      },
+      {
+        "id": "p-23",
+        "type": "Transition",
+        "text": "SMASH CUT TO:"
+      },
+      {
+        "id": "p-24",
+        "type": "Scene Heading",
+        "text": "EXT. ORBITAL MAG-LEV TRESTLE - NIGHT",
+        "sceneNumber": "3",
+        "lockedScene": true,
+        "tags": [
+          "Vehicles: Orbital Mag-Lev Train",
+          "Prop: Carbon-Fiber Courier Case",
+          "Stunts: Cable Rig Roof Jump",
+          "SFX: High-Altitude Sirens",
+          "VFX: Searchlight Beams"
+        ],
+        "bookmark": {
+          "id": "bm-maglev-chase",
+          "name": "Act I Climax: Mag-Lev Rooftop Chase",
+          "color": "#f43f5e",
+          "createdAt": "Oct 10, 2026",
+          "paragraphId": "p-24"
+        },
+        "sceneComment": "Stunts: Cable rig for roof jump at 40 feet elevation. Rain machines and wind turbines."
+      },
+      {
+        "id": "p-25",
+        "type": "Action",
+        "text": "Sirens wail through the rain-slick girders. High-altitude searchlights carve blinding swathes across the clouds as Elena runs with a carbon-fiber courier case strapped across her chest."
+      },
+      {
+        "id": "p-26",
+        "type": "Character",
+        "text": "ELENA (V.O.)",
+        "characterExtension": "(V.O.)"
+      },
+      {
+        "id": "p-27",
+        "type": "Dialogue",
+        "text": "They told us progress was a linear rail. But when the rail ends four hundred stories above the ocean, you don’t ask if you can fly. You jump. Close test.",
+        "revised": true,
+        "revision": "Blue"
+      }
+    ],
+    "characterMemory": [
+      {
+        "id": "character-doc-sample-cyberneticist-p-7-elena",
+        "projectId": "doc-sample-cyberneticist",
+        "name": "ELENA",
+        "normalized": "elena",
+        "aliases": [],
+        "saved": false,
+        "paragraphIds": [
+          "p-7",
+          "p-13",
+          "p-18",
+          "p-26"
+        ],
+        "firstAppearance": "p-7",
+        "appearances": 4,
+        "firstUsedAt": "2026-10-17T16:47:49.143Z",
+        "lastUsedAt": "2026-10-17T16:47:49.143Z"
+      },
+      {
+        "id": "character-doc-sample-cyberneticist-p-11-marcus",
+        "projectId": "doc-sample-cyberneticist",
+        "name": "MARCUS",
+        "normalized": "marcus",
+        "aliases": [],
+        "saved": false,
+        "paragraphIds": [
+          "p-11",
+          "p-15",
+          "p-20"
+        ],
+        "firstAppearance": "p-11",
+        "appearances": 3,
+        "firstUsedAt": "2026-10-17T16:47:49.143Z",
+        "lastUsedAt": "2026-10-17T16:47:49.143Z"
+      }
+    ],
+    "studio": {
+      "version": 2,
+      "pageLocks": [],
+      "lockLevel": 0,
+      "revisionSets": [],
+      "track": {
+        "enabled": false,
+        "author": "Elena Vance",
+        "color": "#2563eb",
+        "changes": [],
+        "view": "final"
+      },
+      "tags": [
+        {
+          "id": "tag:f6ff7b6c-85fc-4da4-880d-9d79032f4064",
+          "name": "Camera: 35mm Anamorphic Drone",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:1138161a-616d-4af1-b2db-19e7e96aea3f",
+          "name": "VFX: Holographic Monorails",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:9d10ac85-d92a-49f4-9eef-8e60847cd133",
+          "name": "SFX: Rain Generators",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:643590bd-7886-4e3b-97f5-2d3d84a6489f",
+          "name": "Wardrobe: Trench Coat",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:360d3fe2-5df6-4625-a991-0643f98f5d67",
+          "name": "Prop: Holographic Spectrometer",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:d9412c41-317f-4243-ad93-e91e4bdb1af2",
+          "name": "Prop: Artificial Cortex Stasis Cylinder",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:5da4c2ce-ca5c-494a-b1cc-a4eaa486af46",
+          "name": "Wardrobe: Ballistic Silk Suit",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:17805f0c-30c0-4176-9376-a3983e1d23a1",
+          "name": "VFX: Indigo Bioluminescent Pulse",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:8a748761-4f53-4d59-a8fa-38e22fdc2ce2",
+          "name": "SFX: 48Hz Vacuum Pumps",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:6d9342ac-cfa1-4f07-9c26-94284a545273",
+          "name": "Prop: EMP Release Latch",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:675837a2-c6f5-483e-b634-ac17cc3aee74",
+          "name": "Vehicles: Orbital Mag-Lev Train",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:52ef0e3d-d3b1-472a-988b-c1f4a3c28ce1",
+          "name": "Prop: Carbon-Fiber Courier Case",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:e9cda34a-bd94-4de0-8372-819c5c151a8d",
+          "name": "Stunts: Cable Rig Roof Jump",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:5af7db42-8dd4-4924-bb00-ec1f2de6dc21",
+          "name": "SFX: High-Altitude Sirens",
+          "category": "Uncategorized",
+          "aliases": []
+        },
+        {
+          "id": "tag:fee8ee08-b71d-4110-9370-5b5bb2e12e7d",
+          "name": "VFX: Searchlight Beams",
+          "category": "Uncategorized",
+          "aliases": []
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "occurrence:a3702ea6-b0aa-4183-b27c-83eda6c6a745",
+          "tagId": "tag:f6ff7b6c-85fc-4da4-880d-9d79032f4064",
+          "paragraphId": "p-1",
+          "start": 0,
+          "end": 32,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:0dfc98bc-cd3c-4c9f-bc09-de431342cf96",
+          "tagId": "tag:1138161a-616d-4af1-b2db-19e7e96aea3f",
+          "paragraphId": "p-1",
+          "start": 0,
+          "end": 32,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:cce5255b-6379-48b6-8f3a-f824ee69051e",
+          "tagId": "tag:9d10ac85-d92a-49f4-9eef-8e60847cd133",
+          "paragraphId": "p-1",
+          "start": 0,
+          "end": 32,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:69c50997-165c-4042-9f61-ab5b1a23e796",
+          "tagId": "tag:643590bd-7886-4e3b-97f5-2d3d84a6489f",
+          "paragraphId": "p-1",
+          "start": 0,
+          "end": 32,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:a4c98e64-e272-42c3-b98c-8da976f3ab95",
+          "tagId": "tag:360d3fe2-5df6-4625-a991-0643f98f5d67",
+          "paragraphId": "p-4",
+          "start": 0,
+          "end": 47,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:58344b24-d8a4-486f-9144-aaa7c3a3659c",
+          "tagId": "tag:d9412c41-317f-4243-ad93-e91e4bdb1af2",
+          "paragraphId": "p-4",
+          "start": 0,
+          "end": 47,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:eb89a601-fd45-4a6a-99b7-5eb04f785aa2",
+          "tagId": "tag:5da4c2ce-ca5c-494a-b1cc-a4eaa486af46",
+          "paragraphId": "p-4",
+          "start": 0,
+          "end": 47,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:9912b3d6-ef58-42a0-a693-63d13b926a2f",
+          "tagId": "tag:17805f0c-30c0-4176-9376-a3983e1d23a1",
+          "paragraphId": "p-4",
+          "start": 0,
+          "end": 47,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:55a8e020-58b1-435e-847c-c43f113a9a65",
+          "tagId": "tag:8a748761-4f53-4d59-a8fa-38e22fdc2ce2",
+          "paragraphId": "p-4",
+          "start": 0,
+          "end": 47,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:37fc8680-4ded-4e30-9982-8181be3ad3d7",
+          "tagId": "tag:6d9342ac-cfa1-4f07-9c26-94284a545273",
+          "paragraphId": "p-4",
+          "start": 0,
+          "end": 47,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:39fe90af-34c8-4eb1-a7cc-54ee8e6d4300",
+          "tagId": "tag:675837a2-c6f5-483e-b634-ac17cc3aee74",
+          "paragraphId": "p-24",
+          "start": 0,
+          "end": 36,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:774300f0-acdc-4ca8-94e5-12687ed3c5f7",
+          "tagId": "tag:52ef0e3d-d3b1-472a-988b-c1f4a3c28ce1",
+          "paragraphId": "p-24",
+          "start": 0,
+          "end": 36,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:4eee579b-25e2-4181-94f6-f774e18461f5",
+          "tagId": "tag:e9cda34a-bd94-4de0-8372-819c5c151a8d",
+          "paragraphId": "p-24",
+          "start": 0,
+          "end": 36,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:a9cf6088-f92b-4991-8fa1-b67b78ec21e7",
+          "tagId": "tag:5af7db42-8dd4-4924-bb00-ec1f2de6dc21",
+          "paragraphId": "p-24",
+          "start": 0,
+          "end": 36,
+          "legacy": true
+        },
+        {
+          "id": "occurrence:cc5ae438-29bf-4d00-8c20-41ca50bf293c",
+          "tagId": "tag:fee8ee08-b71d-4110-9370-5b5bb2e12e7d",
+          "paragraphId": "p-24",
+          "start": 0,
+          "end": 36,
+          "legacy": true
+        }
+      ],
+      "navigator": [],
+      "castMembership": {},
+      "castOrder": "appearance",
+      "customCastOrder": [],
+      "macros": [],
+      "assets": [],
+      "titleImages": [],
+      "continuations": {
+        "more": "(MORE)",
+        "continued": "(CONT'D)",
+        "sceneTop": "CONTINUED:",
+        "sceneBottom": "(CONTINUED)",
+        "sceneEnabled": false
+      },
+      "doctor": {
+        "checks": [
+          "headings",
+          "cues",
+          "directions",
+          "dialogue",
+          "spacing",
+          "elements"
+        ],
+        "ignored": [],
+        "beforePrint": false
+      },
+      "legacy": {
+        "migratedAt": "2026-10-17T16:47:49.240Z",
+        "pageLockBoolean": false
+      }
+    },
+    "writingFormat": {
+      "version": 1,
+      "templateId": "standard-feature-screenplay",
+      "templateVersion": 2,
+      "spacingRules": {
+        "version": 1,
+        "afterSpeech": 12,
+        "collapse": true,
+        "trimPageTop": true
+      },
+      "name": "Standard Feature Screenplay",
+      "kind": "screenplay",
+      "language": "en-US",
+      "page": {
+        "width": 8.5,
+        "height": 11,
+        "top": 1,
+        "bottom": 1,
+        "left": 1.5,
+        "right": 1
+      },
+      "elements": {
+        "Scene Heading": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": true,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 24,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": true,
+          "next": "Action",
+          "tab": "Scene Heading"
+        },
+        "Action": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Action",
+          "tab": "Character"
+        },
+        "Character": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": true,
+          "align": "left",
+          "left": 2.2,
+          "right": 0.4,
+          "first": 0,
+          "before": 0,
+          "after": 0,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": true,
+          "next": "Dialogue",
+          "tab": "Parenthetical"
+        },
+        "Parenthetical": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 1.6,
+          "right": 2,
+          "first": 0,
+          "before": 0,
+          "after": 0,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": true,
+          "next": "Dialogue",
+          "tab": "Dialogue"
+        },
+        "Dialogue": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 1,
+          "right": 1.5,
+          "first": 0,
+          "before": 0,
+          "after": 0,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Action",
+          "tab": "Parenthetical"
+        },
+        "Dual Dialogue": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 3.1,
+          "first": 0,
+          "before": 0,
+          "after": 0,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Action",
+          "tab": "Character"
+        },
+        "Transition": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": true,
+          "align": "right",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Scene Heading",
+          "tab": "Scene Heading"
+        },
+        "Shot": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": true,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 24,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": true,
+          "next": "Action",
+          "tab": "Character"
+        },
+        "General": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "General",
+          "tab": "General"
+        },
+        "Centered Text": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "center",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Centered Text",
+          "tab": "Character"
+        },
+        "Lyrics": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 1,
+          "right": 1.5,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Lyrics",
+          "tab": "Character"
+        },
+        "New Act": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": true,
+          "caps": true,
+          "align": "center",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": true,
+          "keepNext": true,
+          "next": "Scene Heading",
+          "tab": "Character"
+        },
+        "End of Act": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": true,
+          "align": "center",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "New Act",
+          "tab": "Character"
+        },
+        "Scene Summary": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Scene Summary",
+          "tab": "Character"
+        },
+        "Cast List": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Action",
+          "tab": "Character"
+        },
+        "Outline Level 1": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Outline Level 1",
+          "tab": "Outline Level 2"
+        },
+        "Outline Level 2": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0.3,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Outline Level 2",
+          "tab": "Outline Level 3"
+        },
+        "Outline Level 3": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0.6,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Outline Level 3",
+          "tab": "Outline Level 3"
+        },
+        "Sequence": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": true,
+          "next": "Action",
+          "tab": "Character"
+        },
+        "Note": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Note",
+          "tab": "Character"
+        },
+        "Stage Direction": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0.5,
+          "right": 0.5,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Dialogue",
+          "tab": "Character"
+        },
+        "Song Title": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": true,
+          "align": "center",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": true,
+          "next": "Lyrics",
+          "tab": "Character"
+        },
+        "Comic Page": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "caps": true,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": true,
+          "keepNext": true,
+          "next": "Panel",
+          "tab": "Character"
+        },
+        "Panel": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": true,
+          "next": "Panel Description",
+          "tab": "Character"
+        },
+        "Panel Description": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Character",
+          "tab": "Character"
+        },
+        "Caption": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Action",
+          "tab": "Character"
+        },
+        "Sound Effect": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Action",
+          "tab": "Character"
+        },
+        "Narration": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Action",
+          "tab": "Character"
+        },
+        "User Defined": {
+          "font": "Courier Prime",
+          "size": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "caps": false,
+          "align": "left",
+          "left": 0,
+          "right": 0,
+          "first": 0,
+          "before": 0,
+          "after": 12,
+          "line": 12,
+          "breakBefore": false,
+          "keepNext": false,
+          "next": "Action",
+          "tab": "Character"
+        }
+      },
+      "supported": [
+        "Scene Heading",
+        "Action",
+        "Character",
+        "Parenthetical",
+        "Dialogue",
+        "Dual Dialogue",
+        "Transition",
+        "Shot",
+        "General",
+        "Centered Text",
+        "Scene Summary",
+        "Sequence",
+        "Note",
+        "Outline Level 1",
+        "Outline Level 2",
+        "Outline Level 3",
+        "User Defined"
+      ],
+      "mode": "smart",
+      "sceneSeparator": " - ",
+      "transitionPunctuation": "colon",
+      "numbering": {
+        "scenes": false,
+        "comicPages": true,
+        "panels": true,
+        "resetPanels": true
+      },
+      "continuations": {
+        "more": true,
+        "continued": true
+      },
+      "titlePage": true,
+      "customElements": []
+    }
+  }
+}

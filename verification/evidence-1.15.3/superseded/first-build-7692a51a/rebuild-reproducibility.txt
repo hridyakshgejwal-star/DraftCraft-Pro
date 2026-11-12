@@ -1,0 +1,9 @@
+Rebuilds of the committed tree with build-offline/stage-desktop.mjs; payload fingerprint as computed by run-release-tests.py. Tested payload: 7692a51a7d61fa96f33f10d63b68013619e6f0fd61b84dc89333b75fc161a63e
+rebuild 1: 0a924e76762fce13340de7dac9b53599e5606bf8ab1e2d73b7812e6871bf8d23 main=index-FAYM5GID.js other-differences=0
+rebuild 2: 899cb237fe5374765ceb43161e51a3f834bed2dff4ec96d52944412412de80e0 main=index-K3UY64Z5.js other-differences=0
+rebuild 3: 5f3e3042895ab2427f80949362b08caff4f2341725313b0c6f0240b8c409f8b6 main=index-WZCCR6RQ.js other-differences=0
+rebuild 4: 7692a51a7d61fa96f33f10d63b68013619e6f0fd61b84dc89333b75fc161a63e main=index-TZOEEKL3.js other-differences=0
+rebuild 5: 7692a51a7d61fa96f33f10d63b68013619e6f0fd61b84dc89333b75fc161a63e main=index-TZOEEKL3.js other-differences=0
+rebuild 6: 899cb237fe5374765ceb43161e51a3f834bed2dff4ec96d52944412412de80e0 main=index-K3UY64Z5.js other-differences=0
+rebuild 7: 7692a51a7d61fa96f33f10d63b68013619e6f0fd61b84dc89333b75fc161a63e main=index-TZOEEKL3.js other-differences=0
+rebuild 8: b1eb4383e2fcc7883ce615a930501760bf2afe88a8ec8ef3e39eaf24fddd4e1b main=index-XDT57PQ5.js other-differences=0

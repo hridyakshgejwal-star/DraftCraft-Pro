@@ -1,0 +1,96 @@
+{
+  "results": [
+    {
+      "name": "Desktop starts from bundled files with a stable local origin",
+      "status": "passed"
+    },
+    {
+      "name": "Renderer isolation, sandbox configuration, and narrow preload bridge",
+      "status": "passed"
+    },
+    {
+      "name": "Screenplay and interface fonts load offline from the app bundle",
+      "status": "passed"
+    },
+    {
+      "name": "Typing saves the current screenplay into local persistent storage",
+      "status": "passed"
+    },
+    {
+      "name": "Native title-page command applies and retains changes",
+      "status": "passed"
+    },
+    {
+      "name": "Native menu produces a downloadable Final Draft document",
+      "status": "passed"
+    },
+    {
+      "name": "Native menu produces a downloadable Fountain screenplay",
+      "status": "passed"
+    },
+    {
+      "name": "PDF studio exports a PDF from the desktop runtime",
+      "status": "passed"
+    },
+    {
+      "name": "Native open flow imports an exported Fountain file",
+      "status": "passed"
+    },
+    {
+      "name": "Native open flow imports an exported Final Draft file",
+      "status": "passed"
+    },
+    {
+      "name": "Native find command opens the existing editor search",
+      "status": "passed"
+    },
+    {
+      "name": "Beat Board and Outline Map remain usable inside the desktop window",
+      "status": "passed"
+    },
+    {
+      "name": "Window controls dispatch to the native window APIs",
+      "status": "passed"
+    },
+    {
+      "name": "Optional AI reports missing configuration without a provider request",
+      "status": "passed"
+    },
+    {
+      "name": "AI settings window validates input without storing or submitting a key",
+      "status": "passed"
+    },
+    {
+      "name": "Local protocol refuses paths outside the app assets and unknown API routes",
+      "status": "passed"
+    },
+    {
+      "name": "Saved screenplay survives a complete app quit and relaunch",
+      "status": "passed"
+    },
+    {
+      "name": "No remote requests or renderer exceptions occurred",
+      "status": "passed"
+    }
+  ],
+  "rendererErrors": [],
+  "remoteRequests": [],
+  "exports": {
+    "fdx": {
+      "name": "DESKTOP_QA_SCRIPT.fdx",
+      "path": "/workspace/scratch/3fe46cec6a5a/qa/desktop-exports/DESKTOP_QA_SCRIPT.fdx",
+      "state": "completed"
+    },
+    "fountain": {
+      "name": "DESKTOP_QA_SCRIPT.fountain",
+      "path": "/workspace/scratch/3fe46cec6a5a/qa/desktop-exports/DESKTOP_QA_SCRIPT.fountain",
+      "state": "completed"
+    },
+    "pdf": {
+      "name": "DESKTOP_QA_SCRIPT_standard.pdf",
+      "path": "/workspace/scratch/3fe46cec6a5a/qa/desktop-exports/DESKTOP_QA_SCRIPT_standard.pdf",
+      "state": "completed"
+    }
+  },
+  "environment": "Electron 44.7.0/Chromium 152 on Linux x64, Ozone headless; the QA harness bypasses the unavailable Unix singleton socket and supplies a display size. Save/open dialogs are automated. macOS native behavior is not tested."
+}

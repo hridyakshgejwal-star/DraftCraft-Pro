@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; form-action 'none'; base-uri 'none'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Settings — DraftCraft Pro</title>
+  <link rel="stylesheet" href="ai-settings.css">
+</head>
+<body>
+  <h1>Gemini AI</h1>
+  <p>Writing, backups, and exports work offline. Research and Image Analysis use your Gemini API key and an internet connection. Table Read has separate settings for offline and optional cloud voices.</p>
+  <form id="settings">
+    <label for="key">Gemini API key</label>
+    <input id="key" type="password" autocomplete="off" spellcheck="false" placeholder="Paste your API key">
+    <p class="hint">Your key is encrypted using the macOS Keychain. AI requests may use your provider quota or incur charges.</p>
+    <p id="status" role="status"></p>
+    <div class="actions"><button type="button" id="remove">Remove key</button><button type="button" id="done">Done</button><button type="submit" class="primary">Save key</button></div>
+  </form>
+  <script src="ai-settings.js"></script>
+</body>
+</html>

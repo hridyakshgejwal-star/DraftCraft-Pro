@@ -1,0 +1,15 @@
+{
+  "publisher": "Final Draft",
+  "url": "https://www.finaldraft.com/downloads/manuals/fd13-user-guide-mac-exported.pdf",
+  "sha256": "0b75655ea34900cbb33420d3b8e66e8c4d8833f7bada5dd59a30c198b31fbc4a",
+  "pages": 514,
+  "inspected_sections": [
+    "1.7.9 Track Changes",
+    "1.9.15 Space Before",
+    "1.9.18 Dual Dialogue",
+    "1.9.19 Edit Dual Dialogue",
+    "page and scene locking chapters"
+  ],
+  "additional_primary_reference": "https://kb.finaldraft.com/hc/en-us/articles/15575250899732-Should-there-be-two-blank-lines-between-transitions-and-scenes",
+  "redistributed_manual": false
+}

@@ -1,0 +1,56 @@
+{
+  "changed_existing_files": [
+    "desktop/Getting-Started.txt",
+    "desktop/build.cjs",
+    "desktop/main.cjs",
+    "desktop/package.json",
+    "desktop/package.mjs",
+    "desktop/preload.cjs",
+    "src/App.tsx",
+    "src/components/BeatBoard.tsx",
+    "src/components/ScriptEditor.tsx",
+    "src/index.css",
+    "src/types/desktop.d.ts"
+  ],
+  "added_files": [
+    "package-lock.json",
+    "EDITOR-FIXES.md",
+    "desktop/package-lock.json",
+    "desktop/repackage.mjs",
+    "verification/page-model.test.ts",
+    "verification/native-clipboard.test.cjs",
+    "verification/verify-macos-package.py",
+    "verification/browser-tests.cjs",
+    "verification/Validation.md",
+    "verification/results/formatting-toolbar.png",
+    "verification/results/macos-signatures.json",
+    "verification/results/beat-card-resizing.png",
+    "verification/results/desktop-build.log",
+    "verification/results/page-context-menu.png",
+    "verification/results/browser-tests.log",
+    "verification/results/native-clipboard.json",
+    "verification/results/browser-results.json",
+    "verification/results/model-tests.log",
+    "verification/results/lint.log",
+    "src/utils/beatSizing.ts",
+    "src/utils/pageActions.ts",
+    "src/components/PageActions.tsx",
+    "src/components/FormattingToolbar.tsx"
+  ],
+  "rebuilt_generated_assets": [
+    "dist/assets/html2canvas-CZYHQQ5Y.js",
+    "dist/assets/index-DLZSK40g.css",
+    "dist/assets/index-Dzu7Jvy2.js",
+    "dist/assets/index.es-8rVhhmp-.js",
+    "dist/assets/purify.es-Dn3VvdGh.js",
+    "dist/index.html"
+  ],
+  "unchanged_protected_file_sha256": {
+    "src/types/script.ts": "12eb6224287c9ef44844960347374394b61a6e57d0a444b07b457f1bba1060ff",
+    "src/utils/pagination.ts": "208f51b8a55b47f8b02309fa19f00ef726c06b69bce77e579af41f3a10cf1049",
+    "src/utils/pdfExportEngine.ts": "8947706dd1d7015f446cc1c7b270f25470038e4600c41537e50c4a120b8295a4",
+    "src/utils/fdxCodec.ts": "437e57652e2f950edcd6cc619311ea6d0b3ae67e46e63e15231c1369423b32a3",
+    "src/utils/fountainCodec.ts": "54001f4b29437035f32189bc2415923fac0c8774e3ac3cf126414fd8fa93fd89",
+    "src/utils/fileManagerStorage.ts": "627ed4a8cf71bdce6eafaf66e4b8844008ba9dc709ad66bbb6c314c392642f59"
+  }
+}

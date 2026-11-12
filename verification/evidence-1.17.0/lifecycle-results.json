@@ -1,0 +1,71 @@
+{
+  "appDir": "/home/claude/draftcraft/release-1.17.0/stage/app",
+  "electron": "44.7.0 linux-x64",
+  "results": [
+    {
+      "name": "close unmodified window (red button / Cmd+W) with another window open",
+      "passed": true,
+      "ms": 7093
+    },
+    {
+      "name": "modified new document: Cancel keeps window, Don't Save closes",
+      "passed": true,
+      "ms": 7170
+    },
+    {
+      "name": "modified new document: Save writes a real project file and remembers it",
+      "passed": true,
+      "ms": 9300
+    },
+    {
+      "name": "Quit (Cmd+Q) with two modified windows prompts once per window and can be canceled",
+      "passed": true,
+      "ms": 11130
+    },
+    {
+      "name": "close requested twice quickly shows a single dialog",
+      "passed": true,
+      "ms": 7340
+    },
+    {
+      "name": "closing while an autosave is in flight keeps the latest text",
+      "passed": true,
+      "ms": 5782
+    },
+    {
+      "name": "renderer crash: Reload Editor restores the latest received text",
+      "passed": true,
+      "ms": 7526
+    },
+    {
+      "name": "renderer crash: Close Window keeps a recovery copy and closes",
+      "passed": true,
+      "ms": 6647
+    },
+    {
+      "name": "relaunch after a crash offers the recovery copy and Restore brings the text back",
+      "passed": true,
+      "ms": 11432
+    },
+    {
+      "name": "close with an unavailable save folder offers Save As and loses nothing",
+      "passed": true,
+      "ms": 4188
+    },
+    {
+      "name": "hung editor: close watchdog offers Close Window and keeps a recovery copy",
+      "passed": true,
+      "ms": 22550
+    },
+    {
+      "name": "Dock activate after the last window closed opens a new editor window (macOS app-stays-open branch)",
+      "passed": true,
+      "ms": 4757
+    },
+    {
+      "name": "right-click: script text opens the page and text menu, other text fields get the standard editing menu",
+      "passed": true,
+      "ms": 3965
+    }
+  ]
+}

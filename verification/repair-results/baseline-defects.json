@@ -1,0 +1,90 @@
+{
+  "baselineArchiveSha256": "544ae118fad838b04533cf39b86cea28d59dd34681fcbe22db57c260a92b91c8",
+  "scope": "Isolated actual baseline source functions with injected state/storage; not native UI or current repaired behavior",
+  "evidence": [
+    {
+      "id": "F04",
+      "before": "car train arrives."
+    },
+    {
+      "id": "F05",
+      "before": "___"
+    },
+    {
+      "id": "F05-invalid-literal",
+      "before": "Invalid regular expression: /[/g: Unterminated character class"
+    },
+    {
+      "id": "F06",
+      "before": 1
+    },
+    {
+      "id": "F13",
+      "before": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "F14",
+      "before": "Character"
+    },
+    {
+      "id": "F11",
+      "before": [
+        "He walks home."
+      ]
+    },
+    {
+      "id": "F12",
+      "before": 0
+    },
+    {
+      "id": "F01",
+      "before": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "F08",
+      "before": true
+    },
+    {
+      "id": "F09",
+      "before": 0
+    },
+    {
+      "id": "F10",
+      "before": "Live cached edit."
+    },
+    {
+      "id": "F07-SceneListView.tsx",
+      "before": [
+        "s2",
+        "s1",
+        "a1",
+        "b1",
+        "b2"
+      ]
+    },
+    {
+      "id": "F07-IndexCardsView.tsx",
+      "before": [
+        "s2",
+        "s1",
+        "a1",
+        "b1",
+        "b2"
+      ]
+    },
+    {
+      "id": "F15",
+      "before": false
+    },
+    {
+      "id": "F16",
+      "before": 1
+    }
+  ]
+}

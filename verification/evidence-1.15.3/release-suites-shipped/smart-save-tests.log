@@ -1,0 +1,11 @@
+PASS empty New closes silently; first save and later autosaves use a real file
+PASS Save As preserves the original and persists its destination through restart
+PASS Save and close cancellation preserve edits; Don’t Save removes the active unsaved profile
+PASS Files & Autosave settings persist, auto-off protects the primary, failures remain visible
+PASS recovery Review and Restore keep story data and preserve a newer primary as a separate copy
+PASS close finalizes heading blur and cache quota cannot revoke a durable native save
+PASS repeated close while composing waits for final text and shares one Save decision
+PASS File Manager Save As awaits disk and cancel preserves primary; Revert reads disk with recovery
+PASS continuous typing has a bounded save interval and blur flushes the newest revision
+SAVE PERFORMANCE {"paragraphs":1999,"pages":222,"typingMs":{"p50":158,"p95":204},"fillP95BudgetMs":600,"environment":"Linux Chromium, not a physical Mac benchmark"}
+PASS a long screenplay saves full hidden planning data while typing remains responsive

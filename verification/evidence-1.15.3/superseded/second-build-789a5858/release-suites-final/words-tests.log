@@ -1,0 +1,14 @@
+PASS correct word click opens offline synonyms without marking the word wrong or moving the caret
+PASS misspelled words show corrections and synonyms for the intended word independently of red underlines
+PASS river and financial meanings yield different suggestions; phrases require confirmation
+PASS article agreement previews a whole atomic edit; cancelling preserves text and applying supports redo
+PASS capitalization, Unicode, punctuation, inline styles, element metadata and pagination remain intact
+PASS characters, established locations and screenplay transition terms have a readable protected popup
+PASS a misspelled scene-heading word retains spelling corrections while location synonyms remain protected
+PASS normal typing, drag selection and double-click selection remain normal; keyboard navigation is accessible
+PASS rapid switching and typing cancel obsolete results and never replace newer text
+PASS settings persist, left-click can be disabled, spelling can be off while synonyms still work
+PASS offline results arrive when optional advanced analysis fails; successful structured responses are merged safely
+PASS popup stays on screen at 50/100/200% zoom and closes when the anchor scrolls; print omits it
+PERFORMANCE {"pages":250,"firstWordClickMs":493,"cachedWordClickMs":[313,278,296,344,349,298,288],"environment":"Linux Chromium 151; includes automation; physical M2 not benchmarked"}
+PASS 250-page screenplay: word-click latency, repeated requests, fast typing and cached results remain responsive

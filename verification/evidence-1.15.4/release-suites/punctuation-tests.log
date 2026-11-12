@@ -1,0 +1,19 @@
+PASS default On migrates an old profile and both Settings entry points open working controls
+PASS core statement, direct question, indirect question and ordinary command examples punctuate on Return
+PASS dialogue distinguishes conversational questions, embedded questions and emotional statements
+PASS exclamation requires an urgent warning; shouting alone and ordinary commands stay neutral
+PASS incomplete phrases and existing endings retain exact punctuation across repeated Return
+PASS headings, cues, parentheticals, transitions, shots and structural elements remain protected
+PASS punctuation plus Return is one undoable edit with correct Redo, caret, styles and unrelated metadata
+PASS manually removed endings are not repeatedly restored and the omission survives reload
+PASS Undo followed by another Return respects the writer’s rejection of that automatic ending
+PASS selection, mid-sentence split, Shift Return and composition preserve normal editing
+PASS optional two-space boundary insertion is functional, undoable and disabled by the master switch
+PASS all advanced controls persist and immediately gate full stops, questions, exclamations and Return
+PASS master Off leaves every core example exactly typed while normal screenplay transitions continue
+PASS native project save and reopen retain punctuation, deliberate omissions and the selected format
+PASS SmartType accepts before Return punctuation and spelling replacements share the existing history
+PASS template styles and Manual inference mode remain independent of punctuation
+PASS rapid Return and typing preserve character order, paragraph identities and one smooth caret
+PUNCTUATION PERFORMANCE {"returnP95BudgetMs":843,"budgetRule":"max(600ms, ceil(1.25 times same-document Off p95))","paragraphs":2019,"pages":223,"returnMs":{"p50":399,"p95":559},"offReturnMs":{"p50":500,"p95":674},"handlerOnMs":{"p50":349.5,"p95":500.1},"handlerOffMs":{"p50":449.9,"p95":604.2},"environment":"Linux Chromium; physical Mac and IME not tested"}
+PASS large screenplays analyze only active sentences and retain responsive Return, caret and autosave

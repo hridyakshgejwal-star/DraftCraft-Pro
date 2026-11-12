@@ -1,0 +1,7 @@
+PASS fresh launch shows the Start Window; Escape continues with the new script
+PASS Open… on the Start Window opens a file and records it in File › Open Recent
+PASS recent projects: open one; a missing one is marked and removed; the launch preference is kept
+PASS a launch that opens a file skips the Start Window
+PASS File › Open Recent opens a project; Clear Menu empties the list
+PASS unsaved changes are resolved before a Start Window format replaces the script
+6/6 Start Window scenarios passed

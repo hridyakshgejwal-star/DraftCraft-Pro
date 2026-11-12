@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "custom": {
+    "x": 884.4375,
+    "y": 591.09375,
+    "width": 1.5,
+    "height": 16
+  },
+  "native": {
+    "x": 884,
+    "y": 591.09375,
+    "height": 16
+  },
+  "source": "Chromium native caret pixels, combining-script/emoji paragraph"
+}

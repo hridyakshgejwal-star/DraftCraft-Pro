@@ -1,0 +1,8 @@
+import {blankDocument} from './model';
+import {parseFdx} from '../utils/fdxCodec';
+import {parseFountain} from '../utils/fountainCodec';
+import {parseRtf,parsePlainText} from '../formats/interchange';
+import {FORMAT_ELEMENTS,validateFormat} from '../formats/model';
+import {migrateStudio} from '../production/model';
+import type {ScriptDocument} from '../types/script';
+export function importScreenplaySource(text:string,name:string):ScriptDocument{if(new TextEncoder().encode(text).length>50*1024*1024)throw Error('Choose a source smaller than 50 MB.');if(/\.draftcraft$/i.test(name)){const envelope=JSON.parse(text);if(envelope.format!=='draftcraft-project'||envelope.version!==1)throw Error('Unsupported project version.');const doc=envelope.document as ScriptDocument,ids=new Set<string>();if(!doc||!doc.id||typeof doc.titlePage?.title!=='string'||!Array.isArray(doc.paragraphs)||doc.paragraphs.length>50000||!Array.isArray(doc.beats)||!Array.isArray(doc.outlineMarkers)||!Array.isArray(doc.outlineLanes))throw Error('Invalid source project.');for(const p of doc.paragraphs){if(!p.id||ids.has(p.id)||!FORMAT_ELEMENTS.includes(p.type)||typeof p.text!=='string')throw Error('Invalid source paragraph.');ids.add(p.id);}if(doc.writingFormat)validateFormat(doc.writingFormat);return migrateStudio(doc);}const parsed=/\.fdxt?$/i.test(name)||text.includes('<FinalDraft')?parseFdx(text):/\.rtf$/i.test(name)?parseRtf(text):/\.txt$/i.test(name)?parsePlainText(text):parseFountain(text),base=blankDocument();return migrateStudio({...base,...parsed,id:'import-'+crypto.randomUUID(),paragraphs:parsed.paragraphs||base.paragraphs,titlePage:{...base.titlePage,...parsed.titlePage,title:parsed.titlePage?.title||name.replace(/\.[^.]+$/,'')}});}

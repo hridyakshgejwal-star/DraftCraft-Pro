@@ -1,0 +1,7 @@
+Word-click latency, 250-page script (verification/synonyms-browser.cjs, run alone, alternating builds, same host). 1.15.3 = build-final2 (payload 1cdc6eea…), 1.15.4 = build-1154-final
+1.15.3 run1 PERFORMANCE {"pages":250,"firstWordClickMs":539,"cachedWordClickMs":[427,315,319,300,356,289,262],"environment":"Linux Chromium 151; includes automation; physical M2 not benchmarked"} 
+1.15.4 run1 PERFORMANCE {"pages":250,"firstWordClickMs":529,"cachedWordClickMs":[342,342,269,303,262,274,260],"environment":"Linux Chromium 151; includes automation; physical M2 not benchmarked"} 
+1.15.3 run2 PERFORMANCE {"pages":250,"firstWordClickMs":397,"cachedWordClickMs":[313,291,258,262,251,263,258],"environment":"Linux Chromium 151; includes automation; physical M2 not benchmarked"} 
+1.15.4 run2 PERFORMANCE {"pages":250,"firstWordClickMs":547,"cachedWordClickMs":[351,257,285,260,252,263,275],"environment":"Linux Chromium 151; includes automation; physical M2 not benchmarked"} 
+1.15.3 run3 PERFORMANCE {"pages":250,"firstWordClickMs":406,"cachedWordClickMs":[262,258,316,313,278,286,382],"environment":"Linux Chromium 151; includes automation; physical M2 not benchmarked"} 
+1.15.4 run3 PERFORMANCE {"pages":250,"firstWordClickMs":468,"cachedWordClickMs":[298,295,430,341,264,350,330],"environment":"Linux Chromium 151; includes automation; physical M2 not benchmarked"} 

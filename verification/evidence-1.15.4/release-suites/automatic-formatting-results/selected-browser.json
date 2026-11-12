@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "renderer": "/workspace/scratch/af3bafce0510/work/automatic-formatting/release-payload-final/dist",
+  "backend": "/workspace/scratch/af3bafce0510/work/automatic-formatting/release-payload-final",
+  "physical_mac_tested": false,
+  "results": [
+    {
+      "name": "four defaults and both Settings entry points are real controls",
+      "passed": true
+    }
+  ]
+}

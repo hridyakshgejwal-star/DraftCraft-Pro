@@ -1,0 +1,484 @@
+{
+  "version": "1.18.0",
+  "started": "2026-10-31T17:29:23.880Z",
+  "checks": {
+    "editor-ready": {
+      "ok": true,
+      "screenshot": "01-window.png",
+      "ms": 1907
+    },
+    "start-window": {
+      "ok": true,
+      "heading": "Welcome to DraftCraft Pro 1.18.0",
+      "tiles": [
+        "New Feature Screenplay (About 110 pages)",
+        "New Television Pilot (One-hour drama)",
+        "New Multi-Camera Sitcom (Half-hour comedy)",
+        "New Stage Play (Acts and scenes)",
+        "New Streaming Feature (Netflix-style)",
+        "New Short Film (About 15 pages)"
+      ],
+      "recent": 0,
+      "empty": "Projects you open or save will appear here.",
+      "focused": "New ScreenplayWith your default template",
+      "showAtLaunch": true,
+      "learn": [
+        "Idea to Draft: Feature",
+        "Idea to Draft: Pilot",
+        "Idea to Draft: Stage Play",
+        "Getting Started",
+        "What's New"
+      ],
+      "fileMenu": [
+        "New Screenplay",
+        "New Document Window",
+        "New from Template…",
+        "Open…",
+        "Open Recent",
+        "Start Window…"
+      ],
+      "openRecentMenu": [
+        "No Recent Projects",
+        "",
+        "Clear Menu"
+      ],
+      "closedWithEscape": true,
+      "editorFocused": true,
+      "screenshot": "01b-start-window.png",
+      "ms": 1158
+    },
+    "recent-projects": {
+      "ok": true,
+      "menu": [
+        {
+          "label": "SELF TEST SAMPLE — Self Test Sample.fountain",
+          "enabled": true
+        },
+        {
+          "label": "",
+          "enabled": true
+        },
+        {
+          "label": "Clear Menu",
+          "enabled": true
+        }
+      ],
+      "row": "SELF TEST SAMPLE, Self Test Sample.fountain, in /tmp/draftcraft-1.18.0-selftest/out, opened Today, 22:59",
+      "opened": true,
+      "screenshot": "01c-start-window-recent.png",
+      "ms": 890
+    },
+    "environment": {
+      "ok": true,
+      "electron": "44.7.0",
+      "chrome": "152.0.7977.130",
+      "os": "27.0.0",
+      "macos": "27.0.1",
+      "arch": "arm64",
+      "packaged": true,
+      "cpu": "Apple M2",
+      "cores": 8,
+      "memoryGB": 8,
+      "info": {
+        "version": "1.18.0",
+        "microphone": "DraftCraft uses the microphone only when you start on-device dictation.",
+        "speech": "DraftCraft transcribes your dictated screenplay using an available on-device language.",
+        "minimumSystem": "13.0"
+      },
+      "ms": 0
+    },
+    "window": {
+      "ok": true,
+      "bounds": {
+        "x": 240,
+        "y": 26,
+        "width": 1440,
+        "height": 900
+      },
+      "trafficLights": {
+        "x": 13,
+        "y": 9
+      },
+      "fullScreenable": true,
+      "tabbingIdentifier": null,
+      "titleBarSpacer": null,
+      "ms": 1
+    },
+    "full-screen": {
+      "ok": true,
+      "entered": true,
+      "left": true,
+      "screenshot": "02-full-screen.png",
+      "ms": 2768
+    },
+    "tabs": {
+      "ok": true,
+      "before": 1,
+      "after": 2,
+      "sameTabGroup": false,
+      "merge": "called",
+      "closed": true,
+      "remaining": 1,
+      "ms": 1408
+    },
+    "menu-check-marks": {
+      "ok": true,
+      "toggles": {
+        "navigator": {
+          "before": true,
+          "toggled": false,
+          "restored": true
+        },
+        "timeline": {
+          "before": true,
+          "toggled": false,
+          "restored": true
+        }
+      },
+      "checkItems": 55,
+      "checked": [
+        "View › Page View ✓",
+        "View › Script ✓",
+        "View › Timeline (Outline Editor) ✓",
+        "View › Navigator ✓",
+        "View › Split › Unsplit ✓",
+        "View › Split › Second Panel: Index Cards ✓",
+        "View › Show › ScriptNotes ✓",
+        "View › Show › Bookmarks ✓",
+        "View › Show › Scene Comments ✓",
+        "View › Show › Outline Elements ✓",
+        "View › Show › Toolbar ✓",
+        "View › Show › Writing Streaks ✓",
+        "View › Appearance › Dark ✓",
+        "View › Toolbar Groups › Document ✓",
+        "View › Toolbar Groups › Editing ✓",
+        "View › Toolbar Groups › Screenplay ✓",
+        "View › Toolbar Groups › Workspace ✓",
+        "View › Toolbar Groups › Formatting ✓",
+        "View › Toolbar Groups › Production ✓",
+        "View › Toolbar Groups › Tools ✓",
+        "Format › Scene Numbers › Both ✓"
+      ],
+      "ms": 4809
+    },
+    "spelling": {
+      "ok": true,
+      "misspelled": [
+        "teh",
+        "qwrtzxv"
+      ],
+      "checked": [
+        "recieve",
+        "receive",
+        "teh",
+        "bonjour",
+        "Straße",
+        "Wohnung",
+        "qwrtzxv",
+        "colour",
+        "color"
+      ],
+      "suggestions": {
+        "recieve": [
+          "receive",
+          "relieve"
+        ],
+        "teh": [
+          "the",
+          "tea",
+          "ten",
+          "yeh",
+          "feh"
+        ]
+      },
+      "ms": 1367
+    },
+    "voices": {
+      "ok": true,
+      "say": 185,
+      "premiumOrEnhanced": [],
+      "sample": [
+        "Albert en-US",
+        "Alice it-IT",
+        "Soumya kn-IN",
+        "Alva sv-SE",
+        "Aman (English (India)) en-IN",
+        "Aman (English (India)) en-IN",
+        "Amélie fr-CA",
+        "Amira ms-MY",
+        "Anna de-DE",
+        "Aru kk-KZ",
+        "Bad News en-US",
+        "Bahh en-US"
+      ],
+      "browserVoices": 180,
+      "ms": 703
+    },
+    "dictation-helper": {
+      "ok": true,
+      "available": true,
+      "location": "Resources/DraftCraftDictation",
+      "bytes": 82336,
+      "mode": "755",
+      "run": {
+        "code": 1,
+        "signal": null,
+        "stdout": "{\"message\":\"This recognition language is unavailable.\",\"type\":\"error\"}\n",
+        "stderr": "2026-10-31 22:59:38.908 DraftCraftDictation[1456:14523] Cannot make recognizer for xx-XX. Supported locale identifiers are {(\n    \"nl-NL\",\n    \"es-MX\",\n    \"fr-FR\",\n    \"zh-TW\",\n    \"it-IT\",\n    \"vi-VN\",\n    \"fr-CH\",\n    \"es-CL\",\n    \"en-ZA\",\n    \"ko-KR\",\n    \"ca-ES\",\n    \"ro-RO\",\n    \"en-PH\",\n    \"es-419\",\n    \"en-CA\",\n    \"en-SG\",\n    \"en-IN\",\n    \"en-NZ\",\n    \"it-CH\",\n    \"fr-CA\",\n    \"hi-IN\",\n"
+      },
+      "signature": {
+        "code": 0,
+        "text": "Executable=/private/tmp/draftcraft-1.18.0-selftest/app/DraftCraft Pro.app/Contents/Resources/DraftCraftDictation\nIdentifier=DraftCraftDictation\nFormat=Mach-O thin (arm64)\nCodeDirectory v=20400 size=748 flags=0x20002(adhoc,linker-signed) hashes=20+0 location=embedded\nSignature=adhoc\nInfo.plist=not bound\nTeamIdentifier=not set\nSealed Resources=none\nInternal requirements=none\n"
+      },
+      "ms": 22
+    },
+    "accessibility": {
+      "ok": true,
+      "labels": [
+        "Scene Heading",
+        "Action",
+        "Character",
+        "Dialogue"
+      ],
+      "announced": "Element 1 of 4: Scene Heading, page 1, scene 1",
+      "via": "key",
+      "region": {
+        "role": "status",
+        "live": "polite"
+      },
+      "navigatorTabs": [
+        "Scenes (1)",
+        "Cast (1)",
+        "Cast List",
+        "Notes (0)",
+        "Bookmarks (0)",
+        "Tags",
+        "Locations",
+        "Outline"
+      ],
+      "ms": 910
+    },
+    "getting-started": {
+      "ok": true,
+      "sections": 38,
+      "search": "cast list csv",
+      "hits": [
+        "Navigator: scenes, characters and the cast list",
+        "What's New In 1.17.0"
+      ],
+      "screenshot": "03-getting-started.png",
+      "ms": 985
+    },
+    "emoji-picker": {
+      "ok": true,
+      "search": "clapper",
+      "first": "🎬",
+      "count": "1 emoji",
+      "insertedInto": "Action",
+      "focusReturned": true,
+      "undoRemoved": true,
+      "characterViewer": true,
+      "screenshot": "04-emoji-picker.png",
+      "ms": 3288
+    },
+    "return-latency-mixed-script": {
+      "ok": true,
+      "pages": 256,
+      "paragraphs": 5462,
+      "returns": 10,
+      "keydownToSecondFrame": {
+        "p50": 52,
+        "p95": 59,
+        "max": 59,
+        "all": [
+          54,
+          52,
+          50,
+          59,
+          47,
+          52,
+          54,
+          49,
+          57,
+          50
+        ]
+      },
+      "keydownToPaint": {
+        "reported": 10,
+        "note": "Event Timing reports only keydowns of 16 ms or more (all keys, including typing)",
+        "p50": 72,
+        "p95": 80,
+        "max": 80,
+        "all": [
+          {
+            "duration": 72,
+            "processing": 40,
+            "delay": 1
+          },
+          {
+            "duration": 64,
+            "processing": 29,
+            "delay": 0
+          },
+          {
+            "duration": 80,
+            "processing": 37,
+            "delay": 1
+          },
+          {
+            "duration": 72,
+            "processing": 34,
+            "delay": 1
+          },
+          {
+            "duration": 72,
+            "processing": 35,
+            "delay": 1
+          },
+          {
+            "duration": 80,
+            "processing": 40,
+            "delay": 1
+          },
+          {
+            "duration": 64,
+            "processing": 30,
+            "delay": 0
+          },
+          {
+            "duration": 72,
+            "processing": 35,
+            "delay": 1
+          },
+          {
+            "duration": 72,
+            "processing": 37,
+            "delay": 1
+          },
+          {
+            "duration": 64,
+            "processing": 32,
+            "delay": 1
+          },
+          {
+            "duration": 80,
+            "processing": 42,
+            "delay": 1
+          },
+          {
+            "duration": 64,
+            "processing": 32,
+            "delay": 1
+          }
+        ]
+      },
+      "typingInputToSecondFrame": {
+        "n": 96,
+        "p50": 30,
+        "p95": 70
+      },
+      "ms": 28265
+    },
+    "return-latency-uniform-worst-case": {
+      "ok": true,
+      "pages": 250,
+      "paragraphs": 4250,
+      "returns": 10,
+      "keydownToSecondFrame": {
+        "p50": 48,
+        "p95": 60,
+        "max": 60,
+        "all": [
+          54,
+          44,
+          46,
+          59,
+          38,
+          49,
+          41,
+          60,
+          38,
+          48
+        ]
+      },
+      "keydownToPaint": {
+        "reported": 10,
+        "note": "Event Timing reports only keydowns of 16 ms or more (all keys, including typing)",
+        "p50": 72,
+        "p95": 88,
+        "max": 88,
+        "all": [
+          {
+            "duration": 72,
+            "processing": 42,
+            "delay": 1
+          },
+          {
+            "duration": 96,
+            "processing": 49,
+            "delay": 1
+          },
+          {
+            "duration": 72,
+            "processing": 33,
+            "delay": 0
+          },
+          {
+            "duration": 72,
+            "processing": 29,
+            "delay": 1
+          },
+          {
+            "duration": 64,
+            "processing": 32,
+            "delay": 1
+          },
+          {
+            "duration": 88,
+            "processing": 45,
+            "delay": 1
+          },
+          {
+            "duration": 56,
+            "processing": 24,
+            "delay": 0
+          },
+          {
+            "duration": 72,
+            "processing": 33,
+            "delay": 1
+          },
+          {
+            "duration": 64,
+            "processing": 23,
+            "delay": 0
+          },
+          {
+            "duration": 80,
+            "processing": 45,
+            "delay": 1
+          },
+          {
+            "duration": 56,
+            "processing": 22,
+            "delay": 0
+          },
+          {
+            "duration": 72,
+            "processing": 33,
+            "delay": 1
+          }
+        ]
+      },
+      "typingInputToSecondFrame": {
+        "n": 96,
+        "p50": 26,
+        "p95": 66
+      },
+      "ms": 28302
+    }
+  },
+  "finished": "2026-10-31T17:30:40.693Z",
+  "passed": 16,
+  "failed": []
+}

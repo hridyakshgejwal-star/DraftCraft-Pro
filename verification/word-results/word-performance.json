@@ -1,0 +1,14 @@
+{
+  "pages": 250,
+  "firstWordClickMs": 315,
+  "cachedWordClickMs": [
+    192,
+    191,
+    183,
+    203,
+    207,
+    197,
+    197
+  ],
+  "environment": "Linux Chromium 151; includes automation; physical M2 not benchmarked"
+}

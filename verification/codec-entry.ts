@@ -1,0 +1,12 @@
+import {characterSides,portableCharacterSides} from '../src/production/sides';
+import {pairDialogue,migrateStudio} from '../src/production/model';
+import {CharacterIndex} from '../src/writing/model';
+import {lockLayout} from '../src/production/layout';
+import {parseFdx,exportToFdx} from '../src/utils/fdxCodec';
+import {parseFountain,exportToFountain} from '../src/utils/fountainCodec';
+import {parseRtf,formatRtf} from '../src/formats/interchange';
+import {extractPdf,reconstructPdf} from '../src/production/pdfImport';
+import {blankDocument} from '../src/files/model';
+import {documentLayout} from '../src/production/layout';
+import {printHtml,portablePrintHtml} from '../src/production/print';
+(window as any).qaCodecs={characterSides,portableCharacterSides,pairDialogue,migrateStudio,CharacterIndex,lockLayout,parseFdx,exportToFdx,parseFountain,exportToFountain,parseRtf,formatRtf,extractPdf,reconstructPdf,blankDocument,documentLayout,printHtml,portablePrintHtml};

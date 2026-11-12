@@ -1,0 +1,41 @@
+Desktop validation — 1.4.1 / macOS launch repair
+
+The original delivered ZIP passed CRC and file-integrity checks, but had only
+upstream linker signatures on its binaries and no complete bundle resource
+seals. Retaining those signatures did not make the app a signed distribution.
+
+Repair: all 13 ARM64 Mach-O files now have ad-hoc code directories.
+54,394 code-page digests, 31 special-slot digests, 471 resource digests,
+9 bundle resource seals, and 9 nested code seals pass independent checks.
+The installer verifies all 266 regular files and all 14 symlink paths/targets.
+All 249 Mach-O sections remain byte-identical to the prior runtime files.
+The app.asar payload, Info.plist, and icon are unchanged. The Electron ASAR
+header digest still matches Info.plist. Getting-Started.txt outside ASAR was
+updated to describe the repaired installation procedure.
+
+Install-DraftCraft.command uses macOS's native codesign to rebuild signatures
+inside out, verifies the app with --deep --strict, removes only that installed
+copy's com.apple.quarantine attribute, and opens the exact installed path.
+Any existing app is moved to a backup folder; the screenplay profile is not
+moved or erased. No administrator password or network request is needed.
+9 installer control-flow checks pass on Linux with mocked macOS commands:
+success, preservation of the previous app, corrupt file, corrupt manifest,
+unexpected file, changed symlink, signature rejection, unsupported CPU,
+and an already running app. These are not native macOS execution tests.
+
+Retained evidence: build and TypeScript passed with zero diagnostics, and
+18 shared desktop checks passed in Electron 44.7.0 / Chromium 152 on Linux.
+Editing, title-page saving, quit/relaunch persistence, FDX/Fountain import
+and export, PDF export, fonts, optional AI settings validation, window-command
+routing, and local protocol restrictions were exercised. The exported PDF
+contains three pages and the changed title/text. The original 44 UI checks
+are archival evidence of the preceding UI refinement phase.
+The before-signing runtime-integrity report documents runtime provenance
+before this repair; the new signature and payload reports describe this build.
+
+Not verified here: launch on a physical Mac, Apple's codesign verification,
+Gatekeeper, native dialogs, Finder associations, Keychain encryption, printing,
+and M2 performance. The supplied installer performs native codesign signing
+and verification on the target Mac before launching the app. No Gemini key
+or paid provider request was used. This is ad-hoc signed, not Developer ID
+signed or Apple-notarized. The Rust workspace remains an unlinked prototype.

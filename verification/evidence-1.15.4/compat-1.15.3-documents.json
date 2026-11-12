@@ -1,0 +1,1776 @@
+{
+ "summary": {
+  "templates": 80,
+  "formatValid": 80,
+  "unchangedOnOpen": 80,
+  "fdxWithMetadataExact": 80,
+  "fdxWithoutMetadataText": 80,
+  "fdxWithoutMetadataLayout": 43,
+  "fdxLayoutApplicable": 43,
+  "newFdxOpensIn1153": 0,
+  "errors": [
+   {
+    "template": "Standard Feature Screenplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Screenplay for Beginners",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "BBC Screenplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Screenplay — Cole and Haag style",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Screenplay — Warner Brothers style",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "US Screenplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "US Screenplay — French",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "US Screenplay — German",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "US Screenplay — Spanish",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "US Screenplay — Chinese Simplified",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "US Screenplay — Chinese Traditional",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Short Film Screenplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Feature Film Screenplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Independent Film Screenplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Shooting Script",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Production Screenplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Stageplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Dramatists Guild Modern Stageplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Dramatists Guild Traditional Stageplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Dramatists Guild Musical",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Broadway Musical",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Podcast Script",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Standard Stageplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Traditional Stageplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Modern Stageplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "One-Act Play",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Multi-Act Play",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Musical Theatre Script",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "BBC Screenplay for TV",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "BBC Taped Sitcom",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "BBC Two-Camera Show",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Single-Camera Teleplay",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Multi-Camera Sitcom",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Half-Hour TV Comedy",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "One-Hour TV Drama",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Television Pilot",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Television Episode",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Streaming Series",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Anthology Series",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Limited Series",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Sketch Comedy",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Soap Opera",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Television Production Script",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Graphic Novel",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Dark Horse-style Graphic Novel",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Image Comics-style Graphic Novel",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "New York Film Academy-style Comic Book",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Plot Outline",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Comic Book Script",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Full-Script Comic Format",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Three-Act Structure",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Four-Act Structure",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Five-Act Pyramid",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Acts and Sequences",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Eight-Sequence Structure",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Save the Cat-style Beat Sheet",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "The Writer's Journey",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Dan Harmon Story Circle",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Michael Hauge Six-Stage Structure",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Andy Guerdat's Z Structure",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Donna Michelle Anderson 135 Story Structure",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Series Bible",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Immersive Storytelling Structure",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Director's Six Senses-style Planning",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Traditional Story Outline",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Beat Board for Outline",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Index Cards for Outline",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Script Outline",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Manuscript",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Novel",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Query Letter",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Blank Text Document",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Text Outline",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Treatment",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Synopsis",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Story Treatment",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Character Biography",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Series Bible",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Pitch Document",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   },
+   {
+    "template": "Scene Breakdown",
+    "newFdx": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  ]
+ },
+ "rows": [
+  {
+   "template": "Standard Feature Screenplay",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Screenplay for Beginners",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "BBC Screenplay",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Screenplay — Cole and Haag style",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Screenplay — Warner Brothers style",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "US Screenplay",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "US Screenplay — French",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "US Screenplay — German",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "US Screenplay — Spanish",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "US Screenplay — Chinese Simplified",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "US Screenplay — Chinese Traditional",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Short Film Screenplay",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Feature Film Screenplay",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Independent Film Screenplay",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Shooting Script",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Production Screenplay",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Stageplay",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Dramatists Guild Modern Stageplay",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Dramatists Guild Traditional Stageplay",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Dramatists Guild Musical",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Broadway Musical",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Podcast Script",
+   "kind": "screenplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Standard Stageplay",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Traditional Stageplay",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Modern Stageplay",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "One-Act Play",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Multi-Act Play",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Musical Theatre Script",
+   "kind": "stageplay",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "BBC Screenplay for TV",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "BBC Taped Sitcom",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "BBC Two-Camera Show",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Single-Camera Teleplay",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Multi-Camera Sitcom",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Half-Hour TV Comedy",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "One-Hour TV Drama",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Television Pilot",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Television Episode",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Streaming Series",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Anthology Series",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Limited Series",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Sketch Comedy",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Soap Opera",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Television Production Script",
+   "kind": "television",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": true
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Graphic Novel",
+   "kind": "comic",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Dark Horse-style Graphic Novel",
+   "kind": "comic",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Image Comics-style Graphic Novel",
+   "kind": "comic",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "New York Film Academy-style Comic Book",
+   "kind": "comic",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Plot Outline",
+   "kind": "comic",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Comic Book Script",
+   "kind": "comic",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Full-Script Comic Format",
+   "kind": "comic",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Three-Act Structure",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Four-Act Structure",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Five-Act Pyramid",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Acts and Sequences",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Eight-Sequence Structure",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Save the Cat-style Beat Sheet",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "The Writer's Journey",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Dan Harmon Story Circle",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Michael Hauge Six-Stage Structure",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Andy Guerdat's Z Structure",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Donna Michelle Anderson 135 Story Structure",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Series Bible",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Immersive Storytelling Structure",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Director's Six Senses-style Planning",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Traditional Story Outline",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Beat Board for Outline",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Index Cards for Outline",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Script Outline",
+   "kind": "structure",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Manuscript",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Novel",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Query Letter",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Blank Text Document",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Text Outline",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Treatment",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Synopsis",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Story Treatment",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Character Biography",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Series Bible",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Pitch Document",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  },
+  {
+   "template": "Scene Breakdown",
+   "kind": "prose",
+   "templateVersion": 2,
+   "formatValid": true,
+   "documentUnchangedOnOpen": true,
+   "fdxWithMetadata": {
+    "paragraphs": true,
+    "formatIdentical": true
+   },
+   "fdxWithoutMetadata": {
+    "paragraphs": true,
+    "layoutWithin001in": null
+   },
+   "newFdxOpensIn1153": {
+    "error": "The file has unsupported element or page settings. Correct the reference format before importing."
+   }
+  }
+ ]
+}

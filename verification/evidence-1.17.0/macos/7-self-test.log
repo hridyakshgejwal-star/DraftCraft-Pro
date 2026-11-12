@@ -1,0 +1,32 @@
+Tue Oct 27 20:19:50 IST 2026
+ProductName:		macOS
+ProductVersion:		27.0.1
+BuildVersion:		26A434
+arm64
+Apple M2
+memory bytes: 8589934592
+== power: 'AC Power'
+== attach
+attach exit=0
+== ditto app to /tmp/draftcraft-1.17.0-selftest/app
+ditto exit=0
+detach exit=0
+== copy signature
+codesign verify exit=0
+== launch (open -n) with DRAFTCRAFT_TEST_PROFILE=/tmp/draftcraft-1.17.0-selftest/profile and DRAFTCRAFT_SELF_TEST=/tmp/draftcraft-1.17.0-selftest/out/report.json
+open exit=0
+report finished after 75 s
+== still running?
+  no (quit by itself)
+== copy results next to this script
+-rwxr-xr-x@  1 <user>  staff       2922 27 Oct 20:18 7-self-test.command
+-rw-r--r--@  1 <user>  staff        577 27 Oct 20:21 7-self-test.log
+-rw-r--r--@  1 <user>  staff     204101 27 Oct 20:21 self-test-01-window.png
+-rw-r--r--@  1 <user>  staff     256384 27 Oct 20:21 self-test-02-full-screen.png
+-rw-r--r--@  1 <user>  staff     246120 27 Oct 20:21 self-test-03-getting-started.png
+-rw-r--r--@  1 <user>  staff      10097 27 Oct 20:21 self-test-report.json
+== stderr (last lines)
+sandbox_extension_issue_file failed for /private/tmp/draftcraft-1.17.0-selftest/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/Resources: 1 (Operation not permitted)
+== summary
+passed 13 failed []
+== DONE

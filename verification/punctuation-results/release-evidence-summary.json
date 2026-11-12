@@ -1,0 +1,36 @@
+{
+  "payload_sha256": "961b62d41f26e45da66c73babed9c6bd83a701202de163beab3de8c1f9950e88",
+  "observed_result": {
+    "suite": "punctuation",
+    "passed": true,
+    "seconds": 145.1,
+    "interaction_groups": 18,
+    "measurements": [
+      {
+        "returnP95BudgetMs": 819,
+        "budgetRule": "max(600ms, ceil(1.25 times same-document Off p95))",
+        "paragraphs": 2019,
+        "pages": 223,
+        "returnMs": {
+          "p50": 366,
+          "p95": 558
+        },
+        "offReturnMs": {
+          "p50": 326,
+          "p95": 655
+        },
+        "handlerOnMs": {
+          "p50": 240,
+          "p95": 442.3
+        },
+        "handlerOffMs": {
+          "p50": 174.7,
+          "p95": 444.3
+        },
+        "environment": "Linux Chromium; physical Mac and IME not tested"
+      }
+    ],
+    "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+  },
+  "note": "This summary retains completed execution output after maintenance; existing older JSON files in this source folder are historical checkpoint artifacts."
+}

@@ -1,0 +1,49 @@
+Sun Oct 18 10:20:34 IST 2026
+== DraftCraft processes before launch
+== attach
+attach exit=0
+== ditto app to /tmp/draftcraft-1.15.3-test/app
+ditto exit=0
+detach exit=0
+== copy signature
+codesign verify exit=0
+== app.asar sha256
+5c01e790604ce0a27a77288434aee1647f7812bd0d8eb6c3fefe8cb9d465ffee  /tmp/draftcraft-1.15.3-test/app/DraftCraft Pro.app/Contents/Resources/app.asar
+== launch via LaunchServices (open -n) with isolated profile /tmp/draftcraft-1.15.3-test/profile
+open exit=0
+== processes after launch
+2226 /private/tmp/draftcraft-1.15.3-test/app/DraftCraft Pro.app/Contents/MacOS/DraftCraft Pro
+2231 /private/tmp/draftcraft-1.15.3-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper --type=gpu-process --user-data-dir=/tmp/draftcraft-1.
+2232 /private/tmp/draftcraft-1.15.3-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper --type=utility --utility-sub-type=network.mojom.Netwo
+2233 /private/tmp/draftcraft-1.15.3-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (Renderer).app/Contents/MacOS/DraftCraft Pro Helper (Renderer) --type=renderer --user-data-dir
+== profile contents
+total 280
+drwxr-xr-x@ 26 <user>  wheel    832 18 Oct 10:20 .
+drwxr-xr-x@  4 <user>  wheel    128 18 Oct 10:20 ..
+drwx------@  3 <user>  wheel     96 18 Oct 10:20 blob_storage
+drwx------@  4 <user>  wheel    128 18 Oct 10:20 Cache
+drwx------@  5 <user>  wheel    160 18 Oct 10:20 Code Cache
+drwx------@  7 <user>  wheel    224 18 Oct 10:20 DawnGraphiteCache
+drwx------@  7 <user>  wheel    224 18 Oct 10:20 DawnWebGPUCache
+-rw-------@  1 <user>  wheel  32768 18 Oct 10:20 declarative_performance_observer.db
+-rw-------@  1 <user>  wheel      0 18 Oct 10:20 declarative_performance_observer.db-journal
+-rw-------@  1 <user>  wheel   4096 18 Oct 10:20 DIPS
+-rw-------@  1 <user>  wheel  45352 18 Oct 10:20 DIPS-wal
+drwx------@  7 <user>  wheel    224 18 Oct 10:20 GPUCache
+drwx------@  3 <user>  wheel     96 18 Oct 10:20 GPUPersistentCache
+drwx------@  9 <user>  wheel    288 18 Oct 10:20 GraphiteDawnCache
+-rw-------@  1 <user>  wheel     57 18 Oct 10:20 Local State
+drwx------@  3 <user>  wheel     96 18 Oct 10:20 Local Storage
+-rw-------@  1 <user>  wheel     59 18 Oct 10:20 Network Persistent State
+-rw-------@  1 <user>  wheel      4 18 Oct 10:20 open-document-windows.json
+-rw-------@  1 <user>  wheel     41 18 Oct 10:20 Preferences
+drwx------@  5 <user>  wheel    160 18 Oct 10:20 Shared Dictionary
+lrwxr-xr-x@  1 <user>  wheel     19 18 Oct 10:20 SingletonCookie -> 2033554088524420380
+lrwxr-xr-x@  1 <user>  wheel     30 18 Oct 10:20 SingletonLock -> <host>-2226
+lrwxr-xr-x@  1 <user>  wheel     81 18 Oct 10:20 SingletonSocket -> /var/folders/2k/r1c5spfs1z35p33vmy0rrdx80000gn/T/scoped_dirC8g6h9/SingletonSocket
+-rw-------@  1 <user>  wheel  36864 18 Oct 10:20 Trust Tokens
+-rw-------@  1 <user>  wheel      0 18 Oct 10:20 Trust Tokens-journal
+-rw-------@  1 <user>  wheel     95 18 Oct 10:20 unsaved-baselines.json
+== stderr so far
+sandbox_extension_issue_file failed for /private/tmp/draftcraft-1.15.3-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/Resources: 1 (Operation not permitted)
+== DONE

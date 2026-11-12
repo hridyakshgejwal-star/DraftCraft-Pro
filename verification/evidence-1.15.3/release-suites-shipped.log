@@ -1,0 +1,99 @@
+{"suite": "models", "passed": true, "seconds": 14.3, "interaction_groups": 0, "measurements": [], "tests": 229}
+{"suite": "story", "passed": true, "seconds": 42.1, "interaction_groups": 15, "measurements": [{"pages": 250, "paragraphs": 2123, "enabledTools": 4, "allPageArc": true, "typingMs": {"p50": 118, "p95": 202, "max": 300}, "renderedArcPoints": 24, "environment": "Linux Chromium; physical M2 not benchmarked"}]}
+{"suite": "editor", "passed": true, "seconds": 76.6, "interaction_groups": 14, "measurements": []}
+{"suite": "shortcuts", "passed": false, "seconds": 68.4, "interaction_groups": 13, "measurements": []}
+PASS recorded Control shortcut preserves text, focus, selection, undo and redo; reload persists
+PASS every screenplay element switches instantly without editing manuscript text
+PASS plain letters type normally, Shortcut Mode is one-shot, and Option can be held
+PASS conflicts require a choice, Replace clears prior assignment, protected commands stay unchanged
+PASS search, category filters, clearing, restoring, undo and cancellation are functional
+PASS Character, Parenthetical and Scene Heading enter rules plus selection splitting and configurable double Enter
+PASS all thirteen quick inserts format correctly and preserve current text; undo/redo retain focus
+PASS character autocomplete opens on formatting, accepts keys, project shortcuts follow rename and do not leak
+PASS command palette accepts letters outside text entry, keeps search editable, and Script Notes use history
+PASS profiles duplicate, rename, switch, export, import and restore after reload
+PASS Reset All requires explicit choice and can be undone; recorder and modal work at narrow height
+PASS custom keys are confined to the screenplay; Beat Board, Outline and Navigator text fields stay ordinary
+PASS IME and fast normal typing never trigger letter shortcuts; print omits settings and formatting controls
+FAIL 250-page screenplay responds to custom element shortcuts and preserves every fast-typed character custom shortcut p95 exceeded 250ms: 265.45948900000076
+AssertionError [ERR_ASSERTION]: custom shortcut p95 exceeded 250ms: 265.45948900000076
+    at /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/shortcuts-browser.cjs:104:250
+    at async check (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/shortcuts-browser.cjs:29:35)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/shortcuts-browser.cjs:96:2 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+{"suite": "words", "passed": true, "seconds": 45.9, "interaction_groups": 13, "measurements": [{"pages": 250, "firstWordClickMs": 499, "cachedWordClickMs": [345, 304, 299, 272, 300, 304, 253], "environment": "Linux Chromium 151; includes automation; physical M2 not benchmarked"}]}
+{"suite": "spelling", "passed": false, "seconds": 62.3, "interaction_groups": 13, "measurements": [{"pages": 10, "paragraphs": 83, "startupMs": 1384, "keyEventP50Ms": 17, "keyEventP95Ms": 35, "usedJSHeapBytes": 37025204}, {"pages": 50, "paragraphs": 423, "startupMs": 2025, "keyEventP50Ms": 30, "keyEventP95Ms": 63, "usedJSHeapBytes": 57574952}, {"pages": 120, "paragraphs": 1015, "startupMs": 2877, "keyEventP50Ms": 53, "keyEventP95Ms": 131, "usedJSHeapBytes": 39984104}]}
+in will be here soon. We should leave before the rain. '
+    },
+    { id: 'input-heading-21', text: 'INT. OFFICE - DAY' },
+    {
+      id: 'input-body-21',
+      text: 'He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. '
+    },
+    { id: 'input-character-21', text: 'ZAYVION' },
+    {
+      id: 'input-dialogue-21',
+      text: 'The train will be here soon. We should leave before the rain. The train will be here soon. We should leave before the rain. The train will be here soon. We should leave before the rain. The train will be here soon. We should leave before the rain. '
+    },
+    { id: 'input-heading-22', text: 'INT. OFFICE - DAY' },
+    {
+      id: 'input-body-22',
+      text: 'He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. '
+    },
+    ... 2210 more items
+  ],
+  workerLayers: 0
+}
+ERRORS []
+AssertionError [ERR_ASSERTION]: typing response exceeded 250 ms: 272.9876929999955
+    at /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/writing-browser.cjs:156:89
+    at async check (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/writing-browser.cjs:31:35)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/writing-browser.cjs:139:34
+
+{"suite": "smart-save", "passed": true, "seconds": 64.9, "interaction_groups": 10, "measurements": [{"paragraphs": 1999, "pages": 222, "typingMs": {"p50": 158, "p95": 204}, "fillP95BudgetMs": 600, "environment": "Linux Chromium, not a physical Mac benchmark"}]}
+{"suite": "caret", "passed": true, "seconds": 35.2, "interaction_groups": 12, "measurements": [{"pages": 222, "paragraphs": 1999, "typingMs": {"p50": 91, "p95": 157}, "environment": "Linux Chromium, no physical M2/120 Hz display test"}]}
+{"suite": "formats", "passed": true, "seconds": 42.5, "interaction_groups": 18, "measurements": [{"paragraphs": 1505, "pages": 167, "typingMs": {"p50": 74, "p95": 142}}]}
+{"suite": "punctuation", "passed": true, "seconds": 99.8, "interaction_groups": 18, "measurements": [{"returnP95BudgetMs": 2000, "budgetRule": "max(600ms, ceil(1.25 times same-document Off p95))", "paragraphs": 2019, "pages": 223, "returnMs": {"p50": 829, "p95": 1693}, "offReturnMs": {"p50": 970, "p95": 1600}, "handlerOnMs": {"p50": 769.6, "p95": 1555.9}, "handlerOffMs": {"p50": 893.6, "p95": 1495.1}, "environment": "Linux Chromium; physical Mac and IME not tested"}]}
+{"suite": "automatic-formatting", "passed": true, "seconds": 113.8, "interaction_groups": 25, "measurements": [{"paragraphs": 2000, "pages": 222, "characters": 120, "totalTypingMs": 13272, "keyHandlerP95Ms": 0.39999999990686774, "environment": "Linux Chromium; physical macOS input not exercised"}]}
+{"suite": "table-read", "passed": true, "seconds": 54.6, "interaction_groups": 18, "measurements": [{"paragraphs": 2000, "pages": 222, "openMs": 616, "typingTotalMs": 2597, "typedCharacters": 12, "environment": "Linux Chromium; macOS speech substituted with real Flite audio, not premium quality testing"}]}
+{"suite": "production", "passed": true, "seconds": 33.0, "interaction_groups": 14, "measurements": []}
+{"suite": "collaboration", "passed": true, "seconds": 5.2, "interaction_groups": 1, "measurements": []}
+{"suite": "interchange", "passed": true, "seconds": 4.3, "interaction_groups": 8, "measurements": []}
+{"suite": "repair", "passed": true, "seconds": 33.9, "interaction_groups": 11, "measurements": []}
+{"suite": "cross-paragraph", "passed": false, "seconds": 21.9, "interaction_groups": 1, "measurements": []}
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <textarea rows="1" id="input-d" autocorrect="off" spellcheck="false" data-fragment-end="12" data-fragment-start="0" placeholder="Dialogue..." data-editor-paragraph="d" class="w-full bg-transparent resize-none overflow-hidden focus:outline-none transition-colors border-none p-0 text-left pl-[18%] max-w-[65%] leading-relaxed ">Hello there.</textarea> from <div id="para-d" class="w-full relative transition-colors duration-150 ">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <textarea rows="1" id="input-d" autocorrect="off" spellcheck="false" data-fragment-end="12" data-fragment-start="0" placeholder="Dialogue..." data-editor-paragraph="d" class="w-full bg-transparent resize-none overflow-hidden focus:outline-none transition-colors border-none p-0 text-left pl-[18%] max-w-[65%] leading-relaxed ">Hello there.</textarea> from <div id="para-d" class="w-full relative transition-colors duration-150 ">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    15 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <textarea rows="1" id="input-d" autocorrect="off" spellcheck="false" data-fragment-end="12" data-fragment-start="0" placeholder="Dialogue..." data-editor-paragraph="d" class="w-full bg-transparent resize-none overflow-hidden focus:outline-none transition-colors border-none p-0 text-left pl-[18%] max-w-[65%] leading-relaxed ">Hello there.</textarea> from <div id="para-d" class="w-full relative transition-colors duration-150 ">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+FAIL D-08: take controls, scene numbers and the bookmark ribbon stay clear of text and of each other take bar covers no screenplay text at 1440px
+
+1 !== 0
+
+PASS no renderer errors during cross-element editing
+
+exit 1

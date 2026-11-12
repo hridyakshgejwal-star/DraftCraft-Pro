@@ -1,0 +1,14 @@
+PASS formatting geometry: 1024/1440/1920, 50/100/200%, Navigator open/closed
+PASS element changes preserve paragraph target, selection, undo and paper geometry
+PASS left-click Page 1 actions require confirmation and cancel preserves data
+PASS middle-page delete preserves neighbors, metadata, beats; repeated undo/redo
+PASS copy, paste and duplicate preserve measured text ranges and native metadata
+PASS clipboard failure cannot cut; external plain text pastes through Fountain parsing
+PASS last-page cut is undoable; only-page deletion leaves editable content
+PASS keyboard menu, selected text, Control-click, bounds and outside dismissal
+PASS card resizing on all axes at 40/100/200%, panning and grid on/off
+PASS resize preview skips saves; undo preserves edits and view changes; reload preserves final size
+PASS pointer cancel discards preview; input editing never drags the card
+PASS stale dialog refuses changed content until explicit refresh
+PASS connectors follow rendered dimensions and captured card dragging
+PASS print excludes formatting and page controls; no renderer exceptions

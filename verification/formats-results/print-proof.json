@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "editorPages": 4,
+  "pdfPages": 5,
+  "a4": true,
+  "lastParagraphRetained": true,
+  "environment": "Linux Chromium print renderer; macOS print dialog not exercised"
+}

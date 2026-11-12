@@ -1,0 +1,11 @@
+[package]
+name = "story-board"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+document-core.workspace = true
+serde.workspace = true
+uuid.workspace = true

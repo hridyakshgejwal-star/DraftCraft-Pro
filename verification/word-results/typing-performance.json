@@ -1,0 +1,37 @@
+{
+  "environment": "Chromium 151 headless shell on Linux; key timings include automation round trip",
+  "measurements": [
+    {
+      "pages": 10,
+      "paragraphs": 75,
+      "startupMs": 469,
+      "keyEventP50Ms": 11,
+      "keyEventP95Ms": 24,
+      "usedJSHeapBytes": 11366772
+    },
+    {
+      "pages": 50,
+      "paragraphs": 395,
+      "startupMs": 584,
+      "keyEventP50Ms": 19,
+      "keyEventP95Ms": 31,
+      "usedJSHeapBytes": 31638276
+    },
+    {
+      "pages": 120,
+      "paragraphs": 955,
+      "startupMs": 810,
+      "keyEventP50Ms": 37,
+      "keyEventP95Ms": 57,
+      "usedJSHeapBytes": 54031008
+    },
+    {
+      "pages": 250,
+      "paragraphs": 1995,
+      "startupMs": 1271,
+      "keyEventP50Ms": 75,
+      "keyEventP95Ms": 110,
+      "usedJSHeapBytes": 104658876
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "version": "1.7.0",
+  "filesVerified": 78,
+  "asarHeaderSha256": "f26985b1ab0d5167eb43acf39ff547a2a93463572e309d07421d60c351b23635",
+  "assets": [
+    "html2canvas-UenS4k82.js",
+    "index-B9A5wj8F.js",
+    "index-Do1OCZGj.css",
+    "index.es-CEdyrmwP.js",
+    "purify.es-Dn3VvdGh.js",
+    "spelling.worker-56wn3lYm.js",
+    "synonyms.worker-xKI6b-dN.js"
+  ],
+  "lexicon": {
+    "resource": "Princeton WordNet 3.1",
+    "package": "wordnet-db 3.1.14",
+    "single_word_lemmas": 77619,
+    "word_senses": 132689,
+    "sha256": {
+      "l.json": "a384b0c0c7c99545dc4beac58c14d22145c409cd0e25c7dd66e050afcc9c089d",
+      "b.json": "508133e5bcdf25ecd2d7eca780b006cfa4faae36c03fde7d2fe860dc8aea3ab4",
+      "m.json": "d4a99cb09806bcc1940fc83e57fe0da68a5ab0914ce995d2a905ad0726172834",
+      "o.json": "552eefd3317d8a65b0629ee15b4165f757a4ff2a25f531447577e2be80464534",
+      "k.json": "2f379b8b4956fb54ae2623efa55369ce8889e2a9f33eba345ff5d360af0fdd11",
+      "d.json": "09dd225e4713986a9a540b08922deaf13f46691bf54d7711eec28eb465c59ee3",
+      "a.json": "d0a55426d1189c3efc483f6a8b8d7788cbaab80cd6e35f8b458a21839af2d6b2",
+      "morphology.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "q.json": "6078a20232cbd5f15da0ef82c18c330083a9c44e17bb617bf34ad54ff1375703",
+      "z.json": "4392690b9dc21574be0a36df8f85f41c7a1f39475bc5f747415f65f3498b61e4",
+      "v.json": "48009810b46ef645f77ff5010456ff51056c0c0873bc750283157d582330b4a9",
+      "e.json": "32635bf1e8ccb1446d45c9a89919c5311e708d1b1428c3efb54fcd74d998c84e",
+      "f.json": "319883bdfcb0e223318ca9bc59698f392e087e3996618c18a7a41a92d0b122a3",
+      "c.json": "dc2c5c1fb1b66e4a7beee95c6a8e442f4522eef3976ed8af8073f0c06ca1833b",
+      "y.json": "21d61cdf95eb910e0d1a67a4442c3ad8eb16110b11c94edaa88a3375d5dbeac2",
+      "t.json": "66ec4ed16fa046a00aea6701283a422845e8a066d1118b8d3a9760fb75365094",
+      "j.json": "f39df130ce92274774eb5d4d904420e96da141152556a000f6c916e2726d0fcf",
+      "metadata.json": "5365370db4f8ee4a0e455ec491a4eb57885f4c997c5fd91482420d2a173adc51",
+      "u.json": "6e44cc91ba077b8add320fda0201f04bdbccce91bb0cb1abfc314db261696b47",
+      "x.json": "a9989af3302f444265aa315862b9fd44cd986160c69deccd09fe069090c9de32",
+      "n.json": "0d2a07d332e694b1df32c855eabae7fc630433e22fba917bda9823085c4b61fb",
+      "p.json": "e29e3720d0ee492160618f06706c9ab4a3e5a1d97885eb42c991890e42ddb6ff",
+      "i.json": "bf7e999c4b2237254d923581d16baa10db149c04f28397d7e9218f13b3d24bc8",
+      "g.json": "faae39a3288471e9410dbe08caa017711d34f182add44026419b16ada108cc3a",
+      "s.json": "4ad177ca4b4ed36a70ea1ae0fcab554b0c371627a39bd4fce07e1b931e869741",
+      "h.json": "16344a1ef2e2b454bb9359c513a83abbc48749d9f11ec1ccc8de14549b83d60f",
+      "w.json": "862d46fc7be8f0b453f7d3edf1e5b92e56e02d0b1fc0b52762d9819b061d3199",
+      "r.json": "3c440d7d459aab50062557ec0809cf063dcd726e1cf281741809bc106103e5a9"
+    }
+  }
+}

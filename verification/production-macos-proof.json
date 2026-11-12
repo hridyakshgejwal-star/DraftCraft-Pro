@@ -1,0 +1,12 @@
+{
+  "mach_o_files": 13,
+  "code_page_hashes": 54394,
+  "special_slot_hashes": 31,
+  "resource_hashes": 481,
+  "nested_code_seals": 9,
+  "symlinks": 14,
+  "resource_seals": 9,
+  "unchanged_native_sections": 249,
+  "errors": [],
+  "passed": true
+}

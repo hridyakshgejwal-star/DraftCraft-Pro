@@ -1,0 +1,9 @@
+[15:45:53] commit 255d5a43429f42cb7dc1c46a24d0a5b0c203bba8
+[15:45:56] staged and packed: {"headerSha256":"bf70aa28dee3252c5b2cf7795b616856ff61025235daf24cfd73f3c747a1034b","files":93,"bytes":31415143}
+[15:57:56] release suites: exit 1
+[16:00:03] lifecycle: exit 0
+[16:00:11] pdf parity: exit 0
+[16:01:32] pdf geometry: exit 1
+[16:03:02] format geometry: 75 OK, 0 with issues
+[16:03:03] fdx real files: 7 imported
+ALLDONE

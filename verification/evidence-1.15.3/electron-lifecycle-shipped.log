@@ -1,0 +1,81 @@
+FAIL close unmodified window (red button / Cmd+W) with another window open main-process exceptions
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+FAIL modified new document: Cancel keeps window, Don't Save closes main-process exceptions
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+FAIL modified new document: Save writes a real project file and remembers it Expected values to be strictly deep-equal:
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)',
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)","uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+FAIL Quit (Cmd+Q) with two modified windows prompts once per window and can be canceled main-process exceptions
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)',
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)","uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+PASS close requested twice quickly shows a single dialog
+FAIL closing while an autosave is in flight keeps the latest text main-process exceptions
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+FAIL renderer crash: Reload Editor restores the latest received text timeout waiting for crash dialog false []
+FAIL renderer crash: Close Window keeps a recovery copy and closes timeout waiting for window closes after crash false []
+FAIL relaunch after a crash offers the recovery copy and Restore brings the text back timeout waiting for closed after crash false []
+FAIL close with an unavailable save folder offers Save As and loses nothing main-process exceptions
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+FAIL hung editor: close watchdog offers Close Window and keeps a recovery copy timeout waiting for watchdog close false []
+FAIL Dock activate after the last window closed opens a new editor window (macOS app-stays-open branch) timeout waiting for a new window after activate false ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+{"total":12,"failed":11}

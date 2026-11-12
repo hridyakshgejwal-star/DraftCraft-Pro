@@ -1,0 +1,6 @@
+build-final/app run1 TIMES {"p50":71,"p95":106,"max":170}
+original-asar run1 TIMES {"p50":120,"p95":260,"max":323}
+build-final/app run2 TIMES {"p50":70,"p95":92,"max":183}
+original-asar run2 TIMES {"p50":128,"p95":237,"max":261}
+build-final/app run3 TIMES {"p50":66,"p95":96,"max":152}
+original-asar run3 TIMES {"p50":126,"p95":244,"max":321}

@@ -1,0 +1,75 @@
+{
+  "mach_o_files": 13,
+  "sections_checked": 249,
+  "all_sections_unchanged": true,
+  "asar_unchanged": true,
+  "asar_integrity_header_matches": true,
+  "info_plist_and_icon_unchanged": true,
+  "files": [
+    {
+      "file": "Contents/MacOS/DraftCraft Pro",
+      "unchanged_sections": 4,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+      "unchanged_sections": 34,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib",
+      "unchanged_sections": 10,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib",
+      "unchanged_sections": 19,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/chrome_crashpad_handler",
+      "unchanged_sections": 28,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/DraftCraft Pro Helper (Plugin).app/Contents/MacOS/DraftCraft Pro Helper (Plugin)",
+      "unchanged_sections": 15,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
+      "unchanged_sections": 23,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
+      "unchanged_sections": 23,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/DraftCraft Pro Helper (Renderer).app/Contents/MacOS/DraftCraft Pro Helper (Renderer)",
+      "unchanged_sections": 15,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/DraftCraft Pro Helper (GPU).app/Contents/MacOS/DraftCraft Pro Helper (GPU)",
+      "unchanged_sections": 15,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC",
+      "unchanged_sections": 24,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/Mantle.framework/Versions/A/Mantle",
+      "unchanged_sections": 24,
+      "instruction_sections_match": true
+    },
+    {
+      "file": "Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper",
+      "unchanged_sections": 15,
+      "instruction_sections_match": true
+    }
+  ]
+}

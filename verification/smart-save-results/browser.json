@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "renderer": "/home/claude/draftcraft/release-1.17.0/stage/app/dist",
+  "backend": "/home/claude/draftcraft/release-1.17.0/stage/app",
+  "native_panels": "injected choices, not native Mac UI",
+  "results": [
+    {
+      "name": "empty New closes silently; first save and later autosaves use a real file",
+      "passed": true
+    },
+    {
+      "name": "Save As preserves the original and persists its destination through restart",
+      "passed": true
+    },
+    {
+      "name": "Save and close cancellation preserve edits; Don’t Save removes the active unsaved profile",
+      "passed": true
+    },
+    {
+      "name": "Files & Autosave settings persist, auto-off protects the primary, failures remain visible",
+      "passed": true
+    },
+    {
+      "name": "recovery Review and Restore keep story data and preserve a newer primary as a separate copy",
+      "passed": true
+    },
+    {
+      "name": "close finalizes heading blur and cache quota cannot revoke a durable native save",
+      "passed": true
+    },
+    {
+      "name": "repeated close while composing waits for final text and shares one Save decision",
+      "passed": true
+    },
+    {
+      "name": "File Manager Save As awaits disk and cancel preserves primary; Revert reads disk with recovery",
+      "passed": true
+    },
+    {
+      "name": "continuous typing has a bounded save interval and blur flushes the newest revision",
+      "passed": true
+    },
+    {
+      "name": "Help › Idea to Draft opens the tutorial as a new project after resolving the current one (1.17 item 16)",
+      "passed": true
+    },
+    {
+      "name": "a long screenplay saves full hidden planning data while typing remains responsive",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+import {validateFormat} from '/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/wt-1153/src/formats/model';
+import {FORMAT_TEMPLATES} from '/home/claude/draftcraft/work/src/formats/catalog';
+let ok=0;const bad:string[]=[];
+for(const t of FORMAT_TEMPLATES){try{validateFormat(JSON.parse(JSON.stringify(t.format)));ok++;}catch(e){bad.push(t.name+': '+(e as Error).message);}}
+console.log(JSON.stringify({checkedWith:'1.15.3 validateFormat',templates:FORMAT_TEMPLATES.length,accepted:ok,rejected:bad}));

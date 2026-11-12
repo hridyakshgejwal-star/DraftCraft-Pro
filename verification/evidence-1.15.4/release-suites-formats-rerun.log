@@ -1,0 +1,3 @@
+{"suite": "formats", "passed": true, "seconds": 36.1, "interaction_groups": 18, "measurements": [{"paragraphs": 1505, "pages": 167, "typingMs": {"p50": 27, "p95": 58}}]}
+All release test suites passed.
+exit 0

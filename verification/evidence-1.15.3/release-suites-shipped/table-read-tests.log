@@ -1,0 +1,19 @@
+PASS Table Read opens from existing menus with no automatic speech and a consistent detected cast
+PASS real generated speech starts only with Play and highlights the actual current dialogue
+PASS Pause Resume Stop speed and volume operate on the real audio element
+PASS dialogue and scene navigation reach matching lines without stale highlighting
+PASS selected dialogue scene and cursor scopes use real editor positions
+PASS script edits retain the playback snapshot then Update Reading regenerates only changed content
+PASS voice assignments survive a complete character rename and native save reopen
+PASS narrator preferences include appropriate semantic elements while preserving screenplay text
+PASS premium casting and emotional controls are backed by consented provider requests
+PASS manual line performance and pronunciation changes remain separate from written dialogue
+PASS provider failure is actionable and switching to supported offline voices does not auto play
+PASS Cancel prevents stale generation from starting delayed audio
+PASS complete audio export writes verified WAV with ordered character and scene cue metadata
+PASS per-scene export and native MP3 M4A encoders produce real playable recordings
+PASS word timings paint a visual overlay without changing selection or saved formatting
+PASS click-to-read is explicitly armed and ordinary editing selection remains available
+PASS disable settings persist after reopening and all floating controls keep the editor visible
+TABLE READ PERFORMANCE {"paragraphs":2000,"pages":222,"openMs":616,"typingTotalMs":2597,"typedCharacters":12,"environment":"Linux Chromium; macOS speech substituted with real Flite audio, not premium quality testing"}
+PASS long scripts keep typing, native autosave, cast analysis and read highlighting responsive

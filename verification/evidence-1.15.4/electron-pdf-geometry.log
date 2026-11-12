@@ -1,0 +1,26 @@
+Warning: Cannot load "@napi-rs/canvas" package: "Error: Cannot find module '@napi-rs/canvas'
+Require stack:
+- /home/claude/draftcraft/vendor/node_modules/pdfjs-dist/legacy/build/pdf.mjs".
+Warning: Cannot polyfill `DOMMatrix`, rendering may be broken.
+Warning: Cannot polyfill `Path2D`, rendering may be broken.
+OK   Standard Feature Screenplay [[612,792]]
+OK   A4 Screenplay [[594.95996,841.91998]]
+OK   BBC Screenplay [[594.95996,841.91998]]
+OK   Shooting Script [[612,792]]
+OK   Animation Screenplay [[612,792]]
+OK   Documentary Script [[612,792]]
+OK   Radio Drama [[612,792]]
+DIFF Multi-Camera Sitcom [[612,792]]
+      {"type":"Dialogue","align":"left","found":true,"pdfLeft":180,"pdfRight":431.8,"page":2,"y":171,"expectLeft":180,"expectRight":432,"editorLeft":180,"editorRightMargin":180,"dx":0,"gapPt":6,"expectGapPt":0,"dy":6}
+      {"type":"Shot","align":"left","found":true,"pdfLeft":108,"pdfRight":223.1,"page":2,"y":261,"expectLeft":108,"expectRight":540,"editorLeft":108,"editorRightMargin":72,"dx":0,"gapPt":18,"expectGapPt":24,"dy":-6}
+      {"type":"Dialogue","align":"left","found":true,"pdfLeft":180,"pdfRight":410.2,"page":2,"y":339,"expectLeft":180,"expectRight":432,"editorLeft":180,"editorRightMargin":180,"dx":0,"gapPt":6,"expectGapPt":0,"dy":6}
+      {"type":"Transition","align":"right","found":true,"pdfLeft":468,"pdfRight":540,"page":2,"y":417,"expectLeft":108,"expectRight":540,"editorLeft":108,"editorRightMargin":72,"dx":0,"gapPt":6,"expectGapPt":12,"dy":-6}
+      {"type":"Dialogue","align":"left","found":true,"pdfLeft":180,"pdfRight":410.2,"page":3,"y":147,"expectLeft":180,"expectRight":432,"editorLeft":180,"editorRightMargin":180,"dx":0,"gapPt":6,"expectGapPt":0,"dy":6}
+      {"type":"Character","align":"left","found":true,"pdfLeft":266.4,"pdfRight":316.8,"page":3,"y":225,"expectLeft":266.4,"expectRight":511.2,"editorLeft":266.4,"editorRightMargin":100.8,"dx":0,"gapPt":6,"expectGapPt":12,"dy":-6}
+      {"type":"Dialogue","align":"left","found":true,"pdfLeft":180,"pdfRight":410.2,"page":3,"y":243,"expectLeft":180,"expectRight":432,"editorLeft":180,"editorRightMargin":180,"dx":0,"gapPt":6,"expectGapPt":0,"dy":6}
+      {"type":"End of Act","align":"center","found":true,"pdfLeft":277.2,"pdfRight":370.8,"page":3,"y":321,"expectLeft":108,"expectRight":540,"editorLeft":108,"editorRightMargin":72,"dx":0,"gapPt":6,"expectGapPt":12,"dy":-6}
+OK   One-Hour TV Drama [[612,792]]
+OK   Stageplay [[612,792]]
+OK   Graphic Novel [[612,792]]
+OK   Podcast Script [[612,792]]
+exit 1

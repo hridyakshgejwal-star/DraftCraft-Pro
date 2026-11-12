@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "files": 91,
+  "asarHeaderSha256": "042ee5dc90975f901bf7c6124e098bc0ca6940a8993b33f981dd6411eb5ef58c",
+  "version": "1.15.0",
+  "exact_stage_and_backend_bytes": true
+}

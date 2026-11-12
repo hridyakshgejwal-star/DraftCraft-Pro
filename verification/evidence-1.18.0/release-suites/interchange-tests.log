@@ -1,0 +1,15 @@
+NOTE vite unavailable; using build-offline/dev-server.mjs (same offline dependency map as the release build)
+PASS unmodified external FDX dual dialogue and Fountain survive semantic round trips
+PASS emoji (1.17 item 1) survive FDX and Fountain export and re-import: ZWJ families, flags, skin tones, keycaps, title page
+PASS external simple, parenthetical and extended-character FDX retain all direct text
+PASS unknown FDX sections and paragraph attributes are preserved with explicit warnings
+PASS RTF nested emphasis, Unicode, escaped punctuation and colors remain rich text
+PASS external text PDF extracts real text and warns about reconstruction limits
+PASS shared measured print geometry splits a long speech with identical PDF page boundaries
+PASS Fountain emphasis and RTF colors/strikeout survive import-edit-export without raw marker text
+PASS real PDF character sides preserve source labels and selected speech without unrelated scene text
+Warning: Cannot load "@napi-rs/canvas" package: "Error: Cannot find module '@napi-rs/canvas'
+Require stack:
+- /home/claude/draftcraft/vendor/node_modules/pdfjs-dist/legacy/build/pdf.mjs".
+Warning: Cannot polyfill `DOMMatrix`, rendering may be broken.
+Warning: Cannot polyfill `Path2D`, rendering may be broken.

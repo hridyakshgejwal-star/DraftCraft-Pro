@@ -1,0 +1,19 @@
+PASS A: scene heading recognition formats lowercase input and Return creates Action
+PASS B/C: Tab creates Character; Return creates Dialogue; Tab inserts matching parenthetical
+PASS D: SmartType remembers SARAH and accepts a partial cue without damaging text
+PASS manual element choices and dialogue/prose are protected from inference
+PASS E: twenty scenes convert globally with metadata, a checkpoint, and atomic Undo/Redo
+PASS F: multi-camera formatting changes dialogue line spacing and act/scene page rules
+PASS G: comic page/panel Return transitions and captions use flush-left styles
+PASS structure presets append Beat Board and Outline data without converting the screenplay
+PASS element edits update every matching paragraph, preserve text and survive reopening
+PASS H: reusable custom formats export/import with their style rules and blank-content option
+PASS SmartType settings and scene intro/time entries persist as document data
+PASS J: representative FDX imports all direct Text runs and excludes title/note paragraphs
+PASS prose templates retain literal Tab and prevent screenplay indentation/inference
+PASS known names are offered while typing Action, then confirmed on Return
+PASS manual inference mode persists and keeps normal prose in its selected element
+PASS Fountain, plain text and RTF import preserve representative document content
+PASS A4 HTML printing retains all text and matches editor page chunks
+FORMAT PERFORMANCE {"paragraphs":1505,"pages":167,"typingMs":{"p50":53,"p95":63}}
+PASS I: long template-aware scripts retain keystrokes and the single smooth caret layer

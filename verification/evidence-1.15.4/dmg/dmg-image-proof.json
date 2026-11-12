@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "dmg_bytes": 173040436,
+  "dmg_sha256": "f19ac7a78c64e34663636a85c13900e54336fbfd78bdaf89dee335dbd50313a3",
+  "udif_runs": 2561,
+  "decoded_bytes": 671088640,
+  "crc_checks": [
+    "compressed data",
+    "HFS",
+    "master"
+  ],
+  "regular_files": 725,
+  "symlinks": 14,
+  "stored_catalog_modes": 1110,
+  "installer_app_entries": 271,
+  "app_version": "1.15.4",
+  "macos_minimum": "13.0",
+  "native_mac_mount_tested": false
+}

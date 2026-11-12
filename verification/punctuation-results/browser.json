@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "renderer": "/home/claude/draftcraft/release-1.17.0/stage/app/dist",
+  "backend": "/home/claude/draftcraft/release-1.17.0/stage/app",
+  "physical_mac_tested": false,
+  "results": [
+    {
+      "name": "default On migrates an old profile and both Settings entry points open working controls",
+      "passed": true
+    },
+    {
+      "name": "core statement, direct question, indirect question and ordinary command examples punctuate on Return",
+      "passed": true
+    },
+    {
+      "name": "dialogue distinguishes conversational questions, embedded questions and emotional statements",
+      "passed": true
+    },
+    {
+      "name": "exclamation requires an urgent warning; shouting alone and ordinary commands stay neutral",
+      "passed": true
+    },
+    {
+      "name": "incomplete phrases and existing endings retain exact punctuation across repeated Return",
+      "passed": true
+    },
+    {
+      "name": "headings, cues, parentheticals, transitions, shots and structural elements remain protected",
+      "passed": true
+    },
+    {
+      "name": "punctuation plus Return is one undoable edit with correct Redo, caret, styles and unrelated metadata",
+      "passed": true
+    },
+    {
+      "name": "manually removed endings are not repeatedly restored and the omission survives reload",
+      "passed": true
+    },
+    {
+      "name": "Undo followed by another Return respects the writer’s rejection of that automatic ending",
+      "passed": true
+    },
+    {
+      "name": "selection, mid-sentence split, Shift Return and composition preserve normal editing",
+      "passed": true
+    },
+    {
+      "name": "optional two-space boundary insertion is functional, undoable and disabled by the master switch",
+      "passed": true
+    },
+    {
+      "name": "all advanced controls persist and immediately gate full stops, questions, exclamations and Return",
+      "passed": true
+    },
+    {
+      "name": "master Off leaves every core example exactly typed while normal screenplay transitions continue",
+      "passed": true
+    },
+    {
+      "name": "native project save and reopen retain punctuation, deliberate omissions and the selected format",
+      "passed": true
+    },
+    {
+      "name": "SmartType accepts before Return punctuation and spelling replacements share the existing history",
+      "passed": true
+    },
+    {
+      "name": "template styles and Manual inference mode remain independent of punctuation",
+      "passed": true
+    },
+    {
+      "name": "rapid Return and typing preserve character order, paragraph identities and one smooth caret",
+      "passed": true
+    },
+    {
+      "name": "large screenplays analyze only active sentences and retain responsive Return, caret and autosave",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "renderer": "/home/claude/draftcraft/build-1154-final/app/dist",
+  "results": [
+    {
+      "name": "standard US template: margins 1.5/1/1/1, Character 3.7\", Dialogue 2.5\"–6.0\", Parenthetical 3.1\"–5.6\", Transition flush right",
+      "passed": true
+    },
+    {
+      "name": "keyboard-only scene: heading, action, character, parenthetical, dialogue and transition",
+      "passed": true
+    },
+    {
+      "name": "scene-heading prefixes INT., EXT., INT./EXT., INT/EXT., EXT./INT., EXT/INT. and I/E. are recognized; prose is not",
+      "passed": true
+    },
+    {
+      "name": "transitions get the template ending; FADE OUT./FADE TO BLACK. keep their period; no duplicate punctuation",
+      "passed": true
+    },
+    {
+      "name": "shot directions are offered as Shot, never as a character cue; ordinary action is not",
+      "passed": true
+    },
+    {
+      "name": "a Final Draft-style FDX opens with its page layout, element positions and spacing",
+      "passed": true
+    },
+    {
+      "name": "FDX export uses Final Draft units and conventions and reopens with the same layout",
+      "passed": true
+    },
+    {
+      "name": "switching the template changes the auto-formatting rules immediately and Undo restores the format",
+      "passed": true
+    },
+    {
+      "name": "multilingual text: Hindi and other Unicode script is not capitalized or reclassified",
+      "passed": true
+    },
+    {
+      "name": "Auto Formatting settings: every control exists, defaults on, persists, and changes behaviour",
+      "passed": true
+    },
+    {
+      "name": "radio drama: SFX and MUSIC cues, speakers at the margin, speeches indented, numbered scenes",
+      "passed": true
+    },
+    {
+      "name": "documentary and commercial templates recognize captions; feature screenplays do not",
+      "passed": true
+    },
+    {
+      "name": "an element whose type changes while writing keeps the template indents: text at 3.7\" / 3.1\" / 2.5\", full width, no hidden lines",
+      "passed": true
+    }
+  ]
+}

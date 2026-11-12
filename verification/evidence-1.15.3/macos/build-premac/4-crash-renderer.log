@@ -1,0 +1,12 @@
+Sat Oct 17 22:38:12 IST 2026
+  PID COMMAND
+ 1792 /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (Renderer).app/Contents/MacOS
+killed renderer pid 1792 (exit=0)
+== recovery copies
+total 0
+drwxr-xr-x@  2 <user>  staff   64 17 Oct 22:37 .
+drwxr-xr-x  30 <user>  staff  960 17 Oct 22:22 ..
+== stderr tail
+sandbox_extension_issue_file failed for /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/Resources: 1 (Operation not permitted)
+[1696:1017/222248.440250:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+== DONE

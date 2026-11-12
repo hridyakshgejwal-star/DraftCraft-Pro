@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "installer_shell_syntax": "pass",
+  "installer_manifest_pins": "pass",
+  "regular_app_files_verified": 266,
+  "symlink_paths_and_targets": 14,
+  "zip_crc": "pass",
+  "platform": "macOS arm64",
+  "minimum_macos": "13.0",
+  "native_macos_launch_tested": false
+}

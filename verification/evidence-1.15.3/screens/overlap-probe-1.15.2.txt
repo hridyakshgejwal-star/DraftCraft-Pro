@@ -1,0 +1,1 @@
+default {"pages":3,"overlaps":["h0->a0 by 89px","h0->c0 by 9px","a0->c0 by 19px","a0->p0 by 3px","c0->p0 by 8px","p0->d0 by 8px","c20->d20 by 32px","c1->p1 by 8px","p1->d1 by 8px","c21->d21 by 32px","c2->p2 by 8px","p2->d2 by 8px","c22->d22 by 32px","c3->p3 by 8px","p3->d3 by 8px","c4->p4 by 8px","p4->d4 by 8px","c24->d24 by 32px","c5->p5 by 8px","p5->d5 by 8px"]} 

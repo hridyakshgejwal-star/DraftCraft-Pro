@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "renderer": "/home/claude/draftcraft/release-1.17.0/stage/app/dist",
+  "backend": "/home/claude/draftcraft/release-1.17.0/stage/app",
+  "live_cloud_tested": false,
+  "physical_mac_tested": false,
+  "voice_fixture": "Public Flite speech through the real PCM worker and HTMLAudioElement; native dialogs and engine endpoints substituted",
+  "results": [
+    {
+      "name": "Table Read opens from existing menus with no automatic speech and a consistent detected cast",
+      "passed": true
+    },
+    {
+      "name": "real generated speech starts only with Play and highlights the actual current dialogue",
+      "passed": true
+    },
+    {
+      "name": "Pause Resume Stop speed and volume operate on the real audio element",
+      "passed": true
+    },
+    {
+      "name": "dialogue and scene navigation reach matching lines without stale highlighting",
+      "passed": true
+    },
+    {
+      "name": "selected dialogue scene and cursor scopes use real editor positions",
+      "passed": true
+    },
+    {
+      "name": "script edits retain the playback snapshot then Update Reading regenerates only changed content",
+      "passed": true
+    },
+    {
+      "name": "voice assignments survive a complete character rename and native save reopen",
+      "passed": true
+    },
+    {
+      "name": "narrator preferences include appropriate semantic elements while preserving screenplay text",
+      "passed": true
+    },
+    {
+      "name": "premium casting and emotional controls are backed by consented provider requests",
+      "passed": true
+    },
+    {
+      "name": "manual line performance and pronunciation changes remain separate from written dialogue",
+      "passed": true
+    },
+    {
+      "name": "provider failure is actionable and switching to supported offline voices does not auto play",
+      "passed": true
+    },
+    {
+      "name": "Cancel prevents stale generation from starting delayed audio",
+      "passed": true
+    },
+    {
+      "name": "complete audio export writes verified WAV with ordered character and scene cue metadata",
+      "passed": true
+    },
+    {
+      "name": "per-scene export and native MP3 M4A encoders produce real playable recordings",
+      "passed": true
+    },
+    {
+      "name": "word timings paint a visual overlay without changing selection or saved formatting",
+      "passed": true
+    },
+    {
+      "name": "click-to-read is explicitly armed and ordinary editing selection remains available",
+      "passed": true
+    },
+    {
+      "name": "disable settings persist after reopening and all floating controls keep the editor visible",
+      "passed": true
+    },
+    {
+      "name": "long scripts keep typing, native autosave, cast analysis and read highlighting responsive",
+      "passed": true
+    }
+  ]
+}

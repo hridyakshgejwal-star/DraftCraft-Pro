@@ -1,0 +1,147 @@
+{"suite": "models", "passed": true, "seconds": 17.5, "interaction_groups": 0, "measurements": [], "tests": 210}
+{"suite": "story", "passed": false, "seconds": 51.5, "interaction_groups": 14, "measurements": [{"pages": 250, "paragraphs": 2123, "enabledTools": 4, "allPageArc": true, "typingMs": {"p50": 177, "p95": 349, "max": 720}, "renderedArcPoints": 24, "environment": "Linux Chromium; physical M2 not benchmarked"}]}
+PASS all story tools default off; independent enabling preserves screenplay positions, pagination and data
+PASS Story Map scene blocks navigate directly; Hide and Disable preserve stored data
+PASS arc is a labeled template, supports keyboard movement, scene links, labels, intensity and persistence
+PASS act breaks coexist with Page Actions and remain anchored when screenplay pages reflow
+PASS all-page visuals can be removed from one page independently, then restored without altering text
+PASS story sections, sequences and beats share data with Beat Board; labels, scene links, descriptions and notes persist
+PASS beat duplication, unlinked ordering, sequence collapse and confirmed deletion never reorder screenplay scenes
+PASS typing capitalizes new Action and Dialogue sentences, preserves abbreviations, ellipses and native screenplay uppercase
+PASS capitalization is one reversible assisted edit; manual lowercase overrides persist while editing
+PASS caret follows wrapping, arrow keys, selection and zoom without duplicate carets; Reduce Motion uses native caret
+PASS cursor and typing preferences persist independently; capitalization can be disabled
+PASS standard print omits story visuals and separate annotated export includes chosen structure and escaped screenplay
+PASS renderer save and close commands send the newest whole project, including story data
+PASS Navigator scene actions retain fresh prose after cached rows, reorder correctly and refresh labels and characters
+PERFORMANCE {"pages":250,"paragraphs":2123,"enabledTools":4,"allPageArc":true,"typingMs":{"p50":177,"p95":349,"max":720},"renderedArcPoints":24,"environment":"Linux Chromium; physical M2 not benchmarked"}
+AssertionError [ERR_ASSERTION]: false == true
+    at /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/story-browser.cjs:28:1740
+    at async check (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/story-browser.cjs:10:35)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/story-browser.cjs:28:2 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+{"suite": "editor", "passed": true, "seconds": 68.2, "interaction_groups": 14, "measurements": []}
+{"suite": "shortcuts", "passed": false, "seconds": 67.1, "interaction_groups": 13, "measurements": []}
+PASS recorded Control shortcut preserves text, focus, selection, undo and redo; reload persists
+PASS every screenplay element switches instantly without editing manuscript text
+PASS plain letters type normally, Shortcut Mode is one-shot, and Option can be held
+PASS conflicts require a choice, Replace clears prior assignment, protected commands stay unchanged
+PASS search, category filters, clearing, restoring, undo and cancellation are functional
+PASS Character, Parenthetical and Scene Heading enter rules plus selection splitting and configurable double Enter
+PASS all thirteen quick inserts format correctly and preserve current text; undo/redo retain focus
+PASS character autocomplete opens on formatting, accepts keys, project shortcuts follow rename and do not leak
+PASS command palette accepts letters outside text entry, keeps search editable, and Script Notes use history
+PASS profiles duplicate, rename, switch, export, import and restore after reload
+PASS Reset All requires explicit choice and can be undone; recorder and modal work at narrow height
+PASS custom keys are confined to the screenplay; Beat Board, Outline and Navigator text fields stay ordinary
+PASS IME and fast normal typing never trigger letter shortcuts; print omits settings and formatting controls
+FAIL 250-page screenplay responds to custom element shortcuts and preserves every fast-typed character custom shortcut p95 exceeded 250ms: 251.30290700000478
+AssertionError [ERR_ASSERTION]: custom shortcut p95 exceeded 250ms: 251.30290700000478
+    at /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/shortcuts-browser.cjs:104:250
+    at async check (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/shortcuts-browser.cjs:29:35)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/shortcuts-browser.cjs:96:2 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+{"suite": "words", "passed": true, "seconds": 48.1, "interaction_groups": 13, "measurements": [{"pages": 250, "firstWordClickMs": 681, "cachedWordClickMs": [424, 320, 393, 383, 465, 380, 356], "environment": "Linux Chromium 151; includes automation; physical M2 not benchmarked"}]}
+{"suite": "spelling", "passed": false, "seconds": 71.7, "interaction_groups": 13, "measurements": [{"pages": 10, "paragraphs": 79, "startupMs": 1229, "keyEventP50Ms": 22, "keyEventP95Ms": 40, "usedJSHeapBytes": 51115660}, {"pages": 50, "paragraphs": 419, "startupMs": 2161, "keyEventP50Ms": 44, "keyEventP95Ms": 79, "usedJSHeapBytes": 96219236}, {"pages": 120, "paragraphs": 1015, "startupMs": 3678, "keyEventP50Ms": 78, "keyEventP95Ms": 161, "usedJSHeapBytes": 145300332}]}
+n will be here soon. We should leave before the rain. '
+    },
+    { id: 'input-heading-21', text: 'INT. OFFICE - DAY' },
+    {
+      id: 'input-body-21',
+      text: 'He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. '
+    },
+    { id: 'input-character-21', text: 'ZAYVION' },
+    {
+      id: 'input-dialogue-21',
+      text: 'The train will be here soon. We should leave before the rain. The train will be here soon. We should leave before the rain. The train will be here soon. We should leave before the rain. The train will be here soon. We should leave before the rain. '
+    },
+    { id: 'input-heading-22', text: 'INT. OFFICE - DAY' },
+    {
+      id: 'input-body-22',
+      text: 'He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. He watched the window and waited for the next train. '
+    },
+    ... 2206 more items
+  ],
+  workerLayers: 0
+}
+ERRORS []
+AssertionError [ERR_ASSERTION]: typing response exceeded 250 ms: 291.96778799999447
+    at /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/writing-browser.cjs:156:89
+    at async check (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/writing-browser.cjs:31:35)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/writing-browser.cjs:139:34
+
+{"suite": "smart-save", "passed": true, "seconds": 65.6, "interaction_groups": 10, "measurements": [{"paragraphs": 1999, "pages": 222, "typingMs": {"p50": 168, "p95": 344}, "fillP95BudgetMs": 600, "environment": "Linux Chromium, not a physical Mac benchmark"}]}
+{"suite": "caret", "passed": true, "seconds": 36.2, "interaction_groups": 12, "measurements": [{"pages": 222, "paragraphs": 1999, "typingMs": {"p50": 118, "p95": 215}, "environment": "Linux Chromium, no physical M2/120 Hz display test"}]}
+{"suite": "formats", "passed": false, "seconds": 35.6, "interaction_groups": 17, "measurements": []}
+PASS A: scene heading recognition formats lowercase input and Return creates Action
+PASS B/C: Tab creates Character; Return creates Dialogue; Tab inserts matching parenthetical
+PASS D: SmartType remembers SARAH and accepts a partial cue without damaging text
+PASS manual element choices and dialogue/prose are protected from inference
+PASS E: twenty scenes convert globally with metadata, a checkpoint, and atomic Undo/Redo
+PASS F: multi-camera formatting changes dialogue line spacing and act/scene page rules
+PASS G: comic page/panel Return transitions and captions use flush-left styles
+PASS structure presets append Beat Board and Outline data without converting the screenplay
+PASS element edits update every matching paragraph, preserve text and survive reopening
+PASS H: reusable custom formats export/import with their style rules and blank-content option
+PASS SmartType settings and scene intro/time entries persist as document data
+PASS J: representative FDX imports all direct Text runs and excludes title/note paragraphs
+PASS prose templates retain literal Tab and prevent screenplay indentation/inference
+PASS known names are offered while typing Action, then confirmed on Return
+PASS manual inference mode persists and keeps normal prose in its selected element
+PASS Fountain, plain text and RTF import preserve representative document content
+PASS A4 HTML printing retains all text and matches editor page chunks
+locator.waitFor: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('.script-page').first() to be visible[22m
+
+    at seed (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/formats-browser.cjs:6:1202)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/formats-browser.cjs:34:312
+    at async check (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/formats-browser.cjs:15:31)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/formats-browser.cjs:34:1
+
+{"suite": "punctuation", "passed": true, "seconds": 105.8, "interaction_groups": 18, "measurements": [{"returnP95BudgetMs": 2913, "budgetRule": "max(600ms, ceil(1.25 times same-document Off p95))", "paragraphs": 2019, "pages": 223, "returnMs": {"p50": 1203, "p95": 1713}, "offReturnMs": {"p50": 1273, "p95": 2330}, "handlerOnMs": {"p50": 1097.3, "p95": 1608.9}, "handlerOffMs": {"p50": 1186.8, "p95": 2215.4}, "environment": "Linux Chromium; physical Mac and IME not tested"}]}
+{"suite": "automatic-formatting", "passed": true, "seconds": 111.1, "interaction_groups": 25, "measurements": [{"paragraphs": 2000, "pages": 222, "characters": 120, "totalTypingMs": 16349, "keyHandlerP95Ms": 0.5, "environment": "Linux Chromium; physical macOS input not exercised"}]}
+{"suite": "table-read", "passed": true, "seconds": 54.8, "interaction_groups": 18, "measurements": [{"paragraphs": 2000, "pages": 222, "openMs": 775, "typingTotalMs": 3052, "typedCharacters": 12, "environment": "Linux Chromium; macOS speech substituted with real Flite audio, not premium quality testing"}]}
+{"suite": "production", "passed": true, "seconds": 36.5, "interaction_groups": 14, "measurements": []}
+{"suite": "collaboration", "passed": true, "seconds": 5.3, "interaction_groups": 1, "measurements": []}
+{"suite": "interchange", "passed": false, "seconds": 0.6, "interaction_groups": 0, "measurements": []}
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/production-codecs.cjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:314:9)
+    at packageResolve (node:internal/modules/esm/resolve:767:81)
+    at moduleResolve (node:internal/modules/esm/resolve:853:18)
+    at defaultResolve (node:internal/modules/esm/resolve:983:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolveBase (file:///opt/npm-tools/node_modules/tsx/dist/register-C4vWVmug.mjs:2:10334)
+    at resolveDirectory (file:///opt/npm-tools/node_modules/tsx/dist/register-C4vWVmug.mjs:2:11421)
+    at resolveTsPaths (file:///opt/npm-tools/node_modules/tsx/dist/register-C4vWVmug.mjs:2:13062)
+    at resolve (file:///opt/npm-tools/node_modules/tsx/dist/register-C4vWVmug.mjs:2:14748)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+
+{"suite": "repair", "passed": false, "seconds": 29.6, "interaction_groups": 9, "measurements": []}
+PASS F01 actual page gaps, speech attachments and inch indents match screenplay layout
+PASS F02 template preview includes existing paragraph 15 with the editor geometry
+PASS F04-F06 literal query keeps focus, next selects every occurrence, exact replacement is Undoable
+PASS F05 punctuation searches and dollar replacements remain literal
+PASS F07 reachable scenes moves complete unequal scenes and Undo restores order
+PASS F07 reachable cards moves complete unequal scenes and Undo restores order
+PASS F11-F12 Combine previews element-boundary insertion and retains real source image references
+PASS F15 Format Doctor repairs actual boundary rules and preserves text
+PASS snapshot Restore waits for real adoption and one Undo restores the newer draft
+FAIL F01-F02 editor, print HTML and actual PDF agree on geometry, source fragments and speech pages Cannot find package 'pdfjs-dist' imported from /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/repair-browser.cjs
+FAIL custom document paper and saved title-page choice reach the actual PDF bytes Cannot find package 'pdfjs-dist' imported from /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/repair-browser.cjs
+
+exit 1

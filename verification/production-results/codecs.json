@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "results": [
+    "unmodified external FDX dual dialogue and Fountain survive semantic round trips",
+    "emoji (1.17 item 1) survive FDX and Fountain export and re-import: ZWJ families, flags, skin tones, keycaps, title page",
+    "external simple, parenthetical and extended-character FDX retain all direct text",
+    "unknown FDX sections and paragraph attributes are preserved with explicit warnings",
+    "RTF nested emphasis, Unicode, escaped punctuation and colors remain rich text",
+    "external text PDF extracts real text and warns about reconstruction limits",
+    "shared measured print geometry splits a long speech with identical PDF page boundaries",
+    "Fountain emphasis and RTF colors/strikeout survive import-edit-export without raw marker text",
+    "real PDF character sides preserve source labels and selected speech without unrelated scene text"
+  ],
+  "externalFixture": "Screenplain abf0d0800ab0b9dfd5bbe780137641e746afbad4; MIT",
+  "actualFinalDraftAppTested": false,
+  "physicalMacTested": false
+}

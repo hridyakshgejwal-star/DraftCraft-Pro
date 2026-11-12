@@ -1,0 +1,26 @@
+PASS four defaults and both Settings entry points are real controls
+PASS sentence initials, punctuation boundaries, quotes and new paragraphs capitalize during real typing
+PASS abbreviations, initials, URLs, decimals and ellipses avoid false capitals
+PASS manual lowercase choices survive Undo, replacement and later typing
+PASS raw sluglines infer their semantic element and finish location/time formatting on Return
+PASS location names remain intact while typing and repeated separators normalize at completion
+PASS Scene Heading Tab and SmartType preserve the prefix and complete location and time fields
+PASS template separator, custom times and internal location hyphens work with SmartType
+PASS Parenthetical shortcut inserts a pair with the real caret inside and skips its outer closer
+PASS Dialogue Tab preserves dialogue and Return exits from inside the inserted closing bracket
+PASS selection wrapping retains inline styles and Undo/Redo restores selection and caret
+PASS existing pairs, manual nesting, arrows, Backspace and empty exits keep normal editing
+PASS toolbar, command palette and Insert menu use the same functional parenthetical editing history
+PASS recognized transitions complete in Action, follow Enter navigation and never receive prose punctuation
+PASS dialogue phrases, ordinary Action and custom transitions retain meaning and explicit endings
+PASS transition endings are editable template rules and survive save/reload
+PASS format completion and Enter are one Undo/Redo transaction with precise caret restoration
+PASS deleted or rejected automatic structural punctuation is not repeatedly restored
+PASS each automatic switch can be disabled while the other three stay enabled
+PASS all four toggles apply independently, immediately and persist after restart
+PASS new controls preserve existing explicit capitalization Off and do not rewrite old pages
+PASS sentence punctuation coordinates with capitalization and excludes all structural elements
+PASS middle edits, selection splits, paste and composition preserve native text and focus
+PASS leaving an edited heading completes it without stealing destination focus
+AUTOMATIC FORMATTING PERFORMANCE {"paragraphs":2000,"pages":222,"characters":120,"totalTypingMs":2888,"keyHandlerP95Ms":0.8000000002793968,"environment":"Linux Chromium; physical macOS input not exercised"}
+PASS rapid typing, formatting and native autosave retain characters and one caret in a long script

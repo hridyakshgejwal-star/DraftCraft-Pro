@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "version": "1.15.2",
+  "files": 92,
+  "payload_sha256": "59e6ec301b88145e7cac990278dccd44bc8ddb1ffd689bf1b7a4f6f6db05246a",
+  "asar_sha256": "01ee5f7df8a4022a0f45ed61fcf802b4b60b61764cd792d7acb16b039c5f461f",
+  "asarHeaderSha256": "1c1002e5b594147b9ec4131d77b57db2dfdcb27b362c5e401f408f224726ac42",
+  "exact_stage_and_backend_bytes": true,
+  "native_backend_files": [
+    "dictation-ipc.cjs",
+    "main.cjs",
+    "preload.cjs",
+    "production-print.cjs",
+    "project-files.cjs",
+    "save-coordinator.cjs",
+    "settings-preload.cjs",
+    "table-read-audio-worker.cjs",
+    "table-read-audio.cjs",
+    "table-read-ipc.cjs",
+    "table-read.cjs",
+    "window-registry.cjs"
+  ],
+  "arm64_mach_o_files": 13,
+  "macos_minimum": "13.0",
+  "native_mac_launch_tested": false
+}

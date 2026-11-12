@@ -1,0 +1,15 @@
+[package]
+name = "tests"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+document-core.workspace = true
+screenplay-formatting.workspace = true
+pagination.workspace = true
+file-formats.workspace = true
+revision-engine.workspace = true
+characters.workspace = true
+writing-statistics.workspace = true

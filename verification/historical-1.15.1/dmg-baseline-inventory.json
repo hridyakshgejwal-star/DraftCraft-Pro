@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "original_manifest_files": 271,
+  "exact_inventory": true,
+  "hashes_match": true,
+  "symlink_targets_match": true,
+  "input_file": "DraftCraft-Pro-Table-Read.dmg",
+  "input_library_version": 11,
+  "native_proof": "dmg-baseline-native-proof.json",
+  "temporary_files_from_host_extraction_included": false
+}

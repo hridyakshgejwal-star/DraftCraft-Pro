@@ -1,0 +1,138 @@
+WORKER http://127.0.0.1:33885/assets/spelling.worker-H4KE5P5R.js
+WORKER http://127.0.0.1:33885/assets/synonyms.worker-9D3st1Y1.js
+BROWSER CONSOLE Failed to load resource: the server responded with a status of 404 (Not Found)
+PASS real dictionary worker flags completed words across existing pages
+PASS left click replaces only the chosen range, closes popup, and supports undo/redo
+WORKER http://127.0.0.1:33885/assets/spelling.worker-H4KE5P5R.js
+WORKER http://127.0.0.1:33885/assets/synonyms.worker-9D3st1Y1.js
+PASS secondary click, keyboard spelling route and page actions coexist
+WORKER http://127.0.0.1:33885/assets/spelling.worker-H4KE5P5R.js
+WORKER http://127.0.0.1:33885/assets/synonyms.worker-9D3st1Y1.js
+PASS native Edit commands use screenplay history and preserve native undo in other text fields
+WORKER http://127.0.0.1:33885/assets/spelling.worker-H4KE5P5R.js
+WORKER http://127.0.0.1:33885/assets/synonyms.worker-9D3st1Y1.js
+PASS space corrections retain caret, one separator, capitalization, immediate undo and Backspace learning
+WORKER http://127.0.0.1:33885/assets/spelling.worker-H4KE5P5R.js
+WORKER http://127.0.0.1:33885/assets/synonyms.worker-9D3st1Y1.js
+PASS acronyms and ambiguous spellings stay unchanged under conservative autocorrect
+WORKER http://127.0.0.1:33885/assets/spelling.worker-H4KE5P5R.js
+WORKER http://127.0.0.1:33885/assets/synonyms.worker-9D3st1Y1.js
+FAIL prefix, partial name, Unicode, multiword and extension suggestions accept exact names locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('listbox', { name: 'Character Suggestions' }) to be visible[22m
+
+DIAGNOSTICS {
+  text: '✕\n' +
+    '−\n' +
+    '＋\n' +
+    'Script\n' +
+    'Beat Board\n' +
+    'Outline Map\n' +
+    'Reports\n' +
+    'THE CYBERNETICIST\n' +
+    '.fdx\n' +
+    'Blue Revision\n' +
+    '100%\n' +
+    'Desktop\n' +
+    'DraftCraft\n' +
+    'macOS\n' +
+    'File\n' +
+    'Edit\n' +
+    'Settings\n' +
+    'Format\n' +
+    'View\n' +
+    'Goals\n' +
+    'Production\n' +
+    'Story & Audio\n' +
+    'Desktop\n' +
+    'Navigator 2.0\n' +
+    '✕\n' +
+    'Scenes (0)\n' +
+    'Cast (7)\n' +
+    'Notes (0)\n' +
+    'Bookmarks (0)\n' +
+    'Tags\n' +
+    'Scene Heading · ⌘1\n' +
+    'Action · ⌘2\n' +
+    'Character · ⌘3\n' +
+    'Parenthetical · ⌘4\n' +
+    'Dialogue · ⌘5\n' +
+    'Dual Dialogue · Unassigned\n' +
+    'Transition · ⌘6\n' +
+    'Shot · ⌘7\n' +
+    'General Text · ⌘0\n' +
+    'Centered Text · Unassigned\n' +
+    'Lyrics · Unassigned\n' +
+    'New Act · ⌘8\n' +
+    'End of Act · ⌘9\n' +
+    'Scene Summary · Unassigned\n' +
+    'Cast List · Unassigned\n' +
+    'Outline Level 1 · Unassigned\n' +
+    'Outline Level 2 · Unassigned\n' +
+    'Outline Level 3 · Unassigned\n' +
+    'Sequence · Unassigned\n' +
+    'Note · Unassigned\n' +
+    'Stage Direction · Unassigned\n' +
+    'Song Title · Unassigned\n' +
+    'Comic Page · Unassigned\n' +
+    'Panel · Unassigned\n' +
+    'Panel Description · Unassigned\n' +
+    'Caption · Unassigned\n' +
+    'Sound Effect · Unassigned\n' +
+    'Narration · Unassigned\n' +
+    'User Defined · Unassigned\n' +
+    'Customize Shortcuts\n' +
+    'Commands\n' +
+    'Bookmarks (0)\n' +
+    'ANNOTATIONS:\n' +
+    'Notes\n' +
+    'Bookmarks\n' +
+    'Scene Comments\n' +
+    'Story Structure & Editor Settings…\n' +
+    'Page 1 · Actions\n' +
+    '★ BLUE REVISION DRAFT\n' +
+    'He recieved the mesage yesterday.\n' +
+    '*\n' +
+    'Page 1 of 1\n' +
+    '•\n' +
+    '20 Words\n' +
+    '•\n' +
+    '8 Lines\n' +
+    '•\n' +
+    'Character\n' +
+    '⏱️ 25:00\n' +
+    '•\n' +
+    '0/1000w (0%)\n' +
+    '•\n' +
+    '1d\n' +
+    '¶\n' +
+    '•\n' +
+    'Typewriter\n' +
+    'Split\n' +
+    '•\n' +
+    'Page View\n' +
+    'Normal View\n' +
+    'Speed View\n' +
+    'Focus Mode\n' +
+    '•\n' +
+    '100%',
+  inputs: [
+    { id: 'input-a', text: 'He recieved the mesage yesterday.' },
+    { id: 'input-c1', text: 'JOHN (V.O.)' },
+    { id: 'input-c2', text: 'SARAH' },
+    { id: 'input-c3', text: 'MICHAEL' },
+    { id: 'input-c4', text: 'DETECTIVE ROBERT' },
+    { id: 'input-c5', text: 'ZAYVION' },
+    { id: 'input-c6', text: 'ÉLODIE (LIVE RADIO)' },
+    { id: 'input-new', text: 'JOTHE NEXT LINE IS DIALOGUE.' }
+  ],
+  workerLayers: 1
+}
+ERRORS []
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('listbox', { name: 'Character Suggestions' }) to be visible[22m
+
+    at /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-final/work/verification/writing-browser.cjs:87:119
+    at async check (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-final/work/verification/writing-browser.cjs:31:35)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-final/work/verification/writing-browser.cjs:86:3

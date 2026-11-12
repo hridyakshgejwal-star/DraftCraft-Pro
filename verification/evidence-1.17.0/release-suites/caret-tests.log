@@ -1,0 +1,13 @@
+PASS smooth motion starts on by default and ordinary forward/backward moves have intermediate positions
+PASS rapid typing, Backspace, Delete, arrows, Home, End and native Undo/Redo preserve exact text
+PASS all screenplay element alignments match independently measured text positions
+PASS wrapping, page jumps, scrolling and zoom settle without a long sweep
+PASS selections and native cut/paste replacements keep native editing and restore the visual caret
+PASS IME composition and bidirectional text retain the native caret and character order
+PASS autocomplete, screenplay element changes, spelling and synonym replacements keep the native insertion point
+PASS repeated caret setting changes clean up old mirrors and preserve Unicode text
+PASS caret is steady during activity, blinks after idle, and hides on app blur
+PASS all motion and blink controls persist; reduced motion and Off restore the native caret
+PASS frame animation does not re-render editor text or keep requesting frames after settling
+CARET PERFORMANCE {"pages":222,"paragraphs":1999,"typingMs":{"p50":19,"p95":91},"environment":"Linux Chromium, no physical M2/120 Hz display test"}
+PASS a screenplay with hundreds of pages retains responsive typing, a single caret layer and accurate autosave

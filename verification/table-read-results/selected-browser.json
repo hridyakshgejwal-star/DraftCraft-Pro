@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "renderer": "/workspace/scratch/af3bafce0510/work/table-read/source/desktop-build/app/dist",
+  "backend": "/workspace/scratch/af3bafce0510/work/table-read/source/desktop-build/app",
+  "live_cloud_tested": false,
+  "physical_mac_tested": false,
+  "voice_fixture": "Public Flite speech through the real PCM worker and HTMLAudioElement; native dialogs and engine endpoints substituted",
+  "results": [
+    {
+      "name": "dialogue and scene navigation reach matching lines without stale highlighting",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+250-page typing (verification/story-browser.cjs PERFORMANCE line), run alone, alternating builds, same host
+1.15.3 run1 PERFORMANCE {"pages":250,"paragraphs":2123,"enabledTools":4,"allPageArc":true,"typingMs":{"p50":56,"p95":100,"max":142},"renderedArcPoints":24,"environment":"Linux Chromium; physical M2 not benchmarked"} 
+1.15.4 run1 PERFORMANCE {"pages":250,"paragraphs":2123,"enabledTools":4,"allPageArc":true,"typingMs":{"p50":50,"p95":92,"max":125},"renderedArcPoints":24,"environment":"Linux Chromium; physical M2 not benchmarked"} 
+1.15.3 run2 PERFORMANCE {"pages":250,"paragraphs":2123,"enabledTools":4,"allPageArc":true,"typingMs":{"p50":55,"p95":111,"max":156},"renderedArcPoints":24,"environment":"Linux Chromium; physical M2 not benchmarked"} 
+1.15.4 run2 PERFORMANCE {"pages":250,"paragraphs":2123,"enabledTools":4,"allPageArc":true,"typingMs":{"p50":54,"p95":89,"max":122},"renderedArcPoints":24,"environment":"Linux Chromium; physical M2 not benchmarked"} 
+1.15.3 run3 PERFORMANCE {"pages":250,"paragraphs":2123,"enabledTools":4,"allPageArc":true,"typingMs":{"p50":62,"p95":100,"max":108},"renderedArcPoints":24,"environment":"Linux Chromium; physical M2 not benchmarked"} 
+1.15.4 run3 PERFORMANCE {"pages":250,"paragraphs":2123,"enabledTools":4,"allPageArc":true,"typingMs":{"p50":61,"p95":115,"max":125},"renderedArcPoints":24,"environment":"Linux Chromium; physical M2 not benchmarked"} 

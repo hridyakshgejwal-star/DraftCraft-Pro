@@ -1,0 +1,11 @@
+[package]
+name = "typography"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+unicode-segmentation.workspace = true
+unicode-width.workspace = true
+serde.workspace = true

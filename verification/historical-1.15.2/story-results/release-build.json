@@ -1,0 +1,29 @@
+{
+  "version": "1.8.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "minimum_macos": "13.0",
+  "unit_tests": 54,
+  "browser_interaction_groups": 70,
+  "all_tests_passed": true,
+  "asar": {
+    "passed": true,
+    "files": 79,
+    "version": "1.8.0",
+    "asarHeaderSha256": "31790178df226b466f6dcd18118e52efc46223d37e44661418558606198efaff",
+    "mainMatchesSource": true
+  },
+  "signatures": {
+    "mach_o_files": 13,
+    "code_page_hashes": 54394,
+    "special_slot_hashes": 31,
+    "resource_hashes": 471,
+    "nested_code_seals": 9,
+    "symlinks": 14,
+    "resource_seals": 9,
+    "unchanged_native_sections": 249,
+    "errors": [],
+    "passed": true
+  },
+  "native_mac_launch_tested": false
+}

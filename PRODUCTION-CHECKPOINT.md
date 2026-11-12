@@ -1,0 +1,1 @@
+This checkpoint continues as the 1.15.1 source update. Read Production-Release-Notes.md, PRODUCTION-FEATURE-MATRIX.md, and Production-Build-and-Install.md for implemented, partial, missing and blocked scope. No new Mac artifact or physical Mac/Final Draft desktop verification is claimed.

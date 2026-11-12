@@ -1,0 +1,510 @@
+DRAFTCRAFT PRO 1.18.0 — macOS Apple Silicon
+
+INSTALL AND OPEN
+1. Open DraftCraft-Pro-1.18.0-arm64.dmg in Finder.
+2. Double-click Install-DraftCraft.command inside the mounted DraftCraft Pro disk.
+   Terminal opens automatically for the one-time installation.
+3. DraftCraft Pro opens when installation finishes.
+   Later, open DraftCraft Pro.app from Applications.
+No Node.js, Rust, or development server is required.
+
+If macOS blocks the installer, try opening it once, then use
+System Settings > Privacy & Security > Open Anyway, and confirm Open.
+Alternatively, open Terminal, type /bin/bash followed by a space, drag
+Install-DraftCraft.command into that window, and press Return.
+Do not run an installer whose contents you have changed or do not trust.
+Apple's instructions: https://support.apple.com/102445
+
+WHAT THE INSTALLER DOES
+It checks the supplied app files against the package's SHA-256 manifest,
+copies the app to /Applications if writable or your personal Applications
+folder otherwise, and rebuilds its local signatures with macOS codesign.
+It verifies the resulting bundle before removing the download quarantine
+attribute from that installed copy only, then opens that copy.
+This is a personal build with ad-hoc signatures, not an Apple-notarized or
+Developer ID signed release. The manifest detects package corruption; it
+is not an Apple security assessment or proof of the publisher's identity.
+The previous app copy, if present, is kept in a timestamped backup folder.
+Your scripts and local profile are not moved or erased.
+Installation needs no administrator password and makes no network requests.
+If a check fails, the installer stops and writes the reason to Terminal.
+
+STORY STRUCTURE AND TYPING
+Settings > Editor > Story Structure opens the new controls. All four story tools
+start OFF in new and existing projects. Enable Story Map, Story Arc, Act Breaks
+or Beat Sheet separately. Hide and Disable preserve planning data. Remove
+from Page detaches only that visual. Delete Selected requires confirmation.
+Panels can appear above or below the editor, in a separate panel, or outside
+selected page paper. Resize, opacity, colors, compact view and collapse persist.
+The Story Map tracks existing pagination and scenes; scene blocks jump to text.
+Arc values begin as clearly labeled templates. Drag points or use arrow keys,
+then press Enter to edit names, tension or links to scenes. No dramatic tension
+is inferred from page counts. Choose Three Act, Freytag, Syd Field, Five Act or
+Custom. Reset Graph explicitly replaces the points after confirmation.
+Right-click a page for Story Structure > Add Act Break / Plot Point / Marker.
+Link markers to a scene or paragraph so they follow editing and pagination.
+Beat Sheet uses the existing Beat Board cards. Link scenes, group sequences,
+filter by character/storyline, edit notes, and drag unlinked beats to reorder
+planning cards. This never reorders screenplay scenes. Linked beats also appear
+in the existing Navigator and Outline Map and can jump back to their scenes.
+Standard printing and PDF export omit all story visuals. The explicit Annotated
+Presentation export creates a separate HTML document that can be printed to PDF.
+Settings > Editor > Caret Animation controls Smooth Caret Movement, Fast / Normal /
+Slow speed, Ease-Out / Spring / Linear motion, smooth blinking and blink timing.
+Smooth movement starts ON in new profiles. Existing saved On/Off choices remain.
+The caret follows text immediately with a short 60–100 ms motion, redirects during
+rapid typing and snaps across large jumps, wrapping, pages, scrolling and zoom.
+It stays steady while typing and starts blinking after a brief pause. Reduce
+Motion, forced colors, IME composition and bidirectional text use the native caret.
+Turning Smooth Caret Movement off also restores the native caret. These controls
+change only the visible caret; native editing, selection and text stay immediate.
+Cursor & Typing retains optional character highlights, appearance and capitalization.
+Typing highlights start off and can be enabled separately.
+Sentence capitalization is ON by default for Action and Dialogue. It affects
+newly typed letters, respects abbreviations and ellipses, and avoids rewriting
+pasted or composed text. Undo restores lowercase; manual overrides are preserved.
+Existing all-caps scene headings and character formatting remain available.
+
+KEYBOARD SHORTCUTS
+Settings > Keyboard Shortcuts opens the key recorder and saved profiles.
+Click any shortcut, press your keys, and it saves automatically. Clear removes
+an assignment; Default restores it. Conflicts require Replace Shortcut,
+Choose Another, or Cancel. Undo Settings Change reverses a settings edit;
+Cancel Changes restores settings from when the panel opened.
+Default keys remain: Cmd+1 Scene Heading, 2 Action, 3 Character,
+4 Parenthetical, 5 Dialogue, 6 Transition, 7 Shot, 8 New Act, 9 End of Act, 0 General.
+All 29 element types, 13 quick inserts, Script Note, and project characters
+can receive their own keys. Centered Text and Lyrics start
+unassigned. Formatting preserves the current text and selection.
+Insert commands reuse an empty paragraph or add a paragraph after a nonempty
+one, preserving its text. Cmd+Z/Cmd+Shift+Z undo/redo these edits.
+Letter shortcuts work only in Shortcut Mode: Cmd+Shift+Space activates it
+for one command; Escape exits. The activator is editable or can be cleared.
+To use held Option, edit Activate Shortcut Mode, then press and release Option.
+Normal letters keep typing normally. IME composition bypasses shortcut execution.
+The formatting selector shows current keys. Customize Shortcuts opens settings;
+Commands opens a searchable palette. Assigned letters run commands while a
+command button has focus; typing in the Search field filters the list.
+Enter and Tab behavior is configurable for each element in the settings panel.
+By default Character and Parenthetical lead to Dialogue, Scene Heading to Action.
+Choose Dialogue exit = Repeated Enter > Action to reuse the empty Dialogue line
+as Action on the next Return. Shift+Return inserts a line break; Shift+Tab moves
+focus normally. Character suggestions accept Up/Down and Return or Tab.
+Profiles can be created, duplicated, renamed, switched, exported and imported.
+General keys and navigation save in the application profile. Character keys
+save in this screenplay and its backups; Save As and Duplicate preserve them
+with the new project's character identities. Profile exports contain general
+keys and navigation only. Reserved application and macOS editing keys cannot
+be replaced. Option combinations are recorded by physical key for macOS glyphs.
+
+CONTEXTUAL WORD SUGGESTIONS
+Left-click any word to open Word Suggestions, including correctly spelled words.
+The popup shows spelling corrections when needed, contextual alternatives,
+meaning/tone notes, and More Suggestions when additional choices are available.
+Choose a single-word alternative to replace only that word. Phrases and article
+changes show a preview first; Apply Replacement commits the changes as one edit.
+Cmd+Z/Cmd+Shift+Z undo/redo the replacement and preserve text styles and metadata.
+The text cursor stays active after a normal left-click: keep typing to dismiss
+the popup, or press Option+Down to browse its buttons. Shift+F10 at a collapsed
+caret opens the popup for keyboard use. Arrow keys, Tab, Return and Escape work.
+Double-clicking and dragging still select text. A selected text range retains
+the existing page context menu. Right-click spelling actions remain available.
+The popup closes when you scroll, resize, change zoom, or edit its source text.
+Character names, scene headings/locations, transitions and technical shot terms
+are protected from inappropriate vocabulary replacements. Grammatical function
+words may have no safe interchangeable alternatives. All words can be inspected;
+the app does not invent synonyms when none are suitable.
+Settings > Writing Assistance controls synonyms, contextual analysis, count,
+explanations, left-click suggestions, vocabulary style, autocorrect and dictionary.
+Offline WordNet vocabulary and English part-of-speech analysis require no account.
+The offline engine ranks likely senses and inflects alternatives; it remains
+heuristic, so review ambiguous meanings and tone differences before replacing.
+Optional Advanced Analysis is off by default. When enabled, it uses the configured
+Gemini key and sends the selected sentence plus nearby screenplay text to Gemini.
+Offline suggestions stay available if that service is unavailable or times out.
+No full screenplay is uploaded by this feature. Custom shortcut profiles and
+existing project settings remain in their existing application/project storage.
+
+WRITING ASSISTANCE
+Offline English spelling highlights completed misspelled words in red.
+Click or secondary-click an underlined word for suggestions; Shift+F10
+opens spelling suggestions at the caret. Arrow keys navigate the popup,
+Enter accepts a suggestion, and Escape closes it. Other page areas retain
+Page Actions. Edit > Writing Assistance controls the language, underlines,
+autocorrect, name suggestions and your personal dictionary.
+Space and common punctuation correct established spelling mistakes.
+Cmd+Z undoes a correction; immediate Backspace restores the typed word.
+Restored words are protected in this screenplay, including after reopening. Character
+names and custom words are protected by default. Ambiguous spellings
+remain manual. Aggressive mode permits unique nearby dictionary matches.
+Typing in a CHARACTER element suggests previously introduced names.
+Up/Down choose a name, Enter or Tab inserts it, and Escape dismisses.
+Character records are stored inside each screenplay's existing autosaves,
+manual backups and crash recovery snapshots, and reconstructed from
+CHARACTER elements when older projects are opened. Names from another
+project are not used. FDX/Fountain retain names as screenplay text; extra
+writing-assistance preferences are stored in the full project backups.
+The local spelling engine uses bundled Hunspell-compatible English
+(US/UK) dictionaries. No spelling text is sent to any external service.
+
+EDITOR FIXES
+The paragraph formatting controls stay outside the paper, or in a reserved
+row above it when the workspace is narrow. Focus a paragraph to use them.
+Select a beat card and drag its right, bottom or corner handle to resize it.
+Undo Resize and Redo restore sizes, including older automatic-height cards.
+Use each page's Actions button for left-click commands, or secondary-click
+anywhere on a page for the full page menu. Shift+F10 opens that menu from text.
+Delete and Cut require confirmation; Cmd+Z/Cmd+Shift+Z undo/redo page edits.
+Copy Page uses the macOS clipboard and includes readable plain text and
+DraftCraft metadata. Paste inserts content; pagination may spread it across
+sheets. Existing locked scene numbers are retained; inserted scenes are
+unnumbered. Surviving Beat Board cards are not removed by page deletion.
+
+WRITE AND SAVE
+Cmd+S saves the complete project as a .draftcraft file. On the first Save,
+choose a filename and folder in the native macOS file browser. Later changes
+save to that same file after a short pause, during continuous typing, when the
+app loses focus and before closing. Save As (Cmd+Shift+S) chooses another file
+and keeps the original unchanged. Each project remembers its own location.
+
+Closing a new, edited screenplay asks Save / Don’t Save / Cancel. Save opens
+the file browser; canceling either dialog leaves your screenplay open.
+An empty, unchanged new screenplay closes without a prompt. Saved projects
+normally flush their latest changes and close without asking again.
+Don’t Save discards the current unsaved changes; they are not silently restored
+from the active local profile next launch. Existing historical backups remain.
+
+Settings > Files & Autosave controls automatic saving, pause and continuous
+save intervals, status visibility and recovery. With automatic saving off,
+Cmd+S saves normally and closing changed projects asks Save / Don’t Save / Cancel.
+Reveal in Finder opens the current file location; Change Location uses Save As.
+
+Saved / Saving… / Unsaved Changes / Save Failed appears quietly above the editor.
+Save failures stay visible even if normal status is hidden. If a drive goes
+missing, reconnect and Retry or choose Save As. A failed close offers Retry,
+Save As and Cancel Closing. DraftCraft does not recreate a missing drive folder.
+
+Recovery snapshots are separate from primary project files. After an interruption,
+Review Recovery opens the available snapshots with Review / Restore / Discard
+Recovery. A snapshot that conflicts with a newer file opens as a separate unsaved
+copy. Older snapshots are flagged for review; unique work is kept until discarded.
+
+File > Open (Cmd+O) opens .draftcraft, .fdx and .fountain screenplays. Switching
+projects first resolves changes to the current screenplay. Native projects
+preserve the whole screenplay, text styles, story tools, Beat Board and metadata.
+Use File > Export Final Draft, Export Fountain or Export PDF for exchange formats.
+Finder Open With and the macOS File menu use the same document protections.
+
+Your app profile is separate from a screenplay saved in a web browser.
+To move a script from the web version, export it as .fdx or .fountain
+there and then open that file in the desktop app.
+Local app data: ~/Library/Application Support/DraftCraft Pro/
+Help > Show Local Data Folder opens this location.
+
+OPTIONAL AI
+Writing, boards, backups, and exports work offline.
+DraftCraft Pro > AI Settings lets you supply your Gemini API key.
+The key is encrypted using macOS Keychain-backed storage.
+AI features require internet, valid provider credentials, and access to
+the models configured in the supplied project. Model availability and
+provider requests have not been tested. AI use may consume your quota
+or incur charges. No key is included and no paid request was made.
+
+BUILD NOTES
+The editor uses the bundled Electron desktop runtime (44.7.0).
+The supplied Rust workspace is a prototype and is not linked in this build.
+Native Rust/Metal integration and feature-parity claims in that original
+prototype are not implemented by this desktop wrapper.
+This package targets Apple Silicon Macs (M1/M2/M3/M4 and compatible later
+Apple Silicon). It does not contain an Intel Mac executable.
+Requires macOS 13 or later, as declared in the app's Info.plist.
+The app was rebuilt on Linux and checked there in Chromium and Electron.
+TEST-RESULTS-1.18.0.md lists every release check and says which ones ran on
+a Mac; LIMITATIONS-1.18.0.md lists what is still unverified or missing.
+
+EDITABLE SOURCE
+DraftCraft-Pro-Source.zip is included next to the app for code editing.
+It is not needed to use the app. See desktop/README.md after extracting it
+for rebuilding instructions and the scope of the desktop changes.
+
+WRITING FORMATS (1.11.0)
+File > New from Template opens the 80-preset library. Choose Script, TV,
+Graphic Novel, Text or Structure; your custom formats appear in My Templates.
+Favorites, recent choices and a default template persist on this Mac.
+Create New Document starts a separate project using the existing save workflow.
+Example text is optional. Format > Apply Template or Change Screenplay Format
+shows a before/after preview. Confirming preserves text, IDs, notes and planning
+metadata and creates a recoverable revision before conversion. Cmd+Z / Cmd+Shift+Z
+undo and redo the format change while this editor session is open.
+Structure templates append editable beats and outline sections, preserving prose.
+Format > Elements changes global fonts, indents, spacing, page geometry, page
+break rules, Return/Tab transitions and custom element styles.
+Settings > Intelligent Auto-Formatting selects Smart (default), Standard or Manual.
+Explicit element choices remain authoritative. Known character names are offered
+while typing Action; Return confirms an exact known-name cue. Normal sentences
+beginning with a character's name remain Action. Option+Tab inserts a literal tab.
+In screenplay formats, Tab from Dialogue inserts () with the caret between them.
+Document > SmartType Manager stores category lists, exclusions, sort order,
+acceptance keys and optional next-speaker suggestions in the current project.
+Settings > Keyboard Shortcuts retains custom profiles and adds a Final Draft-inspired
+preset. Cmd+0 selects General; Cmd+1 through Cmd+7 retain their element controls.
+File > Save as Template can omit private text and character/location history.
+Use .dctemplate to exchange DraftCraft formats, or import supported .fdxt XML settings.
+Old custom templates remain available through migration; their original data is retained.
+
+FORMAT LIMITS
+Named house presets and story-structure approaches are independently implemented
+adaptations, not official proprietary template files or a claim of full Final Draft parity.
+Shared measured layout splits long Action and Dialogue paragraphs visually while
+retaining semantic paragraph IDs. Print/PDF, reports and page navigation use the
+same layout. Full mixed-inline-font caret geometry, every locked dual-dialogue edge
+case and physical Mac IME/printing remain incomplete or unverified.
+Text-based PDF import provides extraction and an element review; scanned PDFs need
+separate OCR. Multi-column reconstruction is approximate. FDX/FDXT reads a supported
+XML subset and preserves unsupported XML where practical; export review describes
+losses. Fountain supports core elements, dual dialogue, sections, notes and breaks;
+full inline-emphasis round trips are not claimed. RTF retains supported emphasis,
+colors and Unicode, with limits for font/layout fidelity and embedded objects.
+See PRODUCTION-FEATURE-MATRIX.md for each workflow's verified and remaining scope.
+
+This build was tested in Linux Chromium and its ARM64 bundle was independently
+verified. Native launch, physical IME input, VoiceOver, Gatekeeper and the macOS
+printer/save dialogs still require validation on a Mac.
+
+INTELLIGENT AUTOMATIC PUNCTUATION
+Settings > Writing > Intelligent Automatic Punctuation controls the new feature.
+It starts ON unless you have explicitly switched it off. Press ordinary Return
+at the end of a complete English sentence to insert a period or question mark
+and continue the normal screenplay element transition. Commands normally receive
+a period. An exclamation requires a warning/exclamative construction and strong
+local delivery context; emotional vocabulary or shouting alone is insufficient.
+Incomplete phrases, fragments, intentional ellipses/dashes, existing punctuation,
+names, headings, transitions and other structural elements remain as written.
+Selecting text or splitting inside a sentence keeps the normal editing behavior.
+Shift+Return and IME composition do not trigger automatic sentence punctuation.
+Cmd+Z undoes punctuation and Return together; Cmd+Shift+Z redoes them. Removing
+or undoing an ending is remembered for that unchanged sentence in this paragraph.
+Preferences and these deliberate omissions survive native project save/reopen.
+Advanced controls independently switch full stops, questions, conservative
+exclamation detection, incomplete-phrase protection and Return handling. Optional
+Detect Sentence Boundaries While Typing starts OFF; when enabled, two spaces at
+the end of a complete sentence insert its ending mark. Single spaces stay normal.
+The master switch disables every automatic punctuation trigger immediately.
+This is local English grammar analysis, not perfect interpretation of meaning.
+Ambiguous constructions and other languages may be left untouched. No cloud or
+API key is needed. Existing template, SmartType, spelling and caret controls remain.
+
+
+AUTOMATIC SCREENPLAY FORMATTING (1.14.0)
+Settings > Editor > Automatic Formatting has four independent switches. All
+start On unless you previously chose Off for sentence capitalization.
+
+Action and Dialogue capitalize a newly typed sentence initial. Abbreviations,
+initials, decimals, ellipses, pasted text and composition are preserved. Undo
+restores a deliberate lowercase initial; typing continues normally.
+
+In a Scene Heading, try: int living room night, then Return. The result is
+INT. LIVING ROOM - NIGHT. Prefix periods appear after a field boundary. The
+location/time separator completes on Return, Tab, a trailing space or leaving
+the edited line. It waits while typing DAYCARE or NIGHTINGALE. Location
+hyphens such as US-101 remain. Tab after INT advances to location; the next
+Tab inserts the active template separator before time. SmartType remains active.
+
+Cmd+4, the element toolbar or Dialogue Tab creates a Parenthetical pair with
+the caret inside. A selected range is wrapped and remains selected. An
+existing pair is preserved. Typing the final outer ) advances past it. Empty
+pairs can be removed with Backspace or by switching elements. Return from
+inside the final closer continues into Dialogue. Undo/Redo restores selections.
+
+Recognized transitions finish on Return or a completion boundary: cut to ->
+CUT TO:, fade out -> FADE OUT:. Dialogue phrases remain dialogue. Custom
+transitions and punctuation entered by you are preserved. Format > Intelligent
+Auto-Formatting > Transition Endings chooses colons, conventional FADE OUT.
+endings or preservation; Apply Writing Settings saves it in the document.
+Custom templates retain this rule. No cloud service is needed.
+
+Structural elements are exempt from ordinary sentence-ending punctuation.
+Automatic structural punctuation that you remove or Undo is remembered for
+that paragraph, including after saving and reopening the native project.
+Essential formatting uses deterministic English conventions, not perfect
+understanding of location names or intent. Review a heading ending in a time
+word if that word belongs to its location name; Undo/Off preserves your choice.
+
+TABLE READ (1.14)
+Tools > Table Read opens the collapsible player below the editor. Press Play to
+start; it never reads automatically. Voice Cast detects semantic character cues
+and saves consistent per-character voices, aliases and line performance settings
+inside the project. Settings > Table Read chooses installed offline macOS voices,
+a separately installed local neural server, or your own ElevenLabs account.
+Cloud speech requires explicit approval for each exact reading. API credentials
+are system-encrypted and never saved in screenplay files.
+
+WAV export is built in; M4A uses macOS tools, and MP3 requires installed FFmpeg.
+Export rights depend on the voice licence, including Apple's restrictions on
+system-voice recordings. Read Table-Read.md for setup, licences and limitations.
+Premium neural voice quality, physical Mac speech/Keychain/afconvert and native
+file panels could not be tested on this Linux build host. No local neural model
+or API credit is bundled. This remains an ARM64 personal, unnotarized build.
+
+
+PRODUCTION WORKFLOWS (1.15.1)
+Production Studio provides measured page/scene locking, named range revisions,
+authored Track Changes, reusable range tags, scene casts, saved Navigator views,
+script/title images and writing macros. Enter these through Production menu.
+Shared page geometry is used by the editor and native PDF/print output. Long
+Action/Dialogue is split visually while preserving each semantic paragraph ID.
+The PDF revision set selector filters revised pages by the chosen set.
+
+Choose Settings > Customize Toolbar to enable a command toolbar, reorder or
+remove commands and select icon/text presentation. New Document Window opens
+an independent native editor with its own save coordinator, destination, recovery
+and Undo history. Preferences stay shared. Each Table Read player stays local.
+
+Settings > Live Collaboration connects to a separately running service. Read
+collaboration/README.md in the source for deployment. Explicit sharing consent,
+a host creation key, invitation and host approval are required. Do not use a
+plain HTTP remote endpoint; HTTPS/WSS is enforced outside localhost. Screenplay
+text, beats and outline records synchronize; production metadata and voice/API
+settings stay local. Ending a session leaves local writing available.
+
+Dictation requires macOS, microphone/Speech permissions and an on-device
+language. This Linux-built DMG does not include a compiled Apple Speech helper.
+Its Start control is unavailable with the specific build requirement shown. A
+Mac source build compiles desktop/native/Dictation.swift through build.sh. No
+cloud recognition fallback is silently enabled. Physical Mac testing is pending.
+
+Compatibility: tested external Screenplain MIT FDX/Fountain examples cover
+simple/parenthetical/Unicode/dual dialogue. They do not establish full Final Draft
+interoperability. Export review lists format limits. PDF import extracts text,
+removes repeated headers and asks you to review inferred elements. Scanned PDFs
+need separately provided OCR; multi-column PDF reconstruction is approximate.
+
+Read PRODUCTION-FEATURE-MATRIX.md and Production-Release-Notes.md for the
+specific tested scope and remaining limitations. This is an ad-hoc signed ARM64
+personal build for macOS 13+, without Developer ID signing or notarization.
+To sign and notarize it with your own Apple Developer account, use the
+Developer-ID folder on the disk image (Sign-and-Notarize.command and its
+README). Install that signed copy by dragging it to Applications.
+
+WHAT'S NEW IN 1.18.0
+Start Window: when DraftCraft Pro opens, choose New Screenplay, a quick-start
+format (feature, television pilot, multi-camera sitcom, stage play, streaming
+feature, short film), More Templates..., Open..., one of your recent projects,
+or an Idea to Draft tutorial. Continue (or Escape) keeps the open document.
+Reopen it with File > Start Window...; turn off "Show this window when
+DraftCraft Pro opens" to go straight to your script. Removing a project from
+the recent list never deletes the file.
+File > Open Recent lists the same recent projects, with Clear Menu.
+Emoji picker: Insert > Emoji... (Ctrl+Cmd+E), the Emoji button in the toolbar,
+or Insert Emoji... in the script's right-click menu. Search by name, browse
+the categories, click to insert at the caret, Shift-click to insert several.
+Recently used emoji come first. It works in the script and in other text
+fields such as Beat Board cards. Insert > Emoji & Symbols (Character Viewer)
+still opens the macOS character viewer.
+Getting Started: paragraphs now wrap to the window instead of breaking at
+the line ends of the source text.
+
+WHAT'S NEW IN 1.17.0
+Help > Getting Started opens this guide inside the app with a search field.
+Help > Idea to Draft opens a guided tutorial as a new project (feature
+screenplay, television pilot or stage play): numbered Beat Board cards from
+idea to draft, linked in order, with matching Outline Editor sections.
+Emoji: Insert > Emoji & Symbols (Ctrl+Cmd+Space). Emoji wrap like the editor
+in print and PDF and are kept in Final Draft and Fountain files.
+Outline Editor: an element placed under a longer element in a lane above
+(a scene under its sequence) is nested in it, and moving the parent moves
+it too (Option moves only the parent). Ripple Insert pushes later
+elements along when you add one.
+Custom Autocorrect (Writing Assistance): your own replace-with pairs, with
+import and export as text.
+Navigator: text size buttons; Cast List tab with scenes, pages, eighths and
+estimated screen time, exported as CSV; the scene table gains colour and
+comment columns, in-place summary and comment editing, columns you can drag
+into a new order, and a remembered sort.
+Status bar: right-click it to choose its items. Format > Scene Numbers can
+hide the right-hand number when a long heading would run into it.
+New template: Streaming Feature (Netflix-style).
+Beat Board: Arrange by Sequence, saved Board Views, one Undo per drag, and
+keyboard control (arrows move a card, [ and ] select, Shift+F10 menu).
+Dictation: the on-device Speech helper is included (Edit > Dictation...).
+macOS asks for Microphone and Speech Recognition access the first time.
+Languages: spelling in 23 languages (English built in, the others through
+the macOS dictionaries), and right-to-left text (Arabic, Hebrew) in the
+editor, print and PDF.
+VoiceOver: each script element is named by its type; Ctrl+Shift+Period
+(View > Announce Element Number) reads its number, page and scene.
+Long scripts: pages away from the window refresh in idle time, so Return
+near the start of a long script waits for less work.
+A project moved or renamed in Finder is found again after a relaunch.
+
+WHAT'S NEW IN 1.16.2
+Customize Toolbar: dragging an item from the list into the toolbar works again
+(it lands where you drop it), and the Default Set can be dragged onto the toolbar.
+
+WHAT'S NEW IN 1.16.1
+Long scripts: typing and Return are several times faster. Pagination starts
+at the change and reuses the pages after it. Unchanged pages are not redrawn.
+Navigator: Scenes can be shown as a table. Drag a column edge to resize it
+(or focus the edge and use the arrow keys; double-click for the default),
+click a header to sort, and double-click a heading to edit it.
+Structure Lines: View > Show > Structure Line Settings (also in the toolbar's
+Show/Hide menu, or right-click a line) sets the width, opacity, which levels
+are drawn, and a default colour per level. Print and PDF use them.
+Toolbar: right-click the toolbar > Show Groups, View > Toolbar Groups, or the
+Customize Toolbar sheet hides or shows whole groups of items.
+
+WHAT'S NEW IN 1.16.0
+A customizable main toolbar, the Outline Editor timeline above the script,
+Page/Normal/Speed views, Focus and Typewriter modes, Structure Lines drawn
+from the script, Navigator Locations and Outline tabs, appearance modes
+(System, Light, Dark, Midnight), and saving and Return-key repairs.
+
+
+WHAT CHANGED IN 1.15.3
+Closing windows: closing any document window no longer raises a main-process
+error, the Dock icon reopens a window after the last one is closed, and a
+crashed or unresponsive editor can be reloaded or closed with a recovery copy.
+PDF export no longer fails when you export while the preview is still rendering.
+
+Editing across elements: Backspace at the start of an element joins it to the
+previous one and Delete at the end joins the next one. Arrow keys move between
+elements. Shift+Arrow, Shift+Click and mouse dragging select across elements;
+the selection can be typed over, deleted, cut, copied and pasted with element
+types kept. Command-A (or Edit > Select All) selects the current element; press
+it again to select the whole script. Pasting screenplay text or copied elements
+creates real elements instead of one paragraph. Return keeps bold/italic/
+underline on both halves of a split element.
+
+Typing speed: in long scripts only the element you are editing is redrawn on
+each keystroke (1.15.2 redrew every element of the script), so typing stays
+responsive in feature-length and longer scripts.
+
+Page layout: notes, scene comments and review prompts are small markers in the
+right page margin (click to open) and never cover script text. The annotations
+bar no longer floats over the pages. "NAME (CONT'D)" for a speaker who resumes
+after action is generated by the page layout and printed in PDFs; (MORE) and the
+continued cue sit at the character indent; a character cue is no longer left
+alone at the bottom of a page; a split element never leaves one widow line.
+Existing scripts can therefore paginate slightly differently than in 1.15.2.
+
+LAYOUT AND SAVE REPAIRS (1.15.2)
+The editor, template preview and native print/PDF use the same measured page
+fragments. Screenplay boundary spacing counts gaps once and keeps speech attached.
+Exact legacy factory formats upgrade with a recovery checkpoint. Custom overrides
+and locked documents keep their layout; Edit > Formatting Assistant offers an
+explicit screenplay gap repair. General mixed-style editing is still incomplete.
+
+Find now visits literal source occurrences. Replace preserves unaffected text,
+runs, active takes and production ranges with Undo. View > Scene List / Index Cards
+opens real views; all reorder routes move complete scenes. File Manager Save As
+waits for a real native save, Revert reads the saved disk file and checkpoints work,
+and Duplicate remaps dependent character/planning/tag/cast/image identities.
+Close waits for composition and blur formatting, resolves the latest revision
+and keeps one save decision active. A full redundant cache cannot revoke a
+verified native save. Actual native close/quit still needs physical Mac validation.
+
+Compare uses token edits. Combine previews a graph-safe merge at the last focused
+element boundary. Source global settings are retained as native provenance while
+the current title and format stay active. Incompatible lock schedules are blocked.
+Full within-element insertion and complete Final Draft interoperability are not
+claimed. See REPAIR-FEATURE-MATRIX.md and REPAIR-DEFECT-LEDGER.md for limits.

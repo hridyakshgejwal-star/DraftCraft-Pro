@@ -1,0 +1,66 @@
+{
+  "appDir": "/home/claude/draftcraft/release-1.15.4/app.asar",
+  "electron": "44.7.0 linux-x64",
+  "results": [
+    {
+      "name": "close unmodified window (red button / Cmd+W) with another window open",
+      "passed": true,
+      "ms": 7388
+    },
+    {
+      "name": "modified new document: Cancel keeps window, Don't Save closes",
+      "passed": true,
+      "ms": 7157
+    },
+    {
+      "name": "modified new document: Save writes a real project file and remembers it",
+      "passed": true,
+      "ms": 9112
+    },
+    {
+      "name": "Quit (Cmd+Q) with two modified windows prompts once per window and can be canceled",
+      "passed": true,
+      "ms": 10974
+    },
+    {
+      "name": "close requested twice quickly shows a single dialog",
+      "passed": true,
+      "ms": 7231
+    },
+    {
+      "name": "closing while an autosave is in flight keeps the latest text",
+      "passed": true,
+      "ms": 5688
+    },
+    {
+      "name": "renderer crash: Reload Editor restores the latest received text",
+      "passed": true,
+      "ms": 7224
+    },
+    {
+      "name": "renderer crash: Close Window keeps a recovery copy and closes",
+      "passed": true,
+      "ms": 6639
+    },
+    {
+      "name": "relaunch after a crash offers the recovery copy and Restore brings the text back",
+      "passed": true,
+      "ms": 11228
+    },
+    {
+      "name": "close with an unavailable save folder offers Save As and loses nothing",
+      "passed": true,
+      "ms": 4138
+    },
+    {
+      "name": "hung editor: close watchdog offers Close Window and keeps a recovery copy",
+      "passed": true,
+      "ms": 22310
+    },
+    {
+      "name": "Dock activate after the last window closed opens a new editor window (macOS app-stays-open branch)",
+      "passed": true,
+      "ms": 4603
+    }
+  ]
+}

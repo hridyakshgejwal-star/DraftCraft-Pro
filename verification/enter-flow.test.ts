@@ -1,0 +1,41 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {editDistance,enterCorrection} from '../src/writing/spelling.ts';
+import {afterDialogue,proseInCue} from '../src/formats/inference.ts';
+import {DEFAULT_WRITING_SETTINGS} from '../src/writing/model.ts';
+import type {Paragraph} from '../src/types/script.ts';
+const ctx=(suggested?:string[],occurrences=1,protectedWords=new Set<string>(),blocked=new Set<string>())=>({protectedWords,blocked,suggested,occurrences:()=>occurrences});
+const P=(type:Paragraph['type'],text:string):Paragraph=>({id:Math.random().toString(36).slice(2),type,text});
+test('transpositions count as one edit',()=>{assert.equal(editDistance('teh','the'),1);assert.equal(editDistance('quietyl','quietly'),1);assert.equal(editDistance('carefuly','careful'),1);assert.equal(editDistance('leter','later'),1);assert.equal(editDistance('abc','abc'),0);});
+test('Return corrects only an unambiguous final word',()=>{
+ const s=DEFAULT_WRITING_SETTINGS;
+ assert.equal(enterCorrection('She smiles agian',s,ctx())?.text,'She smiles again');
+ assert.equal(enterCorrection('Teh',s,ctx())?.text,'The');
+ assert.equal(enterCorrection('He leaves quietyl',s,ctx(['quietly']))?.text,'He leaves quietly');
+ assert.equal(enterCorrection('She moves carefuly',s,ctx(['carefully','careful'])),null,'two close matches');
+ assert.equal(enterCorrection('He reads the leter',s,ctx(['letter','leper','meter','later'])),null,'several matches');
+ assert.equal(enterCorrection('He leaves quietyl',s,ctx(['quietly'],2)),null,'the same spelling elsewhere in the script is intentional');
+ assert.equal(enterCorrection('Meet Grizzwald',s,ctx(['Griswold'])),null,'capitalized words are not corrected from the dictionary');
+ assert.equal(enterCorrection('I dunno',s,ctx(['dun no'])),null,'informal spellings are protected');
+ assert.equal(enterCorrection('She smiles agian',s,ctx(undefined,1,new Set(['agian']))),null,'protected words');
+ assert.equal(enterCorrection('She smiles agian',s,ctx(undefined,1,new Set(),new Set(['agian']))),null,'words restored by an undo');
+ assert.equal(enterCorrection('She smiles agian.',s,ctx()),null,'only a word at the very end');
+ assert.equal(enterCorrection('She smiles agian',{...s,autocorrect:false},ctx()),null,'autocorrect off');
+ assert.equal(enterCorrection('It rings soooon',s,ctx(['soon'])),null,'stretched words are intentional');
+});
+test('the element after a speech follows a clear pattern in the scene only',()=>{
+ const exchange=[P('Scene Heading','INT. ROOM - DAY'),P('Character','ANNA'),P('Dialogue','Hi.'),P('Character','BEN'),P('Dialogue','Hey.'),P('Character','ANNA'),P('Dialogue','So.')];
+ assert.equal(afterDialogue(exchange,6,'Action'),'Character');
+ assert.equal(afterDialogue(exchange.slice(0,5),4,'Action'),'Action','one exchange is not a pattern');
+ const action=[P('Scene Heading','INT. ROOM - DAY'),P('Character','ANNA'),P('Dialogue','Hi.'),P('Action','She sits.'),P('Character','BEN'),P('Dialogue','Hey.'),P('Action','He shrugs.'),P('Character','ANNA'),P('Dialogue','So.')];
+ assert.equal(afterDialogue(action,8,'Character'),'Action');
+ const mixed=[...action.slice(0,6),P('Character','ANNA'),P('Dialogue','Yes.'),P('Action','Pause.'),P('Character','BEN'),P('Dialogue','No.')];
+ assert.equal(afterDialogue(mixed,10,'Character'),'Character','a mixed pattern keeps the rule');
+ const previousScene=[...exchange,P('Scene Heading','EXT. STREET - NIGHT'),P('Character','ANNA'),P('Dialogue','Run.')];
+ assert.equal(afterDialogue(previousScene,9,'Action'),'Action','only the current scene counts');
+ assert.equal(afterDialogue(exchange,6,'Parenthetical'),'Parenthetical');
+});
+test('prose typed into a cue is recognized only when clear',()=>{
+ for(const cue of ['MAREN','YOUNG WOMAN','MAN IN THE BLUE SUIT','MAREN (V.O.)','DR. SMITH','J. EDGAR','MRS. O\'HARA','MAREN (CONT\'D)'])assert.equal(proseInCue(cue),false,cue);
+ for(const prose of ['she turns away and leaves the room','He stops. Then','Wait, he says','she runs to the old door'.replace('old ','old wooden ')])assert.equal(proseInCue(prose),true,prose);
+});

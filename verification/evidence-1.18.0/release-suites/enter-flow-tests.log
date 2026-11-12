@@ -1,0 +1,75 @@
+Full stops
+  ok   a complete action sentence gets a full stop
+  ok   a complete action sentence gets a full stop: next element is Action
+  ok   a complete action sentence gets a full stop: no page errors
+  ok   an exclamation is unchanged
+  ok   an exclamation is unchanged: no page errors
+  ok   an existing full stop is not doubled
+  ok   an existing full stop is not doubled: no page errors
+  ok   an ellipsis is unchanged
+  ok   an ellipsis is unchanged: no page errors
+  ok   a trailing dash is unchanged
+  ok   a trailing dash is unchanged: no page errors
+  ok   a closing quote keeps the full stop inside
+  ok   a closing quote keeps the full stop inside: no page errors
+  ok   an unfinished sentence gets no full stop
+  ok   an unfinished sentence gets no full stop: no page errors
+  ok   dialogue gets a full stop
+  ok   dialogue gets a full stop: no page errors
+  ok   a scene heading gets none
+  ok   a scene heading gets none: next element is Action
+  ok   a scene heading gets none: no page errors
+  ok   a transition gets none and is followed by a scene heading
+  ok   a transition gets none and is followed by a scene heading: next element is Scene Heading
+  ok   a transition gets none and is followed by a scene heading: no page errors
+  ok   a parenthetical gets none and is followed by dialogue
+  ok   a parenthetical gets none and is followed by dialogue: next element is Dialogue
+  ok   a parenthetical gets none and is followed by dialogue: no page errors
+Spelling on Return
+  ok   a typo corrected at a word boundary
+  ok   a typo corrected at a word boundary: no page errors
+  ok   a clear typo in the final word is corrected on Return
+  ok   a clear typo in the final word is corrected on Return: no page errors
+  ok   a capitalized clear typo keeps its case
+  ok   a capitalized clear typo keeps its case: no page errors
+  ok   a word without a confident replacement is unchanged
+  ok   a word without a confident replacement is unchanged: no page errors
+  ok   a final word with exactly one close dictionary match is corrected
+  ok   a final word with exactly one close dictionary match is corrected: no page errors
+  ok   the same in dialogue
+  ok   the same in dialogue: no page errors
+  ok   two equally close matches leave the word unchanged
+  ok   two equally close matches leave the word unchanged: no page errors
+  ok   another ambiguous word is unchanged
+  ok   another ambiguous word is unchanged: no page errors
+  ok   an unknown name is unchanged
+  ok   an unknown name is unchanged: no page errors
+  ok   informal dialogue is unchanged
+  ok   informal dialogue is unchanged: no page errors
+  ok   a word used elsewhere in the script is treated as intentional
+  ok   one Undo restores what was typed (word, full stop and new element together)
+  ok   the caret returns to the end of the restored text
+  ok   Redo reapplies it
+  ok   an undone correction is remembered and not repeated
+Next element
+  ok   an established name on its own line becomes a cue without a full stop
+  ok   Return after the cue starts Dialogue
+  ok   without a pattern in the scene, Return after a speech follows the template rule (Action)
+  ok   Return on an empty cue turns it into Action
+  ok   in a running exchange, Return after a speech starts the next cue
+  ok   one earlier exchange is not yet a pattern (the template rule applies)
+  ok   a short line stays a cue
+  ok   prose typed into an automatic cue becomes Action in the typed case
+  ok   Undo keeps it a cue
+  ok   after Undo it is not switched again
+  ok   a cue chosen with the element shortcut is respected
+  ok   Shift+Return inserts a line break inside the element without a full stop
+  ok   splitting a sentence in the middle adds no full stop and keeps the text exactly
+Stability
+  ok   no editor element is remounted while typing and pressing Return
+  ok   no unexpected layout shift
+  ok   the caret stays inside the viewport after every Return
+  ok   no characters are lost and no punctuation is duplicated when typing fast
+  ok   no page errors
+
+69 passed, 0 failed

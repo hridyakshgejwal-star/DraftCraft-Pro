@@ -1,0 +1,98 @@
+{"suite": "models", "passed": true, "seconds": 14.4, "interaction_groups": 0, "measurements": [], "tests": 229}
+{"suite": "story", "passed": true, "seconds": 39.8, "interaction_groups": 15, "measurements": [{"pages": 250, "paragraphs": 2123, "enabledTools": 4, "allPageArc": true, "typingMs": {"p50": 74, "p95": 118, "max": 156}, "renderedArcPoints": 24, "environment": "Linux Chromium; physical M2 not benchmarked"}]}
+{"suite": "editor", "passed": true, "seconds": 58.2, "interaction_groups": 14, "measurements": []}
+{"suite": "shortcuts", "passed": true, "seconds": 46.3, "interaction_groups": 14, "measurements": [{"pages": 250, "paragraphs": 2121, "shortcutP50Ms": 66, "shortcutP95Ms": 90, "environment": "Linux Chromium 151; includes automation round trip; physical Mac not benchmarked"}]}
+{"suite": "words", "passed": true, "seconds": 38.9, "interaction_groups": 13, "measurements": [{"pages": 250, "firstWordClickMs": 513, "cachedWordClickMs": [351, 266, 324, 288, 264, 247, 338], "environment": "Linux Chromium 151; includes automation; physical M2 not benchmarked"}]}
+{"suite": "spelling", "passed": false, "seconds": 23.0, "interaction_groups": 6, "measurements": []}
+    'Dual Dialogue · Unassigned\n' +
+    'Transition · ⌘6\n' +
+    'Shot · ⌘7\n' +
+    'General Text · ⌘0\n' +
+    'Centered Text · Unassigned\n' +
+    'Lyrics · Unassigned\n' +
+    'New Act · ⌘8\n' +
+    'End of Act · ⌘9\n' +
+    'Scene Summary · Unassigned\n' +
+    'Cast List · Unassigned\n' +
+    'Outline Level 1 · Unassigned\n' +
+    'Outline Level 2 · Unassigned\n' +
+    'Outline Level 3 · Unassigned\n' +
+    'Sequence · Unassigned\n' +
+    'Note · Unassigned\n' +
+    'Stage Direction · Unassigned\n' +
+    'Song Title · Unassigned\n' +
+    'Comic Page · Unassigned\n' +
+    'Panel · Unassigned\n' +
+    'Panel Description · Unassigned\n' +
+    'Caption · Unassigned\n' +
+    'Sound Effect · Unassigned\n' +
+    'Narration · Unassigned\n' +
+    'User Defined · Unassigned\n' +
+    'Customize Shortcuts\n' +
+    'Commands\n' +
+    'Bookmarks (0)\n' +
+    'ANNOTATIONS:\n' +
+    'Notes\n' +
+    'Bookmarks\n' +
+    'Scene Comments\n' +
+    'Story Structure & Editor Settings…\n' +
+    'Page 1 · Actions\n' +
+    '★ BLUE REVISION DRAFT\n' +
+    'He recieved the mesage yesterday.\n' +
+    '*\n' +
+    'Page 1 of 1\n' +
+    '•\n' +
+    '20 Words\n' +
+    '•\n' +
+    '8 Lines\n' +
+    '•\n' +
+    'Character\n' +
+    '⏱️ 25:00\n' +
+    '•\n' +
+    '0/1000w (0%)\n' +
+    '•\n' +
+    '1d\n' +
+    '¶\n' +
+    '•\n' +
+    'Typewriter\n' +
+    'Split\n' +
+    '•\n' +
+    'Page View\n' +
+    'Normal View\n' +
+    'Speed View\n' +
+    'Focus Mode\n' +
+    '•\n' +
+    '100%',
+  inputs: [
+    { id: 'input-a', text: 'He recieved the mesage yesterday.' },
+    { id: 'input-c1', text: 'JOHN (V.O.)' },
+    { id: 'input-c2', text: 'SARAH' },
+    { id: 'input-c3', text: 'MICHAEL' },
+    { id: 'input-c4', text: 'DETECTIVE ROBERT' },
+    { id: 'input-c5', text: 'ZAYVION' },
+    { id: 'input-c6', text: 'ÉLODIE (LIVE RADIO)' },
+    { id: 'input-new', text: 'JOTHE NEXT LINE IS DIALOGUE.' }
+  ],
+  workerLayers: 1
+}
+ERRORS []
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('listbox', { name: 'Character Suggestions' }) to be visible[22m
+
+    at /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-final/work/verification/writing-browser.cjs:87:119
+    at async check (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-final/work/verification/writing-browser.cjs:31:35)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-final/work/verification/writing-browser.cjs:86:3
+
+{"suite": "smart-save", "passed": true, "seconds": 64.5, "interaction_groups": 10, "measurements": [{"paragraphs": 1999, "pages": 222, "typingMs": {"p50": 173, "p95": 347}, "fillP95BudgetMs": 600, "environment": "Linux Chromium, not a physical Mac benchmark"}]}
+{"suite": "caret", "passed": true, "seconds": 43.8, "interaction_groups": 12, "measurements": [{"pages": 222, "paragraphs": 1999, "typingMs": {"p50": 49, "p95": 167}, "environment": "Linux Chromium, no physical M2/120 Hz display test"}]}
+{"suite": "formats", "passed": true, "seconds": 49.6, "interaction_groups": 18, "measurements": [{"paragraphs": 1505, "pages": 167, "typingMs": {"p50": 48, "p95": 313}}]}
+{"suite": "punctuation", "passed": true, "seconds": 91.5, "interaction_groups": 18, "measurements": [{"returnP95BudgetMs": 1175, "budgetRule": "max(600ms, ceil(1.25 times same-document Off p95))", "paragraphs": 2019, "pages": 223, "returnMs": {"p50": 503, "p95": 904}, "offReturnMs": {"p50": 574, "p95": 940}, "handlerOnMs": {"p50": 438.3, "p95": 767.8}, "handlerOffMs": {"p50": 510.8, "p95": 836}, "environment": "Linux Chromium; physical Mac and IME not tested"}]}
+{"suite": "automatic-formatting", "passed": true, "seconds": 138.9, "interaction_groups": 25, "measurements": [{"paragraphs": 2000, "pages": 222, "characters": 120, "totalTypingMs": 8941, "keyHandlerP95Ms": 0.40000000037252903, "environment": "Linux Chromium; physical macOS input not exercised"}]}
+{"suite": "table-read", "passed": true, "seconds": 63.2, "interaction_groups": 18, "measurements": [{"paragraphs": 2000, "pages": 222, "openMs": 731, "typingTotalMs": 1846, "typedCharacters": 12, "environment": "Linux Chromium; macOS speech substituted with real Flite audio, not premium quality testing"}]}
+{"suite": "production", "passed": true, "seconds": 34.6, "interaction_groups": 14, "measurements": []}
+{"suite": "collaboration", "passed": true, "seconds": 4.6, "interaction_groups": 1, "measurements": []}
+{"suite": "interchange", "passed": true, "seconds": 3.8, "interaction_groups": 8, "measurements": []}
+{"suite": "repair", "passed": true, "seconds": 33.0, "interaction_groups": 11, "measurements": []}
+{"suite": "cross-paragraph", "passed": true, "seconds": 16.9, "interaction_groups": 10, "measurements": []}
+exit 1

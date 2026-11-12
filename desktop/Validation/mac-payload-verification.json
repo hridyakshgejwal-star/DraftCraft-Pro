@@ -1,0 +1,7 @@
+{
+  "files": 43,
+  "all_runtime_payload_files_match_tested_build": true,
+  "package_metadata_change": "Packager removes the non-runtime private flag",
+  "offline_css_included": true,
+  "package_version": "1.4.1"
+}

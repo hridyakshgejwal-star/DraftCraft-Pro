@@ -1,0 +1,139 @@
+{
+  "appDir": "/home/claude/draftcraft/build-baseline/app",
+  "electron": "44.7.0 linux-x64",
+  "results": [
+    {
+      "name": "close unmodified window (red button / Cmd+W) with another window open",
+      "passed": false,
+      "error": "main-process exceptions\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": []
+    },
+    {
+      "name": "modified new document: Cancel keeps window, Don't Save closes",
+      "passed": false,
+      "error": "main-process exceptions\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": [
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 2,
+            "checkboxChecked": false
+          }
+        },
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 1,
+            "checkboxChecked": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "modified new document: Save writes a real project file and remembers it",
+      "passed": false,
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)',\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)",
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": [
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 0,
+            "checkboxChecked": false
+          }
+        },
+        {
+          "kind": "showSaveDialog",
+          "args": "Save DraftCraft Project",
+          "result": {
+            "canceled": false,
+            "filePath": "/tmp/dc-docs-geJpKo/Closing Test.draftcraft"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Quit (Cmd+Q) with two modified windows prompts once per window and can be canceled",
+      "passed": false,
+      "error": "main-process exceptions\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)',\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)",
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": [
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 2,
+            "checkboxChecked": false
+          }
+        },
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 1,
+            "checkboxChecked": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "close requested twice quickly shows a single dialog",
+      "passed": true,
+      "ms": 7631
+    },
+    {
+      "name": "closing while an autosave is in flight keeps the latest text",
+      "passed": false,
+      "error": "main-process exceptions\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": [
+        {
+          "kind": "showSaveDialog",
+          "args": "Save DraftCraft Project",
+          "result": {
+            "canceled": false,
+            "filePath": "/tmp/dc-docs-kU8Is5/Flight.draftcraft"
+          }
+        }
+      ]
+    }
+  ]
+}

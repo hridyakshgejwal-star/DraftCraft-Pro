@@ -1,0 +1,16 @@
+PASS F01 actual page gaps, speech attachments and inch indents match screenplay layout
+PASS F02 template preview includes existing paragraph 15 with the editor geometry
+PASS F04-F06 literal query keeps focus, next selects every occurrence, exact replacement is Undoable
+PASS F05 punctuation searches and dollar replacements remain literal
+PASS F07 reachable scenes moves complete unequal scenes and Undo restores order
+PASS F07 reachable cards moves complete unequal scenes and Undo restores order
+PASS F11-F12 Combine previews element-boundary insertion and retains real source image references
+PASS F15 Format Doctor repairs actual boundary rules and preserves text
+PASS F01-F02 editor, print HTML and actual PDF agree on geometry, source fragments and speech pages
+PASS snapshot Restore waits for real adoption and one Undo restores the newer draft
+PASS custom document paper and saved title-page choice reach the actual PDF bytes
+Warning: Cannot load "@napi-rs/canvas" package: "Error: Cannot find module '@napi-rs/canvas'
+Require stack:
+- /home/claude/draftcraft/vendor/node_modules/pdfjs-dist/legacy/build/pdf.mjs".
+Warning: Cannot polyfill `DOMMatrix`, rendering may be broken.
+Warning: Cannot polyfill `Path2D`, rendering may be broken.

@@ -1,0 +1,299 @@
+{
+  "passed": true,
+  "architecture": "Electron/React/TypeScript; Rust prototype remains separate",
+  "rust_files_unchanged": [
+    {
+      "path": "crates/screenplay-core/Cargo.toml",
+      "sha256": "2f249935120be973a27fa327403879a948c0668f72691b5fa40fa289f6b6c3a3"
+    },
+    {
+      "path": "crates/screenplay-core/src/fdx.rs",
+      "sha256": "6fca41886a6099dd77a6f88be6ccee3f6b74e3415af2dfab15fce4d0145ab562"
+    },
+    {
+      "path": "crates/screenplay-core/src/fountain.rs",
+      "sha256": "36090c626d3513999470a42da64cf104a38ed83f8d733cb0844a0992333164cb"
+    },
+    {
+      "path": "crates/screenplay-core/src/lib.rs",
+      "sha256": "8219d46c2575dc212cb09cd1a84e4240968476112f2a9ebc83633fdff8561652"
+    },
+    {
+      "path": "crates/screenplay-core/src/macos_bridge.rs",
+      "sha256": "62be887b2b41e1c548c086347952cfdad4c471bf53dfc83cbc27909b3130469b"
+    },
+    {
+      "path": "crates/screenplay-core/src/main.rs",
+      "sha256": "eb5cc1336e8332c1f997be08078ce26a36481a84701ede037edb2c4cce9e7e12"
+    },
+    {
+      "path": "crates/screenplay-core/src/pagination.rs",
+      "sha256": "110893ce58e867b9c32dd5dcdb19c3e57e32c11b19023eaf498f9ed20469db15"
+    },
+    {
+      "path": "crates/screenplay-core/src/types.rs",
+      "sha256": "f08da49f0535afb040876d2c78b50e3061dc821ba420735facb88ea65d65be4d"
+    },
+    {
+      "path": "screenplay-workspace/Cargo.toml",
+      "sha256": "edfb29bdf3210a56a85c2bb807ee042e6e4edcbb84aed6eaaa32fedd2dd5eb68"
+    },
+    {
+      "path": "screenplay-workspace/app/Cargo.toml",
+      "sha256": "3c63925c475a2ba99a891ab70f94d432c77ad7e56bb6267c43362357ee335e22"
+    },
+    {
+      "path": "screenplay-workspace/app/src/main.rs",
+      "sha256": "f64fd720a2121a67bc68565d9c1e517c8d36bf483d5f4e7cb6cc6c5edad6a485"
+    },
+    {
+      "path": "screenplay-workspace/characters/Cargo.toml",
+      "sha256": "028f79b0cbbb1422eb1b92bb3f7a2c5b78819624b5ae3b18d70b0888f93f075c"
+    },
+    {
+      "path": "screenplay-workspace/characters/src/lib.rs",
+      "sha256": "303e2a91ec5547c55bf00a85d641366974849c879a3654f5c3163479694d46d6"
+    },
+    {
+      "path": "screenplay-workspace/collaboration/Cargo.toml",
+      "sha256": "875e2335275815fba12f861accca296ae270aa559f0a1d265adfa80805946554"
+    },
+    {
+      "path": "screenplay-workspace/collaboration/src/lib.rs",
+      "sha256": "19c4b7e19b55baf7a95dcd2ad042c020dbb8b83967acec46060bb1fb901b06c0"
+    },
+    {
+      "path": "screenplay-workspace/document-core/Cargo.toml",
+      "sha256": "ff4db3467236a91a4b4585d325c99d848a39238f8f9fddcb5ea1ece13a02406a"
+    },
+    {
+      "path": "screenplay-workspace/document-core/src/lib.rs",
+      "sha256": "503d0b587f4135d4676e11c6033ca6c75c242904faf8532a1e83dcc39080b9ef"
+    },
+    {
+      "path": "screenplay-workspace/file-formats/Cargo.toml",
+      "sha256": "9f82cd7b3dc8dc3bf5bd26aa75723b7e817b03ad4200a1a731e08e1cc229b4ff"
+    },
+    {
+      "path": "screenplay-workspace/file-formats/src/lib.rs",
+      "sha256": "a10ae5ce8c710ae49d7de5a50b7325ff0562271f3974b9d9db1690dc2d20865d"
+    },
+    {
+      "path": "screenplay-workspace/localization/Cargo.toml",
+      "sha256": "e9ff6475343d15c38eb007f00b918e369e652461582730dbe7499b685edd9871"
+    },
+    {
+      "path": "screenplay-workspace/localization/src/lib.rs",
+      "sha256": "895ba497674a0ba125b9d9bd3844b3fd70e7effeaea3ad874dd93ec2181483f7"
+    },
+    {
+      "path": "screenplay-workspace/macos-integration/Cargo.toml",
+      "sha256": "35759c2ce951815c2ab2a52edb63e875014acc6572feef2a4d5d7982e6f63594"
+    },
+    {
+      "path": "screenplay-workspace/macos-integration/src/lib.rs",
+      "sha256": "f5711f3b1587b0be86845ca1d387290e5e919fd2b5639a882a3aeb184b315b70"
+    },
+    {
+      "path": "screenplay-workspace/navigator/Cargo.toml",
+      "sha256": "fc354914cac9385321fdff707bc5495fcd02cd2cf8657006036ec7a576bf3e44"
+    },
+    {
+      "path": "screenplay-workspace/navigator/src/lib.rs",
+      "sha256": "755d866079f8801c3878ac2965d6d025fae09d92a68deeac23582ccad76b13cc"
+    },
+    {
+      "path": "screenplay-workspace/outline-editor/Cargo.toml",
+      "sha256": "d549aa717335d71c11c022a003c788626fc60ea5dda25017430e9a541e030138"
+    },
+    {
+      "path": "screenplay-workspace/outline-editor/src/lib.rs",
+      "sha256": "2b4dbd4ea01abd3cef03111071a4bbcfc633aee2543211a67991c96e35d42493"
+    },
+    {
+      "path": "screenplay-workspace/pagination/Cargo.toml",
+      "sha256": "8c8087729abec59bd0425129a4e77c95a687241ffd5ccc9f8668c66e490d8358"
+    },
+    {
+      "path": "screenplay-workspace/pagination/src/lib.rs",
+      "sha256": "3090b860003ec7ce1f0833fcf80753c4d606182a17e41d404bbbd4b6e788542c"
+    },
+    {
+      "path": "screenplay-workspace/pdf-export/Cargo.toml",
+      "sha256": "d9d6e8f93a97dcc4b31be13c27098c84a7df0050f434f286b5c14780423ea5af"
+    },
+    {
+      "path": "screenplay-workspace/pdf-export/src/lib.rs",
+      "sha256": "433ad3ff73490d983a138c31f1591ebf92e04748adc405b02d7d9c5e3073f592"
+    },
+    {
+      "path": "screenplay-workspace/persistence/Cargo.toml",
+      "sha256": "3b6754ef53952a2e8bc2bde3d69b2faceeb83f048a5b22897037c0845dba7087"
+    },
+    {
+      "path": "screenplay-workspace/persistence/src/lib.rs",
+      "sha256": "e0984c051c5f0702b891e0ea82330d9a198e8cfd0315ebe8c0b7649b4c45a62a"
+    },
+    {
+      "path": "screenplay-workspace/preferences/Cargo.toml",
+      "sha256": "42a80a22c54c2c726bbb41a506da7da341e5f9cab1f5fee23d70de1466421cf0"
+    },
+    {
+      "path": "screenplay-workspace/preferences/src/lib.rs",
+      "sha256": "2114f9aacff4f6306051f4904c281ea2afa85b28e0c5ce1c9fb9c01aae5e3288"
+    },
+    {
+      "path": "screenplay-workspace/print-engine/Cargo.toml",
+      "sha256": "8875201dcec6e7bcf9664dc274ba439cc51dd0be2327e56c92421c82fabf138e"
+    },
+    {
+      "path": "screenplay-workspace/print-engine/src/lib.rs",
+      "sha256": "fdafc1cb3116a6552fa91ec9439463cda45f28d7c845ab39b56ac8cc6ba6c8c1"
+    },
+    {
+      "path": "screenplay-workspace/production/Cargo.toml",
+      "sha256": "448e3e14ca508b0d7d6933e1968882a26c3caa1e4973ee9258189763790226fe"
+    },
+    {
+      "path": "screenplay-workspace/production/src/lib.rs",
+      "sha256": "e2fceaa0768a8dc2b26e5c68c0cf79295f3525c858f156fefbef858de6e46b41"
+    },
+    {
+      "path": "screenplay-workspace/reports/Cargo.toml",
+      "sha256": "d27153d685a9e3444a7ed95aeec2cb80299d615bc63946def60fa5c370ad5591"
+    },
+    {
+      "path": "screenplay-workspace/reports/src/lib.rs",
+      "sha256": "6998bd0d2186e3be63d09506bd013a602e30a4b5e8c07fec404ee92ec388143f"
+    },
+    {
+      "path": "screenplay-workspace/revision-engine/Cargo.toml",
+      "sha256": "0890e1f5f597f03dec9bde2304526a5721f20bda20dcb4530821a008799b20df"
+    },
+    {
+      "path": "screenplay-workspace/revision-engine/src/lib.rs",
+      "sha256": "e1f5407a9390ed29512a2e5ed6da107121e96bfe8bf3da0bb45cab82f5790f32"
+    },
+    {
+      "path": "screenplay-workspace/screenplay-editor/Cargo.toml",
+      "sha256": "2235efe8815e711e9cbea104e6569385d90517d9292bb6a0e607751c83deb8c7"
+    },
+    {
+      "path": "screenplay-workspace/screenplay-editor/src/lib.rs",
+      "sha256": "65d71dad65a4f37b466a413342c7e817fb75e288d3da905fd9a5f3cc9d80ea5d"
+    },
+    {
+      "path": "screenplay-workspace/screenplay-formatting/Cargo.toml",
+      "sha256": "7f492718fe92ad73b8684cfebb8ac85407d2440dc957dcd96785a99432dc1651"
+    },
+    {
+      "path": "screenplay-workspace/screenplay-formatting/src/lib.rs",
+      "sha256": "6bde255d167d4cdc9064e1f71234e3722b0c4167914cb13e663a3c0f77e836ac"
+    },
+    {
+      "path": "screenplay-workspace/script-notes/Cargo.toml",
+      "sha256": "30eb2587604f46476964cd44f2b8f6bca19f5f2d8bf56c54ec05bced0f44b95a"
+    },
+    {
+      "path": "screenplay-workspace/script-notes/src/lib.rs",
+      "sha256": "d7f9291e643fc95905fac32a0fcfab2af7c8dabbf38c966639df579daf185f53"
+    },
+    {
+      "path": "screenplay-workspace/story-board/Cargo.toml",
+      "sha256": "d5c598a5b4cce68f6f10605b77c9e63898025762e99758a3f38f2cd4abd7edc7"
+    },
+    {
+      "path": "screenplay-workspace/story-board/src/lib.rs",
+      "sha256": "fbdbd6eb08f84badc4e2a5828b609cf73bff84fe07b9d6395722f665bfdda604"
+    },
+    {
+      "path": "screenplay-workspace/tests/Cargo.toml",
+      "sha256": "8a5cf7c453b24c417475cc0cb80c3a5a010425e79816c98012f3521cc05f0027"
+    },
+    {
+      "path": "screenplay-workspace/tests/src/lib.rs",
+      "sha256": "bca8b75a837a823abcca47f2cdd5e3b8dd2060a114fe31efc043407ea63df0cf"
+    },
+    {
+      "path": "screenplay-workspace/typography/Cargo.toml",
+      "sha256": "9004b47756e2be42981b83d414613fac7ff23830c1af9cd85b09fad305742f03"
+    },
+    {
+      "path": "screenplay-workspace/typography/src/lib.rs",
+      "sha256": "2d7aa0560262db6cfdc358a3542d474d7428d00fdf45a9e3b95ced90b35f103b"
+    },
+    {
+      "path": "screenplay-workspace/ui/Cargo.toml",
+      "sha256": "f083c6dcd538c173da89567f425c4d04dd10359539f5534bb1a6c2e834b417db"
+    },
+    {
+      "path": "screenplay-workspace/ui/src/lib.rs",
+      "sha256": "2ad512e61153de6b81824206aeedf23b7eb02116438738e2298d9be3bb5a1637"
+    },
+    {
+      "path": "screenplay-workspace/writing-statistics/Cargo.toml",
+      "sha256": "e1d62aaab03c0d5e62f4fdb9beda8a3002801e442427e8ce31320a5694212035"
+    },
+    {
+      "path": "screenplay-workspace/writing-statistics/src/lib.rs",
+      "sha256": "ac4efa9ef82dac1698506f137f852e893aaa51ac0c012eff4218d590dff68526"
+    }
+  ],
+  "intentional_changes": [
+    "PRODUCTION-FEATURE-MATRIX.md",
+    "Production-Build-and-Install.md",
+    "desktop/Getting-Started.txt",
+    "desktop/build.cjs",
+    "desktop/main.cjs",
+    "desktop/package-lock.json",
+    "desktop/package.json",
+    "desktop/package.mjs",
+    "desktop/preload.cjs",
+    "desktop/save-coordinator.cjs",
+    "src/App.tsx",
+    "src/components/FileManagerModal.tsx",
+    "src/components/FindReplaceBar.tsx",
+    "src/components/FormatDoctorModal.tsx",
+    "src/components/FormatStudio.tsx",
+    "src/components/IndexCardsView.tsx",
+    "src/components/MacOsMenubar.tsx",
+    "src/components/NavigatorSidebar.tsx",
+    "src/components/PrintAndPdfModal.tsx",
+    "src/components/SceneListView.tsx",
+    "src/components/ScriptCompareModal.tsx",
+    "src/components/ScriptEditor.tsx",
+    "src/files/model.ts",
+    "src/files/useProjectFiles.ts",
+    "src/formats/model.ts",
+    "src/formats/storage.ts",
+    "src/production/TrackPreview.tsx",
+    "src/production/layout.ts",
+    "src/production/model.ts",
+    "src/production/print.ts",
+    "src/production/queries.ts",
+    "src/types/desktop.d.ts",
+    "src/types/script.ts",
+    "src/utils/fileManagerStorage.ts",
+    "src/utils/formatDoctor.ts",
+    "src/utils/screenplayFormats.ts",
+    "src/utils/scriptDiff.ts",
+    "verification/build-production-dmg.py",
+    "verification/dmg-asar-proof.json",
+    "verification/dmg-baseline-inventory.json",
+    "verification/dmg-baseline-native-proof.json",
+    "verification/dmg-code-equivalence-proof.json",
+    "verification/dmg-prior-full-tests.json",
+    "verification/dmg-test-attempts.json",
+    "verification/formats-results/a4-print.pdf",
+    "verification/packaging-tools.json",
+    "verification/production-results/character-sides.pdf",
+    "verification/production-results/shared-layout.pdf",
+    "verification/run-release-tests.py",
+    "verification/smart-save-browser.cjs",
+    "verification/smart-save-results/browser.json",
+    "verification/story-results/final-tests.json",
+    "verification/verify-dmg-asar.mjs"
+  ],
+  "preferences_and_profiles_reset": false,
+  "app_identifier": "com.draftcraft.screenplay.studio"
+}

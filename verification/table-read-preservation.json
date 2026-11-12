@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "baseline": "delivered 1.13.0 source and application",
+  "changed_files": [
+    "desktop/Getting-Started.txt",
+    "desktop/ai-settings.html",
+    "desktop/build.cjs",
+    "desktop/main.cjs",
+    "desktop/package-lock.json",
+    "desktop/package.json",
+    "desktop/package.mjs",
+    "desktop/preload.cjs",
+    "src/App.tsx",
+    "src/components/AiTableReadModal.tsx",
+    "src/components/MacOsMenubar.tsx",
+    "src/components/ScriptEditor.tsx",
+    "src/index.css",
+    "src/types/desktop.d.ts",
+    "src/types/script.ts"
+  ],
+  "new_files": [
+    "desktop/table-read-audio-worker.cjs",
+    "desktop/table-read-audio.cjs",
+    "desktop/table-read-ipc.cjs",
+    "desktop/table-read.cjs",
+    "src/tableRead/bridge.ts",
+    "src/tableRead/highlight.ts",
+    "src/tableRead/model.ts",
+    "src/tableRead/player.ts"
+  ],
+  "removed_files": [],
+  "unchanged_files": 178,
+  "critical_unchanged": [
+    "desktop/project-files.cjs",
+    "desktop/save-coordinator.cjs",
+    "src/files/useProjectFiles.ts",
+    "src/writing/punctuation.ts",
+    "src/editor/automaticFormatting.ts",
+    "src/editor/preferences.ts",
+    "src/formats/catalog.ts",
+    "src/formats/model.ts",
+    "src/shortcuts/model.ts"
+  ],
+  "unchanged_rust_files": 61,
+  "app_file_inventory_preserved": true,
+  "app_regular_files": 266,
+  "app_symlinks": 14,
+  "electron_framework_bytes": 202686912,
+  "electron_framework_sha256": "2599370ff42463eba1509a8b6ebd4ad21715639113cce63a46b4fe9b1df632ed"
+}

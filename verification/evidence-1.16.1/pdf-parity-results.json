@@ -1,0 +1,110 @@
+{
+  "appDir": "/home/claude/draftcraft/release-1.16.1/stage/app",
+  "checks": [
+    {
+      "name": "editor and exported PDF agree page by page",
+      "passed": true,
+      "comparedPages": 7
+    }
+  ],
+  "editorPages": 7,
+  "pdfPages": 8,
+  "paper": [
+    612,
+    792
+  ],
+  "titlePage": true,
+  "labels": [
+    {
+      "page": 1,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 1,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 2,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 2,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 2,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 3,
+      "kind": "more",
+      "text": "(MORE)"
+    },
+    {
+      "page": 4,
+      "kind": "continued",
+      "text": "MARCUS (CONT'D)"
+    },
+    {
+      "page": 4,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 4,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 5,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 5,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 5,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 6,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 6,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 6,
+      "kind": "more",
+      "text": "(MORE)"
+    },
+    {
+      "page": 7,
+      "kind": "continued",
+      "text": "ELENA (CONT'D)"
+    },
+    {
+      "page": 7,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 7,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    }
+  ],
+  "pdfSha256": "4ae4c39899033687034f2902bd651b7caa8ad58f9be3b29206e1e1c2254c3852"
+}

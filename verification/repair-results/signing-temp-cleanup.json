@@ -1,0 +1,16 @@
+{
+  "removed": [
+    {
+      "path": "/workspace/scratch/9d22bb50bf91/original-runtime/DraftCraft Pro.app/Contents/Frameworks/Electron Framework.framework/Versions/A/.Electron Framework.rNcNsi",
+      "size": 152305664,
+      "reason": "Host copy temporary absent from the original HFS catalog, installer manifest and resource seals"
+    },
+    {
+      "path": "/workspace/scratch/9d22bb50bf91/release-final/DraftCraft Pro.app/Contents/Frameworks/Electron Framework.framework/Versions/A/.Electron Framework.rNcNsi",
+      "size": 152305664,
+      "reason": "Host copy temporary absent from the original HFS catalog, installer manifest and resource seals"
+    }
+  ],
+  "sealed_files_removed": false,
+  "original_catalog_checked": true
+}

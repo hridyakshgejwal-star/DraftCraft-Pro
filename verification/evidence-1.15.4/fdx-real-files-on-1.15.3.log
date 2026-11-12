@@ -1,0 +1,8 @@
+sample-01.fdx {"ok":false,"error":"The file has unsupported element or page settings. Correct the reference format before importing."}
+sample-02.fdx {"ok":false,"error":"The file has unsupported element or page settings. Correct the reference format before importing."}
+sample-03.fdx {"ok":false,"error":"The file has unsupported element or page settings. Correct the reference format before importing."}
+sample-04.fdx {"ok":false,"error":"The file has unsupported element or page settings. Correct the reference format before importing."}
+sample-05.fdx {"ok":false,"error":"The file has unsupported element or page settings. Correct the reference format before importing."}
+sample-06.fdx {"ok":false,"error":"The file has unsupported element or page settings. Correct the reference format before importing."}
+standard-layout.fdx {"ok":false,"error":"The file has unsupported element or page settings. Correct the reference format before importing."}
+exit 0

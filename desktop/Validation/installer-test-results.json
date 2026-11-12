@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "passed": 9,
+  "failed": 0,
+  "environment": "Linux with mocked macOS APIs; installer control flow only",
+  "results": [
+    {
+      "case": "success",
+      "status": "passed"
+    },
+    {
+      "case": "backup",
+      "status": "passed"
+    },
+    {
+      "case": "damaged-file",
+      "status": "passed"
+    },
+    {
+      "case": "damaged-manifest",
+      "status": "passed"
+    },
+    {
+      "case": "extra-file",
+      "status": "passed"
+    },
+    {
+      "case": "changed-link",
+      "status": "passed"
+    },
+    {
+      "case": "signature-rejected",
+      "status": "passed"
+    },
+    {
+      "case": "wrong-architecture",
+      "status": "passed"
+    },
+    {
+      "case": "app-running",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "tested_payload": "/workspace/scratch/af3bafce0510/work/punctuation/release-payload-final",
+  "payload_sha256": "961b62d41f26e45da66c73babed9c6bd83a701202de163beab3de8c1f9950e88",
+  "story_typing_p95_budget_ms": 638,
+  "shortcut_p95_budget_ms": 694,
+  "word_cached_budget_ms": 1280,
+  "spelling_typing_p95_budget_ms": 553,
+  "save_fill_p95_budget_ms": 1348,
+  "recovered_after_workspace_maintenance": true,
+  "results": [
+    {
+      "suite": "models",
+      "passed": true,
+      "seconds": 5.9,
+      "interaction_groups": 0,
+      "measurements": [],
+      "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance.",
+      "tests": 120
+    },
+    {
+      "suite": "story",
+      "passed": true,
+      "seconds": 77.2,
+      "interaction_groups": 15,
+      "measurements": [
+        {
+          "pages": 250,
+          "paragraphs": 1999,
+          "enabledTools": 4,
+          "allPageArc": true,
+          "typingMs": {
+            "p50": 221,
+            "p95": 315,
+            "max": 556
+          },
+          "renderedArcPoints": 16,
+          "environment": "Linux Chromium; physical M2 not benchmarked"
+        }
+      ],
+      "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+    },
+    {
+      "suite": "editor",
+      "passed": true,
+      "seconds": 133.6,
+      "interaction_groups": 14,
+      "measurements": [],
+      "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+    },
+    {
+      "suite": "shortcuts",
+      "passed": true,
+      "seconds": 108.1,
+      "interaction_groups": 14,
+      "measurements": [
+        {
+          "pages": 250,
+          "paragraphs": 1997,
+          "shortcutP50Ms": 223,
+          "shortcutP95Ms": 472,
+          "environment": "Linux Chromium 151; includes automation round trip; physical Mac not benchmarked"
+        }
+      ],
+      "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+    },
+    {
+      "suite": "words",
+      "passed": true,
+      "seconds": 106.0,
+      "interaction_groups": 13,
+      "measurements": [
+        {
+          "pages": 250,
+          "firstWordClickMs": 2513,
+          "cachedWordClickMs": [
+            725,
+            764,
+            554,
+            498,
+            682,
+            1031,
+            714
+          ],
+          "cachedClickBudgetMs": 1280,
+          "environment": "Linux Chromium 151; includes automation; physical M2 not benchmarked"
+        }
+      ],
+      "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+    },
+    {
+      "suite": "spelling",
+      "passed": true,
+      "seconds": 147.0,
+      "interaction_groups": 14,
+      "measurements": [
+        {
+          "pages": 10,
+          "paragraphs": 75,
+          "startupMs": 3105,
+          "keyEventP50Ms": 41,
+          "keyEventP95Ms": 61,
+          "typingP95BudgetMs": 553,
+          "usedJSHeapBytes": 40608368
+        },
+        {
+          "pages": 50,
+          "paragraphs": 395,
+          "startupMs": 4096,
+          "keyEventP50Ms": 83,
+          "keyEventP95Ms": 142,
+          "typingP95BudgetMs": 553,
+          "usedJSHeapBytes": 43320168
+        },
+        {
+          "pages": 120,
+          "paragraphs": 955,
+          "startupMs": 7103,
+          "keyEventP50Ms": 130,
+          "keyEventP95Ms": 252,
+          "typingP95BudgetMs": 553,
+          "usedJSHeapBytes": 60472588
+        },
+        {
+          "pages": 250,
+          "paragraphs": 1995,
+          "startupMs": 9529,
+          "keyEventP50Ms": 119,
+          "keyEventP95Ms": 341,
+          "typingP95BudgetMs": 553,
+          "usedJSHeapBytes": 90903240
+        }
+      ],
+      "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+    },
+    {
+      "suite": "caret",
+      "passed": true,
+      "seconds": null,
+      "interaction_groups": 12,
+      "measurements": [
+        {
+          "pages": 222,
+          "paragraphs": 1999,
+          "typingMs": {
+            "p50": 153,
+            "p95": 446
+          },
+          "environment": "Linux Chromium, no physical M2/120 Hz display test"
+        }
+      ],
+      "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+    },
+    {
+      "suite": "formats",
+      "passed": true,
+      "seconds": 82.4,
+      "interaction_groups": 18,
+      "measurements": [
+        {
+          "paragraphs": 1505,
+          "pages": 167,
+          "typingMs": {
+            "p50": 113,
+            "p95": 218
+          }
+        }
+      ],
+      "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+    },
+    {
+      "suite": "punctuation",
+      "passed": true,
+      "seconds": 145.1,
+      "interaction_groups": 18,
+      "measurements": [
+        {
+          "returnP95BudgetMs": 819,
+          "budgetRule": "max(600ms, ceil(1.25 times same-document Off p95))",
+          "paragraphs": 2019,
+          "pages": 223,
+          "returnMs": {
+            "p50": 366,
+            "p95": 558
+          },
+          "offReturnMs": {
+            "p50": 326,
+            "p95": 655
+          },
+          "handlerOnMs": {
+            "p50": 240,
+            "p95": 442.3
+          },
+          "handlerOffMs": {
+            "p50": 174.7,
+            "p95": 444.3
+          },
+          "environment": "Linux Chromium; physical Mac and IME not tested"
+        }
+      ],
+      "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+    }
+  ]
+}

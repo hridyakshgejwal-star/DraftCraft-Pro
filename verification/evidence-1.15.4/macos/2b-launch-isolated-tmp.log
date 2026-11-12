@@ -1,0 +1,48 @@
+Sun Oct 18 22:01:14 IST 2026
+== DraftCraft processes before launch
+== attach
+attach exit=0
+== ditto app to /tmp/draftcraft-1.15.4-test/app
+ditto exit=0
+detach exit=0
+== copy signature
+codesign verify exit=0
+== app.asar sha256
+2158985d34401848554e814c3f48658928ed640b2d51d76c76ddc7e1719d11df  /tmp/draftcraft-1.15.4-test/app/DraftCraft Pro.app/Contents/Resources/app.asar
+== launch via LaunchServices (open -n) with isolated profile /tmp/draftcraft-1.15.4-test/profile
+open exit=0
+== processes after launch
+2090 /private/tmp/draftcraft-1.15.4-test/app/DraftCraft Pro.app/Contents/MacOS/DraftCraft Pro
+2095 /private/tmp/draftcraft-1.15.4-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper --type=gpu-process --user-data-dir=/tmp/draftcraft-1.
+2096 /private/tmp/draftcraft-1.15.4-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper --type=utility --utility-sub-type=network.mojom.Netwo
+2097 /private/tmp/draftcraft-1.15.4-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (Renderer).app/Contents/MacOS/DraftCraft Pro Helper (Renderer) --type=renderer --user-data-dir
+== profile contents
+total 280
+drwxr-xr-x@ 26 <user>  wheel    832 18 Oct 22:01 .
+drwxr-xr-x@  4 <user>  wheel    128 18 Oct 22:01 ..
+drwx------@  3 <user>  wheel     96 18 Oct 22:01 blob_storage
+drwx------@  4 <user>  wheel    128 18 Oct 22:01 Cache
+drwx------@  5 <user>  wheel    160 18 Oct 22:01 Code Cache
+drwx------@  7 <user>  wheel    224 18 Oct 22:01 DawnGraphiteCache
+drwx------@  7 <user>  wheel    224 18 Oct 22:01 DawnWebGPUCache
+-rw-------@  1 <user>  wheel  32768 18 Oct 22:01 declarative_performance_observer.db
+-rw-------@  1 <user>  wheel      0 18 Oct 22:01 declarative_performance_observer.db-journal
+-rw-------@  1 <user>  wheel   4096 18 Oct 22:01 DIPS
+-rw-------@  1 <user>  wheel  45352 18 Oct 22:01 DIPS-wal
+drwx------@  7 <user>  wheel    224 18 Oct 22:01 GPUCache
+drwx------@  3 <user>  wheel     96 18 Oct 22:01 GPUPersistentCache
+drwx------@  9 <user>  wheel    288 18 Oct 22:01 GraphiteDawnCache
+-rw-------@  1 <user>  wheel     57 18 Oct 22:01 Local State
+drwx------@  3 <user>  wheel     96 18 Oct 22:01 Local Storage
+-rw-------@  1 <user>  wheel     59 18 Oct 22:01 Network Persistent State
+-rw-------@  1 <user>  wheel      4 18 Oct 22:01 open-document-windows.json
+-rw-------@  1 <user>  wheel     41 18 Oct 22:01 Preferences
+drwx------@  5 <user>  wheel    160 18 Oct 22:01 Shared Dictionary
+lrwxr-xr-x@  1 <user>  wheel     19 18 Oct 22:01 SingletonCookie -> 5983269690519727039
+lrwxr-xr-x@  1 <user>  wheel     30 18 Oct 22:01 SingletonLock -> <host>-2090
+lrwxr-xr-x@  1 <user>  wheel     81 18 Oct 22:01 SingletonSocket -> /var/folders/2k/r1c5spfs1z35p33vmy0rrdx80000gn/T/scoped_dir9I6HPe/SingletonSocket
+-rw-------@  1 <user>  wheel  36864 18 Oct 22:01 Trust Tokens
+-rw-------@  1 <user>  wheel      0 18 Oct 22:01 Trust Tokens-journal
+-rw-------@  1 <user>  wheel     95 18 Oct 22:01 unsaved-baselines.json
+== stderr so far
+== DONE

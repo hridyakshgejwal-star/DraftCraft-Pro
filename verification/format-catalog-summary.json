@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "standard-feature-screenplay",
+    "name": "Standard Feature Screenplay",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "screenplay-for-beginners",
+    "name": "Screenplay for Beginners",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "bbc-screenplay",
+    "name": "BBC Screenplay",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.2677,
+      "height": 11.6929,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "BBC Writersroom public screenplay guides; independently implemented layout. https://downloads.bbc.co.uk/writersroom/scripts/screenplay.pdf"
+  },
+  {
+    "id": "screenplay-cole-and-haag-style",
+    "name": "Screenplay — Cole and Haag style",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "screenplay-warner-brothers-style",
+    "name": "Screenplay — Warner Brothers style",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "us-screenplay",
+    "name": "US Screenplay",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "us-screenplay-french",
+    "name": "US Screenplay — French",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "us-screenplay-german",
+    "name": "US Screenplay — German",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "us-screenplay-spanish",
+    "name": "US Screenplay — Spanish",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "us-screenplay-chinese-simplified",
+    "name": "US Screenplay — Chinese Simplified",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "us-screenplay-chinese-traditional",
+    "name": "US Screenplay — Chinese Traditional",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "short-film-screenplay",
+    "name": "Short Film Screenplay",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "feature-film-screenplay",
+    "name": "Feature Film Screenplay",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "independent-film-screenplay",
+    "name": "Independent Film Screenplay",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "shooting-script",
+    "name": "Shooting Script",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "production-screenplay",
+    "name": "Production Screenplay",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "stageplay",
+    "name": "Stageplay",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "dramatists-guild-modern-stageplay",
+    "name": "Dramatists Guild Modern Stageplay",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "dramatists-guild-traditional-stageplay",
+    "name": "Dramatists Guild Traditional Stageplay",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "dramatists-guild-musical",
+    "name": "Dramatists Guild Musical",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "broadway-musical",
+    "name": "Broadway Musical",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "podcast-script",
+    "name": "Podcast Script",
+    "category": "Script",
+    "kind": "screenplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "standard-stageplay",
+    "name": "Standard Stageplay",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "traditional-stageplay",
+    "name": "Traditional Stageplay",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "modern-stageplay",
+    "name": "Modern Stageplay",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "one-act-play",
+    "name": "One-Act Play",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "multi-act-play",
+    "name": "Multi-Act Play",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "musical-theatre-script",
+    "name": "Musical Theatre Script",
+    "category": "Script",
+    "kind": "stageplay",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dramatists Guild public format guidance (12-point type; 1.5-inch binding, 1-inch other margins), independently authored examples. https://www.dramatistsguild.com/script-formats"
+  },
+  {
+    "id": "bbc-screenplay-for-tv",
+    "name": "BBC Screenplay for TV",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.2677,
+      "height": 11.6929,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "BBC Writersroom public screenplay guides; independently implemented layout. https://downloads.bbc.co.uk/writersroom/scripts/screenplay.pdf"
+  },
+  {
+    "id": "bbc-taped-sitcom",
+    "name": "BBC Taped Sitcom",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.2677,
+      "height": 11.6929,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 24,
+    "scenePageBreak": true,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "bbc-two-camera-show",
+    "name": "BBC Two-Camera Show",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.2677,
+      "height": 11.6929,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 24,
+    "scenePageBreak": true,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "single-camera-teleplay",
+    "name": "Single-Camera Teleplay",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "multi-camera-sitcom",
+    "name": "Multi-Camera Sitcom",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 24,
+    "scenePageBreak": true,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "half-hour-tv-comedy",
+    "name": "Half-Hour TV Comedy",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 24,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "one-hour-tv-drama",
+    "name": "One-Hour TV Drama",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "television-pilot",
+    "name": "Television Pilot",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "television-episode",
+    "name": "Television Episode",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "streaming-series",
+    "name": "Streaming Series",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "anthology-series",
+    "name": "Anthology Series",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "limited-series",
+    "name": "Limited Series",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "sketch-comedy",
+    "name": "Sketch Comedy",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": true,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "soap-opera",
+    "name": "Soap Opera",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": true,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "television-production-script",
+    "name": "Television Production Script",
+    "category": "TV",
+    "kind": "television",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "graphic-novel",
+    "name": "Graphic Novel",
+    "category": "Graphic Novel",
+    "kind": "comic",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "dark-horse-style-graphic-novel",
+    "name": "Dark Horse-style Graphic Novel",
+    "category": "Graphic Novel",
+    "kind": "comic",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Dark Horse public script-format guide, independently authored content. https://images.darkhorse.com/darkhorse08/company/submissions/DHScriptFormatGuides.pdf"
+  },
+  {
+    "id": "image-comics-style-graphic-novel",
+    "name": "Image Comics-style Graphic Novel",
+    "category": "Graphic Novel",
+    "kind": "comic",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "new-york-film-academy-style-comic-book",
+    "name": "New York Film Academy-style Comic Book",
+    "category": "Graphic Novel",
+    "kind": "comic",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "plot-outline",
+    "name": "Plot Outline",
+    "category": "Graphic Novel",
+    "kind": "comic",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "comic-book-script",
+    "name": "Comic Book Script",
+    "category": "Graphic Novel",
+    "kind": "comic",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "full-script-comic-format",
+    "name": "Full-Script Comic Format",
+    "category": "Graphic Novel",
+    "kind": "comic",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "three-act-structure",
+    "name": "Three-Act Structure",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "four-act-structure",
+    "name": "Four-Act Structure",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "five-act-pyramid",
+    "name": "Five-Act Pyramid",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "acts-and-sequences",
+    "name": "Acts and Sequences",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "eight-sequence-structure",
+    "name": "Eight-Sequence Structure",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "save-the-cat-style-beat-sheet",
+    "name": "Save the Cat-style Beat Sheet",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "the-writer-s-journey",
+    "name": "The Writer's Journey",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "dan-harmon-story-circle",
+    "name": "Dan Harmon Story Circle",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "michael-hauge-six-stage-structure",
+    "name": "Michael Hauge Six-Stage Structure",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "andy-guerdat-s-z-structure",
+    "name": "Andy Guerdat's Z Structure",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "donna-michelle-anderson-135-story-structure",
+    "name": "Donna Michelle Anderson 135 Story Structure",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "series-bible",
+    "name": "Series Bible",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "immersive-storytelling-structure",
+    "name": "Immersive Storytelling Structure",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "director-s-six-senses-style-planning",
+    "name": "Director's Six Senses-style Planning",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "traditional-story-outline",
+    "name": "Traditional Story Outline",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "beat-board-for-outline",
+    "name": "Beat Board for Outline",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "index-cards-for-outline",
+    "name": "Index Cards for Outline",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "script-outline",
+    "name": "Script Outline",
+    "category": "Structure",
+    "kind": "structure",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1.5,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently authored planning prompts. Named approaches are adaptations, not reproductions of proprietary teaching materials or official templates."
+  },
+  {
+    "id": "manuscript",
+    "name": "Manuscript",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "novel",
+    "name": "Novel",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "query-letter",
+    "name": "Query Letter",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "blank-text-document",
+    "name": "Blank Text Document",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "text-outline",
+    "name": "Text Outline",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "treatment",
+    "name": "Treatment",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "synopsis",
+    "name": "Synopsis",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "story-treatment",
+    "name": "Story Treatment",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "character-biography",
+    "name": "Character Biography",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "series-bible-text",
+    "name": "Series Bible",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "pitch-document",
+    "name": "Pitch Document",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  },
+  {
+    "id": "scene-breakdown",
+    "name": "Scene Breakdown",
+    "category": "Text",
+    "kind": "prose",
+    "page": {
+      "width": 8.5,
+      "height": 11,
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "dialogueLinePt": 12,
+    "scenePageBreak": false,
+    "source": "Independently designed DraftCraft preset. Adjust the editable rules to match your production or submission requirements."
+  }
+]

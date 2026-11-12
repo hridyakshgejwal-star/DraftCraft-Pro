@@ -1,0 +1,19 @@
+{
+  "baseline_archive_sha256": "805601bed66f40930ec9ae673123ba04b42ead8c79872ec532618125ed4725d3",
+  "application_files_checked": 230,
+  "removed_application_files": [],
+  "rust_workspace_files_checked": 61,
+  "changed_rust_workspace_files": [],
+  "protected_unchanged": [
+    "src/writing/punctuation.ts",
+    "src/editor/automaticFormatting.ts",
+    "src/editor/preferences.ts",
+    "src/formats/catalog.ts",
+    "src/formats/model.ts",
+    "src/shortcuts/model.ts",
+    "desktop/table-read.cjs",
+    "desktop/table-read-audio.cjs",
+    "desktop/table-read-audio-worker.cjs"
+  ],
+  "scope": "Source preservation only; no native launch claim."
+}

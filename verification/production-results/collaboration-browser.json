@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "clients": 2,
+  "realService": true,
+  "publicHosting": false,
+  "physicalMac": false,
+  "checks": [
+    "explicit sharing consent",
+    "authenticated creation",
+    "host approval",
+    "two-client editor synchronization",
+    "local-origin undo preserves other author",
+    "separate local project identities",
+    "switching projects ends sharing before private text can transmit"
+  ]
+}

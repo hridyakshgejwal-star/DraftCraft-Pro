@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "renderer": "/home/claude/draftcraft/release-1.17.0/stage/app/dist",
+  "native_ime": "browser composition events simulated; physical IME not tested",
+  "results": [
+    {
+      "name": "smooth motion starts on by default and ordinary forward/backward moves have intermediate positions",
+      "passed": true
+    },
+    {
+      "name": "rapid typing, Backspace, Delete, arrows, Home, End and native Undo/Redo preserve exact text",
+      "passed": true
+    },
+    {
+      "name": "all screenplay element alignments match independently measured text positions",
+      "passed": true
+    },
+    {
+      "name": "wrapping, page jumps, scrolling and zoom settle without a long sweep",
+      "passed": true
+    },
+    {
+      "name": "selections and native cut/paste replacements keep native editing and restore the visual caret",
+      "passed": true
+    },
+    {
+      "name": "IME composition and bidirectional text retain the native caret and character order",
+      "passed": true
+    },
+    {
+      "name": "autocomplete, screenplay element changes, spelling and synonym replacements keep the native insertion point",
+      "passed": true
+    },
+    {
+      "name": "repeated caret setting changes clean up old mirrors and preserve Unicode text",
+      "passed": true
+    },
+    {
+      "name": "caret is steady during activity, blinks after idle, and hides on app blur",
+      "passed": true
+    },
+    {
+      "name": "all motion and blink controls persist; reduced motion and Off restore the native caret",
+      "passed": true
+    },
+    {
+      "name": "frame animation does not re-render editor text or keep requesting frames after settling",
+      "passed": true
+    },
+    {
+      "name": "a screenplay with hundreds of pages retains responsive typing, a single caret layer and accurate autosave",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+Sat Oct 31 22:59:20 IST 2026
+ProductName:		macOS
+ProductVersion:		27.0.1
+BuildVersion:		26A434
+arm64
+Apple M2
+memory bytes: 8589934592
+== power: 'AC Power'
+== attach
+attach exit=0
+== ditto app to /tmp/draftcraft-1.18.0-selftest/app
+ditto exit=0
+detach exit=0
+== copy signature
+codesign verify exit=0
+== launch (open -n) with DRAFTCRAFT_TEST_PROFILE=/tmp/draftcraft-1.18.0-selftest/profile and DRAFTCRAFT_SELF_TEST=/tmp/draftcraft-1.18.0-selftest/out/report.json
+open exit=0
+report finished after 81 s
+== still running?
+  no (quit by itself)
+== copy results next to this script
+-rwx--x--x@  1 <user>  staff       3055 31 Oct 22:22 7-self-test.command
+-rw-r--r--@  1 <user>  staff        577 31 Oct 23:00 7-self-test.log
+-rw-r--r--@  1 <user>  staff     165410 31 Oct 23:00 self-test-01-window.png
+-rw-r--r--@  1 <user>  staff     165410 31 Oct 23:00 self-test-01b-start-window.png
+-rw-r--r--@  1 <user>  staff     172973 31 Oct 23:00 self-test-01c-start-window-recent.png
+-rw-r--r--@  1 <user>  staff      99834 31 Oct 23:00 self-test-02-full-screen.png
+-rw-r--r--@  1 <user>  staff     263474 31 Oct 23:00 self-test-03-getting-started.png
+-rw-r--r--@  1 <user>  staff     115485 31 Oct 23:00 self-test-04-emoji-picker.png
+-rw-r--r--@  1 <user>  staff      12043 31 Oct 23:00 self-test-report.json
+== stderr (last lines)
+sandbox_extension_issue_file failed for /private/tmp/draftcraft-1.18.0-selftest/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/Resources: 1 (Operation not permitted)
+2026-10-31 22:59:37.338 DraftCraft Pro[1408:13745] NSSpellServer findMisspelledWordInString timed out, index is 0
+2026-10-31 22:59:37.862 DraftCraft Pro[1408:13745] NSSpellServer findMisspelledWordInString timed out, index is 0
+== summary
+passed 16 failed []
+== DONE

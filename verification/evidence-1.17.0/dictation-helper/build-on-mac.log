@@ -1,0 +1,31 @@
+== DraftCraft dictation helper build Tue Oct 27 12:15:04 IST 2026
+ProductName:		macOS
+ProductVersion:		27.0.1
+BuildVersion:		26A434
+arch: arm64
+xcode-select path: /Library/Developer/CommandLineTools
+swiftc: /Library/Developer/CommandLineTools/usr/bin/swiftc
+swift-driver version: 1.168.6 Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+Target: arm64-apple-macosx27.0.0
+sdk: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+/Users/<user>/Downloads/DraftCraft-1.17-helper/Dictation.swift:15:6: warning: concurrently-executed global function 'recognize()' must be marked as '@Sendable'; this is an error in the Swift 6 language mode
+13 | var stopped=false
+14 | func stop(){if stopped{return};stopped=true;engine.stop();engine.inputNode.removeTap(onBus:0);request?.endAudio();task?.cancel();emit(["type":"state","state":"stopped"]);exit(0)}
+15 | func recognize(){
+   |      `- warning: concurrently-executed global function 'recognize()' must be marked as '@Sendable'; this is an error in the Swift 6 language mode
+16 |  let next=SFSpeechAudioBufferRecognitionRequest();next.shouldReportPartialResults=true;next.requiresOnDeviceRecognition=true;request=next
+17 |  task=recognizer.recognitionTask(with:next){result,error in
+swiftc exit=0
+== file
+/Users/<user>/Downloads/DraftCraft-1.17-helper/DraftCraftDictation: Mach-O 64-bit executable arm64
+-rwxr-xr-x@ 1 <user>  staff  82336 27 Oct 12:15 /Users/<user>/Downloads/DraftCraft-1.17-helper/DraftCraftDictation
+== signature
+Executable=/Users/<user>/Downloads/DraftCraft-1.17-helper/DraftCraftDictation
+Identifier=DraftCraftDictation
+Format=Mach-O thin (arm64)
+CodeDirectory v=20400 size=748 flags=0x20002(adhoc,linker-signed) hashes=20+0 location=embedded
+Signature=adhoc
+Info.plist=not bound
+a383e20e79ed077e29b5742255ee606f8dbca6043fcec7496c80ef3761a844bd  /Users/<user>/Downloads/DraftCraft-1.17-helper/DraftCraftDictation
+RESULT: BUILT
+== DONE

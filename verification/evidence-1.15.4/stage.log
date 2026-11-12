@@ -1,0 +1,19 @@
+{
+ "entry": "index-5XHK5P2Q.js",
+ "css": "index-FW4J5NFQ.css",
+ "assets": [
+  "chunk-IUMT2AWQ.js",
+  "index-5XHK5P2Q.js",
+  "index-FW4J5NFQ.css",
+  "pdf-JRQYEXCB.js",
+  "pdf.worker.min-uk0xh0L6.mjs",
+  "purify.es-CU4UYBLL.js",
+  "spelling.worker-H4KE5P5R.js",
+  "src-PT6QHFWB.js",
+  "src-SYDTTCKX.js",
+  "synonyms.worker-9D3st1Y1.js"
+ ],
+ "inputs": 2986,
+ "firebaseReachable": false
+}
+Desktop application staged at /home/claude/draftcraft/build-1154-final/app

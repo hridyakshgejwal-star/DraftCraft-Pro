@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "arm64_binaries": 13,
+  "code_pages_verified": 54394,
+  "special_slot_digests_verified": 31,
+  "bundle_resource_seals": 9,
+  "resource_digests_verified": 471,
+  "nested_code_seals_verified": 9,
+  "sealed_symlinks_verified": 0,
+  "macos_native_verification": "not run; installer performs it on the target Mac",
+  "notarized": false,
+  "binaries": [
+    {
+      "file": "Contents/MacOS/DraftCraft Pro",
+      "cdhash": "236a090f6a803a7351261e57c8f4a6c37013c5bc",
+      "pages": 9,
+      "special_slots": 3,
+      "identifier": "com.draftcraft.screenplay.studio"
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+      "cdhash": "3523cf53a5982dad080533278859b2b4e44b9c80",
+      "pages": 49100,
+      "special_slots": 3,
+      "identifier": "com.github.Electron.framework"
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib",
+      "cdhash": "c1184170f5d82517671e551ca5cc951357abc695",
+      "pages": 562,
+      "special_slots": 2,
+      "identifier": "libffmpeg"
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib",
+      "cdhash": "cddb94358cd622e0017280e17f0d5edf21de68be",
+      "pages": 4024,
+      "special_slots": 2,
+      "identifier": "libvk_swiftshader"
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/chrome_crashpad_handler",
+      "cdhash": "8c31d9dcf48c8e8e03c467fdacaa2074e404d261",
+      "pages": 298,
+      "special_slots": 2,
+      "identifier": "chrome_crashpad_handler"
+    },
+    {
+      "file": "Contents/Frameworks/DraftCraft Pro Helper (Plugin).app/Contents/MacOS/DraftCraft Pro Helper (Plugin)",
+      "cdhash": "5dcd288152a8599d9893a42d66a1bf6baeb8c5c9",
+      "pages": 50,
+      "special_slots": 3,
+      "identifier": "com.draftcraft.screenplay.studio.helper"
+    },
+    {
+      "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
+      "cdhash": "c559df7727a1fdda6fec5c96023701074f2eea42",
+      "pages": 53,
+      "special_slots": 3,
+      "identifier": "com.github.Squirrel"
+    },
+    {
+      "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
+      "cdhash": "fcc31f8e84db48f748f51c6a328952f72b7a501c",
+      "pages": 31,
+      "special_slots": 2,
+      "identifier": "ShipIt"
+    },
+    {
+      "file": "Contents/Frameworks/DraftCraft Pro Helper (Renderer).app/Contents/MacOS/DraftCraft Pro Helper (Renderer)",
+      "cdhash": "db3132eeafaa120ce0c85b34c6e017068c7f23e1",
+      "pages": 50,
+      "special_slots": 3,
+      "identifier": "com.draftcraft.screenplay.studio.helper"
+    },
+    {
+      "file": "Contents/Frameworks/DraftCraft Pro Helper (GPU).app/Contents/MacOS/DraftCraft Pro Helper (GPU)",
+      "cdhash": "173799749bcd2e29d367dd15ae42a1aec56403e5",
+      "pages": 50,
+      "special_slots": 3,
+      "identifier": "com.draftcraft.screenplay.studio.helper"
+    },
+    {
+      "file": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC",
+      "cdhash": "1cc7e91a25781033afe910b0a92ae91ff6b47a46",
+      "pages": 86,
+      "special_slots": 3,
+      "identifier": "com.electron.reactive"
+    },
+    {
+      "file": "Contents/Frameworks/Mantle.framework/Versions/A/Mantle",
+      "cdhash": "18801a90cf5cda7fcdeabc9b60b573567e44ecf8",
+      "pages": 31,
+      "special_slots": 3,
+      "identifier": "com.electron.mantle"
+    },
+    {
+      "file": "Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper",
+      "cdhash": "0383aa0a68935d1c8687d943676af7bc77d54d04",
+      "pages": 50,
+      "special_slots": 3,
+      "identifier": "com.draftcraft.screenplay.studio.helper"
+    }
+  ]
+}

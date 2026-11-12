@@ -1,0 +1,67 @@
+[
+  {
+    "file": "Contents/MacOS/DraftCraft Pro",
+    "sha256": "6c7bfa625e72ad31e564b262c916aa6a9d5b88f570dea195dec52255e9c6305d",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper",
+    "sha256": "e5c1abcabebfefde8b3f957a2b5c7787261ea86b38e6d30ee845b9bac9ad93db",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/DraftCraft Pro Helper (Plugin).app/Contents/MacOS/DraftCraft Pro Helper (Plugin)",
+    "sha256": "c7c4bd8267a5ca57fdbf7eb90879583baf5fd0586703b32dbd35b8f3e618509d",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
+    "sha256": "0404e4d612985d3461e408f137390c20739e56889cef4dec57ac786a28b97b81",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
+    "sha256": "59235bdbcaf42f92f2fe72cb3eed3bd4f413e2265cbdc7a1bc76cbac63eb5cbf",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+    "sha256": "10ca7a224b24aaa0ac6f7e0a9a9a63afca7391057ef4db27a05355b353e695b1",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/chrome_crashpad_handler",
+    "sha256": "e3e55880ba44662aaecd335a6954f1601fc0740397f4082d70237283cf5b8bd2",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib",
+    "sha256": "0d3fadbc39f99b01b26079e0f1f4108c7c5951ea5da52f5d18d292b92a9b0933",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib",
+    "sha256": "696927953d3682c134e7647e68012bc2a3865bc8da60785e064e0de91445fbf2",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/Mantle.framework/Versions/A/Mantle",
+    "sha256": "fb593ac5e2aa98146defe3d4275550d177860b80f7d3182f1ee8d0d606d73397",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/DraftCraft Pro Helper (Renderer).app/Contents/MacOS/DraftCraft Pro Helper (Renderer)",
+    "sha256": "20f19089115a9495abde1205ab9e6054610e17720e96501075705638bbec5047",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC",
+    "sha256": "e3aa80b0db4d6ad7b52b4c636957bd88f01761b19694f56f0cc137af6877a9b6",
+    "matches_official_runtime": true
+  },
+  {
+    "file": "Contents/Frameworks/DraftCraft Pro Helper (GPU).app/Contents/MacOS/DraftCraft Pro Helper (GPU)",
+    "sha256": "a33245968f27aee212ad34b20eef3bf78c21cb42b5fcaa88c18d8e8b913ad66e",
+    "matches_official_runtime": true
+  }
+]

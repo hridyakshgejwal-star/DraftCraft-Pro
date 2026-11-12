@@ -1,0 +1,42 @@
+PASS toolbar: default items are labelled and each one runs its command
+NOTE commands that leave the script hidden until undone: scene-view, index-cards
+PASS every toolbar item is wired: each one changes the window, the document or opens its dialog (no inert buttons)
+PASS toolbar: the caret stays in the script when a button is clicked, and Elements shows and changes the element
+PASS toolbar customization: add, remove, reorder, icon-only, small size, reset and persistence
+PASS toolbar customization by real drag and drop: list → toolbar at the drop point, reorder, drag out, Default Set
+PASS toolbar: items that do not fit move into an overflow menu that still runs them
+PASS styles: ⌘B/⌘I/⌘U and the Format items store runs, draw them and report the state
+PASS views: Normal and Speed View change only the drawing; Focus Mode and Typewriter work
+PASS timeline: Script lane follows the real pagination; double-click opens a scene; caret indicator follows the caret
+PASS timeline: create, rename, move, resize, move between lanes, edit goals, delete and undo; linked to the Beat Board
+PASS timeline: dragging a written scene moves its text only after confirmation, as one Undo step
+PASS timeline: zoom, fit, lanes, hide/show without touching the document
+PASS structure lines come from the script and the timeline, not from page numbers
+PASS Show/Hide Outline Elements hides outline paragraphs in the script without deleting them
+PASS appearance: Light, Midnight and System change the toolbar, Navigator and panels
+PASS Navigator: Locations, Outline, character interactions, custom tabs without browser prompts, resizing
+PASS Navigator Scenes: sorting, column choices that take effect, editing a heading in place
+PASS Navigator scene table (#27): drag, keyboard and double-click column resizing, header sorting, in-place headings, saved widths
+PASS Navigator 1.17 (#30, items 4 and 10): text size, column reorder by real drag and Alt+arrows, sort kept after reload, in-place summary, comment and colour
+PASS status bar (#31, item 6): right-click shows or hides each item, Show All, scene number follows the caret, saved
+PASS auto-hide right scene numbers (#32, item 7): per document, off by default; hides only colliding right numbers in the editor; menu and Production Studio
+PASS Navigator Cast List (#33, item 5): scenes, pages, eighths and screen time per character; sortable, exportable, rows go to the first scene
+PASS emoji (#34, item 1): layout line breaks equal the browser wrapping, no hidden lines; typing, Undo and Backspace keep emoji whole; Beats, ScriptNotes and Outline Editor show them
+PASS Outline Editor nesting and ripple insert (#35, item 2): a parent drag carries its children, ⌥ leaves them, one Undo; ripple insert; nest/unnest; keyboard; saved
+PASS Structure Line settings (#28): width, opacity, levels and default colours; reachable from the toolbar, View menu and right-click; saved
+PASS toolbar groups (#29): hide and show whole groups from the toolbar menu, Customize and the View menu; saved; no stray gaps
+PASS long scripts: after a change that moves every page, fragments on far pages show the right lines (deferred positioning)
+PASS Beat Board: undo/redo for edits, keyboard copy/paste/delete, context menu, filter, arrange by act
+PASS Beat Board (#36, item 9): a real drag saves once and is one Undo step; Arrange by Sequence; saved views; nesting badges; keyboard moves
+PASS accessibility (#37, item 13): element names on script fields, ⌃⇧. announces the element number, in-place element changes announced; keyboard use of Navigator tabs, timeline and Beat Board
+PASS right-to-left text (#38, item 12): Hebrew and Arabic fields run right to left, wrap where the layout breaks them, keep caret and selection native; English is unchanged
+PASS Next/Previous Bookmark go forward and back from the caret and wrap (R-05)
+PASS native menu commands reach the workspace and menu state follows
+PASS Phase 9 #6 right-click on script text: page and text actions plus styles, notes and the element, applied to the clicked text
+PASS Phase 9 #11 panels stay aligned: Navigator 220–640 px, windows 1024–1920 px, while dragging the divider
+PASS Phase 9 #4 the floating element hint never covers the line being written
+PASS #39 Help › Getting Started is searchable and Idea to Draft opens a tutorial project on the Beat Board (1.17 items 16–17)
+PASS #40 emoji picker (1.18): toolbar, menu and right-click open it; search, keyboard, insert at the caret as one Undo step, Shift-click keeps it open, recently used, Beat Board fields
+PASS #41 Start Window (1.18): create, open, recent projects by id, missing files, filter, keyboard, Continue, Learn and the show-at-launch setting
+
+39 passed, 0 failed

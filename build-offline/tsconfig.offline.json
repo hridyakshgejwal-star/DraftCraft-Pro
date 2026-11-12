@@ -1,0 +1,71 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "../../typecheck/node_modules/@types"
+    ],
+    "paths": {
+      "@/*": [
+        "../*"
+      ],
+      "vite/client": [
+        "../../typecheck/node_modules/vite/client.d.ts"
+      ],
+      "react": [
+        "../../typecheck/node_modules/@types/react/index.d.ts"
+      ],
+      "react/jsx-runtime": [
+        "../../typecheck/node_modules/@types/react/jsx-runtime.d.ts"
+      ],
+      "react-dom": [
+        "../../typecheck/node_modules/@types/react-dom/index.d.ts"
+      ],
+      "react-dom/client": [
+        "../../typecheck/node_modules/@types/react-dom/client.d.ts"
+      ],
+      "nspell": [
+        "../../typecheck/node_modules/@types/nspell/index.d.ts"
+      ],
+      "lucide-react": [
+        "../../vendor/node_modules/lucide-react/src/lucide-react.ts"
+      ],
+      "@lucide/shared": [
+        "../../vendor/node_modules/lucide-react/shared/index.ts"
+      ],
+      "motion/react": [
+        "../../deps-src/motion/packages/motion/src/react.ts"
+      ],
+      "framer-motion": [
+        "../../deps-src/motion/packages/framer-motion/src/index.ts"
+      ],
+      "motion-dom": [
+        "../../deps-src/motion/packages/motion-dom/src/index.ts"
+      ],
+      "motion-utils": [
+        "../../deps-src/motion/packages/motion-utils/src/index.ts"
+      ],
+      "compromise": [
+        "../../deps-src/compromise/types/three.d.ts"
+      ],
+      "jspdf": [
+        "../../deps-src/jspdf/types/index.d.ts"
+      ],
+      "yjs": [
+        "../../deps-src/yjs/src/index.js"
+      ],
+      "lib0/*": [
+        "../../deps-src/lib0/*"
+      ]
+    }
+  },
+  "include": [
+    "../src",
+    "../server.ts",
+    "../../typecheck/node_modules/vite/client.d.ts"
+  ]
+}

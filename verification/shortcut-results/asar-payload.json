@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "version": "1.6.0",
+  "asarHeaderSha256": "b36e14fdec945eb063d34291d2c7f7e0a8ffa247a2db753c1ca52c3019255829",
+  "filesVerified": 47,
+  "identicalToTestedRenderer": true,
+  "assets": [
+    "html2canvas-_AE4-RPR.js",
+    "index-Bx4d0u0Y.js",
+    "index-m67_yyP8.css",
+    "index.es-DrflwypX.js",
+    "purify.es-Dn3VvdGh.js",
+    "spelling.worker-Cnik3Z82.js"
+  ]
+}

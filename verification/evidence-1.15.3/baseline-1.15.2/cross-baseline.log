@@ -1,0 +1,9 @@
+FAIL E-01/E-02: Backspace at an element start and Delete at its end join elements; one Undo restores both Expected values to be strictly deep-equal:
+FAIL E-03: arrow keys move the caret between elements at element boundaries Expected values to be strictly deep-equal:
+FAIL E-05: Shift+Arrow extends a selection across elements; copy yields typed elements; typing replaces it highlight spans the elements
+FAIL E-05: Shift+Click and mouse drag select across elements; Backspace deletes; Escape cancels shift-click selection
+FAIL E-04: pasting copied elements or screenplay text inserts typed elements, not one paragraph Expected values to be strictly deep-equal:
+FAIL E-06: Select All selects the whole script; typing replaces it and Undo restores it Expected values to be strictly equal:
+FAIL E-07: Enter inside bold text keeps the inline style on both halves Expected values to be strictly deep-equal:
+FAIL D-02/D-03: notes, scene comments and CONT'D never overlap screenplay text automatic continued for the same speaker after action
+PASS no renderer errors during cross-element editing

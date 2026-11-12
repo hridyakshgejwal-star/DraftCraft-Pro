@@ -1,0 +1,14 @@
+250-page typing (story-browser.cjs), run alone, rotating builds: 1.15.3 final, 1.15.4 before FMT-14 (62e8623), 1.15.4 (165b8eb)
+1.15.3 run1 "typingMs":{"p50":62,"p95":87,"max":113} 
+62e8623 run1 "typingMs":{"p50":56,"p95":85,"max":126} 
+165b8eb run1 "typingMs":{"p50":59,"p95":100,"max":102} 
+1.15.3 run2 "typingMs":{"p50":50,"p95":89,"max":137} 
+62e8623 run2 "typingMs":{"p50":57,"p95":91,"max":133} 
+165b8eb run2 "typingMs":{"p50":55,"p95":88,"max":130} 
+1.15.3 run3 "typingMs":{"p50":55,"p95":89,"max":109} 
+62e8623 run3 "typingMs":{"p50":60,"p95":84,"max":125} 
+165b8eb run3 "typingMs":{"p50":66,"p95":92,"max":136} 
+1.15.3 run4 "typingMs":{"p50":52,"p95":79,"max":98} 
+62e8623 run4 "typingMs":{"p50":55,"p95":81,"max":143} 
+165b8eb run4 "typingMs":{"p50":53,"p95":96,"max":162} 
+DONE

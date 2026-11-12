@@ -1,0 +1,375 @@
+{
+  "version": "1.17.0",
+  "started": "2026-10-27T14:35:52.431Z",
+  "checks": {
+    "editor-ready": {
+      "ok": true,
+      "screenshot": "01-window.png",
+      "ms": 2375
+    },
+    "environment": {
+      "ok": true,
+      "electron": "44.7.0",
+      "chrome": "152.0.7977.130",
+      "os": "6.18.44-fc-v165",
+      "macos": "6.18.44-fc-v165",
+      "arch": "x64",
+      "packaged": false,
+      "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+      "cores": 2,
+      "memoryGB": 8,
+      "info": {
+        "version": null,
+        "microphone": null,
+        "speech": null,
+        "minimumSystem": null
+      },
+      "ms": 1
+    },
+    "window": {
+      "ok": true,
+      "bounds": {
+        "x": 80,
+        "y": 50,
+        "width": 1440,
+        "height": 900
+      },
+      "trafficLights": null,
+      "fullScreenable": true,
+      "tabbingIdentifier": null,
+      "titleBarSpacer": null,
+      "ms": 2
+    },
+    "full-screen": {
+      "ok": false,
+      "error": "Error: {\"entered\":false,\"during\":true,\"left\":false}\n    at /home/claude/draftcraft/release-1.17.0/stage/app/self-test.cjs:42:356\n    at async step (/home/claude/draftcraft/release-1.17.0/stage/app/self-test.cjs:28:86)\n    at async Object.runSelfTest (/home/claude/draftcraft/release-1.17.0/stage/app/self-test.cjs:42:2)",
+      "ms": 17682
+    },
+    "tabs": {
+      "ok": true,
+      "before": 1,
+      "after": 2,
+      "sameTabGroup": false,
+      "merge": "not available on this platform",
+      "closed": true,
+      "remaining": 1,
+      "ms": 1452
+    },
+    "menu-check-marks": {
+      "ok": true,
+      "toggles": {
+        "navigator": {
+          "before": true,
+          "toggled": false,
+          "restored": true
+        },
+        "timeline": {
+          "before": true,
+          "toggled": false,
+          "restored": true
+        }
+      },
+      "checkItems": 55,
+      "checked": [
+        "View › Page View ✓",
+        "View › Script ✓",
+        "View › Timeline (Outline Editor) ✓",
+        "View › Navigator ✓",
+        "View › Split › Unsplit ✓",
+        "View › Split › Second Panel: Index Cards ✓",
+        "View › Show › ScriptNotes ✓",
+        "View › Show › Bookmarks ✓",
+        "View › Show › Scene Comments ✓",
+        "View › Show › Outline Elements ✓",
+        "View › Show › Structure Lines ✓",
+        "View › Show › Toolbar ✓",
+        "View › Show › Writing Streaks ✓",
+        "View › Appearance › Dark ✓",
+        "View › Toolbar Groups › Document ✓",
+        "View › Toolbar Groups › Editing ✓",
+        "View › Toolbar Groups › Screenplay ✓",
+        "View › Toolbar Groups › Workspace ✓",
+        "View › Toolbar Groups › Formatting ✓",
+        "View › Toolbar Groups › Production ✓",
+        "View › Toolbar Groups › Tools ✓",
+        "Format › Scene Numbers › Both ✓",
+        "Production › Revision Mode ✓"
+      ],
+      "ms": 4808
+    },
+    "spelling": {
+      "ok": true,
+      "misspelled": [],
+      "checked": [
+        "recieve",
+        "receive",
+        "teh",
+        "bonjour",
+        "Straße",
+        "Wohnung",
+        "qwrtzxv",
+        "colour",
+        "color"
+      ],
+      "suggestions": {
+        "recieve": [],
+        "teh": []
+      },
+      "ms": 2
+    },
+    "voices": {
+      "ok": true,
+      "say": 0,
+      "premiumOrEnhanced": [],
+      "sample": [],
+      "browserVoices": 0,
+      "error": "Error: Installed macOS voices are available in the Mac application. Choose a configured local neural server or ElevenLabs here.",
+      "ms": 1
+    },
+    "dictation-helper": {
+      "ok": true,
+      "available": false,
+      "ms": 0
+    },
+    "accessibility": {
+      "ok": true,
+      "labels": [
+        "Scene Heading, scene 1",
+        "Action",
+        "Action",
+        "Scene Heading, scene 2",
+        "Action",
+        "Action"
+      ],
+      "announced": "Element 1 of 27: Scene Heading, page 1, scene 1",
+      "via": "key",
+      "region": {
+        "role": "status",
+        "live": "polite"
+      },
+      "navigatorTabs": [
+        "Scenes (3)",
+        "Cast (2)",
+        "Cast List",
+        "Notes (6)",
+        "Bookmarks (3)",
+        "Tags",
+        "Locations",
+        "Outline"
+      ],
+      "ms": 912
+    },
+    "getting-started": {
+      "ok": true,
+      "sections": 36,
+      "search": "cast list csv",
+      "hits": [
+        "Navigator: scenes, characters and the cast list",
+        "What's New In 1.17.0"
+      ],
+      "screenshot": "03-getting-started.png",
+      "ms": 1030
+    },
+    "return-latency-mixed-script": {
+      "ok": true,
+      "pages": 256,
+      "paragraphs": 5462,
+      "returns": 10,
+      "keydownToSecondFrame": {
+        "p50": 65,
+        "p95": 88,
+        "max": 88,
+        "all": [
+          88,
+          82,
+          55,
+          65,
+          57,
+          82,
+          58,
+          70,
+          64,
+          59
+        ]
+      },
+      "keydownToPaint": {
+        "reported": 10,
+        "note": "Event Timing reports only keydowns of 16 ms or more (all keys, including typing)",
+        "p50": 56,
+        "p95": 80,
+        "max": 80,
+        "all": [
+          {
+            "duration": 88,
+            "processing": 58,
+            "delay": 0
+          },
+          {
+            "duration": 64,
+            "processing": 35,
+            "delay": 1
+          },
+          {
+            "duration": 80,
+            "processing": 49,
+            "delay": 0
+          },
+          {
+            "duration": 64,
+            "processing": 41,
+            "delay": 0
+          },
+          {
+            "duration": 48,
+            "processing": 31,
+            "delay": 0
+          },
+          {
+            "duration": 64,
+            "processing": 41,
+            "delay": 0
+          },
+          {
+            "duration": 48,
+            "processing": 34,
+            "delay": 1
+          },
+          {
+            "duration": 56,
+            "processing": 39,
+            "delay": 0
+          },
+          {
+            "duration": 48,
+            "processing": 33,
+            "delay": 0
+          },
+          {
+            "duration": 48,
+            "processing": 32,
+            "delay": 0
+          },
+          {
+            "duration": 56,
+            "processing": 36,
+            "delay": 1
+          },
+          {
+            "duration": 48,
+            "processing": 31,
+            "delay": 0
+          }
+        ]
+      },
+      "typingInputToSecondFrame": {
+        "n": 96,
+        "p50": 96,
+        "p95": 221
+      },
+      "ms": 29637
+    },
+    "return-latency-uniform-worst-case": {
+      "ok": true,
+      "pages": 250,
+      "paragraphs": 4250,
+      "returns": 10,
+      "keydownToSecondFrame": {
+        "p50": 59,
+        "p95": 80,
+        "max": 80,
+        "all": [
+          59,
+          45,
+          44,
+          75,
+          75,
+          50,
+          53,
+          80,
+          49,
+          59
+        ]
+      },
+      "keydownToPaint": {
+        "reported": 10,
+        "note": "Event Timing reports only keydowns of 16 ms or more (all keys, including typing)",
+        "p50": 56,
+        "p95": 88,
+        "max": 88,
+        "all": [
+          {
+            "duration": 96,
+            "processing": 47,
+            "delay": 0
+          },
+          {
+            "duration": 96,
+            "processing": 51,
+            "delay": 0
+          },
+          {
+            "duration": 56,
+            "processing": 32,
+            "delay": 2
+          },
+          {
+            "duration": 48,
+            "processing": 27,
+            "delay": 0
+          },
+          {
+            "duration": 48,
+            "processing": 26,
+            "delay": 0
+          },
+          {
+            "duration": 88,
+            "processing": 51,
+            "delay": 0
+          },
+          {
+            "duration": 72,
+            "processing": 37,
+            "delay": 3
+          },
+          {
+            "duration": 56,
+            "processing": 24,
+            "delay": 9
+          },
+          {
+            "duration": 48,
+            "processing": 32,
+            "delay": 0
+          },
+          {
+            "duration": 72,
+            "processing": 45,
+            "delay": 0
+          },
+          {
+            "duration": 48,
+            "processing": 23,
+            "delay": 0
+          },
+          {
+            "duration": 56,
+            "processing": 36,
+            "delay": 0
+          }
+        ]
+      },
+      "typingInputToSecondFrame": {
+        "n": 96,
+        "p50": 66,
+        "p95": 212
+      },
+      "ms": 29683
+    }
+  },
+  "finished": "2026-10-27T14:37:20.038Z",
+  "passed": 12,
+  "failed": [
+    "full-screen"
+  ]
+}

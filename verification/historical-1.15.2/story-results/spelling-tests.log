@@ -1,0 +1,59 @@
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS real dictionary worker flags completed words across existing pages
+PASS left click replaces only the chosen range, closes popup, and supports undo/redo
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS secondary click, keyboard spelling route and page actions coexist
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS native Edit commands use screenplay history and preserve native undo in other text fields
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS space corrections retain caret, one separator, capitalization, immediate undo and Backspace learning
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS acronyms and ambiguous spellings stay unchanged under conservative autocorrect
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS prefix, partial name, Unicode, multiword and extension suggestions accept exact names
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS fictional names and custom dictionary words stay protected; selection and rapid typing remain intact
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS ignore once/document, custom dictionary and per-word autocorrect exclusion persist correctly
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS character records and settings survive autosave, reload, manual backups and live rename
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS aggressive autocorrect accepts only a unique near dictionary match and rejects stale completion
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS underlines do not change wrapping or pagination at 50/100/200 percent and both themes
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PASS stale popup results, paste and composition cannot overwrite newer text
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PERFORMANCE {"pages":10,"paragraphs":79,"startupMs":756,"keyEventP50Ms":7,"keyEventP95Ms":15,"usedJSHeapBytes":45688408}
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PERFORMANCE {"pages":50,"paragraphs":419,"startupMs":1078,"keyEventP50Ms":21,"keyEventP95Ms":38,"usedJSHeapBytes":105480100}
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PERFORMANCE {"pages":120,"paragraphs":1015,"startupMs":1789,"keyEventP50Ms":44,"keyEventP95Ms":70,"usedJSHeapBytes":58167456}
+WORKER http://127.0.0.1:34081/assets/spelling.worker-Dxk6aqSN.js
+WORKER http://127.0.0.1:34081/assets/synonyms.worker-xKI6b-dN.js
+PERFORMANCE {"pages":250,"paragraphs":2119,"startupMs":3459,"keyEventP50Ms":87,"keyEventP95Ms":166,"usedJSHeapBytes":173856516}
+PASS 10/50/120/250-page scripts: typing, complete-document checking, autocomplete and autosave

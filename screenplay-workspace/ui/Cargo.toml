@@ -1,0 +1,12 @@
+[package]
+name = "ui"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+document-core.workspace = true
+screenplay-formatting.workspace = true
+preferences.workspace = true
+serde.workspace = true

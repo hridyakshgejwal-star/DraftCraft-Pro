@@ -1,0 +1,19 @@
+# Story structure and editor preferences — 1.8.0
+
+This release extends the existing editor, Outline Map, Beat Board and writing assistance. Story Map, Story Arc, Act Breaks and Beat Sheet are independent optional tools. All four start disabled in new and existing projects. Open Settings → Editor → Story Structure to enable them or use a page's Story Structure menu.
+
+Story Map uses the editor's actual pagination to show scene lengths. Scene blocks jump to the corresponding screenplay element. Markers, sections and sequences reuse the existing outline lanes and markers; beats reuse the existing Beat Board cards. Linking them to paragraph or scene IDs makes their positions follow editing and reflow. Moving a marker, arc point or unlinked beat changes planning data, never the screenplay's scene order.
+
+Story Arc offers Three Act, Freytag, Syd Field, Five Act and Custom models. Initial curves are clearly labeled editable templates, not inferred dramatic tension. Drag a point, adjust it with arrow keys, or press Enter to edit its label, intensity, color and scene link. Changing a model preserves saved points; Reset Graph replaces them only after confirmation. Intensity scale, colors and layout are editable.
+
+Each tool can be enabled, hidden, collapsed, resized and placed above/below the editor, in a separate panel or outside selected pages. All-page attachments allow page exceptions. Hide and Disable retain data. Remove from Page detaches that page's visual. Delete Selected confirms before removing planning data. Beat Sheet supports sequence groups, descriptions, notes, character/storyline filtering, linked scene navigation and unlinked-card planning order.
+
+Standard screenplay print/PDF output omits the planning controls. Annotated Presentation is a separate, explicit HTML export containing the selected story visuals and screenplay pages; it can be printed to PDF. Its presentation layout is separate from the standard screenplay PDF.
+
+Cursor & Typing settings persist in the application profile. Smooth Cursor and character highlights start disabled. They can be enabled independently, and Reduce Motion retains the native caret. Sentence capitalization starts enabled for normal Action and Dialogue typing. It respects abbreviations, initials, numbers, ellipses, quotation marks, composition and pasted text. Undo can restore a lowercase letter, and manual case overrides remain editable. Existing all-caps screenplay element behavior remains in place.
+
+Cmd+S chooses a native `.draftcraft` file location and retains the existing local backup. Before the first external save, closing offers Save, Don't Save and Cancel. Once a location is chosen, edits autosave there and closing flushes the newest project. Save Project As chooses another location. `.draftcraft` files retain the full project, including story planning; existing FDX/Fountain exchange remains available. Canceling a picker or encountering a failed save leaves the editor open.
+
+The editor keeps current screenplay text and canonical pagination. Planning geometry is tracked separately so unchanged graphs can skip rendering during ordinary typing. Offscreen page visuals remain lightweight placeholders. Unchanged Navigator scene rows retain their markup and use current action handlers. Background spelling responses are batched, and correct paragraphs do not trigger underline redraws. The latest renderer and native bridge are packaged into the existing Electron desktop application; no development server is required after installation.
+
+See `desktop/Getting-Started.txt` for installation and `verification/story-results/` for the packaged-payload checks. The build targets Apple Silicon macOS 13 or later and uses personal ad-hoc signatures. Physical Mac launch and native dialogs have not been tested in this Linux environment.

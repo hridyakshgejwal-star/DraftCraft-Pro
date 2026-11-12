@@ -1,0 +1,20 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+node_modules/
+verification/electron/lifecycle-results.json
+verification/cross-paragraph-results/
+verification/electron/*-results.json
+verification/electron/pdf-parity.pdf
+verification/electron/pdf-parity-failure.png
+!verification/evidence-1.15.3/**
+!verification/evidence-1.15.4/**
+!verification/historical-1.15.2/**
+
+# Your own Firebase web config (copy firebase-applet-config.example.json); never committed
+firebase-applet-config.json

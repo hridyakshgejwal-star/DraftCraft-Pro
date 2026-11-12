@@ -1,0 +1,12 @@
+[package]
+name = "reports"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+document-core.workspace = true
+characters.workspace = true
+navigator.workspace = true
+serde.workspace = true

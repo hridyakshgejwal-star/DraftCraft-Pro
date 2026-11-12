@@ -1,0 +1,102 @@
+{
+  "appDir": "/home/claude/draftcraft/release-1.18.0/stage/app",
+  "checks": [
+    {
+      "name": "editor and exported PDF agree page by page",
+      "passed": true,
+      "comparedPages": 7
+    }
+  ],
+  "editorPages": 7,
+  "pdfPages": 8,
+  "paper": [
+    612,
+    792
+  ],
+  "titlePage": true,
+  "labels": [
+    {
+      "page": 1,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 1,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 2,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 2,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 2,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 3,
+      "kind": "more",
+      "text": "(MORE)"
+    },
+    {
+      "page": 4,
+      "kind": "continued",
+      "text": "MARCUS (CONT'D)"
+    },
+    {
+      "page": 4,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 4,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 5,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 5,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 6,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 6,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 6,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 7,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    },
+    {
+      "page": 7,
+      "kind": "resumed",
+      "text": "(CONT'D)"
+    }
+  ],
+  "emojiInEditor": true,
+  "emojiInPdfText": true,
+  "pdfSha256": "3c8e5cdda6425574f232d69c1dc2b77f63b01a147bdfde33b83e14ac5c959bb5"
+}

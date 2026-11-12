@@ -1,0 +1,65 @@
+FAIL close unmodified window (red button / Cmd+W) with another window open main-process exceptions
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+FAIL modified new document: Cancel keeps window, Don't Save closes main-process exceptions
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+FAIL modified new document: Save writes a real project file and remembers it Expected values to be strictly deep-equal:
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)',
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)","uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)","    at BrowserWindow.emit (node:eve
+FAIL Quit (Cmd+Q) with two modified windows prompts once per window and can be canceled main-process exceptions
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)',
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)","uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)","    at BrowserWindow.emit (node:eve
+PASS close requested twice quickly shows a single dialog
+FAIL closing while an autosave is in flight keeps the latest text main-process exceptions
++ actual - expected
+
++ [
++   'uncaughtException: TypeError: Object has been destroyed',
++   '    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)',
++   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)',
++   '    at BrowserWindow.emit (node:events:526:24)'
++ ]
+- []
+ ["uncaughtException: TypeError: Object has been destroyed","    at DocumentWindows.remove (/home/claude/draftcraft/build-baseline/app/window-registry.cjs:7:44)","    at BrowserWindow.<anonymous> (/home/claude/draftcraft/build-baseline/app/main.cjs:135:106)","    at BrowserWindow.emit (node:events:526:24)"]
+{"total":6,"failed":5}

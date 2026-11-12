@@ -1,0 +1,19 @@
+Latency A/B, 1.15.4 (build-1154-final) vs 1.16.0 (release payload c4eeda7d…), same suites, same host, same session.
+Linux Chromium 151, 2 vCPU container, includes Playwright automation. Not a Mac measurement.
+
+Earlier host (before the container restart), after the R-14 fix, 250-page word click, cached ms:
+  1.15.4  [451,358,356,347,353,330,315]   [481,427,345,417,425,323,390]
+  1.16.0  [406,400,334,373,369,383,358]   [417,409,324,332,379,383,354]
+
+Current host (after the restart, ~1.6x slower):
+  words   1.15.4  [534,663,491,541,622,568,574]     1.16.0  [625,547,711,527,579,631,623] / [508,462,444,473,431,460,414] / [529,409,441,610,465,493,576]
+  story   1.15.4  typing p50/p95 109/189, 115/269, 128/203
+          1.16.0  typing p50/p95 128/297, 129/303, 117/212, 158/310, 107/146
+
+Before the R-14 fix (structure lines as ~750 accessible buttons), earlier host:
+  1.15.4  [394,372,319,348,312,306,327]   1.16.0-dev  [425,472,394,450,436,453,419]
+
+Scaling probe (performance-scale.json; dense 3,655-paragraph 250-page script, timeline + Navigator + Structure Lines shown):
+  20 pages   1.16.0 open 1.7 s, typing p50/p95 38/61 ms
+  120 pages  1.16.0 open 3.7 s, typing p50/p95 106/160 ms
+  250 pages  1.16.0 open 5.4 s, typing p50/p95 193/340 ms   (earlier host: 171/282; 1.15.4 on the earlier host: 171/455)

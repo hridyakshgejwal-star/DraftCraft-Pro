@@ -1,0 +1,215 @@
+{
+  "environment": "Linux Chromium built renderer and actual PDF bytes; native panels substituted",
+  "editorMetrics": {
+    "d1": {
+      "x": 240,
+      "y": 192,
+      "width": 336,
+      "height": 16
+    },
+    "c2": {
+      "x": 355.1875,
+      "y": 224,
+      "width": 326.390625,
+      "height": 16
+    },
+    "bodyC": {
+      "x": 144,
+      "y": 544,
+      "width": 576,
+      "height": 16
+    }
+  },
+  "pages": [
+    {
+      "label": "1",
+      "fragments": [
+        {
+          "id": "scene1",
+          "start": 0,
+          "end": 15
+        },
+        {
+          "id": "a1",
+          "start": 0,
+          "end": 47
+        },
+        {
+          "id": "c1",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "id": "par",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "id": "d1",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "id": "c2",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "id": "d2",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "id": "a2",
+          "start": 0,
+          "end": 11
+        },
+        {
+          "id": "shot",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "id": "a3",
+          "start": 0,
+          "end": 15
+        },
+        {
+          "id": "scene2",
+          "start": 0,
+          "end": 17
+        },
+        {
+          "id": "b1",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "id": "b2",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "id": "scene3",
+          "start": 0,
+          "end": 14
+        },
+        {
+          "id": "bodyC",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "id": "long-cue",
+          "start": 0,
+          "end": 12
+        },
+        {
+          "id": "long-speech",
+          "start": 0,
+          "end": 792
+        }
+      ]
+    },
+    {
+      "label": "2",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 792,
+          "end": 2664
+        }
+      ]
+    },
+    {
+      "label": "3",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 2664,
+          "end": 4536
+        }
+      ]
+    },
+    {
+      "label": "4",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 4536,
+          "end": 6408
+        }
+      ]
+    },
+    {
+      "label": "5",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 6408,
+          "end": 8280
+        }
+      ]
+    },
+    {
+      "label": "6",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 8280,
+          "end": 10152
+        }
+      ]
+    },
+    {
+      "label": "7",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 10152,
+          "end": 12024
+        }
+      ]
+    },
+    {
+      "label": "8",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 12024,
+          "end": 13896
+        }
+      ]
+    },
+    {
+      "label": "9",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 13896,
+          "end": 15768
+        }
+      ]
+    },
+    {
+      "label": "10",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 15768,
+          "end": 17640
+        }
+      ]
+    },
+    {
+      "label": "11",
+      "fragments": [
+        {
+          "id": "long-speech",
+          "start": 17640,
+          "end": 17999
+        }
+      ]
+    }
+  ]
+}

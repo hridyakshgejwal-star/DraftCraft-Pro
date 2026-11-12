@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "environment": "Linux Chromium; native input APIs, not physical macOS IME verification",
+  "results": [
+    "a multi-page speech renders complete source ranges in fixed pages with generated labels",
+    "typing at a page boundary updates the canonical speech and retains UTF-16 caret",
+    "alternate B edits survive switching and reopening with labels outside text",
+    "production controls lock real boundaries, persist labels and undo conversion",
+    "range tag all creates actual records linked to matches and survives edit/reopen",
+    "two authors review real changes and Undo restores a rejected change",
+    "named revisions mark edited ranges without becoming Track Changes",
+    "saved Navigator filters, widths and columns survive reopening with real results",
+    "macros expand at the selected trigger with scope, exact caret and one-step Undo",
+    "embedded image upload, proportional resize, alignment and reopen render the actual asset",
+    "custom command toolbar saves ordering, presentation and real command actions",
+    "character sides in the Reports workspace use the active native document and real cast",
+    "system image paste normalizes actual pixels and copy exposes an image with native project metadata",
+    "ordinary edits retain supported imported emphasis in native persistence"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DraftCraft Pro - Screenplay Studio for macOS & Web",
+  "description": "Professional screenplay writing, story development, and production application with Final Draft 13.4.0 parity, native Rust core engine, Courier industry typesetting, Beat Board, Navigator, Table Read TTS, and multimodal breakdown.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,11 @@
+{
+  "appDir": "/home/claude/draftcraft/original-asar",
+  "checks": [
+    {
+      "name": "editor and exported PDF agree page by page",
+      "passed": false,
+      "error": "PDF written through the native save flow",
+      "mainErrors": []
+    }
+  ]
+}

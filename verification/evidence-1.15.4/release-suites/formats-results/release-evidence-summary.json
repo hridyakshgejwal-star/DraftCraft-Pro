@@ -1,0 +1,21 @@
+{
+  "payload_sha256": "961b62d41f26e45da66c73babed9c6bd83a701202de163beab3de8c1f9950e88",
+  "observed_result": {
+    "suite": "formats",
+    "passed": true,
+    "seconds": 82.4,
+    "interaction_groups": 18,
+    "measurements": [
+      {
+        "paragraphs": 1505,
+        "pages": 167,
+        "typingMs": {
+          "p50": 113,
+          "p95": 218
+        }
+      }
+    ],
+    "evidence_source": "Observed completed execution outputs retained in this task conversation; original full scratch logs removed by workspace maintenance."
+  },
+  "note": "This summary retains completed execution output after maintenance; existing older JSON files in this source folder are historical checkpoint artifacts."
+}

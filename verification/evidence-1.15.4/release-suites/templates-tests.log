@@ -1,0 +1,13 @@
+PASS standard US template: margins 1.5/1/1/1, Character 3.7", Dialogue 2.5"–6.0", Parenthetical 3.1"–5.6", Transition flush right
+PASS keyboard-only scene: heading, action, character, parenthetical, dialogue and transition
+PASS scene-heading prefixes INT., EXT., INT./EXT., INT/EXT., EXT./INT., EXT/INT. and I/E. are recognized; prose is not
+PASS transitions get the template ending; FADE OUT./FADE TO BLACK. keep their period; no duplicate punctuation
+PASS shot directions are offered as Shot, never as a character cue; ordinary action is not
+PASS a Final Draft-style FDX opens with its page layout, element positions and spacing
+PASS FDX export uses Final Draft units and conventions and reopens with the same layout
+PASS switching the template changes the auto-formatting rules immediately and Undo restores the format
+PASS multilingual text: Hindi and other Unicode script is not capitalized or reclassified
+PASS Auto Formatting settings: every control exists, defaults on, persists, and changes behaviour
+PASS radio drama: SFX and MUSIC cues, speakers at the margin, speeches indented, numbered scenes
+PASS documentary and commercial templates recognize captions; feature screenplays do not
+PASS an element whose type changes while writing keeps the template indents: text at 3.7" / 3.1" / 2.5", full width, no hidden lines

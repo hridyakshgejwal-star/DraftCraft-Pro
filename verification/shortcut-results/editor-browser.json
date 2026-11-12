@@ -1,0 +1,62 @@
+{
+  "renderer": "production desktop renderer, Chromium 151 headless shell",
+  "clipboard": "test bridge",
+  "results": [
+    {
+      "name": "formatting geometry: 1024/1440/1920, 50/100/200%, Navigator open/closed",
+      "passed": true
+    },
+    {
+      "name": "element changes preserve paragraph target, selection, undo and paper geometry",
+      "passed": true
+    },
+    {
+      "name": "left-click Page 1 actions require confirmation and cancel preserves data",
+      "passed": true
+    },
+    {
+      "name": "middle-page delete preserves neighbors, metadata, beats; repeated undo/redo",
+      "passed": true
+    },
+    {
+      "name": "copy, paste before/after and duplicate preserve metadata and generate unique IDs",
+      "passed": true
+    },
+    {
+      "name": "clipboard failure cannot cut; external plain text pastes through Fountain parsing",
+      "passed": true
+    },
+    {
+      "name": "last-page cut is undoable; only-page deletion leaves editable content",
+      "passed": true
+    },
+    {
+      "name": "keyboard menu, selected text, Control-click, bounds and outside dismissal",
+      "passed": true
+    },
+    {
+      "name": "card resizing on all axes at 40/100/200%, panning and grid on/off",
+      "passed": true
+    },
+    {
+      "name": "resize preview skips saves; undo preserves edits and view changes; reload preserves final size",
+      "passed": true
+    },
+    {
+      "name": "pointer cancel discards preview; input editing never drags the card",
+      "passed": true
+    },
+    {
+      "name": "stale dialog refuses changed content until explicit refresh",
+      "passed": true
+    },
+    {
+      "name": "connectors follow rendered dimensions and captured card dragging",
+      "passed": true
+    },
+    {
+      "name": "print excludes formatting and page controls; no renderer exceptions",
+      "passed": true
+    }
+  ]
+}

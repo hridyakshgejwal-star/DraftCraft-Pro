@@ -1,0 +1,2 @@
+sandbox_extension_issue_file failed for /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/Resources: 1 (Operation not permitted)
+[1696:1017/222248.440250:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)

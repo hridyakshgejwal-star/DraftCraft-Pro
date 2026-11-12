@@ -1,0 +1,15 @@
+PASS recorded Control shortcut preserves text, focus, selection, undo and redo; reload persists
+PASS every screenplay element switches instantly without editing manuscript text
+PASS plain letters type normally, Shortcut Mode is one-shot, and Option can be held
+PASS conflicts require a choice, Replace clears prior assignment, protected commands stay unchanged
+PASS search, category filters, clearing, restoring, undo and cancellation are functional
+PASS Character, Parenthetical and Scene Heading enter rules plus selection splitting and configurable double Enter
+PASS all thirteen quick inserts format correctly and preserve current text; undo/redo retain focus
+PASS character autocomplete opens on formatting, accepts keys, project shortcuts follow rename and do not leak
+PASS command palette accepts letters outside text entry, keeps search editable, and Script Notes use history
+PASS profiles duplicate, rename, switch, export, import and restore after reload
+PASS Reset All requires explicit choice and can be undone; recorder and modal work at narrow height
+PASS custom keys are confined to the screenplay; Beat Board, Outline and Navigator text fields stay ordinary
+PASS IME and fast normal typing never trigger letter shortcuts; print omits settings and formatting controls
+SHORTCUT PERFORMANCE {"pages":250,"paragraphs":2121,"shortcutP50Ms":82,"shortcutP95Ms":203,"environment":"Linux Chromium 151; includes automation round trip; physical Mac not benchmarked"}
+PASS 250-page screenplay responds to custom element shortcuts and preserves every fast-typed character

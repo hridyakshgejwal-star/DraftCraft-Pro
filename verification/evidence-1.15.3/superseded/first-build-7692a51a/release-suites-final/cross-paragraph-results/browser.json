@@ -1,0 +1,53 @@
+{
+  "dist": "/home/claude/draftcraft/build-final/app/dist",
+  "results": [
+    {
+      "name": "E-01/E-02: Backspace at an element start and Delete at its end join elements; one Undo restores both",
+      "passed": true
+    },
+    {
+      "name": "E-01/E-02: Delete in an empty element, or Backspace after one, removes only the empty element",
+      "passed": true
+    },
+    {
+      "name": "E-03: arrow keys move the caret between elements at element boundaries",
+      "passed": true
+    },
+    {
+      "name": "E-05: Shift+Arrow extends a selection across elements; copy yields typed elements; typing replaces it",
+      "passed": true
+    },
+    {
+      "name": "E-05: Shift+Click and mouse drag select across elements; Backspace deletes; Escape cancels",
+      "passed": true
+    },
+    {
+      "name": "E-04: pasting copied elements or screenplay text inserts typed elements, not one paragraph",
+      "passed": true
+    },
+    {
+      "name": "E-06: Select All selects the element, then the whole script; typing replaces it and Undo restores it",
+      "passed": true
+    },
+    {
+      "name": "E-07: Enter inside bold text keeps the inline style on both halves",
+      "passed": true
+    },
+    {
+      "name": "D-02/D-03: notes, scene comments and CONT'D never overlap screenplay text",
+      "passed": true
+    },
+    {
+      "name": "P-01: rows reused across edits keep live handlers (takes, joins and Undo act on the current script)",
+      "passed": true
+    },
+    {
+      "name": "D-08: take controls, scene numbers and the bookmark ribbon stay clear of text and of each other",
+      "passed": true
+    },
+    {
+      "name": "no renderer errors during cross-element editing",
+      "passed": true
+    }
+  ]
+}

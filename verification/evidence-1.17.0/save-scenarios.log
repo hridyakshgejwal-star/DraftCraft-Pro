@@ -1,0 +1,56 @@
+== saved-only-after-write
+   ok   edit shows Unsaved Changes
+   ok   a save in progress shows Saving…
+   ok   the file does not contain the edit before the write completes
+   ok   Saved is not shown before the write completes
+   ok   Saved appears once the file contains the edit
+== autosave-and-reopen
+   ok   typing shows Unsaved Changes
+   ok   autosave writes the latest text
+   ok   status returns to Saved
+   ok   file has the same element types and text as the editor
+   ok   file has the same title and format
+   ok   the file opens in a new session with the latest text
+   ok   reopened element types and text match
+   ok   reopened title and format match
+   ok   a freshly opened file is Saved
+== failed-save-and-retry
+   ok   an unavailable save location shows Save Failed
+   ok   the message names the file and the cause
+   ok   Retry and Save As are offered
+   ok   the unsaved edit is kept in a recovery copy
+   ok   the edit stays in the editor
+   ok   Retry saves once the folder is back
+== renamed-while-open
+   ok   autosave follows the renamed file
+   ok   the old name is not recreated
+   ok   status is Saved
+   ok   manual save writes the renamed file
+== folder-renamed-while-open
+   ok   autosave follows the renamed folder
+   ok   the old folder is not recreated
+== moved-away-while-open
+   ok   a project moved elsewhere fails with an accurate message
+   ok   no new file is created at the old location
+   ok   the edit is kept in a recovery copy
+== external-reserialization
+   ok   a byte-different file with the same content is not a conflict
+   ok   status is Saved
+== external-real-change
+   ok   a real outside change is refused with an accurate message
+   ok   the other app’s version is not overwritten
+   ok   this window’s edit is kept in a recovery copy
+== stale-save-rejected
+   ok   an older snapshot cannot be saved over a newer one
+   ok   the file keeps the newer text
+   ok   overlapping manual and automatic saves end with the latest text
+   ok   file equals the editor after overlapping saves
+== focus-after-save
+   ok   Save keeps the caret where it was
+   ok   typing right after Save continues in the same element
+== relaunch-restores
+   ok   quitting saves the last edit to the file
+   ok   relaunch restores the same project with the last edit
+   ok   relaunched project is Saved
+
+43 passed, 0 failed

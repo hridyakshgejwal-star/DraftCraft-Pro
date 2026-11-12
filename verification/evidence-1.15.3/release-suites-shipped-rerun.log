@@ -1,0 +1,31 @@
+{"suite": "spelling", "passed": true, "seconds": 60.8, "interaction_groups": 14, "measurements": [{"pages": 10, "paragraphs": 83, "startupMs": 1400, "keyEventP50Ms": 18, "keyEventP95Ms": 26, "usedJSHeapBytes": 37046804}, {"pages": 50, "paragraphs": 423, "startupMs": 2003, "keyEventP50Ms": 34, "keyEventP95Ms": 70, "usedJSHeapBytes": 70999308}, {"pages": 120, "paragraphs": 1015, "startupMs": 2808, "keyEventP50Ms": 66, "keyEventP95Ms": 113, "usedJSHeapBytes": 87112004}, {"pages": 250, "paragraphs": 2123, "startupMs": 5060, "keyEventP50Ms": 113, "keyEventP95Ms": 173, "usedJSHeapBytes": 166802364}]}
+{"suite": "cross-paragraph", "passed": false, "seconds": 22.6, "interaction_groups": 1, "measurements": []}
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <textarea rows="1" id="input-d" autocorrect="off" spellcheck="false" data-fragment-end="12" data-fragment-start="0" placeholder="Dialogue..." data-editor-paragraph="d" class="w-full bg-transparent resize-none overflow-hidden focus:outline-none transition-colors border-none p-0 text-left pl-[18%] max-w-[65%] leading-relaxed ">Hello there.</textarea> from <div id="para-d" class="w-full relative transition-colors duration-150 ">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <textarea rows="1" id="input-d" autocorrect="off" spellcheck="false" data-fragment-end="12" data-fragment-start="0" placeholder="Dialogue..." data-editor-paragraph="d" class="w-full bg-transparent resize-none overflow-hidden focus:outline-none transition-colors border-none p-0 text-left pl-[18%] max-w-[65%] leading-relaxed ">Hello there.</textarea> from <div id="para-d" class="w-full relative transition-colors duration-150 ">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    15 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <textarea rows="1" id="input-d" autocorrect="off" spellcheck="false" data-fragment-end="12" data-fragment-start="0" placeholder="Dialogue..." data-editor-paragraph="d" class="w-full bg-transparent resize-none overflow-hidden focus:outline-none transition-colors border-none p-0 text-left pl-[18%] max-w-[65%] leading-relaxed ">Hello there.</textarea> from <div id="para-d" class="w-full relative transition-colors duration-150 ">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+FAIL D-08: take controls, scene numbers and the bookmark ribbon stay clear of text and of each other take bar covers no screenplay text at 1440px
+
+1 !== 0
+
+PASS no renderer errors during cross-element editing
+
+exit 1

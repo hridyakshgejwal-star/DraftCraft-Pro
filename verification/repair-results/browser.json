@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "scope": "Built Linux Chromium renderer; native dialogs/window transport substituted; actual PDF bytes",
+  "results": [
+    {
+      "name": "F01 actual page gaps, speech attachments and inch indents match screenplay layout",
+      "passed": true
+    },
+    {
+      "name": "F02 template preview includes existing paragraph 15 with the editor geometry",
+      "passed": true
+    },
+    {
+      "name": "F04-F06 literal query keeps focus, next selects every occurrence, exact replacement is Undoable",
+      "passed": true
+    },
+    {
+      "name": "F05 punctuation searches and dollar replacements remain literal",
+      "passed": true
+    },
+    {
+      "name": "F07 reachable scenes moves complete unequal scenes and Undo restores order",
+      "passed": true
+    },
+    {
+      "name": "F07 reachable cards moves complete unequal scenes and Undo restores order",
+      "passed": true
+    },
+    {
+      "name": "F11-F12 Combine previews element-boundary insertion and retains real source image references",
+      "passed": true
+    },
+    {
+      "name": "F15 Format Doctor repairs actual boundary rules and preserves text",
+      "passed": true
+    },
+    {
+      "name": "F01-F02 editor, print HTML and actual PDF agree on geometry, source fragments and speech pages",
+      "passed": true
+    },
+    {
+      "name": "snapshot Restore waits for real adoption and one Undo restores the newer draft",
+      "passed": true
+    },
+    {
+      "name": "custom document paper and saved title-page choice reach the actual PDF bytes",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

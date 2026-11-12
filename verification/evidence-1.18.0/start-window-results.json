@@ -1,0 +1,36 @@
+{
+  "electron": "44.7.0",
+  "version": "1.18.0",
+  "results": [
+    {
+      "name": "fresh launch shows the Start Window; Escape continues with the new script",
+      "passed": true,
+      "ms": 1374
+    },
+    {
+      "name": "Open… on the Start Window opens a file and records it in File › Open Recent",
+      "passed": true,
+      "ms": 1463
+    },
+    {
+      "name": "recent projects: open one; a missing one is marked and removed; the launch preference is kept",
+      "passed": true,
+      "ms": 6834
+    },
+    {
+      "name": "a launch that opens a file skips the Start Window",
+      "passed": true,
+      "ms": 3506
+    },
+    {
+      "name": "File › Open Recent opens a project; Clear Menu empties the list",
+      "passed": true,
+      "ms": 2998
+    },
+    {
+      "name": "unsaved changes are resolved before a Start Window format replaces the script",
+      "passed": true,
+      "ms": 7129
+    }
+  ]
+}

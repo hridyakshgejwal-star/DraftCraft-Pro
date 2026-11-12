@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "renderer": "/home/claude/draftcraft/release-1.17.0/stage/app/dist",
+  "backend": "/home/claude/draftcraft/release-1.17.0/stage/app",
+  "physical_mac_tested": false,
+  "results": [
+    {
+      "name": "four defaults and both Settings entry points are real controls",
+      "passed": true
+    },
+    {
+      "name": "sentence initials, punctuation boundaries, quotes and new paragraphs capitalize during real typing",
+      "passed": true
+    },
+    {
+      "name": "abbreviations, initials, URLs, decimals and ellipses avoid false capitals",
+      "passed": true
+    },
+    {
+      "name": "manual lowercase choices survive Undo, replacement and later typing",
+      "passed": true
+    },
+    {
+      "name": "raw sluglines infer their semantic element and finish location/time formatting on Return",
+      "passed": true
+    },
+    {
+      "name": "location names remain intact while typing and repeated separators normalize at completion",
+      "passed": true
+    },
+    {
+      "name": "Scene Heading Tab and SmartType preserve the prefix and complete location and time fields",
+      "passed": true
+    },
+    {
+      "name": "template separator, custom times and internal location hyphens work with SmartType",
+      "passed": true
+    },
+    {
+      "name": "Parenthetical shortcut inserts a pair with the real caret inside and skips its outer closer",
+      "passed": true
+    },
+    {
+      "name": "Dialogue Tab preserves dialogue and Return exits from inside the inserted closing bracket",
+      "passed": true
+    },
+    {
+      "name": "selection wrapping retains inline styles and Undo/Redo restores selection and caret",
+      "passed": true
+    },
+    {
+      "name": "existing pairs, manual nesting, arrows, Backspace and empty exits keep normal editing",
+      "passed": true
+    },
+    {
+      "name": "toolbar, command palette and Insert menu use the same functional parenthetical editing history",
+      "passed": true
+    },
+    {
+      "name": "recognized transitions complete in Action, follow Enter navigation and never receive prose punctuation",
+      "passed": true
+    },
+    {
+      "name": "dialogue phrases, ordinary Action and custom transitions retain meaning and explicit endings",
+      "passed": true
+    },
+    {
+      "name": "transition endings are editable template rules and survive save/reload",
+      "passed": true
+    },
+    {
+      "name": "format completion and Enter are one Undo/Redo transaction with precise caret restoration",
+      "passed": true
+    },
+    {
+      "name": "deleted or rejected automatic structural punctuation is not repeatedly restored",
+      "passed": true
+    },
+    {
+      "name": "each automatic switch can be disabled while the other three stay enabled",
+      "passed": true
+    },
+    {
+      "name": "all four toggles apply independently, immediately and persist after restart",
+      "passed": true
+    },
+    {
+      "name": "new controls preserve existing explicit capitalization Off and do not rewrite old pages",
+      "passed": true
+    },
+    {
+      "name": "sentence punctuation coordinates with capitalization and excludes all structural elements",
+      "passed": true
+    },
+    {
+      "name": "middle edits, selection splits, paste and composition preserve native text and focus",
+      "passed": true
+    },
+    {
+      "name": "leaving an edited heading completes it without stealing destination focus",
+      "passed": true
+    },
+    {
+      "name": "rapid typing, formatting and native autosave retain characters and one caret in a long script",
+      "passed": true
+    }
+  ]
+}

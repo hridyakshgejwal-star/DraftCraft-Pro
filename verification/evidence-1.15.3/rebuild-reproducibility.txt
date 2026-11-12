@@ -1,0 +1,43 @@
+Rebuilds of the committed tree (commit 7dbae17, "Escape after Select All returns to the caret position…"; application source unchanged since) with build-offline/stage-desktop.mjs; payload fingerprint as computed by run-release-tests.py. Tested (final) payload: 1cdc6eea67edc87c5431bd723225d34864469fb4abd417e64c1992d903e2e7f0
+rebuild 1: d45285bb56b08f23940047cc22141f3fde9e17a764016138faf842f46e247b95 main=index-HXTX35QH.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=19087 renamed_identifiers=5101 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 2: 4cd3133dc88a59f05dcedfdfbd6309b03535bd9095b503522bf69a34c88e5cad main=index-B2NXTK2A.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18588 renamed_identifiers=5075 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 3: 8853dfc4bd6bfe930c9241c584051e2150fc166adbcbb96c656f8d817644335a main=index-EZDAD3VP.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=19481 renamed_identifiers=5123 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 4: c3775f870bcc457ce28d5bcc7bf05673a511fce8f06ba5367d55f48e5677715c main=index-XK4ZBWMT.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18588 renamed_identifiers=5075 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 5: c3775f870bcc457ce28d5bcc7bf05673a511fce8f06ba5367d55f48e5677715c main=index-XK4ZBWMT.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18588 renamed_identifiers=5075 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 6: d45285bb56b08f23940047cc22141f3fde9e17a764016138faf842f46e247b95 main=index-HXTX35QH.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=19087 renamed_identifiers=5101 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 7: 631a4dd5dab776028ba993a19da8cc3d1828f955b7c704e6d11a90bc0c597223 main=index-IG5ZJBE7.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18377 renamed_identifiers=5018 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 8: 8853dfc4bd6bfe930c9241c584051e2150fc166adbcbb96c656f8d817644335a main=index-EZDAD3VP.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=19481 renamed_identifiers=5123 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 9: d45285bb56b08f23940047cc22141f3fde9e17a764016138faf842f46e247b95 main=index-HXTX35QH.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=19087 renamed_identifiers=5101 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 10: c3775f870bcc457ce28d5bcc7bf05673a511fce8f06ba5367d55f48e5677715c main=index-XK4ZBWMT.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18588 renamed_identifiers=5075 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 11: 7e8a4ebcdabaa175705615427e5fb9f051f6740734a694d8c18e8ce2659c0b59 main=index-ZLZFFQGU.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=9868 renamed_identifiers=1979 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 12: c3775f870bcc457ce28d5bcc7bf05673a511fce8f06ba5367d55f48e5677715c main=index-XK4ZBWMT.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18588 renamed_identifiers=5075 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 13: d45285bb56b08f23940047cc22141f3fde9e17a764016138faf842f46e247b95 main=index-HXTX35QH.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=19087 renamed_identifiers=5101 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 14: 1fcab5b0b7cae9404fa9f4109fb0bfab201744c62d45323a3eb5a4d9cd9531c3 main=index-RNCSMEKA.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18588 renamed_identifiers=5075 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 15: d45285bb56b08f23940047cc22141f3fde9e17a764016138faf842f46e247b95 main=index-HXTX35QH.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=19087 renamed_identifiers=5101 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 16: c3775f870bcc457ce28d5bcc7bf05673a511fce8f06ba5367d55f48e5677715c main=index-XK4ZBWMT.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18588 renamed_identifiers=5075 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 17: 8853dfc4bd6bfe930c9241c584051e2150fc166adbcbb96c656f8d817644335a main=index-EZDAD3VP.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=19481 renamed_identifiers=5123 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 18: 4cd3133dc88a59f05dcedfdfbd6309b03535bd9095b503522bf69a34c88e5cad main=index-B2NXTK2A.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18588 renamed_identifiers=5075 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 19: 8853dfc4bd6bfe930c9241c584051e2150fc166adbcbb96c656f8d817644335a main=index-EZDAD3VP.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=19481 renamed_identifiers=5123 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+rebuild 20: dcee56a7a50a2db6dcc9615f7cbe8882eebafb4dd93fdda243bd1a22d247188a main=index-YVLSXA5U.js other-differences=0
+  main-chunk comparison with the tested build: identical=False punctuation_identical=True tokens=416980/416980 differing_tokens=18720 renamed_identifiers=5080 non_identifier_differences=0 inconsistent_renames=0 -> EQUIVALENT
+
+An earlier batch of 20 rebuilds of the same tree (without the main-chunk comparison) also produced no byte-identical payload; in every one the main chunk (and dist/index.html, which names it) was the only differing file.

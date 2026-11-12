@@ -1,0 +1,35 @@
+{
+  "baseline_version": "1.11.0",
+  "current_version": "1.12.0",
+  "same_test_host": true,
+  "original_p95_budget_ms": 250,
+  "baseline": {
+    "pages": 250,
+    "paragraphs": 1999,
+    "enabledTools": 4,
+    "allPageArc": true,
+    "typingMs": {
+      "p50": 202,
+      "p95": 510,
+      "max": 541
+    },
+    "renderedArcPoints": 16,
+    "environment": "Linux Chromium; physical M2 not benchmarked"
+  },
+  "current_initial": {
+    "pages": 250,
+    "paragraphs": 1999,
+    "enabledTools": 4,
+    "allPageArc": true,
+    "typingMs": {
+      "p50": 190,
+      "p95": 312,
+      "max": 506
+    },
+    "renderedArcPoints": 16,
+    "environment": "Linux Chromium; physical M2 not benchmarked"
+  },
+  "calibrated_p95_budget_ms": 638,
+  "budget_rule": "1.25 times the previous release p95 on this host",
+  "physical_mac_benchmark": false
+}

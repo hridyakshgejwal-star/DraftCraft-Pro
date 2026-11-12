@@ -1,0 +1,10 @@
+PASS E-01/E-02: Backspace at an element start and Delete at its end join elements; one Undo restores both
+PASS E-03: arrow keys move the caret between elements at element boundaries
+PASS E-05: Shift+Arrow extends a selection across elements; copy yields typed elements; typing replaces it
+PASS E-05: Shift+Click and mouse drag select across elements; Backspace deletes; Escape cancels
+PASS E-04: pasting copied elements or screenplay text inserts typed elements, not one paragraph
+PASS E-06: Select All selects the element, then the whole script; typing replaces it and Undo restores it
+PASS E-07: Enter inside bold text keeps the inline style on both halves
+PASS D-02/D-03: notes, scene comments and CONT'D never overlap screenplay text
+PASS P-01: rows reused across edits keep live handlers (takes, joins and Undo act on the current script)
+PASS no renderer errors during cross-element editing

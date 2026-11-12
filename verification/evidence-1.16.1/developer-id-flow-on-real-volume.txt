@@ -1,0 +1,37 @@
+Sign-and-Notarize.command run on a copy of the real 1.16.1 volume (dmg-work-1.16.1/volume) on Linux,
+with the real file(1) for Mach-O detection and stand-in codesign/xcrun/spctl/security/hdiutil/ditto/xattr
+that only record their arguments. The manifest check ran against the volume's Support/Package-SHA256.txt and
+File-Paths.txt. No Apple tool or account was involved. Option: --no-dmg. Exit status 0.
+
+Calls in order (path inside the app copy; ENT = with --entitlements; all signing calls use --timestamp and --options runtime):
+xcrun --find notarytool
+xcrun --find stapler
+xcrun notarytool history --keychain-profile DraftCraft-Notary
+codesign sign  ENT Contents/Frameworks/DraftCraft Pro Helper (GPU).app/Contents/MacOS/DraftCraft Pro Helper (GPU)
+codesign sign  ENT Contents/Frameworks/DraftCraft Pro Helper (Plugin).app/Contents/MacOS/DraftCraft Pro Helper (Plugin)
+codesign sign  ENT Contents/Frameworks/DraftCraft Pro Helper (Renderer).app/Contents/MacOS/DraftCraft Pro Helper (Renderer)
+codesign sign  ENT Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper
+codesign sign      Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+codesign sign  ENT Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/chrome_crashpad_handler
+codesign sign      Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
+codesign sign      Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib
+codesign sign      Contents/Frameworks/Mantle.framework/Versions/A/Mantle
+codesign sign      Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC
+codesign sign  ENT Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt
+codesign sign      Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
+codesign sign  ENT Contents/MacOS/DraftCraft Pro
+codesign sign      Contents/Frameworks/Mantle.framework
+codesign sign      Contents/Frameworks/Electron Framework.framework
+codesign sign  ENT Contents/Frameworks/DraftCraft Pro Helper (Plugin).app
+codesign sign      Contents/Frameworks/ReactiveObjC.framework
+codesign sign      Contents/Frameworks/Squirrel.framework
+codesign sign  ENT Contents/Frameworks/DraftCraft Pro Helper.app
+codesign sign  ENT Contents/Frameworks/DraftCraft Pro Helper (Renderer).app
+codesign sign  ENT Contents/Frameworks/DraftCraft Pro Helper (GPU).app
+codesign sign  ENT DraftCraft Pro.app
+codesign --verify --deep --strict --verbose=2
+codesign -dvvv
+xcrun notarytool submit DraftCraft-Pro-1.16.1-notarize.zip --keychain-profile DraftCraft-Notary --wait --output-format json
+xcrun stapler staple DraftCraft Pro.app
+xcrun stapler validate DraftCraft Pro.app
+spctl --assess --type execute --verbose=4 DraftCraft Pro.app

@@ -1,0 +1,1 @@
+The first Linux Chromium spelling-suite process exited with SIGSEGV at browser launch, before creating a page or loading DraftCraft. The remaining suites were continued in fresh processes against the byte-identical packaged payload. Earlier passed groups were preserved. This is not a macOS app launch result.

@@ -1,0 +1,15 @@
+{
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "node": "v24.19.0",
+  "chromium": "Chromium 153.0.8010.0",
+  "chromium_sha256": "53a15d6c3a3d27dfb54c4ba60278b1683136f70cf1e67e989da7dfbd3d451ef0",
+  "electron_bundle": "44.7.0",
+  "physical_mac_available": false,
+  "macos_sdk_available": false,
+  "developer_id_credentials_available": false,
+  "notarization_configured": false,
+  "provider_quality_listening_performed": false,
+  "actual_final_draft_desktop_roundtrip": false,
+  "note": "Some retained harness environment labels still say Chromium151; the executable above is the actual current runner."
+}

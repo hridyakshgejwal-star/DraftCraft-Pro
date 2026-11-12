@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "only_changed_staged_file": "Getting-Started.txt",
+  "all_executable_code_and_assets_unchanged": true,
+  "prior_full_passing_payload_sha256": "6e61d17814d27dc836f8506cbada191dacd62d1cafc148a43d2086a0a49c83fa",
+  "current_payload_sha256": "2da447fc9cce4f41bc62c66ca05c49a0e3415385c06e32fa86cbe292890ff118",
+  "prior_full_test_proof": "dmg-prior-full-tests.json",
+  "prior_source_commit": "8bf7e03959f75d8aac1980d600d3d66f33e32366",
+  "native_mac_performance_verified": false
+}

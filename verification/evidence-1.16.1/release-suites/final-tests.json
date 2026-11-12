@@ -1,0 +1,295 @@
+{
+  "tested_payload": "/home/claude/draftcraft/release-1.16.1/stage/app",
+  "payload_sha256": "1103fe4d9983c6434ec2f8a216a1335ecbaaa688e2994186085ef6db5c78f8bb",
+  "recovered_after_workspace_maintenance": false,
+  "results": [
+    {
+      "suite": "models",
+      "passed": true,
+      "seconds": 23.4,
+      "interaction_groups": 0,
+      "measurements": [],
+      "tests": 258
+    },
+    {
+      "suite": "story",
+      "passed": true,
+      "seconds": 37.5,
+      "interaction_groups": 15,
+      "measurements": [
+        {
+          "pages": 250,
+          "paragraphs": 2123,
+          "enabledTools": 4,
+          "allPageArc": true,
+          "typingMs": {
+            "p50": 39,
+            "p95": 76,
+            "max": 124
+          },
+          "renderedArcPoints": 24,
+          "environment": "Linux Chromium; physical M2 not benchmarked"
+        }
+      ]
+    },
+    {
+      "suite": "editor",
+      "passed": true,
+      "seconds": 62.7,
+      "interaction_groups": 14,
+      "measurements": []
+    },
+    {
+      "suite": "shortcuts",
+      "passed": true,
+      "seconds": 51.5,
+      "interaction_groups": 14,
+      "measurements": [
+        {
+          "pages": 250,
+          "paragraphs": 2121,
+          "shortcutP50Ms": 65,
+          "shortcutP95Ms": 98,
+          "environment": "Linux Chromium 151; includes automation round trip; physical Mac not benchmarked"
+        }
+      ]
+    },
+    {
+      "suite": "words",
+      "passed": true,
+      "seconds": 39.5,
+      "interaction_groups": 13,
+      "measurements": [
+        {
+          "pages": 250,
+          "firstWordClickMs": 1417,
+          "cachedWordClickMs": [
+            270,
+            266,
+            258,
+            266,
+            241,
+            320,
+            233
+          ],
+          "environment": "Linux Chromium 151; includes automation; physical M2 not benchmarked"
+        }
+      ]
+    },
+    {
+      "suite": "spelling",
+      "passed": true,
+      "seconds": 59.5,
+      "interaction_groups": 14,
+      "measurements": [
+        {
+          "pages": 10,
+          "paragraphs": 83,
+          "startupMs": 1643,
+          "keyEventP50Ms": 15,
+          "keyEventP95Ms": 27,
+          "usedJSHeapBytes": 32797124
+        },
+        {
+          "pages": 50,
+          "paragraphs": 423,
+          "startupMs": 2245,
+          "keyEventP50Ms": 20,
+          "keyEventP95Ms": 36,
+          "usedJSHeapBytes": 46115108
+        },
+        {
+          "pages": 120,
+          "paragraphs": 1015,
+          "startupMs": 2946,
+          "keyEventP50Ms": 26,
+          "keyEventP95Ms": 45,
+          "usedJSHeapBytes": 57977976
+        },
+        {
+          "pages": 250,
+          "paragraphs": 2123,
+          "startupMs": 4870,
+          "keyEventP50Ms": 34,
+          "keyEventP95Ms": 67,
+          "usedJSHeapBytes": 94238164
+        }
+      ]
+    },
+    {
+      "suite": "smart-save",
+      "passed": true,
+      "seconds": 65.1,
+      "interaction_groups": 10,
+      "measurements": [
+        {
+          "paragraphs": 1999,
+          "pages": 222,
+          "typingMs": {
+            "p50": 54,
+            "p95": 89
+          },
+          "fillP95BudgetMs": 600,
+          "environment": "Linux Chromium, not a physical Mac benchmark"
+        }
+      ]
+    },
+    {
+      "suite": "caret",
+      "passed": true,
+      "seconds": 34.9,
+      "interaction_groups": 12,
+      "measurements": [
+        {
+          "pages": 222,
+          "paragraphs": 1999,
+          "typingMs": {
+            "p50": 21,
+            "p95": 127
+          },
+          "environment": "Linux Chromium, no physical M2/120 Hz display test"
+        }
+      ]
+    },
+    {
+      "suite": "formats",
+      "passed": true,
+      "seconds": 42.6,
+      "interaction_groups": 18,
+      "measurements": [
+        {
+          "paragraphs": 1505,
+          "pages": 167,
+          "typingMs": {
+            "p50": 19,
+            "p95": 43
+          }
+        }
+      ]
+    },
+    {
+      "suite": "punctuation",
+      "passed": true,
+      "seconds": 69.1,
+      "interaction_groups": 18,
+      "measurements": [
+        {
+          "returnP95BudgetMs": 600,
+          "budgetRule": "max(600ms, ceil(1.25 times same-document Off p95))",
+          "paragraphs": 2019,
+          "pages": 223,
+          "returnMs": {
+            "p50": 133,
+            "p95": 211
+          },
+          "offReturnMs": {
+            "p50": 149,
+            "p95": 223
+          },
+          "handlerOnMs": {
+            "p50": 118.3,
+            "p95": 199.3
+          },
+          "handlerOffMs": {
+            "p50": 137.5,
+            "p95": 193
+          },
+          "environment": "Linux Chromium; physical Mac and IME not tested"
+        }
+      ]
+    },
+    {
+      "suite": "automatic-formatting",
+      "passed": true,
+      "seconds": 111.8,
+      "interaction_groups": 25,
+      "measurements": [
+        {
+          "paragraphs": 2000,
+          "pages": 222,
+          "characters": 120,
+          "totalTypingMs": 2989,
+          "keyHandlerP95Ms": 0.5,
+          "environment": "Linux Chromium; physical macOS input not exercised"
+        }
+      ]
+    },
+    {
+      "suite": "table-read",
+      "passed": true,
+      "seconds": 53.5,
+      "interaction_groups": 18,
+      "measurements": [
+        {
+          "paragraphs": 2000,
+          "pages": 222,
+          "openMs": 573,
+          "typingTotalMs": 1569,
+          "typedCharacters": 12,
+          "environment": "Linux Chromium; macOS speech substituted with real Flite audio, not premium quality testing"
+        }
+      ]
+    },
+    {
+      "suite": "production",
+      "passed": true,
+      "seconds": 32.3,
+      "interaction_groups": 14,
+      "measurements": []
+    },
+    {
+      "suite": "collaboration",
+      "passed": true,
+      "seconds": 4.9,
+      "interaction_groups": 1,
+      "measurements": []
+    },
+    {
+      "suite": "interchange",
+      "passed": true,
+      "seconds": 3.6,
+      "interaction_groups": 8,
+      "measurements": []
+    },
+    {
+      "suite": "repair",
+      "passed": true,
+      "seconds": 33.0,
+      "interaction_groups": 11,
+      "measurements": []
+    },
+    {
+      "suite": "cross-paragraph",
+      "passed": true,
+      "seconds": 26.1,
+      "interaction_groups": 14,
+      "measurements": []
+    },
+    {
+      "suite": "templates",
+      "passed": true,
+      "seconds": 92.0,
+      "interaction_groups": 13,
+      "measurements": []
+    },
+    {
+      "suite": "enter-flow",
+      "passed": true,
+      "seconds": 139.4,
+      "interaction_groups": 0,
+      "measurements": []
+    },
+    {
+      "suite": "workspace",
+      "passed": true,
+      "seconds": 160.3,
+      "interaction_groups": 26,
+      "measurements": []
+    }
+  ],
+  "story_typing_p95_budget_ms": 250,
+  "shortcut_p95_budget_ms": 250,
+  "word_cached_budget_ms": 500,
+  "spelling_typing_p95_budget_ms": 250,
+  "save_fill_p95_budget_ms": 600
+}

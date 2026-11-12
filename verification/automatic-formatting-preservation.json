@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "baseline": "delivered 1.12.0 source",
+  "changed_files": [
+    "desktop/Getting-Started.txt",
+    "desktop/build.cjs",
+    "desktop/main.cjs",
+    "desktop/package-lock.json",
+    "desktop/package.json",
+    "desktop/package.mjs",
+    "src/App.tsx",
+    "src/components/EditorSettings.tsx",
+    "src/components/FormatStudio.tsx",
+    "src/components/MacOsMenubar.tsx",
+    "src/components/ScriptEditor.tsx",
+    "src/editor/preferences.ts",
+    "src/formats/model.ts",
+    "src/types/desktop.d.ts",
+    "src/types/script.ts",
+    "src/utils/smartType.ts"
+  ],
+  "new_files": [
+    "src/editor/automaticFormatting.ts"
+  ],
+  "removed_files": [],
+  "unchanged_files": 128,
+  "critical_unchanged": [
+    "desktop/save-coordinator.cjs",
+    "desktop/project-files.cjs",
+    "desktop/preload.cjs",
+    "src/files/useProjectFiles.ts",
+    "src/writing/punctuation.ts",
+    "src/formats/catalog.ts",
+    "src/shortcuts/model.ts"
+  ],
+  "unchanged_rust_files": 7,
+  "app_file_inventory_preserved": true,
+  "app_regular_files": 266,
+  "app_symlinks": 14,
+  "electron_framework_bytes": 202686912,
+  "electron_framework_sha256": "2599370ff42463eba1509a8b6ebd4ad21715639113cce63a46b4fe9b1df632ed"
+}

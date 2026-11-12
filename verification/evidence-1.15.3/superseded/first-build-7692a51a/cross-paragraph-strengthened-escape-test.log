@@ -1,0 +1,25 @@
+PASS E-01/E-02: Backspace at an element start and Delete at its end join elements; one Undo restores both
+PASS E-01/E-02: Delete in an empty element, or Backspace after one, removes only the empty element
+PASS E-03: arrow keys move the caret between elements at element boundaries
+PASS E-05: Shift+Arrow extends a selection across elements; copy yields typed elements; typing replaces it
+PASS E-05: Shift+Click and mouse drag select across elements; Backspace deletes; Escape cancels
+PASS E-04: pasting copied elements or screenplay text inserts typed elements, not one paragraph
+PASS E-06: Select All selects the element, then the whole script; typing replaces it and Undo restores it
+FAIL E-06: Escape after Select All returns the caret to where it was, not to the end of the script caret back where it was before the first Select All press
++ actual - expected
+
+  {
++   end: 11,
++   id: 'd2',
++   start: 11
+-   end: 2,
+-   id: 'd',
+-   start: 2
+  }
+
+PASS E-07: Enter inside bold text keeps the inline style on both halves
+PASS D-02/D-03: notes, scene comments and CONT'D never overlap screenplay text
+PASS P-01: rows reused across edits keep live handlers (takes, joins and Undo act on the current script)
+PASS D-08: take controls, scene numbers and the bookmark ribbon stay clear of text and of each other
+FAIL D-09: a speech continued on the next page shows its own first line (not the previous page's last line) fragment p-17@103 shows offset 69 first (expected 104)
+PASS no renderer errors during cross-element editing

@@ -1,0 +1,38 @@
+[package]
+name = "app"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "draftcraft"
+path = "src/main.rs"
+
+[dependencies]
+document-core.workspace = true
+screenplay-formatting.workspace = true
+typography.workspace = true
+pagination.workspace = true
+file-formats.workspace = true
+revision-engine.workspace = true
+characters.workspace = true
+script-notes.workspace = true
+navigator.workspace = true
+story-board.workspace = true
+outline-editor.workspace = true
+production.workspace = true
+writing-statistics.workspace = true
+preferences.workspace = true
+localization.workspace = true
+persistence.workspace = true
+collaboration.workspace = true
+pdf-export.workspace = true
+print-engine.workspace = true
+macos-integration.workspace = true
+ui.workspace = true
+screenplay-editor.workspace = true
+reports.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true

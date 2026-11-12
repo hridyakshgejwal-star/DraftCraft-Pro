@@ -1,0 +1,185 @@
+== system
+ProductName:		macOS
+ProductVersion:		27.0.1
+BuildVersion:		26A434
+arm64
+Sat Oct 31 22:58:30 IST 2026
+== dmg sha256
+c1cf0456e13b7a69b78ef562fdd5e2b494a7e8ac99e5330d85ddab0718d2d084
+  MATCH expected c1cf0456e13b7a69b78ef562fdd5e2b494a7e8ac99e5330d85ddab0718d2d084
+== quarantine on dmg
+== hdiutil imageinfo
+hdiutil: WARNING: 'hdiutil imageinfo ...' is deprecated. Please use 'diskutil image info ...' instead.
+Format Description: UDIF read-only compressed (zlib)
+Checksum Type: CRC32
+	Total Bytes: 671130624
+Checksum Value: $C1FE33F2
+Partition Information:
+		Partition Number: 3
+		Checksum Type: CRC32
+		Checksum Value: $00000000
+		Partition Number: 1
+		Checksum Type: CRC32
+		Checksum Value: $C71C0011
+		Partition Number: -1
+		Checksum Type: CRC32
+		Checksum Value: $0AD7559D
+		Partition Number: 2
+		Checksum Type: CRC32
+		Checksum Value: $655113F4
+		Partition Number: 0
+		Checksum Type: CRC32
+		Checksum Value: $7D22CB85
+== hdiutil verify
+Checksumming Driver Descriptor Map (DDM : 0)…
+     Driver Descriptor Map (DDM : 0): verified CRC32 $0AD7559D
+Checksumming Apple (Apple_partition_map : 1)…
+     Apple (Apple_partition_map : 1): verified CRC32 $7D22CB85
+Checksumming Macintosh (Apple_Driver_ATAPI : 2)…
+  Macintosh (Apple_Driver_ATAPI : 2): verified CRC32 $C71C0011
+Checksumming Mac_OS_X (Apple_HFSX : 3)…
+           Mac_OS_X (Apple_HFSX : 3): verified CRC32 $655113F4
+Checksumming  (Apple_Free : 4)…
+                    (Apple_Free : 4): verified CRC32 $00000000
+verified CRC32 $C1FE33F2
+hdiutil: verify: checksum of "/Users/<user>/Downloads/DraftCraft-1.18.0/DraftCraft-Pro-1.18.0-arm64.dmg" is VALID
+hdiutil verify exit=0
+== attach (read-only, no Finder window)
+expected CRC32 $C1FE33F2
+hdiutil: WARNING: 'hdiutil attach -readonly -nobrowse -mountpoint ...' is deprecated. Please use 'diskutil image attach --readOnly --mountOptions nobrowse --mountPoint ...' instead.
+/dev/disk4          	Apple_partition_scheme         	
+/dev/disk4s1        	Apple_partition_map            	
+/dev/disk4s2        	Apple_Driver_ATAPI             	
+/dev/disk4s3        	Apple_HFSX                     	/Users/<user>/Downloads/DraftCraft-1.18.0/mnt
+attach exit=0
+== volume
+   Volume Name:               DraftCraft Pro
+   File System Personality:   Case-sensitive HFS+
+   Type (Bundle):             hfs
+   Volume Total Space:        671.1 MB (671088640 Bytes) (exactly 1310720 512-Byte-Units)
+total 36688
+drwxr-xr-x  22 <user>  staff       748 17 Oct 14:52 .
+drwx------@ 13 <user>  staff       416 31 Oct 22:58 ..
+-rw-r--r--   1 <user>  staff      8196 31 Oct 22:19 Build-and-Install-1.18.0.md
+-rw-r--r--   1 <user>  staff      8567 31 Oct 22:19 CHANGELOG-1.18.0.md
+drwxr-xr-x   2 <user>  staff       170 31 Oct 22:19 Developer-ID
+drwxr-xr-x   3 <user>  staff       102 31 Oct 22:19 DraftCraft Pro.app
+-rw-r--r--   1 <user>  staff  18625131 31 Oct 22:19 DraftCraft-Pro-Source.zip
+-rw-r--r--   1 <user>  staff     13602 31 Oct 22:19 FEATURES-1.18.0.md
+-rw-r--r--   1 <user>  staff     22451 31 Oct 22:19 FINAL-DRAFT-MATRIX-1.18.0.md
+-rw-r--r--   1 <user>  staff     33094 31 Oct 22:19 Getting-Started.txt
+-rwxr-xr-x   1 <user>  staff      5242 31 Oct 22:19 Install-DraftCraft.command
+-rw-r--r--   1 <user>  staff      7204 31 Oct 22:19 LIMITATIONS-1.18.0.md
+drwxr-xr-x   2 <user>  staff       204 31 Oct 22:19 Migrations
+-rw-r--r--   1 <user>  staff      8195 31 Oct 22:19 PLAN-1.17.0-ITEMS-18-22.md
+drwxr-xr-x   2 <user>  staff      1190 31 Oct 22:19 Previous-Releases
+-rw-r--r--   1 <user>  staff      1937 31 Oct 22:19 Production-Dependencies.md
+-rw-r--r--   1 <user>  staff      2747 31 Oct 22:19 RELEASE-REPORT-1.18.0.md
+drwxr-xr-x   2 <user>  staff       204 31 Oct 22:19 Support
+-rw-r--r--   1 <user>  staff      6713 31 Oct 22:19 TEST-RESULTS-1.18.0.md
+drwxr-xr-x   4 <user>  staff       374 31 Oct 22:19 Third-Party-Licenses
+-rw-r--r--   1 <user>  staff      4721 31 Oct 22:19 UNRESOLVED-EXTERNAL-DEPENDENCIES.md
+drwxr-xr-x  10 <user>  staff       374 31 Oct 22:19 Verification
+== Info.plist
+  "CFBundleIdentifier" => "com.draftcraft.screenplay.studio"
+  "CFBundleShortVersionString" => "1.18.0"
+  "CFBundleVersion" => "1.18.0"
+  "ElectronAsarIntegrity" => {
+      "hash" => "5c5ef3c83e5f800cd61c1a943c3fb4801a12a0347e7facadbf0b1b0ec94ed031"
+  "LSMinimumSystemVersion" => "13.0"
+== architectures
+arm64
+/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/MacOS/DraftCraft Pro: Mach-O 64-bit executable arm64
+== codesign --verify --deep --strict --verbose=4
+--prepared:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (GPU).app
+--validated:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (GPU).app
+--prepared:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (Plugin).app
+--validated:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (Plugin).app
+--prepared:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (Renderer).app
+--validated:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper (Renderer).app
+--prepared:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app
+--validated:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app
+--prepared:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/Electron Framework.framework/Versions/Current/.
+--prepared:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/Electron Framework.framework/Versions/Current/Helpers/chrome_crashpad_handler
+--validated:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/Electron Framework.framework/Versions/Current/Helpers/chrome_crashpad_handler
+--validated:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/Electron Framework.framework/Versions/Current/.
+--prepared:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/Mantle.framework/Versions/Current/.
+--validated:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/Mantle.framework/Versions/Current/.
+--prepared:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/ReactiveObjC.framework/Versions/Current/.
+--validated:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/ReactiveObjC.framework/Versions/Current/.
+--prepared:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/Squirrel.framework/Versions/Current/.
+--validated:/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/Frameworks/Squirrel.framework/Versions/Current/.
+/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app: valid on disk
+/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app: satisfies its Designated Requirement
+codesign verify exit=0
+== codesign -dvvv (outer bundle)
+Executable=/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app/Contents/MacOS/DraftCraft Pro
+Identifier=com.draftcraft.screenplay.studio
+Format=app bundle with Mach-O thin (arm64)
+CodeDirectory v=20400 size=505 flags=0x2(adhoc) hashes=9+3 location=embedded
+Hash type=sha256 size=32
+CandidateCDHash sha256=d0cbd07936ca6c38933b87d4793b9501bf31c7f1
+CDHash=d0cbd07936ca6c38933b87d4793b9501bf31c7f1
+Signature=adhoc
+Info.plist entries=33
+TeamIdentifier=not set
+Sealed Resources version=2 rules=13 files=17
+Internal requirements count=0 size=12
+Total signatures=1
+Chosen signature=1
+== codesign verify each nested framework/helper
+  exit=0 DraftCraft Pro Helper (GPU).app
+  exit=0 DraftCraft Pro Helper (Plugin).app
+  exit=0 DraftCraft Pro Helper (Renderer).app
+  exit=0 DraftCraft Pro Helper.app
+  exit=0 Electron Framework.framework
+  exit=0 Mantle.framework
+  exit=0 ReactiveObjC.framework
+  exit=0 Squirrel.framework
+== spctl (Gatekeeper; an ad-hoc, non-notarized build is expected to be rejected)
+/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/DraftCraft Pro.app: rejected
+spctl exit=3
+== installer manifest (Support/Package-SHA256.txt)
+entries=     272 not-ok=       0
+== installer pins
+  pinned Package-SHA256.txt
+  pinned File-Paths.txt
+  pinned Bundle-Links.txt
+  pinned Sign-macOS.sh
+== symlinks in bundle
+      14
+== Developer-ID folder (1.16.1): macOS bash syntax check and entitlements plist lint (nothing is signed)
+total 48
+drwxr-xr-x   2 <user>  staff    170 31 Oct 22:19 .
+drwxr-xr-x  22 <user>  staff    748 17 Oct 14:52 ..
+-rw-r--r--   1 <user>  staff    615 31 Oct 22:19 entitlements.plist
+-rw-r--r--   1 <user>  staff   4356 31 Oct 22:19 README.md
+-rwxr-xr-x   1 <user>  staff  11515 31 Oct 22:19 Sign-and-Notarize.command
+GNU bash, version 3.2.57(1)-release (arm64-apple-darwin26)
+bash -n exit=0
+/Users/<user>/Downloads/DraftCraft-1.18.0/mnt/Developer-ID/entitlements.plist: OK
+plutil exit=0
+== Speech helper (1.17.0): Contents/Resources/DraftCraftDictation
+  mode=-rwxr-xr-x bytes=82336
+<app>/Contents/Resources/DraftCraftDictation: Mach-O 64-bit executable arm64
+  sha256 a383e20e79ed077e29b5742255ee606f8dbca6043fcec7496c80ef3761a844bd
+<app>/Contents/Resources/DraftCraftDictation: valid on disk
+<app>/Contents/Resources/DraftCraftDictation: satisfies its Designated Requirement
+  codesign verify exit=0
+== usage descriptions (Info.plist)
+  "NSCameraUsageDescription" => "This app needs access to the camera"
+  "NSMicrophoneUsageDescription" => "DraftCraft uses the microphone only when you start on-device dictation."
+  "NSSpeechRecognitionUsageDescription" => "DraftCraft transcribes your dictated screenplay using an available on-device language."
+== app.asar sha256
+7ff1676c0995fa20842f29cb1e4d00f7191c8ddf695acf0e1ae2abf8fef51bdf
+  MATCH expected 7ff1676c0995fa20842f29cb1e4d00f7191c8ddf695acf0e1ae2abf8fef51bdf
+== existing DraftCraft installs (not modified)
+  /Applications/DraftCraft Pro.app: 1.16.2
+  /Users/<user>/Applications/DraftCraft Pro.app: absent
+== existing profile (not modified)
+drwx------@ 28 <user>  staff  896 31 Oct 01:24 /Users/<user>/Library/Application Support/DraftCraft Pro
+== detach
+hdiutil: WARNING: 'hdiutil detach ...' is deprecated. Please use 'diskutil eject ...' instead.
+"disk4" ejected.
+detach exit=0
+== DONE

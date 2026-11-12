@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "version": "1.15.1",
+  "library_version": 12,
+  "image_sha256": "64c74c3dee6c2e286629c5d8f32be28bd25c1b575aad5dd1e923001d360ae28e",
+  "verified_regular_files": 271,
+  "source_manifest_sha256": "51981f868ce7f9bc94d98d3bbcbd5367084d21a605556d8395381a409eb178d9",
+  "native_mac_mount_tested": false
+}

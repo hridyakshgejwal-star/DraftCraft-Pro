@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "version": "1.4.2",
+  "asarFilesVerified": 43,
+  "asarHeaderSha256": "e424867041ab215917577848e56a4d78b10d95ce926f2678d54119915d1dbf7b",
+  "rendererMatchesStagedBuild": true,
+  "mainAndPreloadMatchStagedBuild": true
+}

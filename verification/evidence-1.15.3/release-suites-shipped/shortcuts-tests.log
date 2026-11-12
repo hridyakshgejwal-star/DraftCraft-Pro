@@ -1,0 +1,25 @@
+PASS recorded Control shortcut preserves text, focus, selection, undo and redo; reload persists
+PASS every screenplay element switches instantly without editing manuscript text
+PASS plain letters type normally, Shortcut Mode is one-shot, and Option can be held
+PASS conflicts require a choice, Replace clears prior assignment, protected commands stay unchanged
+PASS search, category filters, clearing, restoring, undo and cancellation are functional
+PASS Character, Parenthetical and Scene Heading enter rules plus selection splitting and configurable double Enter
+PASS all thirteen quick inserts format correctly and preserve current text; undo/redo retain focus
+PASS character autocomplete opens on formatting, accepts keys, project shortcuts follow rename and do not leak
+PASS command palette accepts letters outside text entry, keeps search editable, and Script Notes use history
+PASS profiles duplicate, rename, switch, export, import and restore after reload
+PASS Reset All requires explicit choice and can be undone; recorder and modal work at narrow height
+PASS custom keys are confined to the screenplay; Beat Board, Outline and Navigator text fields stay ordinary
+PASS IME and fast normal typing never trigger letter shortcuts; print omits settings and formatting controls
+FAIL 250-page screenplay responds to custom element shortcuts and preserves every fast-typed character custom shortcut p95 exceeded 250ms: 265.45948900000076
+AssertionError [ERR_ASSERTION]: custom shortcut p95 exceeded 250ms: 265.45948900000076
+    at /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/shortcuts-browser.cjs:104:250
+    at async check (/tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/shortcuts-browser.cjs:29:35)
+    at async /tmp/claude-0/-home-claude/019a9f2d-e412-55d3-9746-2fb61348adeb/scratchpad/run-shipped/work/verification/shortcuts-browser.cjs:96:2 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}

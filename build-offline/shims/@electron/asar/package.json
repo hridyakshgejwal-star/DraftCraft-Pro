@@ -1,0 +1,1 @@
+{ "name": "@electron/asar", "version": "0.0.0-offline-read-shim", "main": "index.js", "private": true }

@@ -1,0 +1,6 @@
+Word-click latency, 250-page script (verification/synonyms-browser.cjs, run alone, alternating builds, 2-CPU Linux host, headless Chromium 141)
+final run1: firstWordClickMs 525, cachedWordClickMs [347,298,298,290,304,275,263]
+shipped run1: firstWordClickMs 435, cachedWordClickMs [342,307,323,242,259,249,274]
+final run2: firstWordClickMs 512, cachedWordClickMs [330,300,314,346,286,240,249]
+shipped run2: firstWordClickMs 550, cachedWordClickMs [340,348,387,330,308,337,286]
+(The full release run on the final payload recorded 563 / [463,359,355,338,284,298,361] while sharing the host; budget for cached clicks is 500 ms.)

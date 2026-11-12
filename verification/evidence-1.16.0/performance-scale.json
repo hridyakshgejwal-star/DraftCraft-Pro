@@ -1,0 +1,56 @@
+{
+  "environment": "Linux Chromium (Playwright), 2 vCPU container; 1440×900; timeline, Navigator and Structure Lines shown; not a physical Mac",
+  "results": [
+    {
+      "pages": 20,
+      "paragraphs": 290,
+      "openMs": 1729,
+      "typingMs": {
+        "n": 37,
+        "p50": 38,
+        "p95": 61,
+        "max": 63
+      },
+      "caretToLastPageMs": 21,
+      "timelineFitMs": 28,
+      "elementChangeMs": 31,
+      "heapMB": 48,
+      "domElements": 4057,
+      "pageErrors": 0
+    },
+    {
+      "pages": 120,
+      "paragraphs": 1755,
+      "openMs": 3654,
+      "typingMs": {
+        "n": 37,
+        "p50": 106,
+        "p95": 160,
+        "max": 170
+      },
+      "caretToLastPageMs": 42,
+      "timelineFitMs": 109,
+      "elementChangeMs": 94,
+      "heapMB": 143,
+      "domElements": 21153,
+      "pageErrors": 0
+    },
+    {
+      "pages": 250,
+      "paragraphs": 3655,
+      "openMs": 5361,
+      "typingMs": {
+        "n": 37,
+        "p50": 193,
+        "p95": 340,
+        "max": 487
+      },
+      "caretToLastPageMs": 76,
+      "timelineFitMs": 164,
+      "elementChangeMs": 192,
+      "heapMB": 128,
+      "domElements": 43409,
+      "pageErrors": 0
+    }
+  ]
+}

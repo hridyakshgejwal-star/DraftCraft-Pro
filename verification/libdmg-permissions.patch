@@ -1,0 +1,35 @@
+diff --git a/hfs/catalog.c b/hfs/catalog.c
+index 7844761..2b648a5 100644
+--- a/hfs/catalog.c
++++ b/hfs/catalog.c
+@@ -1148,7 +1148,7 @@ HFSCatalogNodeID newFile(const char* pathName, Volume* volume) {
+ int chmodFile(const char* pathName, int mode, Volume* volume) {
+   HFSPlusCatalogRecord* record;
+ 
+-  record = getRecordFromPath(pathName, volume, NULL, NULL);
++  record = getRecordFromPath3(pathName, volume, NULL, NULL, TRUE, FALSE, kHFSRootFolderID);
+ 
+   if(record == NULL) {
+     return FALSE;
+diff --git a/hfs/hfslib.c b/hfs/hfslib.c
+index 530e9a9..51cdd2a 100644
+--- a/hfs/hfslib.c
++++ b/hfs/hfslib.c
+@@ -361,6 +361,7 @@ void addAllInFolderWithPolicies(
+ 				linkbuf[zloc] = '\0';
+ 				ASSERT(makeSymlink(fullName, linkbuf, volume),
+ 				    "addAllInFolder: makesymlink failed");
++				ASSERT(chmodFile(fullName, (int)st.st_mode, volume), "addAllInFolder: symlink chmod failed");
+ 				continue;
+ 			} else if (symlinkPolicy == kIncomingSymlinksTraverse) {
+ 				ASSERT(stat(ent->d_name, &st) == 0, "addallInFolder: stat failed");
+@@ -516,9 +517,7 @@ static void extractOne(HFSCatalogNodeID folderID, char* name, HFSPlusCatalogReco
+ 				fchmod(fileno((FILE*)outFile->data), file->permissions.fileMode & 07777);
+ #endif
+ 				outFile->close(outFile);
+-#ifdef WIN32
+ 				chmod(name, file->permissions.fileMode & 07777);
+-#endif
+ 				times.actime = APPLE_TO_UNIX_TIME(file->accessDate);
+ 				times.modtime = APPLE_TO_UNIX_TIME(file->contentModDate);
+ 				utime(name, &times);

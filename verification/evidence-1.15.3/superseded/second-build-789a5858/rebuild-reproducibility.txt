@@ -1,0 +1,21 @@
+Rebuilds of the committed tree with build-offline/stage-desktop.mjs; payload fingerprint as computed by run-release-tests.py. Tested (final) payload: 789a58583ad5fd301ee5044df6cbc2c8fc93d2ba2fc529e7229bdf6fde0a18ba
+rebuild 1: bdf364d9c4b966174126346324b297ff3f68c960f3166f2422ff4661b2982950 main=index-YZIX4RWH.js other-differences=0
+rebuild 2: 58873c369b41f04393fa696f8a33dccd14d268166348e106ff024605c828d82e main=index-IGBVE5Z3.js other-differences=0
+rebuild 3: c41e7e80ac090af85d23239223041ba8877678ca804c3d13e2cb7809c73761ad main=index-HH3F6GE4.js other-differences=0
+rebuild 4: 58873c369b41f04393fa696f8a33dccd14d268166348e106ff024605c828d82e main=index-IGBVE5Z3.js other-differences=0
+rebuild 5: e6697f03da4a13caa0ef483d078997e64e6fb82edf12079d230698d0c2bbbafd main=index-XDFRI4VN.js other-differences=0
+rebuild 6: e3c004b1ca668b659db357f9e8c9f3a33d77b5ea669bb6a1e3560c182d550351 main=index-OGSDLPGX.js other-differences=0
+rebuild 7: e6697f03da4a13caa0ef483d078997e64e6fb82edf12079d230698d0c2bbbafd main=index-XDFRI4VN.js other-differences=0
+rebuild 8: 78a001ea15f27a16960fbc971a65c9a967943e321ba648df295544e797e8e1a3 main=index-JRLBMB55.js other-differences=0
+rebuild 9: d4b1798c617859f2b8f6d1780be06cd245690b095ec99ef30754ff75ebd2db5a main=index-I3GOQJTB.js other-differences=0
+rebuild 10: 8b5eb975ce1731a5c8e35abb1d931771d26487624136f25e90c16a2bba3617b6 main=index-LVNBXFXY.js other-differences=0
+rebuild 11: 789a58583ad5fd301ee5044df6cbc2c8fc93d2ba2fc529e7229bdf6fde0a18ba main=index-FQYNWOH4.js other-differences=0
+rebuild 12: 27f36a510194f08cb622f8615c62be4bb34b50ce8c9de4f87a9bee9a56f400f8 main=index-GP43L2HL.js other-differences=0
+rebuild 13: e3c004b1ca668b659db357f9e8c9f3a33d77b5ea669bb6a1e3560c182d550351 main=index-OGSDLPGX.js other-differences=0
+rebuild 14: e3c004b1ca668b659db357f9e8c9f3a33d77b5ea669bb6a1e3560c182d550351 main=index-OGSDLPGX.js other-differences=0
+rebuild 15: e3c004b1ca668b659db357f9e8c9f3a33d77b5ea669bb6a1e3560c182d550351 main=index-OGSDLPGX.js other-differences=0
+rebuild 16: e3c004b1ca668b659db357f9e8c9f3a33d77b5ea669bb6a1e3560c182d550351 main=index-OGSDLPGX.js other-differences=0
+rebuild 17: 7fc8cd4d2b9e13225dc9204a8a69897aabf18d4439e57752027b190ebcfb04e3 main=index-L4MBLN3I.js other-differences=0
+rebuild 18: caa0629cbf0a51fe9be96715e88e896dfec2291f7d190e2a17a5d9099dd4cceb main=index-CW2K664S.js other-differences=0
+rebuild 19: 789a58583ad5fd301ee5044df6cbc2c8fc93d2ba2fc529e7229bdf6fde0a18ba main=index-FQYNWOH4.js other-differences=0
+rebuild 20: d4b1798c617859f2b8f6d1780be06cd245690b095ec99ef30754ff75ebd2db5a main=index-I3GOQJTB.js other-differences=0

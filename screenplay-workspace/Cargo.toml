@@ -1,0 +1,72 @@
+[workspace]
+resolver = "2"
+members = [
+    "app",
+    "ui",
+    "document-core",
+    "screenplay-editor",
+    "screenplay-formatting",
+    "typography",
+    "pagination",
+    "story-board",
+    "outline-editor",
+    "navigator",
+    "characters",
+    "script-notes",
+    "production",
+    "revision-engine",
+    "collaboration",
+    "reports",
+    "file-formats",
+    "pdf-export",
+    "print-engine",
+    "writing-statistics",
+    "preferences",
+    "localization",
+    "macos-integration",
+    "persistence",
+    "tests",
+]
+
+[workspace.package]
+version = "1.4.0"
+edition = "2021"
+authors = ["DraftCraft Systems"]
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.8", features = ["v4", "serde"] }
+thiserror = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+tokio = { version = "1.38", features = ["full"] }
+quick-xml = { version = "0.36", features = ["serialize"] }
+rusqlite = { version = "0.31", features = ["bundled"] }
+unicode-segmentation = "1.11"
+unicode-width = "0.1"
+
+# Shared workspace crate references
+document-core = { path = "./document-core" }
+screenplay-formatting = { path = "./screenplay-formatting" }
+typography = { path = "./typography" }
+pagination = { path = "./pagination" }
+file-formats = { path = "./file-formats" }
+revision-engine = { path = "./revision-engine" }
+characters = { path = "./characters" }
+script-notes = { path = "./script-notes" }
+navigator = { path = "./navigator" }
+story-board = { path = "./story-board" }
+outline-editor = { path = "./outline-editor" }
+production = { path = "./production" }
+writing-statistics = { path = "./writing-statistics" }
+preferences = { path = "./preferences" }
+localization = { path = "./localization" }
+persistence = { path = "./persistence" }
+collaboration = { path = "./collaboration" }
+pdf-export = { path = "./pdf-export" }
+print-engine = { path = "./print-engine" }
+macos-integration = { path = "./macos-integration" }
+ui = { path = "./ui" }
+screenplay-editor = { path = "./screenplay-editor" }
+reports = { path = "./reports" }

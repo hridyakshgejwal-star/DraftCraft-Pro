@@ -1,0 +1,42 @@
+{
+  "rcodesign": {
+    "version": "0.29.0",
+    "archive_sha256": "dbe85cedd8ee4217b64e9a0e4c2aef92ab8bcaaa41f20bde99781ff02e600002",
+    "upstream": "https://github.com/indygreg/apple-platform-rs"
+  },
+  "libdmg_hfsplus": {
+    "upstream": "https://github.com/mozilla/libdmg-hfsplus",
+    "branch": "mozilla",
+    "commit": "e18579b391950589b9ed16ee630c54ce4319bb29",
+    "patch": "libdmg-permissions.patch",
+    "archive_sha256": "f86ff29e206b1ebe68cd30bb88c2e32aeabd28eb2c0cd18aa09045c5ae3d879c"
+  },
+  "hfsprogs": {
+    "package": "hfsprogs_540.1.linux3-5build3_amd64.deb",
+    "sha256": "21aab68916cdba913b8571f1d83285f958878d2378255ee87a225575b917b77f",
+    "upstream": "https://archive.ubuntu.com/ubuntu/pool/universe/h/hfsprogs/"
+  },
+  "chromium_test_runtime": {
+    "version": "153.0.8010.0",
+    "executable_sha256": "53a15d6c3a3d27dfb54c4ba60278b1683136f70cf1e67e989da7dfbd3d451ef0"
+  },
+  "native_mac_launch_tested": false,
+  "recovery_build_bzip2": {
+    "version": "1.0.8",
+    "upstream": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
+    "archive_sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
+    "used_for": "Linux packaging tools only"
+  },
+  "current_recovery_build": {
+    "version": "1.15.2",
+    "host": "Linux x64",
+    "cmake": "3.31.6",
+    "gcc": "13.3.0",
+    "runtime_source": "DraftCraft-Pro-1.15.1-arm64.dmg, immutable saved version 12",
+    "electron": "44.7.0",
+    "target": "darwin arm64",
+    "signing": "ad-hoc changed outer bundle; retained unchanged nested runtime signatures",
+    "developer_id_signed": false,
+    "notarized": false
+  }
+}

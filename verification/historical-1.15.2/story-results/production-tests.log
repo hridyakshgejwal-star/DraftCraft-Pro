@@ -1,0 +1,19 @@
+PASS a multi-page speech renders complete source ranges in fixed pages with generated labels
+FOCUS TEST START
+FOCUS CALL 1643
+FOCUSED
+RANGE SET
+CARET BEFORE {"id":"input-speech","start":1649,"end":1649,"fragment":"1643"} wanted 1649
+PASS typing at a page boundary updates the canonical speech and retains UTF-16 caret
+PASS alternate B edits survive switching and reopening with labels outside text
+PASS production controls lock real boundaries, persist labels and undo conversion
+PASS range tag all creates actual records linked to matches and survives edit/reopen
+PASS two authors review real changes and Undo restores a rejected change
+PASS named revisions mark edited ranges without becoming Track Changes
+PASS saved Navigator filters, widths and columns survive reopening with real results
+PASS macros expand at the selected trigger with scope, exact caret and one-step Undo
+PASS embedded image upload, proportional resize, alignment and reopen render the actual asset
+PASS custom command toolbar saves ordering, presentation and real command actions
+PASS character sides in the Reports workspace use the active native document and real cast
+PASS system image paste normalizes actual pixels and copy exposes an image with native project metadata
+PASS ordinary edits retain supported imported emphasis in native persistence

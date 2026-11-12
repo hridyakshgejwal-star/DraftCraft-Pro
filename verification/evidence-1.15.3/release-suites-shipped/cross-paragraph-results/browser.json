@@ -1,0 +1,74 @@
+{
+  "dist": "/home/claude/draftcraft/original-asar/dist",
+  "results": [
+    {
+      "name": "E-01/E-02: Backspace at an element start and Delete at its end join elements; one Undo restores both",
+      "passed": false,
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   'First action line.',\n+   'Second action line.'\n-   'First action line.Second action line.',\n-   'ELENA'\n  ]\n"
+    },
+    {
+      "name": "E-01/E-02: Delete in an empty element, or Backspace after one, removes only the empty element",
+      "passed": false,
+      "error": "the Action keeps its type and text\n+ actual - expected\n\n  [\n    [\n      'a1',\n      'Action',\n      'First action line.'\n    ],\n    [\n+     'e',\n+     'Character',\n+     ''\n-     'a2',\n-     'Action',\n-     'Second action line.'\n    ]\n  ]\n"
+    },
+    {
+      "name": "E-03: arrow keys move the caret between elements at element boundaries",
+      "passed": false,
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   end: 18,\n+   id: 'a1',\n+   start: 18\n-   end: 0,\n-   id: 'a2',\n-   start: 0\n  }\n"
+    },
+    {
+      "name": "E-05: Shift+Arrow extends a selection across elements; copy yields typed elements; typing replaces it",
+      "passed": false,
+      "error": "highlight spans the elements"
+    },
+    {
+      "name": "E-05: Shift+Click and mouse drag select across elements; Backspace deletes; Escape cancels",
+      "passed": false,
+      "error": "shift-click selection"
+    },
+    {
+      "name": "E-04: pasting copied elements or screenplay text inserts typed elements, not one paragraph",
+      "passed": false,
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n    [\n      'Action',\n+     'First action line.\\n\\nINT. HALL - DAY\\n\\nShe runs.\\n\\nMARCUS\\nWait!'\n-     'First action line.'\n    ],\n    [\n-     'Scene Heading',\n-     'INT. HALL - DAY'\n-   ],\n-   [\n      'Action',\n+     'Second action line.'\n-     'She runs.'\n    ],\n    [\n      'Character',\n+     'ELENA'\n-     'MARCUS'\n    ],\n    [\n      'Dialogue',\n+     'Hello there.'\n-     'Wait!'\n    ],\n+   [\n+     'Action',\n+     'She turns away.'\n+   ]\n  ]\n"
+    },
+    {
+      "name": "E-06: Select All selects the element, then the whole script; typing replaces it and Undo restores it",
+      "passed": false,
+      "error": "second press selects every element"
+    },
+    {
+      "name": "E-06: Escape after Select All returns the caret to where it was, not to the end of the script",
+      "passed": false,
+      "error": "whole script selected"
+    },
+    {
+      "name": "E-07: Enter inside bold text keeps the inline style on both halves",
+      "passed": false,
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n... Skipped lines\n\n  [\n    [\n      {\n        style: {\n          bold: true\n...\n    ],\n+   undefined\n-   [\n-     {\n-       style: {\n-         bold: true\n-       },\n-       text: 'ld'\n-     },\n-     {\n-       text: ' then plain.'\n-     }\n-   ]\n  ]\n"
+    },
+    {
+      "name": "D-02/D-03: notes, scene comments and CONT'D never overlap screenplay text",
+      "passed": false,
+      "error": "automatic continued for the same speaker after action\n+ actual - expected\n\n+ []\n- [\n-   \"(CONT'D)\"\n- ]\n"
+    },
+    {
+      "name": "P-01: rows reused across edits keep live handlers (takes, joins and Undo act on the current script)",
+      "passed": false,
+      "error": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Duplicate take' })\u001b[22m\n\u001b[2m    - locator resolved to <button aria-label=\"Duplicate take\">Duplicate</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <textarea rows=\"1\" id=\"input-d\" autocorrect=\"off\" spellcheck=\"false\" data-fragment-end=\"12\" data-fragment-start=\"0\" placeholder=\"Dialogue...\" data-editor-paragraph=\"d\" class=\"w-full bg-transparent resize-none overflow-hidden focus:outline-none transition-colors border-none p-0 text-left pl-[18%] max-w-[65%] leading-relaxed \">Hello there.</textarea> from <div id=\"para-d\" class=\"w-full relative transition-colors duration-150 \">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <textarea rows=\"1\" id=\"input-d\" autocorrect=\"off\" spellcheck=\"false\" data-fragment-end=\"12\" data-fragment-start=\"0\" placeholder=\"Dialogue...\" data-editor-paragraph=\"d\" class=\"w-full bg-transparent resize-none overflow-hidden focus:outline-none transition-colors border-none p-0 text-left pl-[18%] max-w-[65%] leading-relaxed \">Hello there.</textarea> from <div id=\"para-d\" class=\"w-full relative transition-colors duration-150 \">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    15 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <textarea rows=\"1\" id=\"input-d\" autocorrect=\"off\" spellcheck=\"false\" data-fragment-end=\"12\" data-fragment-start=\"0\" placeholder=\"Dialogue...\" data-editor-paragraph=\"d\" class=\"w-full bg-transparent resize-none overflow-hidden focus:outline-none transition-colors border-none p-0 text-left pl-[18%] max-w-[65%] leading-relaxed \">Hello there.</textarea> from <div id=\"para-d\" class=\"w-full relative transition-colors duration-150 \">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "name": "D-08: take controls, scene numbers and the bookmark ribbon stay clear of text and of each other",
+      "passed": false,
+      "error": "take bar covers no screenplay text at 1440px\n\n1 !== 0\n"
+    },
+    {
+      "name": "D-09: a speech continued on the next page shows its own first line (not the previous page's last line)",
+      "passed": false,
+      "error": "fragment p-17@103 shows offset 69 first (expected 104)"
+    },
+    {
+      "name": "no renderer errors during cross-element editing",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "dmg": "DraftCraft-Pro-1.15.4-arm64.dmg",
+  "dmg_sha256": "f19ac7a78c64e34663636a85c13900e54336fbfd78bdaf89dee335dbd50313a3",
+  "dmg_bytes": 173040436,
+  "asar_sha256": "2158985d34401848554e814c3f48658928ed640b2d51d76c76ddc7e1719d11df",
+  "asar_header_sha256": "bf70aa28dee3252c5b2cf7795b616856ff61025235daf24cfd73f3c747a1034b",
+  "version": "1.15.4",
+  "entries": 1110,
+  "symlinks": 14,
+  "checks": {
+    "7z_roundtrip_identical": true,
+    "hfsplus_roundtrip_identical": true,
+    "verify_dmg_py": true,
+    "verify_macos_package_py": true,
+    "verify_dmg_asar_mjs": true
+  },
+  "tested_payload_sha256": "f6d59849040109fddc3c13c4242b97495b88ba75ed002e7d87d18a4781ea3e8b",
+  "free_space": {
+    "block_size": 4096,
+    "total_blocks": 163840,
+    "zeroed_free_blocks": 64664
+  },
+  "native_proof": {
+    "mach_o_files": 13,
+    "code_page_hashes": 54394,
+    "special_slot_hashes": 31,
+    "resource_hashes": 481,
+    "nested_code_seals": 9,
+    "symlinks": 14,
+    "resource_seals": 9,
+    "unchanged_native_sections": 249
+  },
+  "signing": "ad-hoc (rcodesign 0.29.0, outer bundle only); not Developer ID signed; not notarized",
+  "native_mac_validated": false
+}

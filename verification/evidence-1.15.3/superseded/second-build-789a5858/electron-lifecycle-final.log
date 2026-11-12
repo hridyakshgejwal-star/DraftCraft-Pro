@@ -1,0 +1,13 @@
+PASS close unmodified window (red button / Cmd+W) with another window open
+PASS modified new document: Cancel keeps window, Don't Save closes
+PASS modified new document: Save writes a real project file and remembers it
+PASS Quit (Cmd+Q) with two modified windows prompts once per window and can be canceled
+PASS close requested twice quickly shows a single dialog
+PASS closing while an autosave is in flight keeps the latest text
+PASS renderer crash: Reload Editor restores the latest received text
+PASS renderer crash: Close Window keeps a recovery copy and closes
+PASS relaunch after a crash offers the recovery copy and Restore brings the text back
+PASS close with an unavailable save folder offers Save As and loses nothing
+PASS hung editor: close watchdog offers Close Window and keeps a recovery copy
+PASS Dock activate after the last window closed opens a new editor window (macOS app-stays-open branch)
+{"total":12,"failed":0}

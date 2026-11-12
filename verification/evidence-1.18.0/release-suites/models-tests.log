@@ -1,0 +1,1738 @@
+TAP version 13
+# Subtest: advanced route validates ranges before remote processing and protects structural elements
+ok 1 - advanced route validates ranges before remote processing and protects structural elements
+  ---
+  duration_ms: 3.333477
+  type: 'test'
+  ...
+# Subtest: advanced route passes bounded structured context, timeout and schema; invalid output is rejected
+ok 2 - advanced route passes bounded structured context, timeout and schema; invalid output is rejected
+  ---
+  duration_ms: 2.600398
+  type: 'test'
+  ...
+# Subtest: all four automatic controls default On and preserve individual explicit choices
+ok 3 - all four automatic controls default On and preserve individual explicit choices
+  ---
+  duration_ms: 1.630238
+  type: 'test'
+  ...
+# Subtest: sluglines normalize prefixes, multiword locations and terminal time labels
+ok 4 - sluglines normalize prefixes, multiword locations and terminal time labels
+  ---
+  duration_ms: 3.610107
+  type: 'test'
+  ...
+# Subtest: location words do not receive a premature dash while typing
+ok 5 - location words do not receive a premature dash while typing
+  ---
+  duration_ms: 0.785768
+  type: 'test'
+  ...
+# Subtest: heading separator is normalized without damaging location hyphens
+ok 6 - heading separator is normalized without damaging location hyphens
+  ---
+  duration_ms: 0.451883
+  type: 'test'
+  ...
+# Subtest: headings preserve unsupported syntax and manual omissions
+ok 7 - headings preserve unsupported syntax and manual omissions
+  ---
+  duration_ms: 0.477013
+  type: 'test'
+  ...
+# Subtest: transition punctuation follows template rules while preserving author endings
+ok 8 - transition punctuation follows template rules while preserving author endings
+  ---
+  duration_ms: 0.745824
+  type: 'test'
+  ...
+# Subtest: only enabled screenplay structures are transformed
+ok 9 - only enabled screenplay structures are transformed
+  ---
+  duration_ms: 0.22512
+  type: 'test'
+  ...
+# Subtest: new parenthetical has its actual insertion indices inside the pair
+ok 10 - new parenthetical has its actual insertion indices inside the pair
+  ---
+  duration_ms: 1.126661
+  type: 'test'
+  ...
+# Subtest: selected parenthetical content is wrapped and remains selected
+ok 11 - selected parenthetical content is wrapped and remains selected
+  ---
+  duration_ms: 0.475476
+  type: 'test'
+  ...
+# Subtest: existing brackets and nested parentheses are not duplicated or skipped incorrectly
+ok 12 - existing brackets and nested parentheses are not duplicated or skipped incorrectly
+  ---
+  duration_ms: 0.559602
+  type: 'test'
+  ...
+# Subtest: structural edits and sentence capitalization preserve valid inline style runs
+ok 13 - structural edits and sentence capitalization preserve valid inline style runs
+  ---
+  duration_ms: 0.575573
+  type: 'test'
+  ...
+# Subtest: capitalization excludes abbreviations, URLs, ellipses, replacements and composition
+ok 14 - capitalization excludes abbreviations, URLs, ellipses, replacements and composition
+  ---
+  duration_ms: 2.002727
+  type: 'test'
+  ...
+# Subtest: SmartType keeps location hyphens and supports template field separators
+ok 15 - SmartType keeps location hyphens and supports template field separators
+  ---
+  duration_ms: 0.836607
+  type: 'test'
+  ...
+# Subtest: transition preferences validate and migrate old template files safely
+ok 16 - transition preferences validate and migrate old template files safely
+  ---
+  duration_ms: 2.075702
+  type: 'test'
+  ...
+# Subtest: new profiles enable normal smooth motion; existing explicit settings and safe legacy speeds survive
+ok 17 - new profiles enable normal smooth motion; existing explicit settings and safe legacy speeds survive
+  ---
+  duration_ms: 0.860566
+  type: 'test'
+  ...
+# Subtest: ease-out is monotonic and reaches its exact endpoint without overshooting
+ok 18 - ease-out is monotonic and reaches its exact endpoint without overshooting
+  ---
+  duration_ms: 2.531861
+  type: 'test'
+  ...
+# Subtest: spring is monotonic and reaches its exact endpoint without overshooting
+ok 19 - spring is monotonic and reaches its exact endpoint without overshooting
+  ---
+  duration_ms: 0.651653
+  type: 'test'
+  ...
+# Subtest: linear is monotonic and reaches its exact endpoint without overshooting
+ok 20 - linear is monotonic and reaches its exact endpoint without overshooting
+  ---
+  duration_ms: 0.358322
+  type: 'test'
+  ...
+# Subtest: 60 Hz and 120 Hz sampling give the same trajectory at the same elapsed time
+ok 21 - 60 Hz and 120 Hz sampling give the same trajectory at the same elapsed time
+  ---
+  duration_ms: 0.267746
+  type: 'test'
+  ...
+# Subtest: rapid direction changes start from the current position and never build a delayed queue
+ok 22 - rapid direction changes start from the current position and never build a delayed queue
+  ---
+  duration_ms: 9.428255
+  type: 'test'
+  ...
+# Subtest: same-line movement and adjacent-line arrows glide; wrap, distant and page jumps snap
+ok 23 - same-line movement and adjacent-line arrows glide; wrap, distant and page jumps snap
+  ---
+  duration_ms: 0.348709
+  type: 'test'
+  ...
+# Subtest: zero duration and suspended-display frames settle immediately; invalid targets cannot poison coordinates
+ok 24 - zero duration and suspended-display frames settle immediately; invalid targets cannot poison coordinates
+  ---
+  duration_ms: 0.152309
+  type: 'test'
+  ...
+# Subtest: authenticated two-client editing, approval, view permissions, reconnect and convergence
+ok 25 - authenticated two-client editing, approval, view permissions, reconnect and convergence
+  ---
+  duration_ms: 317.909306
+  type: 'test'
+  ...
+# Subtest: concurrent Beat Board insertions and text edits preserve stable identities and converge
+ok 26 - concurrent Beat Board insertions and text edits preserve stable identities and converge
+  ---
+  duration_ms: 12.691003
+  type: 'test'
+  ...
+# Subtest: E-01: Backspace at the start joins with the previous element as an exact structural join
+ok 27 - E-01: Backspace at the start joins with the previous element as an exact structural join
+  ---
+  duration_ms: 2.906821
+  type: 'test'
+  ...
+# Subtest: E-02: Delete at the end joins the next element; alternate takes block a lossy join
+ok 28 - E-02: Delete at the end joins the next element; alternate takes block a lossy join
+  ---
+  duration_ms: 0.367219
+  type: 'test'
+  ...
+# Subtest: E-07: splitting keeps inline styles on both halves (Enter mid-paragraph)
+ok 29 - E-07: splitting keeps inline styles on both halves (Enter mid-paragraph)
+  ---
+  duration_ms: 0.928085
+  type: 'test'
+  ...
+# Subtest: E-05: a selection across elements yields exact ranges, plain text and typed clipboard content
+ok 30 - E-05: a selection across elements yields exact ranges, plain text and typed clipboard content
+  ---
+  duration_ms: 0.824048
+  type: 'test'
+  ...
+# Subtest: E-05: deleting a cross-element selection joins the remainder into the first element
+ok 31 - E-05: deleting a cross-element selection joins the remainder into the first element
+  ---
+  duration_ms: 0.871616
+  type: 'test'
+  ...
+# Subtest: E-04: pasting several elements keeps their types; one element pastes inline
+ok 32 - E-04: pasting several elements keeps their types; one element pastes inline
+  ---
+  duration_ms: 1.289841
+  type: 'test'
+  ...
+# Subtest: E-04: plain text is parsed as screenplay only when it looks like one
+ok 33 - E-04: plain text is parsed as screenplay only when it looks like one
+  ---
+  duration_ms: 0.925498
+  type: 'test'
+  ...
+# Subtest: E-01/E-02: joining with an empty element removes the empty element and keeps the other element's type
+ok 34 - E-01/E-02: joining with an empty element removes the empty element and keeps the other element's type
+  ---
+  duration_ms: 0.777774
+  type: 'test'
+  ...
+# Subtest: the stage and build lists include every local module the desktop code requires
+ok 35 - the stage and build lists include every local module the desktop code requires
+  ---
+  duration_ms: 1.791465
+  type: 'test'
+  ...
+# Subtest: macro scope, shortcut conflicts, selected range replacement and caret marker are genuine edits
+ok 36 - macro scope, shortcut conflicts, selected range replacement and caret marker are genuine edits
+  ---
+  duration_ms: 2.070758
+  type: 'test'
+  ...
+# Subtest: embedded image record survives project JSON, proportional resize and reusable clipboard
+ok 37 - embedded image record survives project JSON, proportional resize and reusable clipboard
+  ---
+  duration_ms: 0.836902
+  type: 'test'
+  ...
+# Subtest: planning insertion preserves explicit hierarchy and bidirectional linked fields without inventing slugline details
+ok 38 - planning insertion preserves explicit hierarchy and bidirectional linked fields without inventing slugline details
+  ---
+  duration_ms: 5.02492
+  type: 'test'
+  ...
+# Subtest: signs inside out with the hardened runtime, notarizes, staples and checks the app and the disk image
+ok 39 - signs inside out with the hardened runtime, notarizes, staples and checks the app and the disk image
+  ---
+  duration_ms: 268.596971
+  type: 'test'
+  ...
+# Subtest: refuses to sign when the certificate, the profile, the platform or the app is not right
+ok 40 - refuses to sign when the certificate, the profile, the platform or the app is not right
+  ---
+  duration_ms: 486.922736
+  type: 'test'
+  ...
+# Subtest: stops without stapling when Apple does not accept the submission, and fetches Apple’s report
+ok 41 - stops without stapling when Apple does not accept the submission, and fetches Apple’s report
+  ---
+  duration_ms: 275.683751
+  type: 'test'
+  ...
+# Subtest: --check only checks the tools, the certificate and the profile
+ok 42 - --check only checks the tools, the certificate and the profile
+  ---
+  duration_ms: 88.472522
+  type: 'test'
+  ...
+# Subtest: the helper in Resources wins; asar paths and non-executables are skipped
+ok 43 - the helper in Resources wins; asar paths and non-executables are skipped
+  ---
+  duration_ms: 2.015262
+  type: 'test'
+  ...
+# Subtest: the bundled helper is the arm64 binary built on the Mac, with its recorded checksum
+ok 44 - the bundled helper is the arm64 binary built on the Mac, with its recorded checksum
+  ---
+  duration_ms: 1.227846
+  type: 'test'
+  ...
+# Subtest: two native document windows have independent save sessions, destinations, close state and trusted frames
+ok 45 - two native document windows have independent save sessions, destinations, close state and trusted frames
+  ---
+  duration_ms: 43.969874
+  type: 'test'
+  ...
+# Subtest: closing a destroyed window removes its record without touching webContents
+ok 46 - closing a destroyed window removes its record without touching webContents
+  ---
+  duration_ms: 1.820939
+  type: 'test'
+  ...
+# Subtest: main.cjs closed-handler cleanup is keyed by the registry record, never by the destroyed window
+ok 47 - main.cjs closed-handler cleanup is keyed by the registry record, never by the destroyed window
+  ---
+  duration_ms: 0.783391
+  type: 'test'
+  ...
+# Subtest: transpositions count as one edit
+ok 48 - transpositions count as one edit
+  ---
+  duration_ms: 1.240392
+  type: 'test'
+  ...
+# Subtest: Return corrects only an unambiguous final word
+ok 49 - Return corrects only an unambiguous final word
+  ---
+  duration_ms: 5.230879
+  type: 'test'
+  ...
+# Subtest: the element after a speech follows a clear pattern in the scene only
+ok 50 - the element after a speech follows a clear pattern in the scene only
+  ---
+  duration_ms: 0.79938
+  type: 'test'
+  ...
+# Subtest: prose typed into a cue is recognized only when clear
+ok 51 - prose typed into a cue is recognized only when clear
+  ---
+  duration_ms: 3.242307
+  type: 'test'
+  ...
+# Subtest: workspace 1.17: Navigator zoom, sort, column order and status bar items are saved and checked
+ok 52 - workspace 1.17: Navigator zoom, sort, column order and status bar items are saved and checked
+  ---
+  duration_ms: 4.139972
+  type: 'test'
+  ...
+# Subtest: auto-hide right scene numbers: only numbers that would overlap their heading are hidden, in Print too
+ok 53 - auto-hide right scene numbers: only numbers that would overlap their heading are hidden, in Print too
+  ---
+  duration_ms: 8.287008
+  type: 'test'
+  ...
+# Subtest: Streaming Feature (Netflix-style) template: the documented rules, a new document from it, and honest sourcing
+ok 54 - Streaming Feature (Netflix-style) template: the documented rules, a new document from it, and honest sourcing
+  ---
+  duration_ms: 35.42278
+  type: 'test'
+  ...
+# Subtest: custom autocorrect: pairs are cleaned, imported, exported and matched as whole words with case following the typing
+ok 55 - custom autocorrect: pairs are cleaned, imported, exported and matched as whole words with case following the typing
+  ---
+  duration_ms: 18.719254
+  type: 'test'
+  ...
+# Subtest: cast list: scenes, pages, eighths and screen time per character; omitted scenes left out; sort and CSV
+ok 56 - cast list: scenes, pages, eighths and screen time per character; omitted scenes left out; sort and CSV
+  ---
+  duration_ms: 28.624612
+  type: 'test'
+  ...
+# Subtest: emoji survive FDX and Fountain export and re-import, and words with emoji break like the browser (fallback rules)
+ok 57 - emoji survive FDX and Fountain export and re-import, and words with emoji break like the browser (fallback rules)
+  ---
+  duration_ms: 29.227269
+  type: 'test'
+  ...
+# Subtest: outline nesting: valid parents only, descendants, parent at a position, ripple shifts, cleaning
+ok 58 - outline nesting: valid parents only, descendants, parent at a position, ripple shifts, cleaning
+  ---
+  duration_ms: 5.457615
+  type: 'test'
+  ...
+# Subtest: languages: the list is checked; other languages use the platform spellchecker through the same messages
+ok 59 - languages: the list is checked; other languages use the platform spellchecker through the same messages
+  ---
+  duration_ms: 15.247844
+  type: 'test'
+  ...
+# Subtest: right to left: printed lines of Hebrew and Arabic paragraphs run right to left; left-to-right print is unchanged
+ok 60 - right to left: printed lines of Hebrew and Arabic paragraphs run right to left; left-to-right print is unchanged
+  ---
+  duration_ms: 2.890181
+  type: 'test'
+  ...
+# Subtest: emoji data: unique, named, grouped, and every entry is an emoji
+ok 61 - emoji data: unique, named, grouped, and every entry is an emoji
+  ---
+  duration_ms: 5.065818
+  type: 'test'
+  ...
+# Subtest: emoji search: every word must match; names and keywords rank first; the emoji itself matches
+ok 62 - emoji search: every word must match; names and keywords rank first; the emoji itself matches
+  ---
+  duration_ms: 11.947055
+  type: 'test'
+  ...
+# Subtest: recently used emoji: newest first, no repeats, capped, unknown values ignored, storage failures tolerated
+ok 63 - recently used emoji: newest first, no repeats, capped, unknown values ignored, storage failures tolerated
+  ---
+  duration_ms: 1.120356
+  type: 'test'
+  ...
+# Subtest: Getting Started reflow: wrapped lines join, paragraphs and list items stay separate
+ok 64 - Getting Started reflow: wrapped lines join, paragraphs and list items stay separate
+  ---
+  duration_ms: 1.006255
+  type: 'test'
+  ...
+# Subtest: Start Window: every quick-start format exists; recent dates read naturally
+ok 65 - Start Window: every quick-start format exists; recent dates read naturally
+  ---
+  duration_ms: 28.217537
+  type: 'test'
+  ...
+# Subtest: toolbar: a toolbar still on the 1.17 default gains the Emoji button; a customised one is kept
+ok 66 - toolbar: a toolbar still on the 1.17 default gains the Emoji button; a customised one is kept
+  ---
+  duration_ms: 1.245169
+  type: 'test'
+  ...
+# Subtest: RTF export follows the selected prose layout and preserves Unicode text
+ok 67 - RTF export follows the selected prose layout and preserves Unicode text
+  ---
+  duration_ms: 4.407406
+  type: 'test'
+  ...
+# Subtest: prose printing retains scene metadata without displaying screenplay numbers
+ok 68 - prose printing retains scene metadata without displaying screenplay numbers
+  ---
+  duration_ms: 7.470247
+  type: 'test'
+  ...
+# Subtest: the full catalogue has unique identities and validated editable format rules
+ok 69 - the full catalogue has unique identities and validated editable format rules
+  ---
+  duration_ms: 35.605927
+  type: 'test'
+  ...
+# Subtest: scene detection respects dialogue, explicit styles and prose
+ok 70 - scene detection respects dialogue, explicit styles and prose
+  ---
+  duration_ms: 2.529939
+  type: 'test'
+  ...
+# Subtest: smart mode distinguishes known characters from uncertain capitalized action
+ok 71 - smart mode distinguishes known characters from uncertain capitalized action
+  ---
+  duration_ms: 2.897768
+  type: 'test'
+  ...
+# Subtest: TV, theatre and comic recognition use their selected elements
+ok 72 - TV, theatre and comic recognition use their selected elements
+  ---
+  duration_ms: 0.311057
+  type: 'test'
+  ...
+# Subtest: twenty-scene conversion preserves prose, IDs, notes, runs, beats and scene numbers
+ok 73 - twenty-scene conversion preserves prose, IDs, notes, runs, beats and scene numbers
+  ---
+  duration_ms: 1.357438
+  type: 'test'
+  ...
+# Subtest: cross-domain conversions retain every paragraph and flag manual classifications
+ok 74 - cross-domain conversions retain every paragraph and flag manual classifications
+  ---
+  duration_ms: 0.468221
+  type: 'test'
+  ...
+# Subtest: structure application appends real shared planning records without replacing screenplay data
+ok 75 - structure application appends real shared planning records without replacing screenplay data
+  ---
+  duration_ms: 0.780746
+  type: 'test'
+  ...
+# Subtest: scene and speaker protection, template page breaks, and TV double spacing affect pagination
+ok 76 - scene and speaker protection, template page breaks, and TV double spacing affect pagination
+  ---
+  duration_ms: 5.522826
+  type: 'test'
+  ...
+# Subtest: SmartType preserves the complete scene heading when suggesting time labels
+ok 77 - SmartType preserves the complete scene heading when suggesting time labels
+  ---
+  duration_ms: 1.121525
+  type: 'test'
+  ...
+# Subtest: conversation prediction is a suggestion scoped to the current scene
+ok 78 - conversation prediction is a suggestion scoped to the current scene
+  ---
+  duration_ms: 0.239969
+  type: 'test'
+  ...
+# Subtest: custom blank templates exclude private text/history and preserve formatting settings
+ok 79 - custom blank templates exclude private text/history and preserve formatting settings
+  ---
+  duration_ms: 1.640607
+  type: 'test'
+  ...
+# Subtest: invalid or nonfinite template definitions cannot reach the editor
+ok 80 - invalid or nonfinite template definitions cannot reach the editor
+  ---
+  duration_ms: 0.817536
+  type: 'test'
+  ...
+# Subtest: RTF groups, escaped punctuation and Unicode retain text without destination data
+ok 81 - RTF groups, escaped punctuation and Unicode retain text without destination data
+  ---
+  duration_ms: 0.569019
+  type: 'test'
+  ...
+# Subtest: HTML printing uses the same page chunks and selected element rules
+ok 82 - HTML printing uses the same page chunks and selected element rules
+  ---
+  duration_ms: 1.82142
+  type: 'test'
+  ...
+# Subtest: comic numbering follows edits and can preserve manual panel numbers
+ok 83 - comic numbering follows edits and can preserve manual panel numbers
+  ---
+  duration_ms: 0.300728
+  type: 'test'
+  ...
+# Subtest: theatre and comic navigation never creates an unsupported default element
+ok 84 - theatre and comic navigation never creates an unsupported default element
+  ---
+  duration_ms: 0.208072
+  type: 'test'
+  ...
+# Subtest: standard US template: page, element positions and spacing match the screenplay defaults
+ok 85 - standard US template: page, element positions and spacing match the screenplay defaults
+  ---
+  duration_ms: 3.936839
+  type: 'test'
+  ...
+# Subtest: every template in the catalog is a valid, complete format with unique ids and its own rules
+ok 86 - every template in the catalog is a valid, complete format with unique ids and its own rules
+  ---
+  duration_ms: 14.031104
+  type: 'test'
+  ...
+# Subtest: the requested formats exist with structural differences, not just labels
+ok 87 - the requested formats exist with structural differences, not just labels
+  ---
+  duration_ms: 0.396317
+  type: 'test'
+  ...
+# Subtest: switching templates keeps every paragraph text and identity and maps incompatible elements explicitly
+ok 88 - switching templates keeps every paragraph text and identity and maps incompatible elements explicitly
+  ---
+  duration_ms: 6.950824
+  type: 'test'
+  ...
+# Subtest: inference: scene-heading prefixes, transitions, shots and audio cues; prose and dialogue are left alone
+ok 89 - inference: scene-heading prefixes, transitions, shots and audio cues; prose and dialogue are left alone
+  ---
+  duration_ms: 4.013862
+  type: 'test'
+  ...
+# Subtest: auto-formatting options: master switch, character detection, template rules and ambiguous suggestions
+ok 90 - auto-formatting options: master switch, character detection, template rules and ambiguous suggestions
+  ---
+  duration_ms: 0.597404
+  type: 'test'
+  ...
+# Subtest: fonts: other Courier faces fall back to the bundled Courier Prime before generic monospace
+ok 91 - fonts: other Courier faces fall back to the bundled Courier Prime before generic monospace
+  ---
+  duration_ms: 0.127524
+  type: 'test'
+  ...
+# Subtest: print header: page number only (top right, not on page 1), in the script font; the document header settings win
+ok 92 - print header: page number only (top right, not on page 1), in the script font; the document header settings win
+  ---
+  duration_ms: 29.71691
+  type: 'test'
+  ...
+# Subtest: every transition the inference recognizes also gets its ending on completion
+ok 93 - every transition the inference recognizes also gets its ending on completion
+  ---
+  duration_ms: 9.904099
+  type: 'test'
+  ...
+# Subtest: a word that exactly fills the line: the space hangs and the next line starts with the next word, in layout and print
+ok 94 - a word that exactly fills the line: the space hangs and the next line starts with the next word, in layout and print
+  ---
+  duration_ms: 3.323518
+  type: 'test'
+  ...
+# Subtest: the shipped Getting Started text splits into one section per capitalised heading
+ok 95 - the shipped Getting Started text splits into one section per capitalised heading
+  ---
+  duration_ms: 4.97452
+  type: 'test'
+  ...
+# Subtest: search needs every word, ignores case and accents, and ranks title matches first
+ok 96 - search needs every word, ignores case and accents, and ranks title matches first
+  ---
+  duration_ms: 6.85722
+  type: 'test'
+  ...
+# Subtest: highlighting marks every occurrence without changing the text
+ok 97 - highlighting marks every occurrence without changing the text
+  ---
+  duration_ms: 0.377356
+  type: 'test'
+  ...
+# Subtest: each Idea to Draft tutorial is a valid new project in its format with linked step cards
+ok 98 - each Idea to Draft tutorial is a valid new project in its format with linked step cards
+  ---
+  duration_ms: 5.992694
+  type: 'test'
+  ...
+# Subtest: incremental layout equals a full layout after random edits (chained runs, no production locks)
+ok 99 - incremental layout equals a full layout after random edits (chained runs, no production locks)
+  ---
+  duration_ms: 6228.011818
+  type: 'test'
+  ...
+# Subtest: incremental layout resumes mid-script and reuses earlier pages
+ok 100 - incremental layout resumes mid-script and reuses earlier pages
+  ---
+  duration_ms: 11.010731
+  type: 'test'
+  ...
+# Subtest: incremental layout equals a full layout with page locks and A-pages
+ok 101 - incremental layout equals a full layout with page locks and A-pages
+  ---
+  duration_ms: 1663.028309
+  type: 'test'
+  ...
+# Subtest: native history IPC accepts only the trusted main frame and undo/redo
+ok 102 - native history IPC accepts only the trusted main frame and undo/redo
+  ---
+  duration_ms: 2.364367
+  type: 'test'
+  ...
+# Subtest: native menu preserves history in separate settings windows and dispatches screenplay history in the main window
+ok 103 - native menu preserves history in separate settings windows and dispatches screenplay history in the main window
+  ---
+  duration_ms: 0.82582
+  type: 'test'
+  ...
+# Subtest: first, middle and last deletion removes only measured source ranges and preserves untouched identities
+ok 104 - first, middle and last deletion removes only measured source ranges and preserves untouched identities
+  ---
+  duration_ms: 15.380992
+  type: 'test'
+  ...
+# Subtest: only page becomes a valid editable empty paragraph
+ok 105 - only page becomes a valid editable empty paragraph
+  ---
+  duration_ms: 0.575272
+  type: 'test'
+  ...
+# Subtest: target invalidation includes text, metadata, order and outside-page changes
+ok 106 - target invalidation includes text, metadata, order and outside-page changes
+  ---
+  duration_ms: 2.121835
+  type: 'test'
+  ...
+# Subtest: lossless clipboard preserves unicode, runs, notes, bookmarks and revision metadata
+ok 107 - lossless clipboard preserves unicode, runs, notes, bookmarks and revision metadata
+  ---
+  duration_ms: 3.007815
+  type: 'test'
+  ...
+# Subtest: paste uses the captured visible boundary and retains all original text and surrounding identities
+ok 108 - paste uses the captured visible boundary and retains all original text and surrounding identities
+  ---
+  duration_ms: 2.312891
+  type: 'test'
+  ...
+# Subtest: plain text uses existing Fountain parsing and corrupt page data is rejected
+ok 109 - plain text uses existing Fountain parsing and corrupt page data is rejected
+  ---
+  duration_ms: 4.301157
+  type: 'test'
+  ...
+# Subtest: size clamps retain compact cards, natural legacy height and grid units
+ok 110 - size clamps retain compact cards, natural legacy height and grid units
+  ---
+  duration_ms: 0.36543
+  type: 'test'
+  ...
+# Subtest: export requested during a preview waits for it and still writes the PDF
+ok 111 - export requested during a preview waits for it and still writes the PDF
+  ---
+  duration_ms: 85.784559
+  type: 'test'
+  ...
+# Subtest: a queued preview is superseded by a newer preview
+ok 112 - a queued preview is superseded by a newer preview
+  ---
+  duration_ms: 81.623026
+  type: 'test'
+  ...
+# Subtest: actual clipboard IPC source allowlists image MIME types, bounds bytes and commits text/image together
+ok 113 - actual clipboard IPC source allowlists image MIME types, bounds bytes and commits text/image together
+  ---
+  duration_ms: 4.731971
+  type: 'test'
+  ...
+# Subtest: native clipboard write errors propagate before a successful image Cut acknowledgement
+ok 114 - native clipboard write errors propagate before a successful image Cut acknowledgement
+  ---
+  duration_ms: 1.329239
+  type: 'test'
+  ...
+# Subtest: dual-column locked boundaries preserve both speech offsets after overflow and save/reopen
+ok 115 - dual-column locked boundaries preserve both speech offsets after overflow and save/reopen
+  ---
+  duration_ms: 46.261282
+  type: 'test'
+  ...
+# Subtest: deletion-only revision pages and empty surviving paragraphs export with a revision mark
+ok 116 - deletion-only revision pages and empty surviving paragraphs export with a revision mark
+  ---
+  duration_ms: 8.004942
+  type: 'test'
+  ...
+# Subtest: production tags follow exact split and join transactions, including a tag crossing the split
+ok 117 - production tags follow exact split and join transactions, including a tag crossing the split
+  ---
+  duration_ms: 0.918105
+  type: 'test'
+  ...
+# Subtest: character sides include explicit non-speaking cast, selected takes and original production labels
+ok 118 - character sides include explicit non-speaking cast, selected takes and original production labels
+  ---
+  duration_ms: 2.41371
+  type: 'test'
+  ...
+# Subtest: versioned production migration preserves preferences, assets and legacy ranges without inventing activity
+ok 119 - versioned production migration preserves preferences, assets and legacy ranges without inventing activity
+  ---
+  duration_ms: 0.736005
+  type: 'test'
+  ...
+# Subtest: typing after imported rich text preserves unaffected styles and RTF color/strikeout round trips
+ok 120 - typing after imported rich text preserves unaffected styles and RTF color/strikeout round trips
+  ---
+  duration_ms: 1.728594
+  type: 'test'
+  ...
+# Subtest: Fountain inline emphasis, literal escaped markers and dual dialogue survive a round trip
+ok 121 - Fountain inline emphasis, literal escaped markers and dual dialogue survive a round trip
+  ---
+  duration_ms: 4.497386
+  type: 'test'
+  ...
+# Subtest: a Fountain dual caret pairs the preceding speech even when another speech follows
+ok 122 - a Fountain dual caret pairs the preceding speech even when another speech follows
+  ---
+  duration_ms: 0.633135
+  type: 'test'
+  ...
+# Subtest: character reports count distinct unnumbered scenes and logical split tag ranges only once
+ok 123 - character reports count distinct unnumbered scenes and logical split tag ranges only once
+  ---
+  duration_ms: 2.626629
+  type: 'test'
+  ...
+# Subtest: deleted planning identities unlink retained script text and orphan markers remain exportable
+ok 124 - deleted planning identities unlink retained script text and orphan markers remain exportable
+  ---
+  duration_ms: 1.236441
+  type: 'test'
+  ...
+# Subtest: structural production deletions remain represented in the selected revision output
+ok 125 - structural production deletions remain represented in the selected revision output
+  ---
+  duration_ms: 0.465184
+  type: 'test'
+  ...
+# Subtest: replacing every paragraph with a new empty editor row retains structural deletion revision marks
+ok 126 - replacing every paragraph with a new empty editor row retains structural deletion revision marks
+  ---
+  duration_ms: 0.41063
+  type: 'test'
+  ...
+# Subtest: alternate takes retain edited B across A/B selection, serialization, duplication and deletion
+ok 127 - alternate takes retain edited B across A/B selection, serialization, duplication and deletion
+  ---
+  duration_ms: 1.007213
+  type: 'test'
+  ...
+# Subtest: dual dialogue pairs selected adjacent blocks in the middle, retaining final paragraph
+ok 128 - dual dialogue pairs selected adjacent blocks in the middle, retaining final paragraph
+  ---
+  duration_ms: 3.535639
+  type: 'test'
+  ...
+# Subtest: measured fragments retain every source code unit of a multi-page speech without overflow
+ok 129 - measured fragments retain every source code unit of a multi-page speech without overflow
+  ---
+  duration_ms: 17.873122
+  type: 'test'
+  ...
+# Subtest: heading and character cue do not orphan; page fragment deletion retains rest of speech
+ok 130 - heading and character cue do not orphan; page fragment deletion retains rest of speech
+  ---
+  duration_ms: 8.052269
+  type: 'test'
+  ...
+# Subtest: locked boundary anchors retain subsequent labels through overflow, deletion and reopen
+ok 131 - locked boundary anchors retain subsequent labels through overflow, deletion and reopen
+  ---
+  duration_ms: 19.697227
+  type: 'test'
+  ...
+# Subtest: literal character names cannot match ANN inside ANNA or interpret regex punctuation
+ok 132 - literal character names cannot match ANN inside ANNA or interpret regex punctuation
+  ---
+  duration_ms: 4.213731
+  type: 'test'
+  ...
+# Subtest: tag all uses reusable range identities and anchors survive insertions, deletion and JSON
+ok 133 - tag all uses reusable range identities and anchors survive insertions, deletion and JSON
+  ---
+  duration_ms: 1.990595
+  type: 'test'
+  ...
+# Subtest: two authors track separate edits and rejecting one preserves unrelated text
+ok 134 - two authors track separate edits and rejecting one preserves unrelated text
+  ---
+  duration_ms: 0.96459
+  type: 'test'
+  ...
+# Subtest: Format Doctor composes fixes against current text and never invents slugline details
+ok 135 - Format Doctor composes fixes against current text and never invents slugline details
+  ---
+  duration_ms: 1.460192
+  type: 'test'
+  ...
+# Subtest: fresh productivity profiles are empty; ambiguous history is preserved with a separate backup
+ok 136 - fresh productivity profiles are empty; ambiguous history is preserved with a separate backup
+  ---
+  duration_ms: 0.872863
+  type: 'test'
+  ...
+# Subtest: activity credits paste and net growth, reverses undo across midnight, ignores import/project switching
+ok 137 - activity credits paste and net growth, reverses undo across midnight, ignores import/project switching
+  ---
+  duration_ms: 0.911875
+  type: 'test'
+  ...
+# Subtest: structural Track Changes restores deleted paragraph identities and rejects inserted paragraphs
+ok 138 - structural Track Changes restores deleted paragraph identities and rejects inserted paragraphs
+  ---
+  duration_ms: 0.396641
+  type: 'test'
+  ...
+# Subtest: scene omission is reversible, hides body geometry and retains the original semantic heading range
+ok 139 - scene omission is reversible, hides body geometry and retains the original semantic heading range
+  ---
+  duration_ms: 0.86749
+  type: 'test'
+  ...
+# Subtest: atomic project writes preserve all fields, permissions and independent destinations
+ok 140 - atomic project writes preserve all fields, permissions and independent destinations
+  ---
+  duration_ms: 28.643509
+  type: 'test'
+  ...
+# Subtest: invalid, interrupted and externally conflicting writes preserve the previous complete file
+ok 141 - invalid, interrupted and externally conflicting writes preserve the previous complete file
+  ---
+  duration_ms: 9.96569
+  type: 'test'
+  ...
+# Subtest: unchanged empty documents close silently; a first meaningful save asks once
+ok 142 - unchanged empty documents close silently; a first meaningful save asks once
+  ---
+  duration_ms: 26.470385
+  type: 'test'
+  ...
+# Subtest: Cancel and canceled Save panels keep the current document and close unapproved
+ok 143 - Cancel and canceled Save panels keep the current document and close unapproved
+  ---
+  duration_ms: 1.302012
+  type: 'test'
+  ...
+# Subtest: automatic saving off keeps recovery, prompts on close, and Don’t Save returns the baseline
+ok 144 - automatic saving off keeps recovery, prompts on close, and Don’t Save returns the baseline
+  ---
+  duration_ms: 15.851532
+  type: 'test'
+  ...
+# Subtest: disconnected destinations are never recreated and a reconnect allows a real retry
+ok 145 - disconnected destinations are never recreated and a reconnect allows a real retry
+  ---
+  duration_ms: 30.23957
+  type: 'test'
+  ...
+# Subtest: Save As leaves the original intact and sends later autosaves to the new location
+ok 146 - Save As leaves the original intact and sends later autosaves to the new location
+  ---
+  duration_ms: 16.037422
+  type: 'test'
+  ...
+# Subtest: overlapping writes keep newer changes dirty and reject a stale revision
+ok 147 - overlapping writes keep newer changes dirty and reject a stale revision
+  ---
+  duration_ms: 20.174418
+  type: 'test'
+  ...
+# Subtest: Save As supersedes queued automatic writes and foreign project sessions cannot save
+ok 148 - Save As supersedes queued automatic writes and foreign project sessions cannot save
+  ---
+  duration_ms: 17.009167
+  type: 'test'
+  ...
+# Subtest: startup loads the newest primary file rather than an older local profile
+ok 149 - startup loads the newest primary file rather than an older local profile
+  ---
+  duration_ms: 12.741471
+  type: 'test'
+  ...
+# Subtest: crash recovery survives restart and conflicting restoration becomes a separate unsaved copy
+ok 150 - crash recovery survives restart and conflicting restoration becomes a separate unsaved copy
+  ---
+  duration_ms: 26.468368
+  type: 'test'
+  ...
+# Subtest: new recovery sessions never overwrite unreviewed interrupted work
+ok 151 - new recovery sessions never overwrite unreviewed interrupted work
+  ---
+  duration_ms: 9.785653
+  type: 'test'
+  ...
+# Subtest: preferences persist, unchanged saves do not rewrite files, and edits invalidate close approval
+ok 152 - preferences persist, unchanged saves do not rewrite files, and edits invalidate close approval
+  ---
+  duration_ms: 11.742601
+  type: 'test'
+  ...
+# Subtest: permission failures keep the original and allow Save As during a close retry
+ok 153 - permission failures keep the original and allow Save As during a close retry
+  ---
+  duration_ms: 16.204204
+  type: 'test'
+  ...
+# Subtest: trusted native two-phase close waits for approval and rejects foreign frames and changed snapshots
+ok 154 - trusted native two-phase close waits for approval and rejects foreign frames and changed snapshots
+  ---
+  duration_ms: 3.237108
+  type: 'test'
+  ...
+# Subtest: an unavailable recovery folder does not block saving a writable primary
+ok 155 - an unavailable recovery folder does not block saving a writable primary
+  ---
+  duration_ms: 9.979769
+  type: 'test'
+  ...
+# Subtest: a differing legacy local profile is retained for recovery before startup adopts a newer primary
+ok 156 - a differing legacy local profile is retained for recovery before startup adopts a newer primary
+  ---
+  duration_ms: 15.800397
+  type: 'test'
+  ...
+# Subtest: explicit Save As can recreate a missing original file after the user chooses that path
+ok 157 - explicit Save As can recreate a missing original file after the user chooses that path
+  ---
+  duration_ms: 27.710161
+  type: 'test'
+  ...
+# Subtest: format conversion checkpoints survive an unchanged primary, later saves and restart
+ok 158 - format conversion checkpoints survive an unchanged primary, later saves and restart
+  ---
+  duration_ms: 23.533541
+  type: 'test'
+  ...
+# Subtest: a project renamed in its folder, or whose folder was renamed, is followed instead of failing
+ok 159 - a project renamed in its folder, or whose folder was renamed, is followed instead of failing
+  ---
+  duration_ms: 28.342063
+  type: 'test'
+  ...
+# Subtest: a project moved out of reach fails with an accurate message and is never recreated
+ok 160 - a project moved out of reach fails with an accurate message and is never recreated
+  ---
+  duration_ms: 10.91909
+  type: 'test'
+  ...
+# Subtest: a file rewritten with the same content is not a conflict; a real outside change still is
+ok 161 - a file rewritten with the same content is not a conflict; a real outside change still is
+  ---
+  duration_ms: 23.430314
+  type: 'test'
+  ...
+# Subtest: Saving is reported from the start of a save until the write is confirmed
+ok 162 - Saving is reported from the start of a save until the write is confirmed
+  ---
+  duration_ms: 19.031663
+  type: 'test'
+  ...
+# Subtest: a project renamed while the app was closed is followed at the next launch; its old path is never recreated
+ok 163 - a project renamed while the app was closed is followed at the next launch; its old path is never recreated
+  ---
+  duration_ms: 35.067143
+  type: 'test'
+  ...
+# Subtest: a project whose folder was renamed while the app was closed is followed; one moved elsewhere is reported, not recreated
+ok 164 - a project whose folder was renamed while the app was closed is followed; one moved elsewhere is reported, not recreated
+  ---
+  duration_ms: 17.301616
+  type: 'test'
+  ...
+# Subtest: identity files from older versions or damaged ones are ignored safely
+ok 165 - identity files from older versions or damaged ones are ignored safely
+  ---
+  duration_ms: 10.096983
+  type: 'test'
+  ...
+# Subtest: punctuation defaults migrate missing settings to On and retain explicit choices
+ok 166 - punctuation defaults migrate missing settings to On and retain explicit choices
+  ---
+  duration_ms: 1.797919
+  type: 'test'
+  ...
+# Subtest: ordinary complete descriptions, emotional statements and indirect questions receive periods
+ok 167 - ordinary complete descriptions, emotional statements and indirect questions receive periods
+  ---
+  duration_ms: 88.450793
+  type: 'test'
+  ...
+# Subtest: direct wh questions use their syntactic role rather than question-word presence
+ok 168 - direct wh questions use their syntactic role rather than question-word presence
+  ---
+  duration_ms: 15.116178
+  type: 'test'
+  ...
+# Subtest: inverted auxiliary and copular questions require a completed predicate
+ok 169 - inverted auxiliary and copular questions require a completed predicate
+  ---
+  duration_ms: 4.272658
+  type: 'test'
+  ...
+# Subtest: supported conversational and tag questions retain natural question endings
+ok 170 - supported conversational and tag questions retain natural question endings
+  ---
+  duration_ms: 7.094277
+  type: 'test'
+  ...
+# Subtest: ordinary positive and negative imperatives never imply exclamation
+ok 171 - ordinary positive and negative imperatives never imply exclamation
+  ---
+  duration_ms: 3.954274
+  type: 'test'
+  ...
+# Subtest: urgent warnings require both a warning construction and supporting local context
+ok 172 - urgent warnings require both a warning construction and supporting local context
+  ---
+  duration_ms: 3.325771
+  type: 'test'
+  ...
+# Subtest: screenplay danger context remains scoped to the current scene and dialogue delivery
+ok 173 - screenplay danger context remains scoped to the current scene and dialogue delivery
+  ---
+  duration_ms: 1.174429
+  type: 'test'
+  ...
+# Subtest: exclamative syntax is not confused with an interrogative or automatic emotional intensity
+ok 174 - exclamative syntax is not confused with an interrogative or automatic emotional intensity
+  ---
+  duration_ms: 2.32067
+  type: 'test'
+  ...
+# Subtest: unfinished complements, conjunctions and dependent clauses remain unfinished
+ok 175 - unfinished complements, conjunctions and dependent clauses remain unfinished
+  ---
+  duration_ms: 23.838774
+  type: 'test'
+  ...
+# Subtest: uncertain fragments and labels do not acquire speculative punctuation
+ok 176 - uncertain fragments and labels do not acquire speculative punctuation
+  ---
+  duration_ms: 10.322766
+  type: 'test'
+  ...
+# Subtest: existing marks, pauses, interruptions and deliberately open continuations remain exact
+ok 177 - existing marks, pauses, interruptions and deliberately open continuations remain exact
+  ---
+  duration_ms: 10.601216
+  type: 'test'
+  ...
+# Subtest: all non-sentence screenplay elements are exempt
+ok 178 - all non-sentence screenplay elements are exempt
+  ---
+  duration_ms: 0.290535
+  type: 'test'
+  ...
+# Subtest: General prose and supported descriptive elements use their semantic types
+ok 179 - General prose and supported descriptive elements use their semantic types
+  ---
+  duration_ms: 10.364321
+  type: 'test'
+  ...
+# Subtest: balanced quotes place the mark inside while incidental brackets keep it outside
+ok 180 - balanced quotes place the mark inside while incidental brackets keep it outside
+  ---
+  duration_ms: 2.600439
+  type: 'test'
+  ...
+# Subtest: abbreviations and decimal tokens are retained without duplicate or internal punctuation
+ok 181 - abbreviations and decimal tokens are retained without duplicate or internal punctuation
+  ---
+  duration_ms: 9.014796
+  type: 'test'
+  ...
+# Subtest: terminal URLs, email addresses and file paths are protected
+ok 182 - terminal URLs, email addresses and file paths are protected
+  ---
+  duration_ms: 1.869883
+  type: 'test'
+  ...
+# Subtest: only the final sentence is classified and earlier sentences remain byte-identical
+ok 183 - only the final sentence is classified and earlier sentences remain byte-identical
+  ---
+  duration_ms: 5.620051
+  type: 'test'
+  ...
+# Subtest: selected text and mid-sentence splits do not cause punctuation changes
+ok 184 - selected text and mid-sentence splits do not cause punctuation changes
+  ---
+  duration_ms: 0.309013
+  type: 'test'
+  ...
+# Subtest: master, Return and individual punctuation switches gate actual insertions
+ok 185 - master, Return and individual punctuation switches gate actual insertions
+  ---
+  duration_ms: 3.878993
+  type: 'test'
+  ...
+# Subtest: optional typing-boundary detection starts off and remains under the master switch
+ok 186 - optional typing-boundary detection starts off and remains under the master switch
+  ---
+  duration_ms: 0.600492
+  type: 'test'
+  ...
+# Subtest: punctuation insertions preserve inline styles, annotations and document identities
+ok 187 - punctuation insertions preserve inline styles, annotations and document identities
+  ---
+  duration_ms: 0.520535
+  type: 'test'
+  ...
+# Subtest: deliberate deletion is remembered only for the unchanged sentence and survives JSON persistence
+ok 188 - deliberate deletion is remembered only for the unchanged sentence and survives JSON persistence
+  ---
+  duration_ms: 1.803738
+  type: 'test'
+  ...
+# Subtest: English analysis degrades conservatively for other languages and oversized sentences
+ok 189 - English analysis degrades conservatively for other languages and oversized sentences
+  ---
+  duration_ms: 5.37322
+  type: 'test'
+  ...
+# Subtest: recent projects: newest first, one entry per file, capped, persisted atomically, ids only
+ok 190 - recent projects: newest first, one entry per file, capped, persisted atomically, ids only
+  ---
+  duration_ms: 15.718195
+  type: 'test'
+  ...
+# Subtest: recent projects: damaged or foreign files are ignored safely
+ok 191 - recent projects: damaged or foreign files are ignored safely
+  ---
+  duration_ms: 1.575072
+  type: 'test'
+  ...
+# Subtest: Start Window preference: on by default, saved, damaged files fall back to on
+ok 192 - Start Window preference: on by default, saved, damaged files fall back to on
+  ---
+  duration_ms: 0.833556
+  type: 'test'
+  ...
+# Subtest: D-03: the same speaker resuming after action gets one generated (CONT'D) on the cue line
+ok 193 - D-03: the same speaker resuming after action gets one generated (CONT'D) on the cue line
+  ---
+  duration_ms: 4.483912
+  type: 'test'
+  ...
+# Subtest: D-03: no automatic continued for a different speaker, a new scene, dual dialogue or an explicit cue
+ok 194 - D-03: no automatic continued for a different speaker, a new scene, dual dialogue or an explicit cue
+  ---
+  duration_ms: 1.215252
+  type: 'test'
+  ...
+# Subtest: D-03: (MORE) and the next page NAME (CONT'D) align with the Character element
+ok 195 - D-03: (MORE) and the next page NAME (CONT'D) align with the Character element
+  ---
+  duration_ms: 4.342776
+  type: 'test'
+  ...
+# Subtest: D-04: editor CSS, canvas measurement and print share one font family list
+ok 196 - D-04: editor CSS, canvas measurement and print share one font family list
+  ---
+  duration_ms: 3.016389
+  type: 'test'
+  ...
+# Subtest: D-07: a character cue is never stranded at the page bottom by the (MORE) reserve
+ok 197 - D-07: a character cue is never stranded at the page bottom by the (MORE) reserve
+  ---
+  duration_ms: 1.289556
+  type: 'test'
+  ...
+# Subtest: D-07: a split element never leaves a single widow line on the next page
+ok 198 - D-07: a split element never leaves a single widow line on the next page
+  ---
+  duration_ms: 7.727437
+  type: 'test'
+  ...
+# Subtest: P-01: a text edit keeps the outline marker array identity so per-page story panels stay memoized
+ok 199 - P-01: a text edit keeps the outline marker array identity so per-page story panels stay memoized
+  ---
+  duration_ms: 18.903049
+  type: 'test'
+  ...
+# Subtest: P-01: cached per-paragraph word counts match a full recount and never go stale
+ok 200 - P-01: cached per-paragraph word counts match a full recount and never go stale
+  ---
+  duration_ms: 2.327101
+  type: 'test'
+  ...
+# Subtest: F01 layout counts speech gaps once and attaches parentheticals; custom legacy spacing remains
+ok 201 - F01 layout counts speech gaps once and attaches parentheticals; custom legacy spacing remains
+  ---
+  duration_ms: 4.315439
+  type: 'test'
+  ...
+# Subtest: F01 migration upgrades only an exact old factory format, never custom or locked layouts
+ok 202 - F01 migration upgrades only an exact old factory format, never custom or locked layouts
+  ---
+  duration_ms: 10.947187
+  type: 'test'
+  ...
+# Subtest: F04-F06 exact repeated literal Unicode occurrences and dollar replacements reject stale results
+ok 203 - F04-F06 exact repeated literal Unicode occurrences and dollar replacements reject stale results
+  ---
+  duration_ms: 7.20335
+  type: 'test'
+  ...
+# Subtest: F04-F06 replacements preserve unaffected emphasis, tags, active/unused takes and author changes
+ok 204 - F04-F06 replacements preserve unaffected emphasis, tags, active/unused takes and author changes
+  ---
+  duration_ms: 5.994564
+  type: 'test'
+  ...
+# Subtest: F07 movement keeps complete unequal scenes and original objects
+ok 205 - F07 movement keeps complete unequal scenes and original objects
+  ---
+  duration_ms: 0.903994
+  type: 'test'
+  ...
+# Subtest: F08 independent copy remaps character, beat, tag, cast, shortcut and asset graph
+ok 206 - F08 independent copy remaps character, beat, tag, cast, shortcut and asset graph
+  ---
+  duration_ms: 2.798561
+  type: 'test'
+  ...
+# Subtest: F11-F12 Combine requires an anchor, retains source references/provenance and unnumbered content
+ok 207 - F11-F12 Combine requires an anchor, retains source references/provenance and unnumbered content
+  ---
+  duration_ms: 3.568091
+  type: 'test'
+  ...
+# Subtest: F13 token comparison counts equal-length replacements exactly
+ok 208 - F13 token comparison counts equal-length replacements exactly
+  ---
+  duration_ms: 1.853304
+  type: 'test'
+  ...
+# Subtest: F14 reformat keeps ambiguous uppercase action and uses known identities/active prose format
+ok 209 - F14 reformat keeps ambiguous uppercase action and uses known identities/active prose format
+  ---
+  duration_ms: 6.746154
+  type: 'test'
+  ...
+# Subtest: F15 doctor repairs actual layout without changing custom indents; multiple text fixes compose
+ok 210 - F15 doctor repairs actual layout without changing custom indents; multiple text fixes compose
+  ---
+  duration_ms: 3.771712
+  type: 'test'
+  ...
+# Subtest: F03 valid Save consent resolves late edits while late Discard must be renewed
+ok 211 - F03 valid Save consent resolves late edits while late Discard must be renewed
+  ---
+  duration_ms: 37.343103
+  type: 'test'
+  ...
+# Subtest: F10 Revert uses durable disk and retains the pre-revert work in recovery
+ok 212 - F10 Revert uses durable disk and retains the pre-revert work in recovery
+  ---
+  duration_ms: 24.238793
+  type: 'test'
+  ...
+# Subtest: Authored formatting changes survive serialization and reject without leaving later styles
+ok 213 - Authored formatting changes survive serialization and reject without leaving later styles
+  ---
+  duration_ms: 0.937737
+  type: 'test'
+  ...
+# Subtest: F16 backup and recent counts use actual layout and persist locked page labels
+ok 214 - F16 backup and recent counts use actual layout and persist locked page labels
+  ---
+  duration_ms: 22.462592
+  type: 'test'
+  ...
+# Subtest: self-test scripts are deterministic and long enough
+ok 215 - self-test scripts are deterministic and long enough
+  ---
+  duration_ms: 67.755396
+  type: 'test'
+  ...
+# Subtest: native recorder bypasses menu accelerators only for the trusted main frame and boolean state
+ok 216 - native recorder bypasses menu accelerators only for the trusted main frame and boolean state
+  ---
+  duration_ms: 3.699238
+  type: 'test'
+  ...
+# Subtest: all elements and thirteen quick inserts are registrable; legacy numbers stay exact
+ok 217 - all elements and thirteen quick inserts are registrable; legacy numbers stay exact
+  ---
+  duration_ms: 3.968988
+  type: 'test'
+  ...
+# Subtest: Option glyphs, separate Control and Command, Unicode letters, and composition guards
+ok 218 - Option glyphs, separate Control and Command, Unicode letters, and composition guards
+  ---
+  duration_ms: 1.5578
+  type: 'test'
+  ...
+# Subtest: plain letters require mode and modified keys never lose exact modifier matching
+ok 219 - plain letters require mode and modified keys never lose exact modifier matching
+  ---
+  duration_ms: 0.278959
+  type: 'test'
+  ...
+# Subtest: essential commands and text navigation are protected; real conflicts include primary variants
+ok 220 - essential commands and text navigation are protected; real conflicts include primary variants
+  ---
+  duration_ms: 0.697845
+  type: 'test'
+  ...
+# Subtest: profile persistence preserves removed assignments, modifiers, navigation and active identity
+ok 221 - profile persistence preserves removed assignments, modifiers, navigation and active identity
+  ---
+  duration_ms: 4.375906
+  type: 'test'
+  ...
+# Subtest: quick inserts do not overwrite text, metadata or adjacent paragraphs
+ok 222 - quick inserts do not overwrite text, metadata or adjacent paragraphs
+  ---
+  duration_ms: 0.484539
+  type: 'test'
+  ...
+# Subtest: Enter transitions, selection splitting, revision metadata and repeated Dialogue exit
+ok 223 - Enter transitions, selection splitting, revision metadata and repeated Dialogue exit
+  ---
+  duration_ms: 0.513811
+  type: 'test'
+  ...
+# Subtest: project character assignment follows sole rename and survives removal and backups
+ok 224 - project character assignment follows sole rename and survives removal and backups
+  ---
+  duration_ms: 1.068276
+  type: 'test'
+  ...
+# Subtest: new centered and lyric elements retain their explicit Fountain types
+ok 225 - new centered and lyric elements retain their explicit Fountain types
+  ---
+  duration_ms: 1.828072
+  type: 'test'
+  ...
+# Subtest: new and legacy documents have all four story features disabled without losing existing planning data
+ok 226 - new and legacy documents have all four story features disabled without losing existing planning data
+  ---
+  duration_ms: 1.682139
+  type: 'test'
+  ...
+# Subtest: scene lengths and paragraph anchors follow actual existing pagination after insert and reorder
+ok 227 - scene lengths and paragraph anchors follow actual existing pagination after insert and reorder
+  ---
+  duration_ms: 14.257555
+  type: 'test'
+  ...
+# Subtest: planning geometry remains stable during same-line prose edits while exports use current text and layout changes refresh geometry
+ok 228 - planning geometry remains stable during same-line prose edits while exports use current text and layout changes refresh geometry
+  ---
+  duration_ms: 1.27449
+  type: 'test'
+  ...
+# Subtest: adding and hiding structural markers never mutates screenplay text, styles or IDs
+ok 229 - adding and hiding structural markers never mutates screenplay text, styles or IDs
+  ---
+  duration_ms: 0.693149
+  type: 'test'
+  ...
+# Subtest: all structural models are explicitly labeled templates, with no inferred tension
+ok 230 - all structural models are explicitly labeled templates, with no inferred tension
+  ---
+  duration_ms: 0.8905
+  type: 'test'
+  ...
+# Subtest: beat ordering and deletion preserve scenes and remove only dependent planning links
+ok 231 - beat ordering and deletion preserve scenes and remove only dependent planning links
+  ---
+  duration_ms: 0.675325
+  type: 'test'
+  ...
+# Subtest: capitalization handles sentences, quotes, paragraph breaks and Unicode immediately
+ok 232 - capitalization handles sentences, quotes, paragraph breaks and Unicode immediately
+  ---
+  duration_ms: 1.325921
+  type: 'test'
+  ...
+# Subtest: abbreviations, initials, numbers, ellipses, paste, composition and manual overrides remain intact
+ok 233 - abbreviations, initials, numbers, ellipses, paste, composition and manual overrides remain intact
+  ---
+  duration_ms: 0.257384
+  type: 'test'
+  ...
+# Subtest: annotated export is explicit and escaped, with separate screenplay pages and editable-template labels
+ok 234 - annotated export is explicit and escaped, with separate screenplay pages and editable-template labels
+  ---
+  duration_ms: 0.891201
+  type: 'test'
+  ...
+# Subtest: indexed Structure Line segments equal the 1.16 implementation (3000 random pages)
+ok 235 - indexed Structure Line segments equal the 1.16 implementation (3000 random pages)
+  ---
+  duration_ms: 171.049331
+  type: 'test'
+  ...
+# Subtest: correct words and corrected intended words produce grammatical contextual alternatives
+ok 236 - correct words and corrected intended words produce grammatical contextual alternatives
+  ---
+  duration_ms: 195.756662
+  type: 'test'
+  ...
+# Subtest: sense ranking distinguishes river bank, financial bank, movement and management
+ok 237 - sense ranking distinguishes river bank, financial bank, movement and management
+  ---
+  duration_ms: 114.876542
+  type: 'test'
+  ...
+# Subtest: the selected sentence outweighs nearby competing meanings
+ok 238 - the selected sentence outweighs nearby competing meanings
+  ---
+  duration_ms: 2.98716
+  type: 'test'
+  ...
+# Subtest: broad local lexicon, related adjectives, past tense, plurals and capitalization work
+ok 239 - broad local lexicon, related adjectives, past tense, plurals and capitalization work
+  ---
+  duration_ms: 91.649912
+  type: 'test'
+  ...
+# Subtest: names, screenplay identifiers, and function words do not acquire unsafe synonyms
+ok 240 - names, screenplay identifiers, and function words do not acquire unsafe synonyms
+  ---
+  duration_ms: 1.790179
+  type: 'test'
+  ...
+# Subtest: context ranking changes for risk and leisure while tone differences remain explicit
+ok 241 - context ranking changes for risk and leisure while tone differences remain explicit
+  ---
+  duration_ms: 3.308626
+  type: 'test'
+  ...
+# Subtest: word edits preserve Unicode, punctuation, selection offsets and style runs
+ok 242 - word edits preserve Unicode, punctuation, selection offsets and style runs
+  ---
+  duration_ms: 3.337601
+  type: 'test'
+  ...
+# Subtest: article agreement and phrases produce preview edits, and sentence boundaries stay local
+ok 243 - article agreement and phrases produce preview edits, and sentence boundaries stay local
+  ---
+  duration_ms: 0.715374
+  type: 'test'
+  ...
+# Subtest: settings migrate safely and advanced results are bounded, literal and previewed
+ok 244 - settings migrate safely and advanced results are bounded, literal and previewed
+  ---
+  duration_ms: 1.721076
+  type: 'test'
+  ...
+# Subtest: established names protect Unicode, hyphens, lowercase mentions, aliases and possessives
+ok 245 - established names protect Unicode, hyphens, lowercase mentions, aliases and possessives
+  ---
+  duration_ms: 1.676454
+  type: 'test'
+  ...
+# Subtest: voice parsing preserves names and actual locale metadata
+ok 246 - voice parsing preserves names and actual locale metadata
+  ---
+  duration_ms: 1.722347
+  type: 'test'
+  ...
+# Subtest: local neural endpoints reject remote hosts, credentials and nonlocal paths
+ok 247 - local neural endpoints reject remote hosts, credentials and nonlocal paths
+  ---
+  duration_ms: 0.507623
+  type: 'test'
+  ...
+# Subtest: audio parsing, safe normalization and sample conversion produce valid nonclipped PCM
+ok 248 - audio parsing, safe normalization and sample conversion produce valid nonclipped PCM
+  ---
+  duration_ms: 22.476949
+  type: 'test'
+  ...
+# Subtest: identical segments are cached, changed text regenerates locally and corrupted cache is not reused
+ok 249 - identical segments are cached, changed text regenerates locally and corrupted cache is not reused
+  ---
+  duration_ms: 199.522128
+  type: 'test'
+  ...
+# Subtest: cache identity ignores unsupported performance controls on neutral offline engines
+ok 250 - cache identity ignores unsupported performance controls on neutral offline engines
+  ---
+  duration_ms: 1.059472
+  type: 'test'
+  ...
+# Subtest: cloud generation requires exact explicit consent and never embeds credentials in cached metadata
+ok 251 - cloud generation requires exact explicit consent and never embeds credentials in cached metadata
+  ---
+  duration_ms: 115.741753
+  type: 'test'
+  ...
+# Subtest: local neural requests use the configured model, voice and language and validate returned WAV data
+ok 252 - local neural requests use the configured model, voice and language and validate returned WAV data
+  ---
+  duration_ms: 145.390335
+  type: 'test'
+  ...
+# Subtest: bounded generation never exceeds two synthesis jobs and cancellation releases queued work
+ok 253 - bounded generation never exceeds two synthesis jobs and cancellation releases queued work
+  ---
+  duration_ms: 453.579228
+  type: 'test'
+  ...
+# Subtest: audio export writes a real ordered recording with cue offsets and checks its complete WAV header
+ok 254 - audio export writes a real ordered recording with cue offsets and checks its complete WAV header
+  ---
+  duration_ms: 365.244774
+  type: 'test'
+  ...
+# Subtest: interrupted export cleans temporary audio and does not report or replace a completed file
+ok 255 - interrupted export cleans temporary audio and does not report or replace a completed file
+  ---
+  duration_ms: 49.329936
+  type: 'test'
+  ...
+# Subtest: WAV can be transcoded to valid MP3 and M4A when a real encoder is installed
+ok 256 - WAV can be transcoded to valid MP3 and M4A when a real encoder is installed
+  ---
+  duration_ms: 611.657979
+  type: 'test'
+  ...
+# Subtest: Table Read defaults are accessible, offline and persistent without auto playback
+ok 257 - Table Read defaults are accessible, offline and persistent without auto playback
+  ---
+  duration_ms: 1.562451
+  type: 'test'
+  ...
+# Subtest: semantic cues detect characters, extensions and dialogue without uppercase action false positives
+ok 258 - semantic cues detect characters, extensions and dialogue without uppercase action false positives
+  ---
+  duration_ms: 4.094652
+  type: 'test'
+  ...
+# Subtest: renaming, aliases, removed and reintroduced cues preserve voice identities
+ok 259 - renaming, aliases, removed and reintroduced cues preserve voice identities
+  ---
+  duration_ms: 13.245368
+  type: 'test'
+  ...
+# Subtest: automatic casting prioritizes a matching language and preserves explicit assignments
+ok 260 - automatic casting prioritizes a matching language and preserves explicit assignments
+  ---
+  duration_ms: 2.334878
+  type: 'test'
+  ...
+# Subtest: parenthetical, neutral mode and conservative emotion decisions leave prose unchanged
+ok 261 - parenthetical, neutral mode and conservative emotion decisions leave prose unchanged
+  ---
+  duration_ms: 0.551094
+  type: 'test'
+  ...
+# Subtest: narrator modes, directions and structural toggles follow semantic paragraph types
+ok 262 - narrator modes, directions and structural toggles follow semantic paragraph types
+  ---
+  duration_ms: 1.146174
+  type: 'test'
+  ...
+# Subtest: long dialogue splits retain every source character, source offsets and paragraph metadata
+ok 263 - long dialogue splits retain every source character, source offsets and paragraph metadata
+  ---
+  duration_ms: 1.635521
+  type: 'test'
+  ...
+# Subtest: scope filtering respects scenes, dialogue and cursor offsets without modifying the snapshot
+ok 264 - scope filtering respects scenes, dialogue and cursor offsets without modifying the snapshot
+  ---
+  duration_ms: 1.014686
+  type: 'test'
+  ...
+# Subtest: line performance overrides and pronunciation replacements are separate from screenplay text
+ok 265 - line performance overrides and pronunciation replacements are separate from screenplay text
+  ---
+  duration_ms: 2.033952
+  type: 'test'
+  ...
+# Subtest: a large screenplay is analyzed without editing its data
+ok 266 - a large screenplay is analyzed without editing its data
+  ---
+  duration_ms: 28.943244
+  type: 'test'
+  ...
+# Subtest: playback is opt-in, keeps order and pauses/resumes at the media position
+ok 267 - playback is opt-in, keeps order and pauses/resumes at the media position
+  ---
+  duration_ms: 34.696126
+  type: 'test'
+  ...
+# Subtest: rapid seeking discards stale synthesis and paused seeks never produce audible playback
+ok 268 - rapid seeking discards stale synthesis and paused seeks never produce audible playback
+  ---
+  duration_ms: 47.888087
+  type: 'test'
+  ...
+# Subtest: stopping during synthesis prevents delayed playback and failures require an explicit retry
+ok 269 - stopping during synthesis prevents delayed playback and failures require an explicit retry
+  ---
+  duration_ms: 16.914909
+  type: 'test'
+  ...
+# Subtest: engine changes cannot assign stale voices from another catalogue
+ok 270 - engine changes cannot assign stale voices from another catalogue
+  ---
+  duration_ms: 0.724186
+  type: 'test'
+  ...
+# Subtest: invalid saved reading controls degrade safely without corrupting screenplay data
+ok 271 - invalid saved reading controls degrade safely without corrupting screenplay data
+  ---
+  duration_ms: 1.197405
+  type: 'test'
+  ...
+# Subtest: partial cue renames keep existing identities distinct while full renames retain the voice
+ok 272 - partial cue renames keep existing identities distinct while full renames retain the voice
+  ---
+  duration_ms: 0.670956
+  type: 'test'
+  ...
+# Subtest: scene and cursor playback can start at a nonspoken heading or action
+ok 273 - scene and cursor playback can start at a nonspoken heading or action
+  ---
+  duration_ms: 0.825729
+  type: 'test'
+  ...
+# Subtest: time skipping crosses multiple real segment durations and preserves paused playback
+ok 274 - time skipping crosses multiple real segment durations and preserves paused playback
+  ---
+  duration_ms: 17.808423
+  type: 'test'
+  ...
+# Subtest: structure styles: hidden levels are left out and level colours replace only palette colours
+ok 275 - structure styles: hidden levels are left out and level colours replace only palette colours
+  ---
+  duration_ms: 14.074493
+  type: 'test'
+  ...
+# Subtest: print and PDF draw Structure Lines with the writer’s settings (defaults unchanged)
+ok 276 - print and PDF draw Structure Lines with the writer’s settings (defaults unchanged)
+  ---
+  duration_ms: 7.379944
+  type: 'test'
+  ...
+# Subtest: workspace preferences: new settings have defaults, limits, and survive older preference files
+ok 277 - workspace preferences: new settings have defaults, limits, and survive older preference files
+  ---
+  duration_ms: 3.135349
+  type: 'test'
+  ...
+# Subtest: both bundled Hunspell dictionaries validate common corrections and real words
+ok 278 - both bundled Hunspell dictionaries validate common corrections and real words
+  ---
+  duration_ms: 15.345423
+  type: 'test'
+  ...
+# Subtest: space and punctuation correction preserve surrounding Unicode and a single delimiter
+ok 279 - space and punctuation correction preserve surrounding Unicode and a single delimiter
+  ---
+  duration_ms: 9.740489
+  type: 'test'
+  ...
+# Subtest: ambiguous words, protected names, custom dictionary, selection, mid-word and settings are respected
+ok 280 - ambiguous words, protected names, custom dictionary, selection, mid-word and settings are respected
+  ---
+  duration_ms: 0.612966
+  type: 'test'
+  ...
+# Subtest: word ranges use textarea UTF-16 offsets and skip URLs and identifiers
+ok 281 - word ranges use textarea UTF-16 offsets and skip URLs and identifiers
+  ---
+  duration_ms: 0.400129
+  type: 'test'
+  ...
+# Subtest: character parser handles Unicode, multiword names and multiple extensions
+ok 282 - character parser handles Unicode, multiword names and multiple extensions
+  ---
+  duration_ms: 1.528343
+  type: 'test'
+  ...
+# Subtest: registry is inferred from character elements, indexed incrementally, and ranks prefix/partial names
+ok 283 - registry is inferred from character elements, indexed incrementally, and ranks prefix/partial names
+  ---
+  duration_ms: 2.199711
+  type: 'test'
+  ...
+# Subtest: rename, duplicate, deletion, undo, split and merge preserve consistent unique identities
+ok 284 - rename, duplicate, deletion, undo, split and merge preserve consistent unique identities
+  ---
+  duration_ms: 1.226502
+  type: 'test'
+  ...
+# Subtest: saved definitions persist and project-specific vocabulary protects fictional names
+ok 285 - saved definitions persist and project-specific vocabulary protects fictional names
+  ---
+  duration_ms: 1.973527
+  type: 'test'
+  ...
+# Subtest: full project backup/crash-recovery round trip includes names and document preferences
+ok 286 - full project backup/crash-recovery round trip includes names and document preferences
+  ---
+  duration_ms: 5.329098
+  type: 'test'
+  ...
+# Subtest: older documents reconstruct names and settings migrate safely without changing pagination
+ok 287 - older documents reconstruct names and settings migrate safely without changing pagination
+  ---
+  duration_ms: 2.916654
+  type: 'test'
+  ...
+# Subtest: incremental word counts match canonical text across edit, deletion, undo and document replacement
+ok 288 - incremental word counts match canonical text across edit, deletion, undo and document replacement
+  ---
+  duration_ms: 0.653952
+  type: 'test'
+  ...
+1..288
+# tests 288
+# suites 0
+# pass 288
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 25717.639484

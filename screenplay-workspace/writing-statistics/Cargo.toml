@@ -1,0 +1,11 @@
+[package]
+name = "writing-statistics"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+document-core.workspace = true
+pagination.workspace = true
+serde.workspace = true

@@ -1,0 +1,230 @@
+{
+  "appDir": "/home/claude/draftcraft/original-asar",
+  "electron": "44.7.0 linux-x64",
+  "results": [
+    {
+      "name": "close unmodified window (red button / Cmd+W) with another window open",
+      "passed": false,
+      "error": "main-process exceptions\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": []
+    },
+    {
+      "name": "modified new document: Cancel keeps window, Don't Save closes",
+      "passed": false,
+      "error": "main-process exceptions\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": [
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 2,
+            "checkboxChecked": false
+          }
+        },
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 1,
+            "checkboxChecked": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "modified new document: Save writes a real project file and remembers it",
+      "passed": false,
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)',\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)",
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": [
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 0,
+            "checkboxChecked": false
+          }
+        },
+        {
+          "kind": "showSaveDialog",
+          "args": "Save DraftCraft Project",
+          "result": {
+            "canceled": false,
+            "filePath": "/tmp/dc-docs-lmxagS/Closing Test.draftcraft"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Quit (Cmd+Q) with two modified windows prompts once per window and can be canceled",
+      "passed": false,
+      "error": "main-process exceptions\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)',\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)",
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": [
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 2,
+            "checkboxChecked": false
+          }
+        },
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 1,
+            "checkboxChecked": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "close requested twice quickly shows a single dialog",
+      "passed": true,
+      "ms": 7391
+    },
+    {
+      "name": "closing while an autosave is in flight keeps the latest text",
+      "passed": false,
+      "error": "main-process exceptions\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": [
+        {
+          "kind": "showSaveDialog",
+          "args": "Save DraftCraft Project",
+          "result": {
+            "canceled": false,
+            "filePath": "/tmp/dc-docs-LeJPs2/Flight.draftcraft"
+          }
+        }
+      ]
+    },
+    {
+      "name": "renderer crash: Reload Editor restores the latest received text",
+      "passed": false,
+      "error": "timeout waiting for crash dialog false",
+      "mainErrors": [],
+      "dialogs": []
+    },
+    {
+      "name": "renderer crash: Close Window keeps a recovery copy and closes",
+      "passed": false,
+      "error": "timeout waiting for window closes after crash false",
+      "mainErrors": [],
+      "dialogs": []
+    },
+    {
+      "name": "relaunch after a crash offers the recovery copy and Restore brings the text back",
+      "passed": false,
+      "error": "timeout waiting for closed after crash false",
+      "mainErrors": [],
+      "dialogs": []
+    },
+    {
+      "name": "close with an unavailable save folder offers Save As and loses nothing",
+      "passed": false,
+      "error": "main-process exceptions\n+ actual - expected\n\n+ [\n+   'uncaughtException: TypeError: Object has been destroyed',\n+   '    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)',\n+   '    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)',\n+   '    at BrowserWindow.emit (node:events:526:24)'\n+ ]\n- []\n",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": [
+        {
+          "kind": "showMessageBox",
+          "args": "Save Your Screenplay?",
+          "result": {
+            "response": 0,
+            "checkboxChecked": false
+          }
+        },
+        {
+          "kind": "showSaveDialog",
+          "args": "Save DraftCraft Project",
+          "result": {
+            "canceled": false,
+            "filePath": "/tmp/dc-docs-dfZkpl/Unplugged Drive/Lost.draftcraft"
+          }
+        },
+        {
+          "kind": "showMessageBox",
+          "args": "The screenplay could not be saved",
+          "result": {
+            "response": 1,
+            "checkboxChecked": false
+          }
+        },
+        {
+          "kind": "showSaveDialog",
+          "args": "Save DraftCraft Project",
+          "result": {
+            "canceled": false,
+            "filePath": "/tmp/dc-docs-dfZkpl/Rescued.draftcraft"
+          }
+        }
+      ]
+    },
+    {
+      "name": "hung editor: close watchdog offers Close Window and keeps a recovery copy",
+      "passed": false,
+      "error": "timeout waiting for watchdog close false",
+      "mainErrors": [],
+      "dialogs": [
+        {
+          "kind": "error",
+          "title": "The editor has not responded",
+          "content": "The window remains open. Try saving your project before closing again."
+        }
+      ]
+    },
+    {
+      "name": "Dock activate after the last window closed opens a new editor window (macOS app-stays-open branch)",
+      "passed": false,
+      "error": "timeout waiting for a new window after activate false",
+      "mainErrors": [
+        "uncaughtException: TypeError: Object has been destroyed",
+        "    at DocumentWindows.remove (/home/claude/draftcraft/original-asar/window-registry.cjs:7:44)",
+        "    at BrowserWindow.<anonymous> (/home/claude/draftcraft/original-asar/main.cjs:135:106)",
+        "    at BrowserWindow.emit (node:events:526:24)"
+      ],
+      "dialogs": []
+    }
+  ]
+}

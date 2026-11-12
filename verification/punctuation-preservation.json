@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "baseline_version": "1.11.0",
+  "version": "1.12.0",
+  "baseline_source_sha256": "7fb4485a29129123358b53b557311f4b036ff7633c2aa386ddf11f11c998a06b",
+  "unchanged_source_files": {
+    "desktop/save-coordinator.cjs": "378551ae5aa63fbc47cd7214102eb1053e336f251a9faa335551681efca8f821",
+    "desktop/project-files.cjs": "d0b1db81a125298032286528f9616ed838cd6a1d2c354cbe1bf00ffb5c9f8deb",
+    "desktop/preload.cjs": "97d39d38f9029f5e727349cea09f66560aa521e6ef329b9de5d016de353132b7",
+    "src/files/useProjectFiles.ts": "3d2f134315e69e09b58243379e83949a4c5c224586f8ef7ed976464708a135f9",
+    "src/shortcuts/model.ts": "4413a3328f0702448dd3b9ad634bf7ec6731981fa08d6cd89b03dbb874a3843e",
+    "src/formats/model.ts": "9f7ea5556bb95117bc89d53f05a88704c7b1e115609dacca2f063c7b3e502c2d",
+    "src/formats/catalog.ts": "60fba38a9cf1de3ed3be9f14062134ea2af73b63dc28cf001922f1eda338162d",
+    "src/formats/inference.ts": "99180549ce30d7750898227f66157e990eb6372459772fffa188e588c7592bfd",
+    "src/formats/storage.ts": "9896148f122de9fb0fe265af6a6c6d4e606a6b61026bbb17e7bb68a0b85ac05d",
+    "src/editor/caretMotion.ts": "6ac8187642190fe61da1bd5527a8b78b5df39bbee79a5f1b37f6ee767e8ec16c"
+  },
+  "unchanged_rust_files": 59,
+  "native_framework_bytes": 202686912,
+  "native_framework_sha256": "2599370ff42463eba1509a8b6ebd4ad21715639113cce63a46b4fe9b1df632ed",
+  "nested_runtime_signatures_reused": true,
+  "outer_bundle_resigned": true
+}

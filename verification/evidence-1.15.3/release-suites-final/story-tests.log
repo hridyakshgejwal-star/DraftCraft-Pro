@@ -1,0 +1,16 @@
+PASS all story tools default off; independent enabling preserves screenplay positions, pagination and data
+PASS Story Map scene blocks navigate directly; Hide and Disable preserve stored data
+PASS arc is a labeled template, supports keyboard movement, scene links, labels, intensity and persistence
+PASS act breaks coexist with Page Actions and remain anchored when screenplay pages reflow
+PASS all-page visuals can be removed from one page independently, then restored without altering text
+PASS story sections, sequences and beats share data with Beat Board; labels, scene links, descriptions and notes persist
+PASS beat duplication, unlinked ordering, sequence collapse and confirmed deletion never reorder screenplay scenes
+PASS typing capitalizes new Action and Dialogue sentences, preserves abbreviations, ellipses and native screenplay uppercase
+PASS capitalization is one reversible assisted edit; manual lowercase overrides persist while editing
+PASS caret follows wrapping, arrow keys, selection and zoom without duplicate carets; Reduce Motion uses native caret
+PASS cursor and typing preferences persist independently; capitalization can be disabled
+PASS standard print omits story visuals and separate annotated export includes chosen structure and escaped screenplay
+PASS renderer save and close commands send the newest whole project, including story data
+PASS Navigator scene actions retain fresh prose after cached rows, reorder correctly and refresh labels and characters
+PERFORMANCE {"pages":250,"paragraphs":2123,"enabledTools":4,"allPageArc":true,"typingMs":{"p50":66,"p95":116,"max":134},"renderedArcPoints":24,"environment":"Linux Chromium; physical M2 not benchmarked"}
+PASS 250-page screenplay with all four tools enabled keeps input accurate, lazy page visuals bounded and typing responsive

@@ -1,0 +1,11 @@
+PASS unmodified external FDX dual dialogue and Fountain survive semantic round trips
+PASS external simple, parenthetical and extended-character FDX retain all direct text
+PASS unknown FDX sections and paragraph attributes are preserved with explicit warnings
+PASS RTF nested emphasis, Unicode, escaped punctuation and colors remain rich text
+PASS external text PDF extracts real text and warns about reconstruction limits
+PASS shared measured print geometry splits a long speech with identical PDF page boundaries
+PASS Fountain emphasis and RTF colors/strikeout survive import-edit-export without raw marker text
+PASS real PDF character sides preserve source labels and selected speech without unrelated scene text
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.

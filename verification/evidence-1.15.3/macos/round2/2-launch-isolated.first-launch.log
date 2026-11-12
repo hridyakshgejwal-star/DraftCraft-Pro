@@ -1,0 +1,42 @@
+Sat Oct 17 23:46:47 IST 2026
+== DraftCraft processes before launch
+  none
+== attach
+attach exit=0
+== ditto app
+ditto exit=0
+detach exit=0
+== copy signature
+codesign verify exit=0
+== quarantine on copy
+xattr: /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app: No such xattr: com.apple.quarantine
+== launch via LaunchServices (open -n) with isolated profile
+open exit=0
+== processes after launch
+2417 /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app/Contents/MacOS/DraftCraft Pro
+2419 /Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/app/DraftCraft Pro.app/Contents/Frameworks/DraftCraft Pro Helper.app/Contents/MacOS/DraftCraft Pro Helper --type=gpu-process --user-data-dir=/Users/<user>/Downloads/DraftCraft-1.15.3-mac-test/round2/profile --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,r,550475603719876171,11733176801154946500,262144 --enable-features=PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=1935764596,r,13946458780840390358,11634943288770064932,4 --trace-process-track-uuid=3190708988185955192 --seatbelt-client=30
+== profile contents
+total 16
+drwxr-xr-x@ 21 <user>  staff  672 17 Oct 23:47 .
+drwx------@ 17 <user>  staff  544 17 Oct 23:46 ..
+drwx------@  3 <user>  staff   96 17 Oct 23:46 blob_storage
+drwx------@  4 <user>  staff  128 17 Oct 23:46 Cache
+drwx------@  4 <user>  staff  128 17 Oct 23:46 Code Cache
+drwx------@  7 <user>  staff  224 17 Oct 23:46 DawnGraphiteCache
+drwx------@  7 <user>  staff  224 17 Oct 23:46 DawnWebGPUCache
+-rw-------@  1 <user>  staff    0 17 Oct 23:46 declarative_performance_observer.db
+-rw-------@  1 <user>  staff    0 17 Oct 23:46 declarative_performance_observer.db-journal
+-rw-------@  1 <user>  staff    0 17 Oct 23:46 DIPS
+-rw-------@  1 <user>  staff    0 17 Oct 23:46 DIPS-journal
+drwx------@  7 <user>  staff  224 17 Oct 23:46 GPUCache
+drwx------@  3 <user>  staff   96 17 Oct 23:46 GPUPersistentCache
+drwx------@  7 <user>  staff  224 17 Oct 23:46 GraphiteDawnCache
+-rw-------@  1 <user>  staff   57 17 Oct 23:47 Local State
+drwx------@  3 <user>  staff   96 17 Oct 23:46 Local Storage
+-rw-------@  1 <user>  staff    4 17 Oct 23:46 open-document-windows.json
+drwx------@  2 <user>  staff   64 17 Oct 23:46 Shared Dictionary
+lrwxr-xr-x@  1 <user>  staff   19 17 Oct 23:46 SingletonCookie -> 9388041925825355444
+lrwxr-xr-x@  1 <user>  staff   30 17 Oct 23:46 SingletonLock -> <host>-2417
+lrwxr-xr-x@  1 <user>  staff   81 17 Oct 23:46 SingletonSocket -> /var/folders/2k/r1c5spfs1z35p33vmy0rrdx80000gn/T/scoped_dirDnLcYL/SingletonSocket
+== stderr so far
+== DONE

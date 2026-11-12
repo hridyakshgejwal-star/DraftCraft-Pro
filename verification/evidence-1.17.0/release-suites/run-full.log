@@ -1,0 +1,22 @@
+{"suite": "models", "passed": true, "seconds": 25.7, "interaction_groups": 0, "measurements": [], "tests": 278}
+{"suite": "story", "passed": true, "seconds": 35.4, "interaction_groups": 15, "measurements": [{"pages": 250, "paragraphs": 2123, "enabledTools": 4, "allPageArc": true, "typingMs": {"p50": 27, "p95": 62, "max": 129}, "renderedArcPoints": 24, "environment": "Linux Chromium; physical M2 not benchmarked"}]}
+{"suite": "editor", "passed": true, "seconds": 58.1, "interaction_groups": 14, "measurements": []}
+{"suite": "shortcuts", "passed": true, "seconds": 44.2, "interaction_groups": 14, "measurements": [{"pages": 250, "paragraphs": 2121, "shortcutP50Ms": 44, "shortcutP95Ms": 80, "environment": "Linux Chromium 151; includes automation round trip; physical Mac not benchmarked"}]}
+{"suite": "words", "passed": true, "seconds": 34.5, "interaction_groups": 13, "measurements": [{"pages": 250, "firstWordClickMs": 810, "cachedWordClickMs": [409, 197, 204, 238, 200, 211, 213], "environment": "Linux Chromium 151; includes automation; physical M2 not benchmarked"}]}
+{"suite": "spelling", "passed": true, "seconds": 58.8, "interaction_groups": 16, "measurements": [{"pages": 10, "paragraphs": 83, "startupMs": 1348, "keyEventP50Ms": 11, "keyEventP95Ms": 19, "usedJSHeapBytes": 26939380}, {"pages": 50, "paragraphs": 423, "startupMs": 1761, "keyEventP50Ms": 12, "keyEventP95Ms": 24, "usedJSHeapBytes": 37383608}, {"pages": 120, "paragraphs": 1015, "startupMs": 2420, "keyEventP50Ms": 15, "keyEventP95Ms": 40, "usedJSHeapBytes": 61499992}, {"pages": 250, "paragraphs": 2123, "startupMs": 3463, "keyEventP50Ms": 19, "keyEventP95Ms": 40, "usedJSHeapBytes": 96756736}]}
+{"suite": "smart-save", "passed": true, "seconds": 62.9, "interaction_groups": 11, "measurements": [{"paragraphs": 1999, "pages": 222, "typingMs": {"p50": 31, "p95": 73}, "fillP95BudgetMs": 600, "environment": "Linux Chromium, not a physical Mac benchmark"}]}
+{"suite": "caret", "passed": true, "seconds": 30.3, "interaction_groups": 12, "measurements": [{"pages": 222, "paragraphs": 1999, "typingMs": {"p50": 19, "p95": 91}, "environment": "Linux Chromium, no physical M2/120 Hz display test"}]}
+{"suite": "formats", "passed": true, "seconds": 39.0, "interaction_groups": 18, "measurements": [{"paragraphs": 1505, "pages": 167, "typingMs": {"p50": 15, "p95": 40}}]}
+{"suite": "punctuation", "passed": true, "seconds": 59.2, "interaction_groups": 18, "measurements": [{"returnP95BudgetMs": 600, "budgetRule": "max(600ms, ceil(1.25 times same-document Off p95))", "paragraphs": 2019, "pages": 223, "returnMs": {"p50": 46, "p95": 74}, "offReturnMs": {"p50": 40, "p95": 50}, "handlerOnMs": {"p50": 30.6, "p95": 61.2}, "handlerOffMs": {"p50": 25.7, "p95": 40.3}, "environment": "Linux Chromium; physical Mac and IME not tested"}]}
+{"suite": "automatic-formatting", "passed": true, "seconds": 103.5, "interaction_groups": 25, "measurements": [{"paragraphs": 2000, "pages": 222, "characters": 120, "totalTypingMs": 2662, "keyHandlerP95Ms": 0.3000000002793968, "environment": "Linux Chromium; physical macOS input not exercised"}]}
+{"suite": "table-read", "passed": true, "seconds": 53.7, "interaction_groups": 18, "measurements": [{"paragraphs": 2000, "pages": 222, "openMs": 590, "typingTotalMs": 355, "typedCharacters": 12, "environment": "Linux Chromium; macOS speech substituted with real Flite audio, not premium quality testing"}]}
+{"suite": "production", "passed": true, "seconds": 34.8, "interaction_groups": 14, "measurements": []}
+{"suite": "collaboration", "passed": true, "seconds": 5.1, "interaction_groups": 1, "measurements": []}
+{"suite": "interchange", "passed": true, "seconds": 3.7, "interaction_groups": 9, "measurements": []}
+{"suite": "repair", "passed": true, "seconds": 32.4, "interaction_groups": 11, "measurements": []}
+{"suite": "cross-paragraph", "passed": true, "seconds": 26.2, "interaction_groups": 14, "measurements": []}
+{"suite": "templates", "passed": true, "seconds": 94.5, "interaction_groups": 14, "measurements": []}
+{"suite": "enter-flow", "passed": true, "seconds": 137.5, "interaction_groups": 0, "measurements": []}
+{"suite": "workspace", "passed": true, "seconds": 219.4, "interaction_groups": 37, "measurements": []}
+All release test suites passed.
+EXIT 0
