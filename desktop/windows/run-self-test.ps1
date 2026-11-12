@@ -17,14 +17,17 @@ $env:DRAFTCRAFT_TEST_PROFILE = (Resolve-Path "$Out\profile").Path
 $env:DRAFTCRAFT_SELF_TEST = $report
 Write-Host "Starting $Exe (profile $env:DRAFTCRAFT_TEST_PROFILE)"
 $proc = Start-Process -FilePath $Exe -PassThru
+# The report is written after every step; it is complete once it has "finished".
+function Get-Finished { try { return [bool]((Get-Content -Raw -Encoding utf8 $report | ConvertFrom-Json).finished) } catch { return $false } }
 $deadline = (Get-Date).AddSeconds($TimeoutSeconds)
-while (-not (Test-Path $report) -and (Get-Date) -lt $deadline) { Start-Sleep -Seconds 2 }
+while (-not ((Test-Path $report) -and (Get-Finished)) -and -not $proc.HasExited -and (Get-Date) -lt $deadline) { Start-Sleep -Seconds 2 }
 $quitDeadline = (Get-Date).AddSeconds(30)
 while (-not $proc.HasExited -and (Get-Date) -lt $quitDeadline) { Start-Sleep -Seconds 1 }
 if (-not $proc.HasExited) { Write-Host 'The app did not quit by itself; stopping it.'; Stop-Process -Id $proc.Id -Force -ErrorAction SilentlyContinue }
 Get-Process -Name 'DraftCraft Pro' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
 
 if (-not (Test-Path $report)) { Write-Host "::error::No self-test report after $TimeoutSeconds s."; exit 1 }
+if (-not (Get-Finished)) { Write-Host "::error::The self-test did not finish (the app quit or timed out after $TimeoutSeconds s); partial report below." }
 $r = Get-Content -Raw -Encoding utf8 $report | ConvertFrom-Json
 $lines = @("### DraftCraft Pro self-test on Windows", "", "Version $($r.version): $($r.passed) passed, $(@($r.failed).Count) failed", "", "| Step | Result | ms | Note |", "|---|---|---|---|")
 foreach ($p in $r.checks.PSObject.Properties) {
@@ -35,5 +38,6 @@ foreach ($p in $r.checks.PSObject.Properties) {
 }
 $lines | ForEach-Object { Write-Host $_ }
 if ($env:GITHUB_STEP_SUMMARY) { $lines | Out-File -Append -Encoding utf8 $env:GITHUB_STEP_SUMMARY }
+if (-not $r.finished) { exit 1 }
 if (@($r.failed).Count -gt 0) { Write-Host "::error::Self-test failed: $($r.failed -join ', ')"; exit 1 }
 Write-Host 'Self-test passed.'
