@@ -7,7 +7,9 @@ const output = path.resolve(project, '..', 'desktop-build', 'app');
 const modulePaths = [__dirname, project, path.resolve(project, '..', 'desktop-tools')];
 const resolve = (name) => require.resolve(name, { paths: modulePaths });
 
-const build = spawnSync(process.platform === 'win32' ? 'npm.cmd' : 'npm', ['run', 'build'], { cwd: project, stdio: 'inherit' });
+// Windows: npm is npm.cmd, and Node only runs .cmd files through a shell.
+const build = spawnSync(process.platform === 'win32' ? 'npm.cmd' : 'npm', ['run', 'build'], { cwd: project, stdio: 'inherit', shell: process.platform === 'win32' });
+if (build.error) console.error(build.error);
 if (build.status !== 0) process.exit(build.status || 1);
 fs.rmSync(output, { recursive: true, force: true });
 fs.mkdirSync(output, { recursive: true });
