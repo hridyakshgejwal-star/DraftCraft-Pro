@@ -7,8 +7,9 @@ import {GUIDE,guideSections,highlightParts,parseGuideText,queryWords,searchGuide
 import {TUTORIALS,ideaToDraftDocument} from '../src/help/ideaToDraft';
 import {documentGraphIssues} from '../src/files/documentGraph.mjs';
 import {migrateStudio} from '../src/production/model';
+import { fileURLToPath } from 'node:url';
 
-const reference=fs.readFileSync(path.join(path.dirname(new URL(import.meta.url).pathname),'..','desktop','Getting-Started.txt'),'utf8');
+const reference=fs.readFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)),'..','desktop','Getting-Started.txt'),'utf8');
 
 test('the shipped Getting Started text splits into one section per capitalised heading',()=>{
  const sections=parseGuideText(reference),headings=reference.split('\n').filter(l=>/^[A-Z][A-Z0-9 ,.&/'’()—–+-]{2,}$/.test(l)&&/[A-Z]{3}/.test(l)&&!/^DRAFTCRAFT PRO/.test(l));

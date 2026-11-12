@@ -9,7 +9,7 @@ test('recent projects: newest first, one entry per file, capped, persisted atomi
  assert.deepEqual(r.list().map(e=>e.name),['B.fdx','A.draftcraft']);r.touch(a,'ALPHA');assert.deepEqual(r.list().map(e=>e.title),['ALPHA','B']);
  const entry=r.list()[0];assert.equal(entry.id,idFor(a));assert.equal(entry.folder,dir);assert.equal(entry.exists,true);assert.equal(entry.kind,'draftcraft');assert.equal(Object.hasOwn(entry,'path'),false,'paths are not handed out');
  assert.equal(r.pathFor(entry.id),a);assert.equal(r.pathFor('../../etc/passwd'),null);assert.equal(r.pathFor('ffffffffffffffff'),null);
- assert.equal((fs.statSync(file).mode&0o777),0o600);assert.ok(!fs.readdirSync(dir).some(f=>f.endsWith('.tmp')),'no temporary files left');
+ if(process.platform!=='win32')assert.equal((fs.statSync(file).mode&0o777),0o600,'private file (POSIX)');assert.ok(!fs.readdirSync(dir).some(f=>f.endsWith('.tmp')),'no temporary files left');
  assert.ok(changes.length>=3);assert.equal(fs.readFileSync(file,'utf8').includes('{}'),false,'no file contents are stored');
  assert.equal(new RecentProjects(file).list().length,2,'reloaded');
  assert.equal(r.touch('relative/path.draftcraft'),false);assert.equal(r.touch(path.join(dir,'notes.docx')),false,'only files DraftCraft opens');

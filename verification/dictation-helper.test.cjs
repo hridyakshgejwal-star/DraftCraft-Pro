@@ -1,7 +1,7 @@
 // 1.17 item 11: the packaged Speech helper is found in Contents/Resources, never inside app.asar, and must be executable.
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),crypto=require('node:crypto');
 const {findHelper,helperCandidates}=require('../desktop/dictation-ipc.cjs');
-test('the helper in Resources wins; asar paths and non-executables are skipped',()=>{
+test('the helper in Resources wins; asar paths and non-executables are skipped',{skip:process.platform==='win32'&&'the Speech helper is macOS-only (POSIX execute bits)'},()=>{
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'dc-helper-')),resources=path.join(root,'Resources'),asar=path.join(resources,'app.asar','desktop');
  fs.mkdirSync(path.join(asar,'native'),{recursive:true});fs.writeFileSync(path.join(asar,'native','DraftCraftDictation'),'x',{mode:0o755});
  assert.equal(findHelper(helperCandidates(resources,asar)),null,'a helper inside app.asar cannot be spawned');

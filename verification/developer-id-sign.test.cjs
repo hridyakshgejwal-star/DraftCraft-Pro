@@ -49,7 +49,7 @@ exit 0`);
   return { root, pkg, run };
 }
 
-test('signs inside out with the hardened runtime, notarizes, staples and checks the app and the disk image', () => {
+test('signs inside out with the hardened runtime, notarizes, staples and checks the app and the disk image', {skip:process.platform==='win32'&&'macOS signing script'}, () => {
   const { root, run } = setup(), r = run();
   assert.equal(r.status, 0, r.stderr + r.stdout);
   const out = path.join(root, 'out'), work = path.join(out, 'DraftCraft Pro.app');
@@ -80,7 +80,7 @@ test('signs inside out with the hardened runtime, notarizes, staples and checks 
   assert.match(r.stdout, /Done\. Signed, notarized and stapled/);
 });
 
-test('refuses to sign when the certificate, the profile, the platform or the app is not right', () => {
+test('refuses to sign when the certificate, the profile, the platform or the app is not right', {skip:process.platform==='win32'&&'macOS signing script'}, () => {
   const { pkg, run } = setup();
   const signed = r => r.calls.some(c => c[0] === 'codesign');
   let r = run([], { MOCK_IDENTITIES: '' });assert.notEqual(r.status, 0);assert.match(r.stderr, /No "Developer ID Application" certificate/);assert.ok(!signed(r));
@@ -94,14 +94,14 @@ test('refuses to sign when the certificate, the profile, the platform or the app
   r = run();assert.notEqual(r.status, 0);assert.match(r.stderr, /does not match its manifest/);assert.ok(!signed(r), 'nothing is signed when the app does not match its manifest');
 });
 
-test('stops without stapling when Apple does not accept the submission, and fetches Apple’s report', () => {
+test('stops without stapling when Apple does not accept the submission, and fetches Apple’s report', {skip:process.platform==='win32'&&'macOS signing script'}, () => {
   const { root, run } = setup(), r = run(['--no-dmg'], { MOCK_STATUS: 'Invalid' });
   assert.notEqual(r.status, 0);assert.match(r.stderr, /Apple did not accept the app \(status: Invalid\)/);
   assert.ok(r.calls.some(c => c[0] === 'xcrun' && c[2] === 'log'), 'the notarization log is fetched');assert.ok(fs.existsSync(path.join(root, 'out/notary-app-log.json')));
   assert.ok(!r.calls.some(c => c[0] === 'xcrun' && c[1] === 'stapler'), 'nothing is stapled');
 });
 
-test('--check only checks the tools, the certificate and the profile', () => {
+test('--check only checks the tools, the certificate and the profile', {skip:process.platform==='win32'&&'macOS signing script'}, () => {
   const { run } = setup(), r = run(['--check']);
   assert.equal(r.status, 0, r.stderr);assert.match(r.stdout, /Ready: the tools, the certificate and the notarytool profile all work/);
   assert.ok(!r.calls.some(c => c[0] === 'codesign' || (c[0] === 'xcrun' && c[2] === 'submit')));
