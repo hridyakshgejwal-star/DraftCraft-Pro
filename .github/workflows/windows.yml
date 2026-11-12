@@ -119,4 +119,5 @@ jobs:
           }
           gh release upload $tag (Get-ChildItem "$env:DIST_DIR\*").FullName --clobber
           if ($LASTEXITCODE -ne 0) { throw 'Uploading the Windows files failed.' }
+          if (Test-Path $notes) { gh release edit $tag --notes-file $notes; if ($LASTEXITCODE -ne 0) { throw 'Updating the release notes failed.' } }
           $global:LASTEXITCODE = 0

@@ -1,8 +1,9 @@
 # DraftCraft Pro
 
-A screenplay writing app for macOS, inspired by Final Draft. It is built with Electron, React and TypeScript.
+A screenplay writing app for macOS and Windows, inspired by Final Draft. It is built with Electron, React and
+TypeScript, and it is open source under the [MIT licence](LICENSE).
 
-**Current version: 1.18.0** (Apple Silicon, macOS 13 or later).
+**Current version: 1.18.0**, for macOS 13 or later on Apple Silicon, and Windows 10 or 11 (64-bit).
 
 | Start Window | Emoji picker |
 |---|---|
@@ -10,8 +11,18 @@ A screenplay writing app for macOS, inspired by Final Draft. It is built with El
 
 ## Download and install
 
-1. Download **`DraftCraft-Pro-1.18.0-arm64.dmg`** from this repository's
-   [Releases](../../releases) page.
+Get the files from the [Releases](../../releases) page.
+
+### Windows
+
+Run **`DraftCraft-Pro-1.18.0-x64-Setup.exe`**. It installs for your user account, with no administrator rights
+needed, and adds a Start menu shortcut. If you'd rather not install, use the portable zip instead. The app is not
+code-signed, so SmartScreen may show "Windows protected your PC": click **More info**, then **Run anyway**.
+[WINDOWS.md](WINDOWS.md) covers installing, what differs on Windows, and building it yourself.
+
+### Mac
+
+1. Download **`DraftCraft-Pro-1.18.0-arm64.dmg`**.
 2. Open the disk image and double-click **`Install-DraftCraft.command`**. It checks every file of the app, copies it
    to Applications (keeping the previous version as a backup) and opens it. Your projects and settings are not
    touched.
@@ -46,7 +57,7 @@ The full list is in [FEATURES-1.18.0.md](FEATURES-1.18.0.md). How it compares wi
 
 ## Build from source
 
-You need Node.js and npm on macOS. For Google Drive sync, add your own Firebase web configuration; the real file is
+You need Node.js 24 and npm. These steps are for macOS; for Windows, see [WINDOWS.md](WINDOWS.md). For Google Drive sync, add your own Firebase web configuration; the real file is
 never committed:
 
 ```bash
@@ -65,7 +76,9 @@ to build the 1.18.0 release, and Developer ID signing.
 * `verification/run-release-tests.py` runs the 20 release suites: unit tests, and browser suites with Playwright and
   Chromium.
 * `verification/electron/` holds the real-Electron scenarios: Start Window, app lifecycle, saving, and PDF parity.
-* The app has a built-in native self-test, run on a Mac by `7-self-test.command`.
+* The app has a built-in native self-test. On a Mac, `7-self-test.command` runs it.
+* On Windows, the [Windows build workflow](.github/workflows/windows.yml) builds the app from this source on a Windows
+  machine. It runs the unit tests and the native self-test on the packaged app before publishing the installer.
 
 Results for 1.18.0 are in [TEST-RESULTS-1.18.0.md](TEST-RESULTS-1.18.0.md) and [MAC-CHECK-1.18.0.md](MAC-CHECK-1.18.0.md).
 Evidence for each release is under `verification/evidence-*`.
@@ -81,5 +94,7 @@ Evidence for each release is under `verification/evidence-*`.
 
 ## Licence
 
-No licence has been chosen for this code yet, so all rights are reserved by the author. Third-party components keep
-their own licences; see `licenses/`, `Font-Licenses/` and `Spelling-Licenses/`.
+DraftCraft Pro is open source under the [MIT licence](LICENSE). Third-party components keep their own licences; see
+`licenses/`, `Font-Licenses/` and `Spelling-Licenses/`.
+
+Contributions are welcome. Please open an issue or a pull request.
